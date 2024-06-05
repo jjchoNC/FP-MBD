@@ -1,3 +1,4 @@
+-- Active: 1715773664265@@localhost@5432@cakeshop@public
 # function validasi_jumlah_kue
 CREATE OR REPLACE FUNCTION validasi_jumlah_kue()
 RETURNS TRIGGER AS $$
@@ -31,3 +32,15 @@ CREATE TRIGGER check_stock
 BEFORE INSERT OR UPDATE ON transaction_item
 FOR EACH ROW
 EXECUTE FUNCTION validateStock();
+
+-- Pemasok barang tidak boleh mengirimkan item yang berjumlah negatif.
+CREATE OR REPLACE FUNCTION validateSupplierStock()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (NEW.item_stock < 0) THEN
+        RAISE EXCEPTION 'Jumlah item tidak boleh negatif';
+    END IF;
+    RETURN NEW;
+END;
+
+$$ LANGUAGE plpgsql;
