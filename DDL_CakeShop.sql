@@ -1,3 +1,5 @@
+-- Active: 1715773664265@@localhost@5432@cakeshop@public
+-- CREATE DATABASE CakeShop;
 
 CREATE TABLE customer (
     cst_id char(6)  NOT NULL,

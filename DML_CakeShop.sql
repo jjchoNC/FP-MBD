@@ -1,3 +1,4 @@
+-- Active: 1715773664265@@localhost@5432@cakeshop@public
 INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address) VALUES
 ('CST001', 'John Doe', '1234567890', '123 Main St'),
 ('CST002', 'Jane Smith', '2345678901', '456 Oak St'),
