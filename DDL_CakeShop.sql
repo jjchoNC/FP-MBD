@@ -21,6 +21,7 @@ CREATE TABLE item (
     item_name varchar(100)  NOT NULL,
     item_price money  NOT NULL,
     item_category varchar(50)  NOT NULL,
+    item_stock int  NOT NULL,
     CONSTRAINT item_pk PRIMARY KEY (item_id)
 );
 

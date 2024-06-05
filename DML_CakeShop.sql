@@ -8,10 +8,10 @@ INSERT INTO employee (emp_id, emp_name, emp_phoneNumber, emp_address, emp_jobSec
 ('EMP002', 'Emily Davis', '2345678901', '456 Oak St', 'Support'),
 ('EMP003', 'James Wilson', '3456789012', '789 Pine St', 'Development');
 
-INSERT INTO item (item_id, item_name, item_price, item_category) VALUES
-('ITM001', 'Chocolate Cake', 9.99, 'Birthday Cake'),
-('ITM002', 'Cromboloni', 19.99, 'Pastry'),
-('ITM003', 'Red Velvet cake', 14.99, 'Birthday Cake');
+INSERT INTO item (item_id, item_name, item_price, item_category, item_stock) VALUES
+('ITM001', 'Chocolate Cake', 125000, 'Birthday Cake', 30),
+('ITM002', 'Cromboloni', 40000, 'Pastry', 15),
+('ITM003', 'Red Velvet Cake', 175000, 'Birthday Cake', 25);
 
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES
 ('SUP001', 'Supply Co A', '100 Industrial Rd', '1234567890'),
@@ -24,11 +24,12 @@ INSERT INTO supplier_item (supplier_sup_id, item_item_id, item_amount) VALUES
 ('SUP002', 'ITM003', 150);
 
 INSERT INTO transaction (tr_id, tr_totalBill, tr_date, tr_paymentMethod, customer_cst_id, employee_emp_id) VALUES
-('TRX001', 199.99, '2023-01-01', 'Credit Card', 'CST001', 'EMP001'),
-('TRX002', 299.99, '2023-01-02', 'Cash', 'CST002', 'EMP002'),
-('TRX003', 399.99, '2023-01-03', 'Debit Card', 'CST003', 'EMP003');
+('TRX001', 370000, '2023-01-01', 'Credit Card', 'CST001', 'EMP001'),
+('TRX002', 175000, '2023-01-02', 'Cash', 'CST002', 'EMP002'),
+('TRX003', 175000, '2023-01-03', 'Debit Card', 'CST003', 'EMP003');
 
 INSERT INTO transaction_item (transaction_tr_id, item_item_id, item_amount) VALUES
 ('TRX001', 'ITM001', 2),
 ('TRX001', 'ITM002', 3),
-('TRX002', 'ITM003', 1);
+('TRX002', 'ITM003', 1),
+('TRX003', 'ITM003', 1);
