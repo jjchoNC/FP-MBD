@@ -1,6 +1,3 @@
--- Active: 1715773664265@@localhost@5432@cakeshop@public
--- CREATE DATABASE CakeShop;
-
 CREATE TABLE customer (
     cst_id char(10)  NOT NULL,
     cst_name varchar(100)  NOT NULL,
@@ -35,17 +32,26 @@ CREATE TABLE supplier (
     CONSTRAINT supplier_pk PRIMARY KEY (sup_id)
 );
 
-CREATE TABLE supplier_item (
+CREATE TABLE supply (
+    supply_id char(10)  NOT NULL,
+    supply_date timestamp  NOT NULL,
+    supply_paymentMethod varchar(50)  NOT NULL,
+    employee_emp_id char(10)  NOT NULL,
     supplier_sup_id char(10)  NOT NULL,
+    CONSTRAINT supply_pk PRIMARY KEY (supply_id)
+);
+
+CREATE TABLE supply_item (
+    supply_supply_id char(10)  NOT NULL,
     item_item_id char(10)  NOT NULL,
     item_amount int  NOT NULL,
-    CONSTRAINT supplier_item_pk PRIMARY KEY (supplier_sup_id,item_item_id)
+    CONSTRAINT supply_item_pk PRIMARY KEY (supply_supply_id,item_item_id)
 );
 
 CREATE TABLE transaction (
     tr_id char(10)  NOT NULL,
     tr_totalBill money  NOT NULL,
-    tr_date date  NOT NULL,
+    tr_date timestamp  NOT NULL,
     tr_paymentMethod varchar(50)  NOT NULL,
     customer_cst_id char(10)  NOT NULL,
     employee_emp_id char(10)  NOT NULL,
@@ -59,14 +65,28 @@ CREATE TABLE transaction_item (
     CONSTRAINT transaction_item_pk PRIMARY KEY (transaction_tr_id,item_item_id)
 );
 
-ALTER TABLE supplier_item ADD CONSTRAINT supplier_item_item
+ALTER TABLE supply ADD CONSTRAINT supply_employee
+    FOREIGN KEY (employee_emp_id)
+    REFERENCES employee (emp_id)  
+    NOT DEFERRABLE 
+    INITIALLY IMMEDIATE
+;
+
+ALTER TABLE supply_item ADD CONSTRAINT supply_item_item
     FOREIGN KEY (item_item_id)
     REFERENCES item (item_id)  
     NOT DEFERRABLE 
     INITIALLY IMMEDIATE
 ;
 
-ALTER TABLE supplier_item ADD CONSTRAINT supplier_item_supplier
+ALTER TABLE supply_item ADD CONSTRAINT supply_item_supply
+    FOREIGN KEY (supply_supply_id)
+    REFERENCES supply (supply_id)  
+    NOT DEFERRABLE 
+    INITIALLY IMMEDIATE
+;
+
+ALTER TABLE supply ADD CONSTRAINT supply_supplier
     FOREIGN KEY (supplier_sup_id)
     REFERENCES supplier (sup_id)  
     NOT DEFERRABLE 
