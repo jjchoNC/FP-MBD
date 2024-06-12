@@ -65,3 +65,18 @@ CREATE TRIGGER check_payment
 BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
+
+CREATE OR REPLACE FUNCTION calculate_total_bill(supply_supply_id CHAR(10))
+RETURNS DECIMAL(10, 2) AS $$
+DECLARE
+    total DECIMAL(10, 2);
+BEGIN
+    SELECT SUM(si.item_amount * i.item_price)
+    INTO total
+    FROM supplier_item si
+    JOIN items i ON si.item_item_id = i.item_id
+    WHERE si.supply_supply_id = supply_supply_id;
+
+    RETURN COALESCE(total, 0);
+END;
+$$ LANGUAGE plpgsql;
