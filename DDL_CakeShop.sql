@@ -1,3 +1,4 @@
+-- Active: 1714479550472@@127.0.0.1@5432@fp_cakeshop@public
 CREATE TABLE customer (
     cst_id char(10)  NOT NULL,
     cst_name varchar(100)  NOT NULL,
@@ -35,6 +36,7 @@ CREATE TABLE supplier (
 CREATE TABLE supply (
     supply_id char(10)  NOT NULL,
     supply_date timestamp  NOT NULL,
+    supply_totalBill money  NOT NULL,
     supply_paymentMethod varchar(50)  NOT NULL,
     employee_emp_id char(10)  NOT NULL,
     supplier_sup_id char(10)  NOT NULL,

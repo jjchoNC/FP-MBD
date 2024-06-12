@@ -1,4 +1,4 @@
--- Active: 1715773664265@@localhost@5432@cakeshop@public
+-- Active: 1714479550472@@127.0.0.1@5432@fp_cakeshop@public
 INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address) VALUES
 ('CST0000001', 'John Doe', '1234567890', '123 Main St'),
 ('CST0000002', 'Jane Smith', '2345678901', '456 Oak St'),
@@ -19,12 +19,11 @@ INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES
 ('SUP0000002', 'Distributors B', '200 Market St', '2345678901'),
 ('SUP0000003', 'Wholesale C', '300 Commerce Blvd', '3456789012');
 
-INSERT INTO supply (supply_id, supply_date, supply_paymentMethod, employee_emp_id, supplier_sup_id) VALUES 
-('SPL0000001', '2024-06-11 12:00:00', 'Credit Card', 'EMP0000001', 'SUP0000001'),
-('SPL0000002', '2024-06-12 09:00:00', 'Cash', 'EMP0000001', 'SUP0000002'),
-('SPL0000003', '2024-06-13 15:30:00', 'Bank Transfer', 'EMP0000001', 'SUP0000003');
+INSERT INTO supply (supply_id, supply_date, supply_totalBill, supply_paymentMethod, employee_emp_id, supplier_sup_id) VALUES 
+('SPL0000001', '2024-06-11 12:00:00', 20500000,'Credit Card', 'EMP0000001', 'SUP0000001'),
+('SPL0000002', '2024-06-12 09:00:00', 26250000,'Cash', 'EMP0000001', 'SUP0000002');
 
-INSERT INTO supplier_item (supply_supply_id, item_item_id, item_amount) VALUES
+INSERT INTO supply_item (supply_supply_id, item_item_id, item_amount) VALUES
 ('SPL0000001', 'ITM0000001', 100),
 ('SPL0000001', 'ITM0000002', 200),
 ('SPL0000002', 'ITM0000003', 150);
