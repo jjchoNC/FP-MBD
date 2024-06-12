@@ -10,9 +10,9 @@ INSERT INTO employee (emp_id, emp_name, emp_phoneNumber, emp_address, emp_jobSec
 ('EMP0000003', 'James Wilson', '3456789012', '789 Pine St', 'Development');
 
 INSERT INTO item (item_id, item_name, item_price, item_category, item_stock) VALUES
-/* ('ITM0000001', 'Chocolate Cake', 125000, 'Birthday Cake', 30),
+('ITM0000001', 'Chocolate Cake', 125000, 'Birthday Cake', 30),
 ('ITM0000002', 'Cromboloni', 40000, 'Pastry', 15),
-('ITM0000003', 'Red Velvet Cake', 175000, 'Birthday Cake', 25), */
+('ITM0000003', 'Red Velvet Cake', 175000, 'Birthday Cake', 25),
 ('ITM0000004', 'Strawberry Shortcake', 140000, 'Cake', 20),
 ('ITM0000005', 'Blueberry Muffin', 30000, 'Pastry', 40),
 ('ITM0000006', 'Chocolate Chip Cookies', 50000, 'Cookies', 100),
