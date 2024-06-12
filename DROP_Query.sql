@@ -1,7 +1,3 @@
--- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2024-06-12 14:40:09.675
-
--- foreign keys
 ALTER TABLE cart
     DROP CONSTRAINT cart_customer;
 
@@ -38,7 +34,6 @@ ALTER TABLE transaction
 ALTER TABLE transaction
     DROP CONSTRAINT transaction_delivery;
 
--- tables
 DROP TABLE cart;
 
 DROP TABLE cart_shop_item;
@@ -63,5 +58,4 @@ DROP TABLE supply_shop_item;
 
 DROP TABLE transaction;
 
--- End of file.
 
