@@ -1,5 +1,6 @@
 -- Active: 1715773664265@@localhost@5432@cakeshop@public
-# function validasi_jumlah_kue
+
+-- Validasi jumlah kue tidak boleh negatif.
 CREATE OR REPLACE FUNCTION validasi_jumlah_kue()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -10,13 +11,14 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-# trigger function validasi_jumlah_kue
+
 CREATE TRIGGER trigger_validasi_jumlah_kue
 BEFORE INSERT OR UPDATE ON transaction_item
 FOR EACH ROW
 EXECUTE FUNCTION validasi_jumlah_kue();
 
 
+-- Validasi stok kue tidak mencukupi.
 CREATE OR REPLACE FUNCTION validateStock()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -25,7 +27,6 @@ BEGIN
     END IF;
     RETURN NEW;
 END;
-
 $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER check_stock
@@ -42,5 +43,25 @@ BEGIN
     END IF;
     RETURN NEW;
 END;
-
 $$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_supply
+BEFORE INSERT OR UPDATE ON transaction_item
+FOR EACH ROW
+EXECUTE FUNCTION validateSupplierStock();
+
+-- Metode pembayaran harus sesuai dengan yang ada di daftar.
+CREATE OR REPLACE FUNCTION validatePaymentMethod()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (NEW.tr_paymentMethod NOT IN ('credit', 'cash', 'QRIS')) THEN
+        RAISE EXCEPTION 'Metode pembayaran tidak valid';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_payment
+BEFORE INSERT OR UPDATE ON transaction
+FOR EACH ROW
+EXECUTE FUNCTION validatePaymentMethod();
