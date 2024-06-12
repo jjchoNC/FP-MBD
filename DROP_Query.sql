@@ -1,20 +1,67 @@
--- Drop foreign key constraints first
-ALTER TABLE supply_item DROP CONSTRAINT supply_item_item;
-ALTER TABLE supply_item DROP CONSTRAINT supply_item_supply;
-ALTER TABLE supply DROP CONSTRAINT supply_employee;
-ALTER TABLE supply DROP CONSTRAINT supply_supplier;
-ALTER TABLE transaction DROP CONSTRAINT transaction_customer;
-ALTER TABLE transaction DROP CONSTRAINT transaction_employee;
-ALTER TABLE transaction_item DROP CONSTRAINT transaction_item_item;
-ALTER TABLE transaction_item DROP CONSTRAINT transaction_item_transaction;
-ALTER 
+-- Created by Vertabelo (http://vertabelo.com)
+-- Last modification date: 2024-06-12 14:40:09.675
 
--- Drop tables in the correct order
-DROP TABLE IF EXISTS transaction_item;
-DROP TABLE IF EXISTS transaction;
-DROP TABLE IF EXISTS supply_item;
-DROP TABLE IF EXISTS supply;
-DROP TABLE IF EXISTS supplier;
-DROP TABLE IF EXISTS item;
-DROP TABLE IF EXISTS employee;
-DROP TABLE IF EXISTS customer;
+-- foreign keys
+ALTER TABLE cart
+    DROP CONSTRAINT cart_customer;
+
+ALTER TABLE cart_shop_item
+    DROP CONSTRAINT cart_shop_item_cart;
+
+ALTER TABLE cart_shop_item
+    DROP CONSTRAINT cart_shop_item_shop_item;
+
+ALTER TABLE delivery
+    DROP CONSTRAINT delivery_customer;
+
+ALTER TABLE shop_item
+    DROP CONSTRAINT shop_item_items;
+
+ALTER TABLE shop_item
+    DROP CONSTRAINT shop_item_shop;
+
+ALTER TABLE supply
+    DROP CONSTRAINT supply_employee;
+
+ALTER TABLE supply_shop_item
+    DROP CONSTRAINT supply_shop_item_shop_item;
+
+ALTER TABLE supply_shop_item
+    DROP CONSTRAINT supply_shop_item_supply;
+
+ALTER TABLE supply
+    DROP CONSTRAINT supply_supplier;
+
+ALTER TABLE transaction
+    DROP CONSTRAINT transaction_cart;
+
+ALTER TABLE transaction
+    DROP CONSTRAINT transaction_delivery;
+
+-- tables
+DROP TABLE cart;
+
+DROP TABLE cart_shop_item;
+
+DROP TABLE customer;
+
+DROP TABLE delivery;
+
+DROP TABLE employee;
+
+DROP TABLE items;
+
+DROP TABLE shop;
+
+DROP TABLE shop_item;
+
+DROP TABLE supplier;
+
+DROP TABLE supply;
+
+DROP TABLE supply_shop_item;
+
+DROP TABLE transaction;
+
+-- End of file.
+
