@@ -1,4 +1,4 @@
--- Active: 1715773664265@@localhost@5432@cakeshop@public
+-- Active: 1715666446348@@localhost@5432@cakeshop@public
 
 -- Validasi jumlah kue tidak boleh negatif.
 CREATE OR REPLACE FUNCTION validasi_jumlah_kue()
@@ -66,17 +66,35 @@ BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
 
-CREATE OR REPLACE FUNCTION calculate_total_bill(supply_supply_id CHAR(10))
+CREATE OR REPLACE FUNCTION calculateSupplyBill(supply_supply_id CHAR(10))
 RETURNS DECIMAL(10, 2) AS $$
 DECLARE
     total DECIMAL(10, 2);
 BEGIN
-    SELECT SUM(si.item_amount * i.item_price)
+    SELECT SUM(ssi.item_amount * i.item_price)
     INTO total
-    FROM supplier_item si
-    JOIN items i ON si.item_item_id = i.item_id
-    WHERE si.supply_supply_id = supply_supply_id;
+    FROM supply_shop_item ssi
+    INNER JOIN shop_item si ON ssi.shop_item_shop_item_id = si.shop_item_id
+    INNER JOIN item i ON si.items_item_id = i.item_id
+    WHERE ssi.supply_supply_id = supply_supply_id;
 
     RETURN COALESCE(total, 0);
 END;
 $$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION calculateCartBill(cart_cart_id CHAR(10))
+RETURNS DECIMAL(10, 2) AS $$
+DECLARE
+    total DECIMAL(10, 2);
+BEGIN
+    SELECT SUM(csi.item_amount * i.item_price)
+    INTO total
+    FROM cart_shop_item csi
+    INNER JOIN shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
+    INNER JOIN item i ON si.items_item_id = i.item_id
+    WHERE csi.cart_cart_id = cart_cart_id;
+
+    RETURN COALESCE(total, 0);
+END;
+$$ LANGUAGE plpgsql;
+
