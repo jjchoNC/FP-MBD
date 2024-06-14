@@ -145,3 +145,31 @@ $$ LANGUAGE plpgsql;
     37.77, 
     -122.42
 ); */
+
+CREATE OR REPLACE FUNCTION userLogin(
+    p_cst_email VARCHAR(100),
+    p_cst_password VARCHAR(100)
+)
+RETURNS BOOLEAN AS $$
+DECLARE
+    v_cst_id CHAR(10);
+BEGIN
+    SELECT cst_id
+    INTO v_cst_id
+    FROM customer
+    WHERE cst_email = p_cst_email
+    AND cst_password = MD5(p_cst_password);
+
+    IF FOUND THEN
+        UPDATE customer
+        SET cst_isLoggedIn = TRUE
+        WHERE cst_id = v_cst_id;
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+## Example Usage
+/* SELECT userLogin('john.doe@example.com', 'securepassword'); */
