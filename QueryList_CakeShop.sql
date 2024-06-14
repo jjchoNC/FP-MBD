@@ -98,3 +98,50 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+CREATE OR REPLACE FUNCTION userRegister(
+    p_cst_id CHAR(10),
+    p_cst_name VARCHAR(100),
+    p_cst_phoneNumber VARCHAR(20),
+    p_cst_address VARCHAR(100),
+    p_cst_email VARCHAR(100),
+    p_cst_password VARCHAR(100),
+    p_cst_isLoggedIn BOOLEAN,
+    p_cst_latitude DECIMAL(5,2),
+    p_cst_longitude DECIMAL(5,2)
+)
+RETURNS VOID AS $$
+DECLARE
+    email_count INT;
+BEGIN
+    SELECT COUNT(*)
+    INTO email_count
+    FROM customer
+    WHERE cst_email = p_cst_email;
+
+    IF email_count > 0 THEN
+        RAISE EXCEPTION 'Email % already exists. Please use a different email.', p_cst_email;
+    END IF;
+
+    INSERT INTO customer (
+        cst_id, cst_name, cst_phoneNumber, cst_address, 
+        cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude
+    )
+    VALUES (
+        p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+        p_cst_email, MD5(p_cst_password), p_cst_isLoggedIn, p_cst_latitude, p_cst_longitude
+    );
+END;
+$$ LANGUAGE plpgsql;
+
+## Example Usage
+/* SELECT userRegister(
+    'CST0000001', 
+    'John Doe', 
+    '1234567890', 
+    '123 Main St', 
+    'john.doe@example.com', 
+    'securepassword', 
+    FALSE, 
+    37.77, 
+    -122.42
+); */
