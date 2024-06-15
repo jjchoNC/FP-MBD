@@ -20,8 +20,8 @@ CREATE TABLE customer (
     cst_email varchar(100)  NOT NULL,
     cst_password char(32)  NOT NULL,
     cst_isLoggedIn boolean  NOT NULL,
-    cst_latitude decimal(5,2)  NOT NULL,
-    cst_longitude decimal(5,2)  NOT NULL,
+    cst_latitude decimal(5,6)  NOT NULL,
+    cst_longitude decimal(5,6)  NOT NULL,
     CONSTRAINT customer_pk PRIMARY KEY (cst_id)
 );
 
@@ -54,8 +54,8 @@ CREATE TABLE shop (
     shop_id char(10)  NOT NULL,
     shop_name varchar(100)  NOT NULL,
     shop_address varchar(100)  NOT NULL,
-    shop_latitude decimal(5,2)  NOT NULL,
-    shop_longitude decimal(5,2)  NOT NULL,
+    shop_latitude decimal(5,6)  NOT NULL,
+    shop_longitude decimal(5,6)  NOT NULL,
     CONSTRAINT shop_pk PRIMARY KEY (shop_id)
 );
 
