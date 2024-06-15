@@ -5,7 +5,7 @@ East Marciaside, WI 58057', '4304677379');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000003', 'Smith-Johnson', '33470 Michael Lodge
 Fostermouth, AL 55048', '2031251916');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000004', 'Freeman-Jones', '473 Anderson Circle Apt. 170
-Vanceside, MH 17110', '3480130047');
+Vanceside, MH 17110', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000005', 'Watkins Group', '793 Brenda Walk
 West Randymouth, PR 05240', '2916906644');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000006', 'Costa-Moore', '7917 Price Mount Suite 008
@@ -13,17 +13,17 @@ Lake Justin, NY 12371', '4575674809');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000007', 'Martinez Inc', '546 Bradley Pines Apt. 655
 West Davidland, CA 80365', '8227502884');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000008', 'Roberts-Smith', '023 Nathan Camp
-Andersonmouth, GU 28402', '9540344566');
+Andersonmouth, GU 28402', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000009', 'Mcneil-Gibson', '00129 Marshall Port Apt. 803
 Poolefurt, TX 34769', '4989235795');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000010', 'Powell, Gray and Bradley', '298 Timothy Trail
-West Brianfort, FL 66684', '2174935983');
+West Brianfort, FL 66684', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000011', 'White-Anderson', '6887 Shah Lights Suite 498
 Garciaburgh, FL 93066', '8076107374');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000012', 'Jefferson Ltd', '0225 Hannah Haven
 East Gregoryton, NJ 55243', '7122698437');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000013', 'Walters, Williamson and Clark', '9218 Kristen Street Suite 667
-Katrinashire, MS 70650', '9307674265');
+Katrinashire, MS 70650', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000014', 'Hutchinson PLC', 'Unit 7429 Box 3320
 DPO AE 74774', '9896237935');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000015', 'Baker, Wong and Monroe', '527 Jordan Trail Suite 488
@@ -33,23 +33,23 @@ FPO AP 75648', '3871636555');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000017', 'Harrison-Berry', '872 Joshua Unions
 Brittneyfort, VA 58846', '6180826807');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000018', 'Williams Inc', '51997 Charles Forge Suite 769
-New Tracy, CO 09262', '4603892078');
+New Tracy, CO 09262', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000019', 'Smith, Nash and Sims', '443 Angela Field
 North Caseyview, LA 83314', '1088753363');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000020', 'Thomas, Brown and Perez', '4343 Mary Mountain Apt. 058
-Hardystad, PW 13569', '0738399017');
+Hardystad, PW 13569', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000021', 'Morrison, Sanchez and Frazier', '505 Parker Junction
-East Donaldport, NY 47386', '0258596782');
+East Donaldport, NY 47386', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000022', 'Neal-Davis', '536 Miranda Corner Suite 240
 South Timothy, ME 88283', '6366445669');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000023', 'Miller Group', '206 Steven Stravenue Suite 840
-Phillipschester, NM 45049', '1170738261');
+Phillipschester, NM 45049', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000024', 'Patterson LLC', '513 Jackson Green Apt. 991
 Port Karenbury, NC 82317', '0875525305');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000025', 'Mitchell and Sons', '619 John Inlet
 East Jason, TX 02407', '1936008703');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000026', 'Monroe PLC', '265 Jesus Point Suite 374
-New Stacy, CT 84238', '2108579454');
+New Stacy, CT 84238', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000027', 'Jones, Figueroa and Lindsey', 'PSC 0818, Box 9544
 APO AP 47041', '1469884118');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000028', 'Riddle Inc', '268 Amanda Divide
@@ -59,37 +59,37 @@ South Kyle, UT 70215', '0308248983');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000030', 'Davis PLC', '1679 Lang Cove
 Cooperbury, AS 55103', '1884065410');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000031', 'Maxwell, Johnson and Cooper', '33114 Melanie Manors Apt. 667
-Port Lisaborough, WY 71673', '5908940003');
+Port Lisaborough, WY 71673', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000032', 'Thomas Ltd', '44018 Brittany Lane
 Jenkinsfurt, DE 39880', '9717335485');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000033', 'Hawkins, Singh and Guerrero', '4634 Jessica Greens Apt. 786
 Alanbury, OH 90756', '5098873016');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000034', 'Brown Inc', '8871 Daniel Expressway Apt. 632
-Port Jennifershire, WI 05089', '5234597504');
+Port Jennifershire, WI 05089', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000035', 'Miranda Inc', '475 Angela Courts
 Amandastad, AZ 43696', '7715186289');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000036', 'Lee, Guzman and Spencer', '1159 Sanchez Terrace Apt. 766
 East Tylerberg, IA 50720', '3767196874');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000037', 'Ritter PLC', '769 Miller Terrace Suite 730
-Port Coryton, MH 14187', '1584563361');
+Port Coryton, MH 14187', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000038', 'Howell-Clayton', '00209 Baird Orchard Apt. 697
 East Kentport, CO 93913', '2370388611');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000039', 'Brown, Curtis and Campbell', 'Unit 1211 Box 6451
 DPO AA 92836', '9015495955');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000040', 'Hernandez LLC', '4254 Chase Lodge
-North Carolyn, AL 59261', '7388137413');
+North Carolyn, AL 59261', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000041', 'Tapia, Hendrix and Cherry', 'Unit 0510 Box 1790
 DPO AA 67057', '6760257821');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000042', 'Garcia-Taylor', '421 Young Street
-Benjaminfurt, AK 16493', '0533771290');
+Benjaminfurt, AK 16493', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000043', 'Willis LLC', 'Unit 7716 Box 7996
 DPO AP 38337', '2641091448');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000044', 'Rollins Inc', '7254 Myers Junction Suite 660
-Vernonton, MO 71214', '3698347609');
+Vernonton, MO 71214', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000045', 'Kennedy, Lewis and Torres', '7618 Samantha Mill Apt. 110
 Lake Stephentown, GA 34737', '6062326245');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000046', 'Rodgers-Baker', '627 Parks Turnpike Apt. 169
-Hernandezburgh, RI 19283', '8626601494');
+Hernandezburgh, RI 19283', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000047', 'Gardner, Bruce and Cannon', '4905 Jennifer Isle
 South Joannaland, RI 92896', '7337545780');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000048', 'Miller, Knight and Sullivan', '866 Young Circles Suite 324
@@ -107,7 +107,7 @@ Lake Jessicastad, FL 04919', '8190758449');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000054', 'Thomas Ltd', '559 Richard Extensions
 Lake Michael, AZ 98726', '1571903269');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000055', 'Guzman, Gregory and Williams', '6599 Morris Squares Suite 950
-Campbellburgh, RI 42536', '5050278808');
+Campbellburgh, RI 42536', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000056', 'Bailey-Clark', '84206 Eric Mountains Suite 885
 North Joseph, NY 54399', '2468833213');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000057', 'Moore-Peck', 'PSC 7661, Box 8083
@@ -121,7 +121,7 @@ Valeriechester, WV 68355', '3587604611');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000061', 'Alvarado-Espinoza', '485 Jennifer Hill
 Carlsonhaven, WY 95520', '6000626754');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000062', 'Brown-Bartlett', 'PSC 8376, Box 7606
-APO AE 18106', '2400783630');
+APO AE 18106', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000063', 'Jacobs PLC', '1712 Colleen Locks Apt. 474
 South Jeffrey, LA 90010', '9487630921');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000064', 'Brown LLC', '243 Chung Ramp
@@ -133,7 +133,7 @@ New Johnshire, AR 00678', '5113724955');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000067', 'Wilkins-Todd', '35654 Phillips Ford Suite 709
 Annaside, WV 36390', '0582385923');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000068', 'Wilson, Moore and Baker', '58096 Tammy Hollow
-East Kimberly, NE 26291', '1349113499');
+East Kimberly, NE 26291', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000069', 'Rush-Ramsey', '7553 William Stream
 North Paulatown, MO 52057', '5136363349');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000070', 'Miller-Sanchez', '614 Kristen Mills
@@ -151,7 +151,7 @@ Tylerfort, IN 30964', '2851314154');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000076', 'Hill and Sons', '5100 Amy Mall Suite 104
 New Johnny, MA 06797', '0192754595');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000077', 'Mcdonald, Cross and Stone', '0942 Cox Plains
-West Amanda, AL 49332', '2130877821');
+West Amanda, AL 49332', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000078', 'Ramirez Inc', '186 Yvonne Oval
 New Jamesport, AS 34821', '3169066783');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000079', 'King, Carlson and Adams', '995 Scott Knolls Suite 767
@@ -161,7 +161,7 @@ New Kyleview, GU 89509', '0550621433');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000081', 'Arias-Rhodes', '8317 Quinn Wall
 South Elizabethland, MI 58902', '1985107527');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000082', 'Todd and Sons', '9028 William Burg
-Savannahport, PW 17497', '3982731024');
+Savannahport, PW 17497', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000083', 'Burns, Hahn and Walton', '3666 Gonzalez Pine
 South Audrey, NC 87757', '3125006127');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000084', 'Thomas-Villanueva', '43231 Harding Via Suite 914
@@ -185,7 +185,7 @@ Port Melanie, CT 07122', '1657861656');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000093', 'Lynch-Reid', 'USNV Valencia
 FPO AP 28381', '0303776196');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000094', 'Werner, Wade and Smith', '420 Coleman Viaduct Apt. 959
-Lake Josephmouth, VT 18105', '6832799067');
+Lake Josephmouth, VT 18105', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000095', 'Thomas, Carter and Johnson', '4329 Hodges Mill Suite 063
 New Tiffany, CO 53414', '6115307557');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000096', 'Reid LLC', 'Unit 0177 Box 3113
@@ -195,6 +195,6 @@ West Danielborough, IL 18060', '7148392387');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000098', 'Garcia, Thompson and Smith', '7824 Tammy Rapids
 East Joshuaville, RI 43566', '6872903622');
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000099', 'Moore-Long', '55835 John Ridges
-West Nicholasmouth, CT 00717', '6828345725');
+West Nicholasmouth, CT 00717', NULL);
 INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000100', 'Holland, Hines and Lawson', '394 Maddox Hill Suite 842
 North Bradleyton, ID 52305', '3952596413');
