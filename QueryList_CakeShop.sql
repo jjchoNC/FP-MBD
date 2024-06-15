@@ -201,3 +201,6 @@ BEGIN
     END IF;
 END;
 $$ LANGUAGE plpgsql;
+
+## Example Usage 
+/* SELECT userLogout('john.doe@example.com'); */
