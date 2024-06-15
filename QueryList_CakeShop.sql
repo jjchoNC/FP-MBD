@@ -173,3 +173,31 @@ $$ LANGUAGE plpgsql;
 
 ## Example Usage
 /* SELECT userLogin('john.doe@example.com', 'securepassword'); */
+
+
+## Fungsi untuk log out pengguna
+CREATE OR REPLACE FUNCTION userLogout(
+    p_cst_email VARCHAR(100)
+)
+RETURNS BOOLEAN AS $$
+DECLARE
+    v_cst_id CHAR(10);
+BEGIN
+    -- Cek apakah pengguna dengan email yang diberikan ada di dalam tabel customer
+    SELECT cst_id
+    INTO v_cst_id
+    FROM customer
+    WHERE cst_email = p_cst_email AND cst_isLoggedIn = TRUE;
+
+    -- Jika pengguna ditemukan, lakukan logout dengan mengatur cst_isLoggedIn menjadi FALSE
+    IF FOUND THEN
+        UPDATE customer
+        SET cst_isLoggedIn = FALSE
+        WHERE cst_id = v_cst_id;
+        RETURN TRUE;
+    ELSE
+        -- Jika pengguna tidak ditemukan, kembalikan FALSE
+        RETURN FALSE;
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
