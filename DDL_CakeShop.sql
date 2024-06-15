@@ -8,6 +8,7 @@ CREATE TABLE cart (
 CREATE TABLE cart_shop_item (
     cart_cart_id char(10)  NOT NULL,
     shop_item_shop_item_id char(10)  NOT NULL,
+    item_amount int  NOT NULL,
     CONSTRAINT cart_shop_item_pk PRIMARY KEY (cart_cart_id,shop_item_shop_item_id)
 );
 
