@@ -211,6 +211,31 @@ $$ LANGUAGE plpgsql;
 # UC3
 
 # UC4
+# Sebagai Pengguna, Tina mampu melakukan pencarian terhadap nama restoran yang menjual jenis atau nama kue tertentu.
+CREATE OR REPLACE FUNCTION searchShopItem(
+    p_item_name VARCHAR(100)
+)
+RETURNS TABLE (
+    shop_id CHAR(10),
+    shop_name VARCHAR(100),
+    shop_address VARCHAR(100),
+    shop_latitude DECIMAL(5,2),
+    shop_longitude DECIMAL(5,2),
+    item_id CHAR(10),
+    item_name VARCHAR(100),
+    item_price DECIMAL(10, 2),
+    item_stock INT
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT
+        s.shop_id, s.shop_name, s.shop_address, s.shop_latitude, s.shop_longitude,
+        i.item_id, i.item_name, si.item_price, si.item_stock
+    FROM shop s
+    INNER JOIN shop_item si ON s.shop_id = si.shop_shop_id
+    INNER JOIN item i ON si.items_item_id = i.item_id
+    WHERE i.item_name ILIKE '%' || p_item_name || '%';
+END;
 
 # UC5
 
