@@ -24,16 +24,6 @@ CREATE TABLE customer (
     cst_longitude decimal(10,6)  NOT NULL,
     CONSTRAINT customer_pk PRIMARY KEY (cst_id)
 );
-
-CREATE TABLE delivery (
-    delivery_id char(10)  NOT NULL,
-    delivery_address varchar(100)  NOT NULL,
-    delivery_isArived boolean  NOT NULL,
-    delivery_courier varchar(50)  NOT NULL,
-    customer_cst_id char(10)  NOT NULL,
-    CONSTRAINT delivery_pk PRIMARY KEY (delivery_id)
-);
-
 CREATE TABLE employee (
     emp_id char(10)  NOT NULL,
     emp_name varchar(100)  NOT NULL,
@@ -97,7 +87,6 @@ CREATE TABLE transaction (
     tr_timeStamp timestamp  NOT NULL,
     tr_paymentMethod varchar(50)  NOT NULL,
     cart_cart_id char(10)  NOT NULL,
-    delivery_delivery_id char(10)  NOT NULL,
     CONSTRAINT transaction_pk PRIMARY KEY (tr_id)
 );
 
@@ -118,13 +107,6 @@ ALTER TABLE cart_shop_item ADD CONSTRAINT cart_shop_item_cart
 ALTER TABLE cart_shop_item ADD CONSTRAINT cart_shop_item_shop_item
     FOREIGN KEY (shop_item_shop_item_id)
     REFERENCES shop_item (shop_item_id)  
-    NOT DEFERRABLE 
-    INITIALLY IMMEDIATE
-;
-
-ALTER TABLE delivery ADD CONSTRAINT delivery_customer
-    FOREIGN KEY (customer_cst_id)
-    REFERENCES customer (cst_id)  
     NOT DEFERRABLE 
     INITIALLY IMMEDIATE
 ;
@@ -177,12 +159,4 @@ ALTER TABLE transaction ADD CONSTRAINT transaction_cart
     NOT DEFERRABLE 
     INITIALLY IMMEDIATE
 ;
-
-ALTER TABLE transaction ADD CONSTRAINT transaction_delivery
-    FOREIGN KEY (delivery_delivery_id)
-    REFERENCES delivery (delivery_id)  
-    NOT DEFERRABLE 
-    INITIALLY IMMEDIATE
-;
-
 
