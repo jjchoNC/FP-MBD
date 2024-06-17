@@ -98,6 +98,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+# UC1
 CREATE OR REPLACE FUNCTION userRegister(
     p_cst_id CHAR(10),
     p_cst_name VARCHAR(100),
@@ -146,6 +147,7 @@ $$ LANGUAGE plpgsql;
     -122.42
 ); */
 
+# UC2
 CREATE OR REPLACE FUNCTION userLogin(
     p_cst_email VARCHAR(100),
     p_cst_password VARCHAR(100)
@@ -204,3 +206,16 @@ $$ LANGUAGE plpgsql;
 
 ## Example Usage 
 /* SELECT userLogout('john.doe@example.com'); */
+
+
+# UC3
+
+# UC4
+
+# UC5
+
+# UC6
+
+# UC7
+
+# UC8
