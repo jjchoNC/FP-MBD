@@ -244,3 +244,41 @@ END;
 # UC7
 
 # UC8
+
+CREATE SEQUENCE transaction_seq
+    START WITH  200000
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 200000;
+
+CREATE OR REPLACE FUNCTION checkout(
+    p_cart_id CHAR(10),
+    p_paymentMethod VARCHAR(50),
+    p_delivery CHAR(10)
+)
+RETURNS VOID AS $$
+DECLARE
+    v_tr_id CHAR(10);
+BEGIN
+    v_tr_id := 'TRX' || LPAD(NEXTVAL('transaction_seq')::TEXT, 7, '0');
+
+    DELETE FROM cart_shop_item
+    WHERE cart_cart_id = p_cart_id;
+
+    INSERT INTO transaction (
+        tr_id, tr_timeStamp, tr_paymentMethod, tr_delivery, cart_cart_id
+    )
+    VALUES (
+        v_tr_id,
+        NOW(),
+        p_paymentMethod,
+        p_delivery,
+        p_cart_id
+    );
+
+    UPDATE cart
+    SET cart_totalBill = 0
+    WHERE cart_id = p_cart_id;
+END;
+$$ LANGUAGE plpgsql;
