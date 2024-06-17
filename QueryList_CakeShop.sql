@@ -240,6 +240,74 @@ END;
 # UC5
 
 # UC6
+# Sebagai pengguna, Tina mampu memilih dan memasukkan makanan ke dalam keranjang
+CREATE OR REPLACE FUNCTION add_to_cart(
+    p_customer_cst_id CHAR(10),
+    p_shop_item_id CHAR(10),
+    p_item_amount INT
+) RETURNS VOID AS $$
+DECLARE
+    v_cart_id CHAR(10);
+    v_shop_item_stock INT;
+    v_cart_totalBill DECIMAL(10, 2);
+BEGIN
+    -- Check item shop masih ada
+    SELECT shop_item_stock INTO v_shop_item_stock
+    FROM shop_item
+    WHERE shop_item_id = p_shop_item_id;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'Shop item not found';
+    END IF;
+
+    -- Check bila stock masih ada
+    IF v_shop_item_stock < p_item_amount THEN
+        RAISE EXCEPTION 'Not enough stock';
+    END IF;
+
+    -- Get the customer's cart_id, create one if not exists
+    SELECT cart_id INTO v_cart_id
+    FROM cart
+    WHERE customer_cst_id = p_customer_cst_id;
+
+    IF NOT FOUND THEN
+        v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
+        INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
+        VALUES (v_cart_id, 0, p_customer_cst_id);
+    END IF;
+
+    -- Check item apabila sudah ada di cart
+    PERFORM 1
+    FROM cart_shop_item
+    WHERE cart_cart_id = v_cart_id
+    AND shop_item_shop_item_id = p_shop_item_id;
+
+    IF FOUND THEN
+        UPDATE cart_shop_item
+        SET item_amount = item_amount + p_item_amount
+        WHERE cart_cart_id = v_cart_id
+        AND shop_item_shop_item_id = p_shop_item_id;
+    ELSE
+        -- Tambahkan item ke cart
+        INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
+        VALUES (v_cart_id, p_shop_item_id, p_item_amount);
+    END IF;
+
+    -- Mengurangi stock item
+    UPDATE shop_item
+    SET shop_item_stock = shop_item_stock - p_item_amount
+    WHERE shop_item_id = p_shop_item_id;
+
+    -- Panggil fungsi CartBill
+    v_cart_totalBill := calculateCartBill(v_cart_id);
+
+    UPDATE cart
+    SET cart_totalBill = v_cart_totalBill
+    WHERE cart_id = v_cart_id;
+
+END;
+$$ LANGUAGE plpgsql;
+
 
 # UC7
 
