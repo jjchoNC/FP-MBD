@@ -86,6 +86,7 @@ CREATE TABLE transaction (
     tr_id char(10)  NOT NULL,
     tr_timeStamp timestamp  NOT NULL,
     tr_paymentMethod varchar(50)  NOT NULL,
+    tr_delivery varchar(50) NOT NULL,
     cart_cart_id char(10)  NOT NULL,
     CONSTRAINT transaction_pk PRIMARY KEY (tr_id)
 );
