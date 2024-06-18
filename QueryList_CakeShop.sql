@@ -83,7 +83,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- Function to calculate the total bill for a cart
-CREATE OR REPLACE FUNCTION calculateCartBill(cart_cart_id CHAR(10))
+CREATE OR REPLACE FUNCTION calculateCartBill(c_id CHAR(10))
 RETURNS DECIMAL(10, 2) AS $$
 DECLARE
     total DECIMAL(10, 2);
@@ -92,8 +92,8 @@ BEGIN
     INTO total
     FROM cart_shop_item csi
     INNER JOIN shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
-    INNER JOIN item i ON si.item_id = i.item_id
-    WHERE csi.cart_cart_id = cart_cart_id;
+    INNER JOIN items i ON si.items_item_id = i.item_id
+    WHERE csi.cart_cart_id = c_id;
 
     RETURN COALESCE(total, 0);
 END;
