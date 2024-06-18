@@ -121,7 +121,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_updateCartTotalBill
+CREATE OR REPLACE TRIGGER trg_updateCartTotalBill
 AFTER INSERT ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
