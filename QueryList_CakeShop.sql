@@ -66,7 +66,7 @@ BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
 
-CREATE OR REPLACE FUNCTION calculateSupplyBill(supply_supply_id CHAR(10))
+CREATE OR REPLACE FUNCTION calculateSupplyBill(s_id CHAR(10))
 RETURNS DECIMAL(10, 2) AS $$
 DECLARE
     total DECIMAL(10, 2);
@@ -75,12 +75,27 @@ BEGIN
     INTO total
     FROM supply_shop_item ssi
     INNER JOIN shop_item si ON ssi.shop_item_shop_item_id = si.shop_item_id
-    INNER JOIN item i ON si.items_item_id = i.item_id
-    WHERE ssi.supply_supply_id = supply_supply_id;
+    INNER JOIN items i ON si.items_item_id = i.item_id
+    WHERE ssi.supply_supply_id = s_id;
 
     RETURN COALESCE(total, 0);
 END;
 $$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION updateSupplyTotalBill()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE supply
+    SET supply_totalBill = calculateSupplyBill(NEW.supply_supply_id)
+    WHERE supply_id = NEW.supply_supply_id;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_updateSupplyTotalBill
+AFTER INSERT ON supply_shop_item
+FOR EACH ROW
+EXECUTE FUNCTION updateSupplyTotalBill();
 
 -- Function to calculate the total bill for a cart
 CREATE OR REPLACE FUNCTION calculateCartBill(c_id CHAR(10))
