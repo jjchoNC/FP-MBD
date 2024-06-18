@@ -82,6 +82,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- Function to calculate the total bill for a cart
 CREATE OR REPLACE FUNCTION calculateCartBill(cart_cart_id CHAR(10))
 RETURNS DECIMAL(10, 2) AS $$
 DECLARE
@@ -91,12 +92,28 @@ BEGIN
     INTO total
     FROM cart_shop_item csi
     INNER JOIN shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
-    INNER JOIN item i ON si.items_item_id = i.item_id
+    INNER JOIN item i ON si.item_id = i.item_id
     WHERE csi.cart_cart_id = cart_cart_id;
 
     RETURN COALESCE(total, 0);
 END;
 $$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION updateCartTotalBill()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE cart
+    SET cart_totalBill = calculateCartBill(NEW.cart_cart_id)
+    WHERE cart_id = NEW.cart_cart_id;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_updateCartTotalBill
+AFTER INSERT ON cart_shop_item
+FOR EACH ROW
+EXECUTE FUNCTION updateCartTotalBill();
+
 
 # UC1
 CREATE OR REPLACE FUNCTION userRegister(
