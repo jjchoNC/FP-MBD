@@ -176,6 +176,7 @@ BEGIN
     INNER JOIN item i ON si.items_item_id = i.item_id
     WHERE i.item_name ILIKE '%' || p_item_name || '%';
 END;
+$$ LANGUAGE plpgsql;
 
 # UC5
 

@@ -31,10 +31,12 @@ BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
 
+
+--  ############################################################################################################
 CREATE OR REPLACE FUNCTION calculateSupplyBill(s_id CHAR(10))
-RETURNS DECIMAL(10, 2) AS $$
+RETURNS money AS $$
 DECLARE
-    total DECIMAL(10, 2);
+    total money;
 BEGIN
     SELECT SUM(ssi.item_amount * i.item_price)
     INTO total
@@ -43,7 +45,7 @@ BEGIN
     INNER JOIN items i ON si.items_item_id = i.item_id
     WHERE ssi.supply_supply_id = s_id;
 
-    RETURN COALESCE(total, 0);
+    RETURN total;
 END;
 $$ LANGUAGE plpgsql;
 
@@ -57,16 +59,16 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_updateSupplyTotalBill
+CREATE OR REPLACE TRIGGER trg_updateSupplyTotalBill
 AFTER INSERT ON supply_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateSupplyTotalBill();
 
 -- Function to calculate the total bill for a cart
 CREATE OR REPLACE FUNCTION calculateCartBill(c_id CHAR(10))
-RETURNS DECIMAL(10, 2) AS $$
+RETURNS money AS $$
 DECLARE
-    total DECIMAL(10, 2);
+    total money;
 BEGIN
     SELECT SUM(csi.item_amount * i.item_price)
     INTO total
@@ -75,7 +77,7 @@ BEGIN
     INNER JOIN items i ON si.items_item_id = i.item_id
     WHERE csi.cart_cart_id = c_id;
 
-    RETURN COALESCE(total, 0);
+    RETURN total;
 END;
 $$ LANGUAGE plpgsql;
 
@@ -94,6 +96,7 @@ AFTER INSERT ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
 
+--  ############################################################################################################
 -- Validation function to ensure sufficient stock
 CREATE OR REPLACE FUNCTION validateStock(p_shop_item_id CHAR(10), p_item_amount INT) 
 RETURNS VOID AS $$
