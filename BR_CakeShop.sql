@@ -1,35 +1,3 @@
-CREATE OR REPLACE FUNCTION validasi_jumlah_kue()
-RETURNS TRIGGER AS $$
-BEGIN
-    IF NEW.item_amount < 0 THEN
-        RAISE EXCEPTION 'Jumlah kue tidak boleh negatif';
-    END IF;
-    RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
-
-CREATE TRIGGER trigger_validasi_jumlah_kue
-BEFORE INSERT OR UPDATE ON transaction_item
-FOR EACH ROW
-EXECUTE FUNCTION validasi_jumlah_kue();
-
-
--- Validasi stok kue tidak mencukupi.
-CREATE OR REPLACE FUNCTION validateStock()
-RETURNS TRIGGER AS $$
-BEGIN
-    IF (NEW.item_amount > (SELECT item_stock FROM item WHERE item_id = NEW.item_item_id)) THEN
-        RAISE EXCEPTION 'Stok tidak mencukupi untuk item %', NEW.item_item_id;
-    END IF;
-    RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
-CREATE TRIGGER check_stock
-BEFORE INSERT OR UPDATE ON transaction_item
-FOR EACH ROW
-EXECUTE FUNCTION validateStock();
 
 -- Pemasok barang tidak boleh mengirimkan item yang berjumlah negatif.
 CREATE OR REPLACE FUNCTION validateSupplierStock()
@@ -125,3 +93,33 @@ CREATE TRIGGER trg_updateCartTotalBill
 AFTER INSERT ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
+
+-- Validation function to ensure sufficient stock
+CREATE OR REPLACE FUNCTION validateStock(p_shop_item_id CHAR(10), p_item_amount INT) 
+RETURNS VOID AS $$
+DECLARE
+    v_shop_item_stock INT;
+BEGIN
+    SELECT shop_item_stock INTO v_shop_item_stock
+    FROM shop_item
+    WHERE shop_item_id = p_shop_item_id;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'Shop item not found';
+    END IF;
+
+    IF v_shop_item_stock < p_item_amount THEN
+        RAISE EXCEPTION 'Not enough stock';
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Validation function to ensure non-negative item amount
+CREATE OR REPLACE FUNCTION validateAmount(p_item_amount INT)
+RETURNS VOID AS $$
+BEGIN
+    IF p_item_amount < 0 THEN
+        RAISE EXCEPTION 'Jumlah item tidak boleh negatif';
+    END IF;
+END;
+$$ LANGUAGE plpgsql;

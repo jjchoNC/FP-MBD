@@ -181,22 +181,13 @@ CREATE OR REPLACE FUNCTION add_to_cart(
 ) RETURNS VOID AS $$
 DECLARE
     v_cart_id CHAR(10);
-    v_shop_item_stock INT;
-    v_cart_totalBill DECIMAL(10, 2);
+    v_cart_totalBill INT;
 BEGIN
-    -- Check item shop masih ada
-    SELECT shop_item_stock INTO v_shop_item_stock
-    FROM shop_item
-    WHERE shop_item_id = p_shop_item_id;
+    -- Validate the item amount
+    PERFORM validateAmount(p_item_amount);
 
-    IF NOT FOUND THEN
-        RAISE EXCEPTION 'Shop item not found';
-    END IF;
-
-    -- Check bila stock masih ada
-    IF v_shop_item_stock < p_item_amount THEN
-        RAISE EXCEPTION 'Not enough stock';
-    END IF;
+    -- Validate the stock availability
+    PERFORM validateStock(p_shop_item_id, p_item_amount);
 
     -- Get the customer's cart_id, create one if not exists
     SELECT cart_id INTO v_cart_id
@@ -209,7 +200,7 @@ BEGIN
         VALUES (v_cart_id, 0, p_customer_cst_id);
     END IF;
 
-    -- Check item apabila sudah ada di cart
+    -- Check if item already exists in the cart
     PERFORM 1
     FROM cart_shop_item
     WHERE cart_cart_id = v_cart_id
@@ -221,17 +212,17 @@ BEGIN
         WHERE cart_cart_id = v_cart_id
         AND shop_item_shop_item_id = p_shop_item_id;
     ELSE
-        -- Tambahkan item ke cart
+        -- Add item to the cart
         INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
         VALUES (v_cart_id, p_shop_item_id, p_item_amount);
     END IF;
 
-    -- Mengurangi stock item
+    -- Decrease the item stock
     UPDATE shop_item
     SET shop_item_stock = shop_item_stock - p_item_amount
     WHERE shop_item_id = p_shop_item_id;
 
-    -- Panggil fungsi CartBill
+    -- Calculate and update the cart's total bill
     v_cart_totalBill := calculateCartBill(v_cart_id);
 
     UPDATE cart
@@ -243,6 +234,42 @@ $$ LANGUAGE plpgsql;
 
 
 # UC7
+# Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
+-- Function to get cart and order details for a user
+CREATE OR REPLACE FUNCTION get_cart_details(
+    p_customer_cst_id CHAR(10)
+) RETURNS TABLE (
+    cart_id CHAR(10),
+    item_id CHAR(10),
+    item_name VARCHAR(100),
+    item_price MONEY,
+    item_amount INT,
+    item_total MONEY,
+    cart_total_bill MONEY
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        c.cart_id,
+        si.shop_item_id AS item_id,
+        i.item_name,
+        i.item_price,
+        csi.item_amount,
+        (i.item_price * csi.item_amount) AS item_total,
+        c.cart_totalBill AS cart_total_bill
+    FROM 
+        cart c
+    JOIN 
+        cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+    JOIN 
+        shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
+    JOIN 
+        items i ON si.items_item_id = i.item_id
+    WHERE 
+        c.customer_cst_id = p_customer_cst_id;
+END;
+$$ LANGUAGE plpgsql;
+
 
 # UC8
 
