@@ -234,6 +234,42 @@ $$ LANGUAGE plpgsql;
 
 
 # UC7
+# Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
+-- Function to get cart and order details for a user
+CREATE OR REPLACE FUNCTION get_cart_details(
+    p_customer_cst_id CHAR(10)
+) RETURNS TABLE (
+    cart_id CHAR(10),
+    item_id CHAR(10),
+    item_name VARCHAR(100),
+    item_price MONEY,
+    item_amount INT,
+    item_total MONEY,
+    cart_total_bill MONEY
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        c.cart_id,
+        si.shop_item_id AS item_id,
+        i.item_name,
+        i.item_price,
+        csi.item_amount,
+        (i.item_price * csi.item_amount) AS item_total,
+        c.cart_totalBill AS cart_total_bill
+    FROM 
+        cart c
+    JOIN 
+        cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+    JOIN 
+        shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
+    JOIN 
+        items i ON si.items_item_id = i.item_id
+    WHERE 
+        c.customer_cst_id = p_customer_cst_id;
+END;
+$$ LANGUAGE plpgsql;
+
 
 # UC8
 
