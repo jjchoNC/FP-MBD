@@ -123,3 +123,33 @@ BEGIN
     END IF;
 END;
 $$ LANGUAGE plpgsql;
+
+
+-- Validate password length
+CREATE OR REPLACE FUNCTION validatePassword(p_cst_password VARCHAR(100))
+RETURNS BOOLEAN AS $$
+BEGIN
+    IF LENGTH(p_cst_password) < 8 THEN
+        RETURN FALSE;
+    END IF;
+    RETURN TRUE;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Validate uniqe email
+CREATE OR REPLACE FUNCTION validateEmail(p_cst_email VARCHAR(100))
+RETURNS BOOLEAN AS $$
+DECLARE email_count INT;
+BEGIN
+    SELECT COUNT(*)
+    INTO email_count
+    FROM customer
+    WHERE cst_email = p_cst_email;
+
+    IF email_count > 0 THEN
+        RETURN FALSE;
+    END IF;
+
+    RETURN TRUE;
+END;
+$$ LANGUAGE plpgsql;
