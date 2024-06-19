@@ -125,3 +125,19 @@ CREATE OR REPLACE TRIGGER trg_updateCartTotalBill
 AFTER INSERT ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
+
+-- Function to validate stock for cart_item
+CREATE OR REPLACE FUNCTION validateStock()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (NEW.item_amount > (SELECT shop_item_stock FROM shop_item WHERE shop_item_id = NEW.shop_item_shop_item_id)) THEN
+        RAISE EXCEPTION 'Stock tidak mencukupi untuk item %', NEW.shop_item_shop_item_id;
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_stock
+BEFORE INSERT OR UPDATE ON cart_shop_item
+FOR EACH ROW
+EXECUTE FUNCTION validateStock();
