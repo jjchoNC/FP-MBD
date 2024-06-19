@@ -12,8 +12,8 @@ CREATE OR REPLACE FUNCTION userRegister(
     p_cst_address VARCHAR(100),
     p_cst_email VARCHAR(100),
     p_cst_password VARCHAR(100),
-    p_cst_latitude DECIMAL(5,2),
-    p_cst_longitude DECIMAL(5,2)
+    p_cst_latitude DECIMAL(10,6),
+    p_cst_longitude DECIMAL(10,6)
 )
 RETURNS VOID AS $$
 DECLARE
