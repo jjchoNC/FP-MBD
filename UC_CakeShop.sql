@@ -109,6 +109,39 @@ $$ LANGUAGE plpgsql;
 
 
 # UC3
+-- Sebagai pengguna, Tina mampu melihat seluruh restoran terdekat yang tersedia
+CREATE OR REPLACE FUNCTION getNearbyShops(
+    p_latitude DECIMAL(10, 6),
+    p_longitude DECIMAL(10, 6),
+    p_filter INT
+)
+RETURNS TABLE (
+    shop_id CHAR(10),
+    shop_name VARCHAR(100),
+    shop_address VARCHAR(100),
+    distance FLOAT8
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        shop.shop_id,
+        shop.shop_name,
+        shop.shop_address,
+        (point(p_longitude, p_latitude) <@> point(shop.shop_longitude, shop.shop_latitude)) AS distance
+    FROM shop
+    ORDER BY distance
+    LIMIT p_filter;
+END;
+$$ LANGUAGE plpgsql;
+
+-- WITH nearShops AS (
+--     SELECT cst_address, shop_id, shop_name, shop_address, distance
+--     FROM customer
+--     CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
+--     WHERE customer.cst_id = 'CST0000010'
+-- )
+-- SELECT *
+-- FROM nearShops;
 
 # UC4
 # Sebagai Pengguna, Tina mampu melakukan pencarian terhadap nama restoran yang menjual jenis atau nama kue tertentu.
