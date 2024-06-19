@@ -1,1625 +1,1625 @@
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0001', 74, 'SHOP000010','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0002', 73, 'SHOP000022','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0003', 74, 'SHOP000002','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0004', 43, 'SHOP000020','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0005', 69, 'SHOP000019','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0006', 74, 'SHOP000002','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0007', 39, 'SHOP000007','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0008', 37, 'SHOP000011','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0009', 58, 'SHOP000015','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0010', 48, 'SHOP000001','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0011', 41, 'SHOP000001','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0012', 59, 'SHOP000006','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0013', 50, 'SHOP000014','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0014', 65, 'SHOP000011','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0015', 68, 'SHOP000020','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0016', 33, 'SHOP000005','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0017', 72, 'SHOP000024','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0018', 52, 'SHOP000023','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0019', 48, 'SHOP000007','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0020', 46, 'SHOP000020','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0021', 42, 'SHOP000001','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0022', 38, 'SHOP000019','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0023', 48, 'SHOP000014','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0024', 42, 'SHOP000020','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0025', 50, 'SHOP000002','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0026', 75, 'SHOP000005','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0027', 66, 'SHOP000017','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0028', 36, 'SHOP000014','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0029', 75, 'SHOP000010','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0030', 30, 'SHOP000002','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0031', 66, 'SHOP000005','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0032', 51, 'SHOP000007','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0033', 30, 'SHOP000021','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0034', 67, 'SHOP000021','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0035', 73, 'SHOP000004','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0036', 50, 'SHOP000020','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0037', 27, 'SHOP000012','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0038', 56, 'SHOP000006','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0039', 74, 'SHOP000008','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0040', 39, 'SHOP000010','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0041', 47, 'SHOP000024','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0042', 36, 'SHOP000010','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0043', 37, 'SHOP000008','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0044', 28, 'SHOP000007','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0045', 65, 'SHOP000012','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0046', 54, 'SHOP000014','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0047', 58, 'SHOP000025','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0048', 57, 'SHOP000003','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0049', 72, 'SHOP000014','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0050', 30, 'SHOP000001','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0051', 66, 'SHOP000020','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0052', 41, 'SHOP000016','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0053', 37, 'SHOP000010','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0054', 66, 'SHOP000021','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0055', 46, 'SHOP000025','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0056', 41, 'SHOP000017','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0057', 46, 'SHOP000009','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0058', 41, 'SHOP000014','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0059', 35, 'SHOP000022','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0060', 65, 'SHOP000008','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0061', 69, 'SHOP000014','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0062', 38, 'SHOP000015','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0063', 67, 'SHOP000012','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0064', 52, 'SHOP000005','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0065', 66, 'SHOP000011','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0066', 45, 'SHOP000023','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0067', 75, 'SHOP000001','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0068', 65, 'SHOP000020','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0069', 26, 'SHOP000018','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0070', 69, 'SHOP000020','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0071', 55, 'SHOP000019','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0072', 49, 'SHOP000008','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0073', 48, 'SHOP000003','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0074', 32, 'SHOP000014','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0075', 42, 'SHOP000025','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0076', 47, 'SHOP000014','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0077', 65, 'SHOP000006','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0078', 44, 'SHOP000023','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0079', 32, 'SHOP000014','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0080', 41, 'SHOP000015','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0081', 49, 'SHOP000007','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0082', 37, 'SHOP000005','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0083', 27, 'SHOP000025','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0084', 46, 'SHOP000021','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0085', 57, 'SHOP000018','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0086', 69, 'SHOP000004','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0087', 32, 'SHOP000025','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0088', 65, 'SHOP000008','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0089', 28, 'SHOP000013','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0090', 42, 'SHOP000004','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0091', 70, 'SHOP000021','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0092', 32, 'SHOP000020','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0093', 70, 'SHOP000005','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0094', 27, 'SHOP000020','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0095', 70, 'SHOP000017','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0096', 39, 'SHOP000013','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0097', 26, 'SHOP000019','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0098', 33, 'SHOP000008','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0099', 75, 'SHOP000015','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0100', 45, 'SHOP000022','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0101', 28, 'SHOP000022','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0102', 52, 'SHOP000003','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0103', 37, 'SHOP000001','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0104', 40, 'SHOP000004','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0105', 29, 'SHOP000023','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0106', 65, 'SHOP000005','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0107', 72, 'SHOP000020','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0108', 75, 'SHOP000017','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0109', 43, 'SHOP000006','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0110', 35, 'SHOP000018','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0111', 42, 'SHOP000021','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0112', 74, 'SHOP000018','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0113', 36, 'SHOP000002','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0114', 42, 'SHOP000005','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0115', 25, 'SHOP000003','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0116', 29, 'SHOP000006','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0117', 55, 'SHOP000003','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0118', 75, 'SHOP000021','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0119', 26, 'SHOP000016','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0120', 30, 'SHOP000022','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0121', 60, 'SHOP000001','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0122', 63, 'SHOP000016','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0123', 52, 'SHOP000025','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0124', 53, 'SHOP000007','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0125', 48, 'SHOP000012','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0126', 67, 'SHOP000015','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0127', 63, 'SHOP000015','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0128', 49, 'SHOP000015','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0129', 64, 'SHOP000006','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0130', 32, 'SHOP000008','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0131', 57, 'SHOP000021','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0132', 30, 'SHOP000002','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0133', 43, 'SHOP000013','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0134', 68, 'SHOP000020','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0135', 43, 'SHOP000020','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0136', 70, 'SHOP000024','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0137', 56, 'SHOP000008','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0138', 37, 'SHOP000003','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0139', 38, 'SHOP000016','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0140', 27, 'SHOP000005','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0141', 26, 'SHOP000003','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0142', 56, 'SHOP000014','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0143', 25, 'SHOP000019','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0144', 64, 'SHOP000021','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0145', 47, 'SHOP000004','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0146', 39, 'SHOP000001','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0147', 57, 'SHOP000012','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0148', 38, 'SHOP000020','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0149', 56, 'SHOP000020','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0150', 42, 'SHOP000003','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0151', 51, 'SHOP000008','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0152', 46, 'SHOP000024','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0153', 53, 'SHOP000020','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0154', 60, 'SHOP000020','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0155', 26, 'SHOP000007','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0156', 28, 'SHOP000024','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0157', 55, 'SHOP000018','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0158', 41, 'SHOP000020','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0159', 74, 'SHOP000009','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0160', 35, 'SHOP000018','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0161', 61, 'SHOP000025','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0162', 28, 'SHOP000004','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0163', 74, 'SHOP000015','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0164', 47, 'SHOP000004','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0165', 41, 'SHOP000013','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0166', 62, 'SHOP000011','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0167', 37, 'SHOP000006','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0168', 61, 'SHOP000002','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0169', 59, 'SHOP000019','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0170', 56, 'SHOP000014','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0171', 63, 'SHOP000020','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0172', 39, 'SHOP000017','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0173', 47, 'SHOP000005','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0174', 29, 'SHOP000001','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0175', 29, 'SHOP000003','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0176', 39, 'SHOP000006','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0177', 58, 'SHOP000025','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0178', 28, 'SHOP000012','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0179', 57, 'SHOP000012','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0180', 67, 'SHOP000011','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0181', 38, 'SHOP000022','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0182', 67, 'SHOP000025','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0183', 31, 'SHOP000005','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0184', 67, 'SHOP000021','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0185', 74, 'SHOP000008','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0186', 46, 'SHOP000002','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0187', 49, 'SHOP000016','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0188', 69, 'SHOP000003','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0189', 48, 'SHOP000010','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0190', 36, 'SHOP000012','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0191', 70, 'SHOP000010','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0192', 27, 'SHOP000004','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0193', 35, 'SHOP000004','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0194', 65, 'SHOP000023','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0195', 63, 'SHOP000023','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0196', 72, 'SHOP000014','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0197', 50, 'SHOP000020','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0198', 48, 'SHOP000025','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0199', 48, 'SHOP000015','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0200', 66, 'SHOP000016','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0201', 58, 'SHOP000020','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0202', 40, 'SHOP000023','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0203', 42, 'SHOP000019','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0204', 60, 'SHOP000018','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0205', 68, 'SHOP000017','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0206', 53, 'SHOP000003','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0207', 65, 'SHOP000002','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0208', 27, 'SHOP000003','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0209', 40, 'SHOP000003','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0210', 39, 'SHOP000025','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0211', 47, 'SHOP000014','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0212', 39, 'SHOP000011','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0213', 56, 'SHOP000004','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0214', 44, 'SHOP000022','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0215', 61, 'SHOP000007','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0216', 38, 'SHOP000024','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0217', 32, 'SHOP000016','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0218', 44, 'SHOP000001','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0219', 38, 'SHOP000004','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0220', 27, 'SHOP000020','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0221', 40, 'SHOP000017','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0222', 42, 'SHOP000016','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0223', 74, 'SHOP000001','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0224', 33, 'SHOP000019','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0225', 63, 'SHOP000023','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0226', 71, 'SHOP000009','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0227', 75, 'SHOP000013','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0228', 66, 'SHOP000010','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0229', 64, 'SHOP000012','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0230', 53, 'SHOP000022','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0231', 39, 'SHOP000010','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0232', 63, 'SHOP000012','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0233', 53, 'SHOP000001','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0234', 55, 'SHOP000005','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0235', 67, 'SHOP000024','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0236', 43, 'SHOP000009','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0237', 55, 'SHOP000015','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0238', 73, 'SHOP000024','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0239', 28, 'SHOP000025','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0240', 74, 'SHOP000012','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0241', 29, 'SHOP000025','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0242', 26, 'SHOP000001','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0243', 66, 'SHOP000016','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0244', 56, 'SHOP000010','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0245', 41, 'SHOP000013','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0246', 75, 'SHOP000023','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0247', 47, 'SHOP000015','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0248', 75, 'SHOP000015','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0249', 27, 'SHOP000006','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0250', 75, 'SHOP000008','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0251', 72, 'SHOP000023','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0252', 58, 'SHOP000003','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0253', 33, 'SHOP000021','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0254', 36, 'SHOP000011','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0255', 69, 'SHOP000017','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0256', 46, 'SHOP000017','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0257', 61, 'SHOP000003','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0258', 57, 'SHOP000013','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0259', 72, 'SHOP000007','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0260', 30, 'SHOP000003','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0261', 30, 'SHOP000020','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0262', 43, 'SHOP000007','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0263', 58, 'SHOP000005','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0264', 52, 'SHOP000024','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0265', 73, 'SHOP000023','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0266', 51, 'SHOP000009','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0267', 45, 'SHOP000004','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0268', 55, 'SHOP000018','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0269', 53, 'SHOP000022','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0270', 34, 'SHOP000008','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0271', 38, 'SHOP000012','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0272', 44, 'SHOP000024','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0273', 48, 'SHOP000009','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0274', 59, 'SHOP000008','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0275', 67, 'SHOP000001','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0276', 75, 'SHOP000022','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0277', 40, 'SHOP000011','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0278', 34, 'SHOP000007','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0279', 73, 'SHOP000014','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0280', 64, 'SHOP000010','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0281', 54, 'SHOP000012','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0282', 38, 'SHOP000015','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0283', 57, 'SHOP000024','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0284', 66, 'SHOP000005','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0285', 54, 'SHOP000022','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0286', 34, 'SHOP000004','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0287', 72, 'SHOP000020','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0288', 50, 'SHOP000015','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0289', 50, 'SHOP000010','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0290', 56, 'SHOP000007','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0291', 61, 'SHOP000014','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0292', 58, 'SHOP000014','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0293', 69, 'SHOP000021','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0294', 67, 'SHOP000006','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0295', 57, 'SHOP000004','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0296', 52, 'SHOP000009','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0297', 66, 'SHOP000011','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0298', 57, 'SHOP000016','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0299', 25, 'SHOP000025','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0300', 40, 'SHOP000011','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0301', 69, 'SHOP000016','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0302', 61, 'SHOP000022','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0303', 42, 'SHOP000023','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0304', 49, 'SHOP000022','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0305', 43, 'SHOP000022','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0306', 37, 'SHOP000008','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0307', 62, 'SHOP000012','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0308', 43, 'SHOP000025','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0309', 69, 'SHOP000001','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0310', 56, 'SHOP000022','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0311', 29, 'SHOP000014','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0312', 27, 'SHOP000024','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0313', 56, 'SHOP000023','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0314', 38, 'SHOP000019','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0315', 31, 'SHOP000005','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0316', 45, 'SHOP000025','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0317', 61, 'SHOP000003','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0318', 43, 'SHOP000017','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0319', 47, 'SHOP000006','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0320', 32, 'SHOP000014','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0321', 37, 'SHOP000022','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0322', 61, 'SHOP000011','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0323', 53, 'SHOP000021','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0324', 32, 'SHOP000001','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0325', 47, 'SHOP000003','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0326', 28, 'SHOP000023','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0327', 60, 'SHOP000003','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0328', 56, 'SHOP000013','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0329', 43, 'SHOP000009','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0330', 57, 'SHOP000001','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0331', 52, 'SHOP000023','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0332', 59, 'SHOP000024','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0333', 40, 'SHOP000020','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0334', 26, 'SHOP000017','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0335', 53, 'SHOP000002','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0336', 35, 'SHOP000016','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0337', 36, 'SHOP000007','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0338', 32, 'SHOP000006','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0339', 62, 'SHOP000003','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0340', 73, 'SHOP000010','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0341', 68, 'SHOP000006','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0342', 49, 'SHOP000015','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0343', 66, 'SHOP000024','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0344', 29, 'SHOP000001','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0345', 59, 'SHOP000016','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0346', 69, 'SHOP000015','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0347', 30, 'SHOP000005','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0348', 39, 'SHOP000001','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0349', 57, 'SHOP000009','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0350', 70, 'SHOP000009','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0351', 67, 'SHOP000001','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0352', 41, 'SHOP000016','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0353', 56, 'SHOP000021','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0354', 69, 'SHOP000014','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0355', 59, 'SHOP000019','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0356', 63, 'SHOP000013','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0357', 61, 'SHOP000013','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0358', 66, 'SHOP000012','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0359', 75, 'SHOP000009','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0360', 38, 'SHOP000013','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0361', 65, 'SHOP000009','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0362', 32, 'SHOP000004','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0363', 59, 'SHOP000007','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0364', 57, 'SHOP000007','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0365', 52, 'SHOP000012','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0366', 27, 'SHOP000004','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0367', 70, 'SHOP000001','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0368', 49, 'SHOP000006','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0369', 52, 'SHOP000007','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0370', 57, 'SHOP000021','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0371', 66, 'SHOP000004','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0372', 71, 'SHOP000017','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0373', 56, 'SHOP000004','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0374', 39, 'SHOP000014','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0375', 66, 'SHOP000008','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0376', 43, 'SHOP000006','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0377', 67, 'SHOP000005','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0378', 47, 'SHOP000002','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0379', 55, 'SHOP000018','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0380', 65, 'SHOP000008','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0381', 69, 'SHOP000010','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0382', 48, 'SHOP000008','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0383', 55, 'SHOP000007','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0384', 46, 'SHOP000022','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0385', 37, 'SHOP000007','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0386', 59, 'SHOP000004','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0387', 75, 'SHOP000017','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0388', 61, 'SHOP000004','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0389', 59, 'SHOP000010','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0390', 57, 'SHOP000004','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0391', 70, 'SHOP000021','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0392', 73, 'SHOP000020','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0393', 29, 'SHOP000010','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0394', 47, 'SHOP000011','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0395', 43, 'SHOP000009','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0396', 54, 'SHOP000010','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0397', 75, 'SHOP000024','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0398', 44, 'SHOP000016','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0399', 36, 'SHOP000005','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0400', 61, 'SHOP000010','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0401', 44, 'SHOP000017','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0402', 69, 'SHOP000018','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0403', 54, 'SHOP000022','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0404', 59, 'SHOP000016','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0405', 72, 'SHOP000017','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0406', 65, 'SHOP000013','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0407', 63, 'SHOP000025','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0408', 75, 'SHOP000004','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0409', 30, 'SHOP000013','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0410', 27, 'SHOP000015','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0411', 30, 'SHOP000015','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0412', 49, 'SHOP000003','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0413', 73, 'SHOP000004','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0414', 58, 'SHOP000023','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0415', 30, 'SHOP000017','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0416', 25, 'SHOP000005','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0417', 49, 'SHOP000001','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0418', 73, 'SHOP000019','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0419', 55, 'SHOP000009','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0420', 32, 'SHOP000016','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0421', 43, 'SHOP000009','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0422', 66, 'SHOP000003','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0423', 27, 'SHOP000007','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0424', 47, 'SHOP000024','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0425', 50, 'SHOP000022','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0426', 54, 'SHOP000007','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0427', 40, 'SHOP000005','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0428', 51, 'SHOP000002','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0429', 58, 'SHOP000020','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0430', 38, 'SHOP000019','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0431', 45, 'SHOP000020','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0432', 26, 'SHOP000005','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0433', 61, 'SHOP000011','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0434', 65, 'SHOP000016','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0435', 42, 'SHOP000012','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0436', 52, 'SHOP000007','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0437', 39, 'SHOP000011','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0438', 29, 'SHOP000008','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0439', 66, 'SHOP000007','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0440', 57, 'SHOP000021','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0441', 52, 'SHOP000022','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0442', 25, 'SHOP000002','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0443', 26, 'SHOP000002','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0444', 25, 'SHOP000003','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0445', 47, 'SHOP000006','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0446', 53, 'SHOP000024','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0447', 39, 'SHOP000023','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0448', 59, 'SHOP000007','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0449', 61, 'SHOP000016','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0450', 44, 'SHOP000009','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0451', 56, 'SHOP000023','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0452', 70, 'SHOP000004','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0453', 53, 'SHOP000016','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0454', 40, 'SHOP000017','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0455', 67, 'SHOP000013','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0456', 33, 'SHOP000008','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0457', 47, 'SHOP000024','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0458', 59, 'SHOP000020','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0459', 66, 'SHOP000001','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0460', 42, 'SHOP000016','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0461', 62, 'SHOP000005','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0462', 57, 'SHOP000019','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0463', 38, 'SHOP000001','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0464', 40, 'SHOP000017','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0465', 29, 'SHOP000011','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0466', 70, 'SHOP000013','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0467', 30, 'SHOP000007','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0468', 49, 'SHOP000005','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0469', 40, 'SHOP000013','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0470', 32, 'SHOP000014','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0471', 75, 'SHOP000007','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0472', 54, 'SHOP000016','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0473', 32, 'SHOP000010','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0474', 72, 'SHOP000008','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0475', 63, 'SHOP000002','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0476', 63, 'SHOP000011','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0477', 71, 'SHOP000019','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0478', 53, 'SHOP000003','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0479', 42, 'SHOP000019','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0480', 30, 'SHOP000007','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0481', 70, 'SHOP000021','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0482', 52, 'SHOP000003','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0483', 33, 'SHOP000009','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0484', 73, 'SHOP000025','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0485', 61, 'SHOP000002','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0486', 70, 'SHOP000023','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0487', 43, 'SHOP000002','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0488', 32, 'SHOP000013','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0489', 52, 'SHOP000001','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0490', 29, 'SHOP000006','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0491', 45, 'SHOP000013','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0492', 41, 'SHOP000006','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0493', 28, 'SHOP000009','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0494', 53, 'SHOP000002','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0495', 43, 'SHOP000005','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0496', 63, 'SHOP000003','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0497', 71, 'SHOP000011','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0498', 33, 'SHOP000007','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0499', 48, 'SHOP000023','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0500', 27, 'SHOP000001','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0501', 69, 'SHOP000015','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0502', 31, 'SHOP000023','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0503', 39, 'SHOP000005','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0504', 27, 'SHOP000011','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0505', 56, 'SHOP000024','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0506', 48, 'SHOP000017','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0507', 66, 'SHOP000012','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0508', 52, 'SHOP000015','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0509', 48, 'SHOP000018','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0510', 73, 'SHOP000012','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0511', 55, 'SHOP000004','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0512', 64, 'SHOP000008','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0513', 35, 'SHOP000020','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0514', 39, 'SHOP000001','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0515', 67, 'SHOP000021','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0516', 65, 'SHOP000010','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0517', 33, 'SHOP000008','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0518', 64, 'SHOP000023','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0519', 68, 'SHOP000020','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0520', 38, 'SHOP000018','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0521', 26, 'SHOP000025','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0522', 27, 'SHOP000005','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0523', 73, 'SHOP000021','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0524', 37, 'SHOP000008','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0525', 60, 'SHOP000022','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0526', 75, 'SHOP000018','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0527', 66, 'SHOP000019','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0528', 26, 'SHOP000005','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0529', 60, 'SHOP000012','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0530', 35, 'SHOP000020','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0531', 60, 'SHOP000017','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0532', 30, 'SHOP000006','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0533', 67, 'SHOP000002','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0534', 61, 'SHOP000015','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0535', 38, 'SHOP000013','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0536', 74, 'SHOP000013','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0537', 73, 'SHOP000016','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0538', 56, 'SHOP000011','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0539', 47, 'SHOP000024','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0540', 66, 'SHOP000022','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0541', 58, 'SHOP000025','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0542', 52, 'SHOP000010','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0543', 36, 'SHOP000015','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0544', 59, 'SHOP000018','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0545', 26, 'SHOP000007','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0546', 36, 'SHOP000010','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0547', 28, 'SHOP000004','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0548', 26, 'SHOP000009','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0549', 27, 'SHOP000014','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0550', 44, 'SHOP000015','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0551', 59, 'SHOP000015','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0552', 26, 'SHOP000023','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0553', 54, 'SHOP000025','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0554', 64, 'SHOP000013','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0555', 46, 'SHOP000012','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0556', 28, 'SHOP000014','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0557', 26, 'SHOP000006','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0558', 29, 'SHOP000014','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0559', 52, 'SHOP000011','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0560', 71, 'SHOP000013','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0561', 66, 'SHOP000023','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0562', 26, 'SHOP000019','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0563', 37, 'SHOP000016','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0564', 36, 'SHOP000017','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0565', 28, 'SHOP000003','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0566', 61, 'SHOP000007','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0567', 43, 'SHOP000016','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0568', 28, 'SHOP000016','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0569', 58, 'SHOP000004','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0570', 59, 'SHOP000016','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0571', 38, 'SHOP000024','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0572', 43, 'SHOP000004','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0573', 64, 'SHOP000002','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0574', 52, 'SHOP000005','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0575', 45, 'SHOP000020','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0576', 62, 'SHOP000022','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0577', 41, 'SHOP000019','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0578', 29, 'SHOP000025','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0579', 25, 'SHOP000025','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0580', 65, 'SHOP000016','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0581', 57, 'SHOP000023','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0582', 66, 'SHOP000013','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0583', 75, 'SHOP000006','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0584', 30, 'SHOP000007','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0585', 29, 'SHOP000014','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0586', 50, 'SHOP000022','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0587', 34, 'SHOP000016','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0588', 27, 'SHOP000017','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0589', 45, 'SHOP000001','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0590', 48, 'SHOP000003','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0591', 73, 'SHOP000005','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0592', 67, 'SHOP000001','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0593', 38, 'SHOP000019','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0594', 36, 'SHOP000025','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0595', 62, 'SHOP000004','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0596', 28, 'SHOP000006','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0597', 54, 'SHOP000001','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0598', 50, 'SHOP000010','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0599', 56, 'SHOP000017','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0600', 58, 'SHOP000014','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0601', 75, 'SHOP000021','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0602', 72, 'SHOP000023','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0603', 46, 'SHOP000024','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0604', 74, 'SHOP000008','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0605', 61, 'SHOP000020','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0606', 66, 'SHOP000009','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0607', 53, 'SHOP000004','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0608', 41, 'SHOP000011','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0609', 40, 'SHOP000025','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0610', 50, 'SHOP000017','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0611', 58, 'SHOP000011','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0612', 37, 'SHOP000020','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0613', 47, 'SHOP000012','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0614', 36, 'SHOP000005','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0615', 56, 'SHOP000007','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0616', 70, 'SHOP000004','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0617', 50, 'SHOP000011','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0618', 26, 'SHOP000024','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0619', 39, 'SHOP000012','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0620', 34, 'SHOP000024','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0621', 56, 'SHOP000022','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0622', 54, 'SHOP000010','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0623', 32, 'SHOP000025','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0624', 37, 'SHOP000013','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0625', 55, 'SHOP000016','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0626', 35, 'SHOP000011','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0627', 29, 'SHOP000013','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0628', 52, 'SHOP000023','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0629', 64, 'SHOP000018','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0630', 40, 'SHOP000006','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0631', 29, 'SHOP000011','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0632', 58, 'SHOP000008','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0633', 36, 'SHOP000009','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0634', 66, 'SHOP000025','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0635', 46, 'SHOP000018','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0636', 57, 'SHOP000012','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0637', 41, 'SHOP000014','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0638', 35, 'SHOP000006','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0639', 59, 'SHOP000022','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0640', 34, 'SHOP000004','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0641', 53, 'SHOP000017','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0642', 60, 'SHOP000003','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0643', 68, 'SHOP000018','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0644', 39, 'SHOP000019','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0645', 35, 'SHOP000004','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0646', 69, 'SHOP000004','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0647', 70, 'SHOP000014','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0648', 61, 'SHOP000020','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0649', 44, 'SHOP000009','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0650', 46, 'SHOP000020','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0651', 45, 'SHOP000010','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0652', 29, 'SHOP000013','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0653', 75, 'SHOP000006','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0654', 34, 'SHOP000019','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0655', 53, 'SHOP000004','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0656', 49, 'SHOP000005','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0657', 69, 'SHOP000001','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0658', 46, 'SHOP000025','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0659', 32, 'SHOP000022','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0660', 59, 'SHOP000014','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0661', 67, 'SHOP000022','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0662', 52, 'SHOP000022','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0663', 66, 'SHOP000005','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0664', 72, 'SHOP000004','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0665', 26, 'SHOP000021','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0666', 65, 'SHOP000020','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0667', 27, 'SHOP000008','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0668', 72, 'SHOP000007','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0669', 50, 'SHOP000013','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0670', 44, 'SHOP000001','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0671', 55, 'SHOP000009','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0672', 54, 'SHOP000021','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0673', 39, 'SHOP000012','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0674', 36, 'SHOP000013','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0675', 60, 'SHOP000021','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0676', 63, 'SHOP000022','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0677', 32, 'SHOP000023','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0678', 37, 'SHOP000016','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0679', 53, 'SHOP000011','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0680', 32, 'SHOP000002','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0681', 54, 'SHOP000012','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0682', 31, 'SHOP000003','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0683', 68, 'SHOP000025','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0684', 25, 'SHOP000005','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0685', 65, 'SHOP000006','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0686', 39, 'SHOP000008','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0687', 49, 'SHOP000020','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0688', 51, 'SHOP000013','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0689', 65, 'SHOP000025','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0690', 65, 'SHOP000010','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0691', 49, 'SHOP000016','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0692', 36, 'SHOP000014','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0693', 64, 'SHOP000024','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0694', 25, 'SHOP000002','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0695', 29, 'SHOP000021','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0696', 33, 'SHOP000006','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0697', 36, 'SHOP000007','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0698', 43, 'SHOP000005','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0699', 63, 'SHOP000005','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0700', 44, 'SHOP000015','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0701', 61, 'SHOP000012','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0702', 41, 'SHOP000009','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0703', 60, 'SHOP000025','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0704', 72, 'SHOP000005','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0705', 42, 'SHOP000015','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0706', 52, 'SHOP000017','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0707', 33, 'SHOP000022','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0708', 37, 'SHOP000020','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0709', 49, 'SHOP000025','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0710', 37, 'SHOP000023','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0711', 63, 'SHOP000005','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0712', 68, 'SHOP000009','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0713', 58, 'SHOP000012','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0714', 51, 'SHOP000002','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0715', 58, 'SHOP000010','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0716', 51, 'SHOP000024','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0717', 59, 'SHOP000024','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0718', 67, 'SHOP000002','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0719', 34, 'SHOP000011','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0720', 71, 'SHOP000020','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0721', 29, 'SHOP000005','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0722', 60, 'SHOP000021','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0723', 35, 'SHOP000015','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0724', 28, 'SHOP000021','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0725', 36, 'SHOP000018','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0726', 34, 'SHOP000009','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0727', 51, 'SHOP000019','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0728', 37, 'SHOP000018','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0729', 66, 'SHOP000009','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0730', 74, 'SHOP000012','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0731', 51, 'SHOP000001','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0732', 51, 'SHOP000009','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0733', 33, 'SHOP000021','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0734', 33, 'SHOP000018','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0735', 28, 'SHOP000022','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0736', 55, 'SHOP000003','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0737', 56, 'SHOP000021','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0738', 31, 'SHOP000018','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0739', 51, 'SHOP000022','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0740', 26, 'SHOP000015','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0741', 44, 'SHOP000011','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0742', 53, 'SHOP000003','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0743', 49, 'SHOP000004','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0744', 39, 'SHOP000012','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0745', 57, 'SHOP000017','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0746', 64, 'SHOP000016','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0747', 35, 'SHOP000005','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0748', 56, 'SHOP000017','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0749', 42, 'SHOP000009','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0750', 67, 'SHOP000015','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0751', 32, 'SHOP000019','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0752', 62, 'SHOP000001','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0753', 29, 'SHOP000010','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0754', 39, 'SHOP000008','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0755', 57, 'SHOP000010','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0756', 27, 'SHOP000013','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0757', 37, 'SHOP000001','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0758', 71, 'SHOP000018','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0759', 27, 'SHOP000019','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0760', 44, 'SHOP000024','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0761', 65, 'SHOP000005','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0762', 66, 'SHOP000022','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0763', 48, 'SHOP000020','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0764', 73, 'SHOP000009','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0765', 60, 'SHOP000024','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0766', 70, 'SHOP000003','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0767', 63, 'SHOP000016','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0768', 65, 'SHOP000014','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0769', 66, 'SHOP000018','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0770', 60, 'SHOP000011','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0771', 75, 'SHOP000009','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0772', 68, 'SHOP000011','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0773', 72, 'SHOP000019','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0774', 43, 'SHOP000005','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0775', 53, 'SHOP000006','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0776', 33, 'SHOP000016','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0777', 72, 'SHOP000006','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0778', 33, 'SHOP000025','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0779', 41, 'SHOP000006','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0780', 47, 'SHOP000012','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0781', 29, 'SHOP000014','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0782', 71, 'SHOP000016','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0783', 54, 'SHOP000005','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0784', 67, 'SHOP000016','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0785', 52, 'SHOP000009','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0786', 73, 'SHOP000012','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0787', 75, 'SHOP000004','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0788', 45, 'SHOP000022','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0789', 46, 'SHOP000023','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0790', 61, 'SHOP000010','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0791', 56, 'SHOP000006','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0792', 39, 'SHOP000002','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0793', 49, 'SHOP000003','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0794', 70, 'SHOP000012','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0795', 62, 'SHOP000001','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0796', 43, 'SHOP000016','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0797', 47, 'SHOP000003','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0798', 70, 'SHOP000004','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0799', 30, 'SHOP000012','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0800', 56, 'SHOP000012','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0801', 69, 'SHOP000018','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0802', 35, 'SHOP000018','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0803', 47, 'SHOP000018','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0804', 50, 'SHOP000020','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0805', 62, 'SHOP000011','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0806', 39, 'SHOP000011','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0807', 40, 'SHOP000012','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0808', 67, 'SHOP000009','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0809', 32, 'SHOP000019','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0810', 43, 'SHOP000025','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0811', 54, 'SHOP000024','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0812', 62, 'SHOP000023','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0813', 35, 'SHOP000017','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0814', 49, 'SHOP000001','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0815', 62, 'SHOP000013','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0816', 36, 'SHOP000024','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0817', 34, 'SHOP000004','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0818', 31, 'SHOP000001','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0819', 26, 'SHOP000025','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0820', 75, 'SHOP000009','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0821', 61, 'SHOP000011','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0822', 49, 'SHOP000024','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0823', 57, 'SHOP000008','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0824', 66, 'SHOP000004','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0825', 65, 'SHOP000019','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0826', 40, 'SHOP000015','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0827', 74, 'SHOP000009','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0828', 56, 'SHOP000022','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0829', 66, 'SHOP000018','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0830', 62, 'SHOP000004','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0831', 41, 'SHOP000010','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0832', 27, 'SHOP000012','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0833', 43, 'SHOP000017','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0834', 34, 'SHOP000003','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0835', 55, 'SHOP000009','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0836', 66, 'SHOP000011','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0837', 56, 'SHOP000014','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0838', 26, 'SHOP000013','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0839', 75, 'SHOP000023','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0840', 62, 'SHOP000002','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0841', 61, 'SHOP000006','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0842', 72, 'SHOP000005','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0843', 57, 'SHOP000006','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0844', 64, 'SHOP000014','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0845', 34, 'SHOP000010','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0846', 54, 'SHOP000022','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0847', 69, 'SHOP000019','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0848', 40, 'SHOP000004','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0849', 41, 'SHOP000002','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0850', 54, 'SHOP000004','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0851', 26, 'SHOP000019','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0852', 66, 'SHOP000003','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0853', 56, 'SHOP000017','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0854', 55, 'SHOP000012','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0855', 51, 'SHOP000009','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0856', 43, 'SHOP000022','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0857', 71, 'SHOP000010','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0858', 64, 'SHOP000011','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0859', 72, 'SHOP000015','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0860', 49, 'SHOP000011','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0861', 66, 'SHOP000019','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0862', 27, 'SHOP000024','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0863', 36, 'SHOP000006','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0864', 44, 'SHOP000009','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0865', 65, 'SHOP000008','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0866', 53, 'SHOP000020','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0867', 43, 'SHOP000012','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0868', 43, 'SHOP000025','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0869', 29, 'SHOP000011','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0870', 29, 'SHOP000022','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0871', 31, 'SHOP000017','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0872', 52, 'SHOP000009','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0873', 70, 'SHOP000015','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0874', 69, 'SHOP000016','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0875', 53, 'SHOP000002','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0876', 51, 'SHOP000016','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0877', 64, 'SHOP000019','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0878', 65, 'SHOP000005','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0879', 41, 'SHOP000022','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0880', 54, 'SHOP000008','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0881', 59, 'SHOP000016','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0882', 49, 'SHOP000007','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0883', 70, 'SHOP000015','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0884', 74, 'SHOP000021','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0885', 35, 'SHOP000014','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0886', 56, 'SHOP000005','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0887', 52, 'SHOP000001','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0888', 37, 'SHOP000024','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0889', 40, 'SHOP000001','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0890', 55, 'SHOP000014','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0891', 58, 'SHOP000006','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0892', 60, 'SHOP000003','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0893', 33, 'SHOP000020','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0894', 68, 'SHOP000013','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0895', 51, 'SHOP000005','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0896', 56, 'SHOP000025','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0897', 53, 'SHOP000019','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0898', 53, 'SHOP000016','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0899', 42, 'SHOP000021','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0900', 33, 'SHOP000021','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0901', 60, 'SHOP000022','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0902', 45, 'SHOP000002','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0903', 71, 'SHOP000018','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0904', 67, 'SHOP000019','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0905', 62, 'SHOP000017','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0906', 41, 'SHOP000004','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0907', 26, 'SHOP000013','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0908', 55, 'SHOP000012','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0909', 56, 'SHOP000013','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0910', 58, 'SHOP000004','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0911', 40, 'SHOP000024','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0912', 35, 'SHOP000015','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0913', 59, 'SHOP000020','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0914', 36, 'SHOP000025','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0915', 68, 'SHOP000013','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0916', 45, 'SHOP000021','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0917', 26, 'SHOP000025','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0918', 70, 'SHOP000008','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0919', 72, 'SHOP000014','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0920', 38, 'SHOP000022','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0921', 57, 'SHOP000025','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0922', 75, 'SHOP000015','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0923', 45, 'SHOP000007','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0924', 67, 'SHOP000020','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0925', 26, 'SHOP000015','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0926', 50, 'SHOP000002','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0927', 75, 'SHOP000015','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0928', 45, 'SHOP000002','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0929', 31, 'SHOP000023','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0930', 72, 'SHOP000012','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0931', 72, 'SHOP000014','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0932', 42, 'SHOP000023','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0933', 61, 'SHOP000014','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0934', 67, 'SHOP000011','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0935', 25, 'SHOP000023','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0936', 56, 'SHOP000018','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0937', 63, 'SHOP000014','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0938', 69, 'SHOP000004','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0939', 62, 'SHOP000013','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0940', 57, 'SHOP000009','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0941', 54, 'SHOP000017','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0942', 35, 'SHOP000018','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0943', 48, 'SHOP000004','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0944', 44, 'SHOP000012','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0945', 70, 'SHOP000003','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0946', 70, 'SHOP000019','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0947', 40, 'SHOP000014','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0948', 61, 'SHOP000006','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0949', 49, 'SHOP000012','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0950', 67, 'SHOP000016','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0951', 56, 'SHOP000002','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0952', 74, 'SHOP000003','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0953', 27, 'SHOP000005','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0954', 51, 'SHOP000021','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0955', 55, 'SHOP000013','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0956', 50, 'SHOP000011','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0957', 74, 'SHOP000003','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0958', 37, 'SHOP000007','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0959', 50, 'SHOP000019','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0960', 40, 'SHOP000003','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0961', 45, 'SHOP000018','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0962', 62, 'SHOP000007','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0963', 71, 'SHOP000019','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0964', 46, 'SHOP000021','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0965', 29, 'SHOP000019','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0966', 75, 'SHOP000009','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0967', 47, 'SHOP000017','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0968', 39, 'SHOP000023','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0969', 66, 'SHOP000021','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0970', 43, 'SHOP000023','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0971', 70, 'SHOP000007','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0972', 35, 'SHOP000024','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0973', 70, 'SHOP000018','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0974', 68, 'SHOP000006','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0975', 71, 'SHOP000011','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0976', 45, 'SHOP000017','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0977', 34, 'SHOP000016','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0978', 69, 'SHOP000022','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0979', 71, 'SHOP000002','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0980', 75, 'SHOP000001','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0981', 46, 'SHOP000006','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0982', 60, 'SHOP000013','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0983', 43, 'SHOP000021','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0984', 40, 'SHOP000015','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0985', 33, 'SHOP000001','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0986', 49, 'SHOP000018','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0987', 31, 'SHOP000014','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0988', 63, 'SHOP000009','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0989', 56, 'SHOP000002','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0990', 52, 'SHOP000001','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0991', 26, 'SHOP000015','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0992', 44, 'SHOP000008','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0993', 67, 'SHOP000018','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0994', 64, 'SHOP000023','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0995', 74, 'SHOP000021','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0996', 46, 'SHOP000001','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0997', 49, 'SHOP000008','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0998', 26, 'SHOP000017','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT0999', 61, 'SHOP000012','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1000', 57, 'SHOP000015','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1001', 35, 'SHOP000006','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1002', 26, 'SHOP000018','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1003', 51, 'SHOP000020','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1004', 63, 'SHOP000002','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1005', 38, 'SHOP000006','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1006', 47, 'SHOP000022','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1007', 25, 'SHOP000012','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1008', 50, 'SHOP000025','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1009', 44, 'SHOP000001','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1010', 30, 'SHOP000001','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1011', 69, 'SHOP000017','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1012', 36, 'SHOP000013','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1013', 48, 'SHOP000003','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1014', 46, 'SHOP000017','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1015', 45, 'SHOP000013','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1016', 50, 'SHOP000010','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1017', 25, 'SHOP000022','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1018', 72, 'SHOP000014','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1019', 33, 'SHOP000015','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1020', 32, 'SHOP000006','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1021', 59, 'SHOP000006','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1022', 32, 'SHOP000002','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1023', 37, 'SHOP000024','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1024', 56, 'SHOP000011','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1025', 62, 'SHOP000018','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1026', 39, 'SHOP000015','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1027', 39, 'SHOP000022','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1028', 69, 'SHOP000015','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1029', 75, 'SHOP000009','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1030', 63, 'SHOP000003','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1031', 44, 'SHOP000025','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1032', 51, 'SHOP000010','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1033', 40, 'SHOP000001','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1034', 66, 'SHOP000013','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1035', 52, 'SHOP000021','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1036', 28, 'SHOP000024','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1037', 29, 'SHOP000001','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1038', 39, 'SHOP000015','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1039', 75, 'SHOP000021','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1040', 49, 'SHOP000016','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1041', 44, 'SHOP000023','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1042', 59, 'SHOP000018','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1043', 45, 'SHOP000015','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1044', 54, 'SHOP000008','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1045', 60, 'SHOP000020','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1046', 42, 'SHOP000017','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1047', 54, 'SHOP000010','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1048', 40, 'SHOP000011','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1049', 71, 'SHOP000019','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1050', 43, 'SHOP000004','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1051', 55, 'SHOP000012','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1052', 38, 'SHOP000016','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1053', 74, 'SHOP000022','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1054', 60, 'SHOP000007','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1055', 45, 'SHOP000018','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1056', 58, 'SHOP000011','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1057', 34, 'SHOP000006','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1058', 31, 'SHOP000015','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1059', 46, 'SHOP000019','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1060', 66, 'SHOP000004','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1061', 70, 'SHOP000004','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1062', 39, 'SHOP000009','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1063', 54, 'SHOP000005','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1064', 39, 'SHOP000021','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1065', 47, 'SHOP000009','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1066', 31, 'SHOP000017','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1067', 54, 'SHOP000010','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1068', 37, 'SHOP000009','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1069', 66, 'SHOP000016','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1070', 44, 'SHOP000016','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1071', 46, 'SHOP000022','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1072', 38, 'SHOP000020','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1073', 42, 'SHOP000009','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1074', 62, 'SHOP000018','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1075', 51, 'SHOP000014','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1076', 60, 'SHOP000014','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1077', 43, 'SHOP000025','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1078', 41, 'SHOP000003','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1079', 56, 'SHOP000018','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1080', 29, 'SHOP000025','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1081', 71, 'SHOP000011','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1082', 66, 'SHOP000014','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1083', 29, 'SHOP000020','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1084', 69, 'SHOP000023','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1085', 75, 'SHOP000012','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1086', 47, 'SHOP000021','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1087', 49, 'SHOP000016','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1088', 51, 'SHOP000015','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1089', 40, 'SHOP000002','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1090', 52, 'SHOP000015','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1091', 50, 'SHOP000018','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1092', 60, 'SHOP000018','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1093', 45, 'SHOP000018','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1094', 51, 'SHOP000019','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1095', 61, 'SHOP000023','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1096', 58, 'SHOP000008','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1097', 46, 'SHOP000014','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1098', 45, 'SHOP000017','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1099', 70, 'SHOP000010','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1100', 48, 'SHOP000011','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1101', 50, 'SHOP000017','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1102', 40, 'SHOP000002','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1103', 57, 'SHOP000021','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1104', 66, 'SHOP000009','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1105', 54, 'SHOP000021','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1106', 61, 'SHOP000007','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1107', 26, 'SHOP000008','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1108', 40, 'SHOP000010','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1109', 45, 'SHOP000019','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1110', 60, 'SHOP000022','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1111', 68, 'SHOP000001','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1112', 44, 'SHOP000014','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1113', 60, 'SHOP000021','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1114', 31, 'SHOP000009','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1115', 51, 'SHOP000023','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1116', 59, 'SHOP000025','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1117', 59, 'SHOP000016','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1118', 75, 'SHOP000019','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1119', 31, 'SHOP000023','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1120', 37, 'SHOP000002','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1121', 63, 'SHOP000023','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1122', 37, 'SHOP000014','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1123', 55, 'SHOP000010','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1124', 41, 'SHOP000008','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1125', 57, 'SHOP000010','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1126', 40, 'SHOP000009','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1127', 33, 'SHOP000024','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1128', 35, 'SHOP000002','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1129', 69, 'SHOP000023','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1130', 28, 'SHOP000016','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1131', 40, 'SHOP000025','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1132', 37, 'SHOP000002','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1133', 30, 'SHOP000012','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1134', 63, 'SHOP000022','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1135', 43, 'SHOP000008','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1136', 61, 'SHOP000004','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1137', 70, 'SHOP000016','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1138', 48, 'SHOP000024','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1139', 61, 'SHOP000012','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1140', 25, 'SHOP000007','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1141', 32, 'SHOP000015','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1142', 54, 'SHOP000011','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1143', 60, 'SHOP000009','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1144', 75, 'SHOP000018','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1145', 27, 'SHOP000018','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1146', 30, 'SHOP000019','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1147', 71, 'SHOP000003','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1148', 66, 'SHOP000009','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1149', 67, 'SHOP000009','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1150', 32, 'SHOP000007','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1151', 38, 'SHOP000025','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1152', 61, 'SHOP000011','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1153', 32, 'SHOP000002','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1154', 36, 'SHOP000019','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1155', 42, 'SHOP000010','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1156', 63, 'SHOP000012','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1157', 63, 'SHOP000004','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1158', 69, 'SHOP000011','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1159', 68, 'SHOP000004','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1160', 42, 'SHOP000007','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1161', 35, 'SHOP000003','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1162', 36, 'SHOP000021','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1163', 28, 'SHOP000023','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1164', 39, 'SHOP000020','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1165', 72, 'SHOP000024','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1166', 68, 'SHOP000018','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1167', 40, 'SHOP000001','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1168', 60, 'SHOP000007','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1169', 42, 'SHOP000007','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1170', 48, 'SHOP000025','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1171', 36, 'SHOP000014','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1172', 49, 'SHOP000017','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1173', 33, 'SHOP000021','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1174', 40, 'SHOP000004','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1175', 51, 'SHOP000016','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1176', 63, 'SHOP000020','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1177', 70, 'SHOP000005','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1178', 67, 'SHOP000017','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1179', 46, 'SHOP000004','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1180', 50, 'SHOP000024','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1181', 49, 'SHOP000015','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1182', 67, 'SHOP000016','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1183', 60, 'SHOP000010','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1184', 74, 'SHOP000024','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1185', 51, 'SHOP000023','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1186', 31, 'SHOP000003','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1187', 62, 'SHOP000008','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1188', 29, 'SHOP000001','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1189', 63, 'SHOP000021','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1190', 38, 'SHOP000010','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1191', 58, 'SHOP000010','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1192', 31, 'SHOP000006','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1193', 65, 'SHOP000021','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1194', 49, 'SHOP000003','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1195', 66, 'SHOP000006','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1196', 37, 'SHOP000007','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1197', 57, 'SHOP000013','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1198', 43, 'SHOP000007','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1199', 71, 'SHOP000001','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1200', 54, 'SHOP000015','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1201', 44, 'SHOP000021','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1202', 29, 'SHOP000001','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1203', 35, 'SHOP000009','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1204', 54, 'SHOP000020','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1205', 68, 'SHOP000002','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1206', 32, 'SHOP000007','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1207', 34, 'SHOP000021','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1208', 27, 'SHOP000002','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1209', 74, 'SHOP000011','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1210', 74, 'SHOP000021','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1211', 37, 'SHOP000025','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1212', 62, 'SHOP000012','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1213', 64, 'SHOP000012','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1214', 55, 'SHOP000010','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1215', 33, 'SHOP000013','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1216', 56, 'SHOP000025','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1217', 71, 'SHOP000005','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1218', 65, 'SHOP000018','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1219', 45, 'SHOP000021','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1220', 42, 'SHOP000018','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1221', 26, 'SHOP000022','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1222', 75, 'SHOP000003','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1223', 40, 'SHOP000007','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1224', 34, 'SHOP000002','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1225', 38, 'SHOP000022','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1226', 42, 'SHOP000020','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1227', 27, 'SHOP000011','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1228', 35, 'SHOP000007','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1229', 71, 'SHOP000008','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1230', 29, 'SHOP000006','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1231', 28, 'SHOP000006','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1232', 29, 'SHOP000023','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1233', 58, 'SHOP000012','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1234', 70, 'SHOP000013','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1235', 25, 'SHOP000015','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1236', 63, 'SHOP000024','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1237', 67, 'SHOP000020','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1238', 47, 'SHOP000010','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1239', 72, 'SHOP000021','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1240', 43, 'SHOP000002','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1241', 68, 'SHOP000025','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1242', 64, 'SHOP000016','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1243', 64, 'SHOP000014','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1244', 36, 'SHOP000002','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1245', 73, 'SHOP000015','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1246', 75, 'SHOP000001','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1247', 55, 'SHOP000025','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1248', 29, 'SHOP000002','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1249', 52, 'SHOP000009','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1250', 55, 'SHOP000004','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1251', 57, 'SHOP000011','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1252', 45, 'SHOP000021','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1253', 68, 'SHOP000020','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1254', 60, 'SHOP000016','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1255', 48, 'SHOP000007','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1256', 51, 'SHOP000008','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1257', 75, 'SHOP000013','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1258', 52, 'SHOP000025','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1259', 27, 'SHOP000005','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1260', 50, 'SHOP000010','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1261', 54, 'SHOP000002','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1262', 40, 'SHOP000009','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1263', 35, 'SHOP000018','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1264', 69, 'SHOP000018','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1265', 71, 'SHOP000001','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1266', 64, 'SHOP000006','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1267', 53, 'SHOP000022','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1268', 51, 'SHOP000018','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1269', 40, 'SHOP000007','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1270', 75, 'SHOP000009','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1271', 74, 'SHOP000007','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1272', 48, 'SHOP000023','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1273', 36, 'SHOP000010','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1274', 52, 'SHOP000010','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1275', 45, 'SHOP000006','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1276', 66, 'SHOP000021','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1277', 44, 'SHOP000003','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1278', 41, 'SHOP000024','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1279', 62, 'SHOP000018','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1280', 60, 'SHOP000001','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1281', 48, 'SHOP000006','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1282', 74, 'SHOP000004','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1283', 65, 'SHOP000003','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1284', 52, 'SHOP000017','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1285', 33, 'SHOP000023','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1286', 66, 'SHOP000023','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1287', 52, 'SHOP000006','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1288', 63, 'SHOP000021','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1289', 59, 'SHOP000023','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1290', 71, 'SHOP000015','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1291', 71, 'SHOP000019','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1292', 47, 'SHOP000020','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1293', 68, 'SHOP000017','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1294', 51, 'SHOP000005','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1295', 28, 'SHOP000008','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1296', 34, 'SHOP000008','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1297', 51, 'SHOP000020','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1298', 39, 'SHOP000016','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1299', 46, 'SHOP000001','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1300', 65, 'SHOP000025','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1301', 34, 'SHOP000022','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1302', 54, 'SHOP000012','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1303', 65, 'SHOP000008','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1304', 57, 'SHOP000008','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1305', 34, 'SHOP000011','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1306', 71, 'SHOP000022','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1307', 75, 'SHOP000017','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1308', 30, 'SHOP000003','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1309', 62, 'SHOP000005','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1310', 53, 'SHOP000019','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1311', 51, 'SHOP000024','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1312', 70, 'SHOP000014','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1313', 30, 'SHOP000011','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1314', 27, 'SHOP000023','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1315', 66, 'SHOP000021','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1316', 60, 'SHOP000023','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1317', 37, 'SHOP000001','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1318', 58, 'SHOP000017','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1319', 48, 'SHOP000013','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1320', 70, 'SHOP000006','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1321', 31, 'SHOP000007','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1322', 61, 'SHOP000024','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1323', 48, 'SHOP000003','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1324', 55, 'SHOP000003','ITEM000059');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1325', 75, 'SHOP000010','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1326', 46, 'SHOP000008','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1327', 44, 'SHOP000012','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1328', 66, 'SHOP000025','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1329', 66, 'SHOP000004','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1330', 57, 'SHOP000018','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1331', 65, 'SHOP000018','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1332', 65, 'SHOP000024','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1333', 29, 'SHOP000012','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1334', 74, 'SHOP000001','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1335', 71, 'SHOP000013','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1336', 49, 'SHOP000014','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1337', 46, 'SHOP000010','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1338', 51, 'SHOP000019','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1339', 71, 'SHOP000011','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1340', 47, 'SHOP000025','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1341', 36, 'SHOP000008','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1342', 42, 'SHOP000002','ITEM000075');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1343', 60, 'SHOP000015','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1344', 43, 'SHOP000020','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1345', 44, 'SHOP000022','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1346', 71, 'SHOP000002','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1347', 31, 'SHOP000019','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1348', 58, 'SHOP000011','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1349', 29, 'SHOP000011','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1350', 47, 'SHOP000004','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1351', 41, 'SHOP000022','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1352', 40, 'SHOP000002','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1353', 30, 'SHOP000024','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1354', 44, 'SHOP000012','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1355', 70, 'SHOP000025','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1356', 36, 'SHOP000011','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1357', 63, 'SHOP000013','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1358', 41, 'SHOP000008','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1359', 58, 'SHOP000003','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1360', 34, 'SHOP000014','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1361', 36, 'SHOP000002','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1362', 55, 'SHOP000004','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1363', 42, 'SHOP000020','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1364', 43, 'SHOP000017','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1365', 25, 'SHOP000020','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1366', 43, 'SHOP000025','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1367', 70, 'SHOP000009','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1368', 51, 'SHOP000005','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1369', 70, 'SHOP000017','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1370', 64, 'SHOP000016','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1371', 71, 'SHOP000004','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1372', 35, 'SHOP000022','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1373', 56, 'SHOP000011','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1374', 36, 'SHOP000020','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1375', 35, 'SHOP000004','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1376', 62, 'SHOP000018','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1377', 36, 'SHOP000012','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1378', 45, 'SHOP000025','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1379', 28, 'SHOP000015','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1380', 74, 'SHOP000025','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1381', 30, 'SHOP000002','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1382', 52, 'SHOP000008','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1383', 71, 'SHOP000013','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1384', 67, 'SHOP000013','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1385', 61, 'SHOP000010','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1386', 38, 'SHOP000007','ITEM000048');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1387', 57, 'SHOP000019','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1388', 67, 'SHOP000025','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1389', 48, 'SHOP000005','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1390', 35, 'SHOP000018','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1391', 35, 'SHOP000019','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1392', 71, 'SHOP000025','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1393', 33, 'SHOP000018','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1394', 55, 'SHOP000010','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1395', 55, 'SHOP000015','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1396', 55, 'SHOP000003','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1397', 58, 'SHOP000017','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1398', 54, 'SHOP000016','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1399', 60, 'SHOP000006','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1400', 30, 'SHOP000007','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1401', 52, 'SHOP000017','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1402', 32, 'SHOP000021','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1403', 62, 'SHOP000024','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1404', 62, 'SHOP000002','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1405', 31, 'SHOP000021','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1406', 32, 'SHOP000024','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1407', 27, 'SHOP000009','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1408', 28, 'SHOP000019','ITEM000039');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1409', 27, 'SHOP000002','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1410', 27, 'SHOP000011','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1411', 41, 'SHOP000019','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1412', 49, 'SHOP000005','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1413', 58, 'SHOP000013','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1414', 70, 'SHOP000023','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1415', 52, 'SHOP000015','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1416', 28, 'SHOP000005','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1417', 66, 'SHOP000005','ITEM000056');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1418', 59, 'SHOP000010','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1419', 25, 'SHOP000008','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1420', 32, 'SHOP000018','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1421', 58, 'SHOP000013','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1422', 69, 'SHOP000008','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1423', 53, 'SHOP000008','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1424', 72, 'SHOP000022','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1425', 64, 'SHOP000021','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1426', 46, 'SHOP000012','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1427', 29, 'SHOP000025','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1428', 37, 'SHOP000017','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1429', 62, 'SHOP000003','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1430', 44, 'SHOP000015','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1431', 36, 'SHOP000005','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1432', 51, 'SHOP000016','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1433', 52, 'SHOP000025','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1434', 74, 'SHOP000005','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1435', 29, 'SHOP000002','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1436', 65, 'SHOP000005','ITEM000001');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1437', 71, 'SHOP000001','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1438', 33, 'SHOP000017','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1439', 40, 'SHOP000024','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1440', 42, 'SHOP000015','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1441', 45, 'SHOP000024','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1442', 47, 'SHOP000017','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1443', 59, 'SHOP000017','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1444', 47, 'SHOP000014','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1445', 56, 'SHOP000006','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1446', 38, 'SHOP000024','ITEM000045');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1447', 56, 'SHOP000017','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1448', 67, 'SHOP000012','ITEM000063');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1449', 63, 'SHOP000019','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1450', 46, 'SHOP000019','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1451', 33, 'SHOP000002','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1452', 29, 'SHOP000006','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1453', 71, 'SHOP000021','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1454', 65, 'SHOP000012','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1455', 37, 'SHOP000014','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1456', 62, 'SHOP000012','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1457', 65, 'SHOP000015','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1458', 37, 'SHOP000004','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1459', 33, 'SHOP000013','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1460', 39, 'SHOP000008','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1461', 70, 'SHOP000006','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1462', 28, 'SHOP000010','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1463', 30, 'SHOP000020','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1464', 69, 'SHOP000019','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1465', 43, 'SHOP000003','ITEM000038');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1466', 68, 'SHOP000015','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1467', 45, 'SHOP000016','ITEM000044');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1468', 70, 'SHOP000011','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1469', 31, 'SHOP000023','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1470', 39, 'SHOP000010','ITEM000072');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1471', 65, 'SHOP000003','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1472', 29, 'SHOP000018','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1473', 66, 'SHOP000013','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1474', 26, 'SHOP000008','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1475', 66, 'SHOP000006','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1476', 46, 'SHOP000009','ITEM000062');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1477', 33, 'SHOP000007','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1478', 65, 'SHOP000020','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1479', 70, 'SHOP000018','ITEM000066');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1480', 48, 'SHOP000014','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1481', 70, 'SHOP000003','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1482', 45, 'SHOP000021','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1483', 62, 'SHOP000025','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1484', 27, 'SHOP000019','ITEM000049');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1485', 34, 'SHOP000005','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1486', 61, 'SHOP000019','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1487', 53, 'SHOP000007','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1488', 61, 'SHOP000017','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1489', 74, 'SHOP000011','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1490', 62, 'SHOP000002','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1491', 46, 'SHOP000013','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1492', 33, 'SHOP000023','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1493', 54, 'SHOP000023','ITEM000042');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1494', 44, 'SHOP000014','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1495', 41, 'SHOP000001','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1496', 29, 'SHOP000007','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1497', 41, 'SHOP000021','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1498', 43, 'SHOP000017','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1499', 28, 'SHOP000001','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1500', 31, 'SHOP000010','ITEM000043');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1501', 71, 'SHOP000011','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1502', 67, 'SHOP000003','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1503', 61, 'SHOP000003','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1504', 59, 'SHOP000013','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1505', 29, 'SHOP000007','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1506', 73, 'SHOP000018','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1507', 44, 'SHOP000024','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1508', 60, 'SHOP000017','ITEM000057');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1509', 74, 'SHOP000014','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1510', 68, 'SHOP000005','ITEM000053');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1511', 54, 'SHOP000011','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1512', 36, 'SHOP000005','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1513', 53, 'SHOP000015','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1514', 56, 'SHOP000013','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1515', 38, 'SHOP000005','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1516', 62, 'SHOP000012','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1517', 57, 'SHOP000016','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1518', 44, 'SHOP000002','ITEM000030');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1519', 68, 'SHOP000023','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1520', 47, 'SHOP000016','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1521', 46, 'SHOP000007','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1522', 61, 'SHOP000024','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1523', 59, 'SHOP000022','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1524', 27, 'SHOP000008','ITEM000069');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1525', 37, 'SHOP000003','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1526', 74, 'SHOP000019','ITEM000055');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1527', 72, 'SHOP000018','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1528', 38, 'SHOP000012','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1529', 58, 'SHOP000016','ITEM000051');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1530', 39, 'SHOP000008','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1531', 65, 'SHOP000002','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1532', 32, 'SHOP000012','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1533', 43, 'SHOP000001','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1534', 70, 'SHOP000023','ITEM000037');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1535', 27, 'SHOP000008','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1536', 52, 'SHOP000018','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1537', 60, 'SHOP000016','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1538', 68, 'SHOP000006','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1539', 28, 'SHOP000002','ITEM000005');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1540', 49, 'SHOP000013','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1541', 48, 'SHOP000021','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1542', 29, 'SHOP000002','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1543', 64, 'SHOP000008','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1544', 54, 'SHOP000001','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1545', 53, 'SHOP000002','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1546', 28, 'SHOP000009','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1547', 58, 'SHOP000006','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1548', 52, 'SHOP000015','ITEM000041');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1549', 34, 'SHOP000003','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1550', 25, 'SHOP000002','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1551', 31, 'SHOP000008','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1552', 50, 'SHOP000010','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1553', 25, 'SHOP000008','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1554', 30, 'SHOP000014','ITEM000040');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1555', 52, 'SHOP000010','ITEM000020');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1556', 44, 'SHOP000019','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1557', 44, 'SHOP000024','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1558', 50, 'SHOP000019','ITEM000047');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1559', 70, 'SHOP000024','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1560', 32, 'SHOP000023','ITEM000008');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1561', 56, 'SHOP000009','ITEM000023');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1562', 29, 'SHOP000023','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1563', 38, 'SHOP000009','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1564', 47, 'SHOP000022','ITEM000011');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1565', 74, 'SHOP000023','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1566', 39, 'SHOP000018','ITEM000026');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1567', 45, 'SHOP000008','ITEM000016');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1568', 71, 'SHOP000014','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1569', 58, 'SHOP000010','ITEM000024');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1570', 30, 'SHOP000015','ITEM000022');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1571', 68, 'SHOP000023','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1572', 44, 'SHOP000024','ITEM000070');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1573', 58, 'SHOP000014','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1574', 45, 'SHOP000013','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1575', 32, 'SHOP000007','ITEM000021');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1576', 69, 'SHOP000019','ITEM000050');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1577', 61, 'SHOP000013','ITEM000036');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1578', 50, 'SHOP000019','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1579', 50, 'SHOP000004','ITEM000025');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1580', 64, 'SHOP000023','ITEM000033');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1581', 55, 'SHOP000024','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1582', 42, 'SHOP000011','ITEM000027');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1583', 47, 'SHOP000001','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1584', 32, 'SHOP000013','ITEM000029');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1585', 70, 'SHOP000013','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1586', 75, 'SHOP000018','ITEM000054');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1587', 27, 'SHOP000024','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1588', 30, 'SHOP000013','ITEM000002');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1589', 26, 'SHOP000008','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1590', 32, 'SHOP000009','ITEM000014');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1591', 26, 'SHOP000019','ITEM000013');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1592', 67, 'SHOP000014','ITEM000015');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1593', 61, 'SHOP000011','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1594', 72, 'SHOP000019','ITEM000052');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1595', 50, 'SHOP000010','ITEM000064');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1596', 31, 'SHOP000008','ITEM000019');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1597', 47, 'SHOP000019','ITEM000046');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1598', 62, 'SHOP000014','ITEM000018');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1599', 39, 'SHOP000022','ITEM000003');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1600', 55, 'SHOP000006','ITEM000004');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1601', 55, 'SHOP000007','ITEM000074');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1602', 43, 'SHOP000024','ITEM000007');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1603', 29, 'SHOP000006','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1604', 75, 'SHOP000007','ITEM000060');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1605', 43, 'SHOP000024','ITEM000035');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1606', 69, 'SHOP000017','ITEM000065');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1607', 73, 'SHOP000009','ITEM000006');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1608', 43, 'SHOP000007','ITEM000010');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1609', 45, 'SHOP000006','ITEM000028');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1610', 26, 'SHOP000010','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1611', 62, 'SHOP000022','ITEM000058');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1612', 32, 'SHOP000010','ITEM000061');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1613', 62, 'SHOP000010','ITEM000009');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1614', 53, 'SHOP000024','ITEM000071');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1615', 63, 'SHOP000008','ITEM000031');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1616', 72, 'SHOP000017','ITEM000067');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1617', 27, 'SHOP000006','ITEM000073');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1618', 57, 'SHOP000017','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1619', 74, 'SHOP000006','ITEM000068');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1620', 61, 'SHOP000013','ITEM000032');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1621', 55, 'SHOP000006','ITEM000034');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1622', 37, 'SHOP000024','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1623', 30, 'SHOP000022','ITEM000012');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1624', 64, 'SHOP000022','ITEM000017');
-INSERT INTO shop_item (shop_item_id, shop_item_stock, shop_shop_id, items_item_id) VALUES ('SHOPIT1625', 44, 'SHOP000017','ITEM000043');
+INSERT INTO shop_item VALUES('SHOPIT0001', 74, 'SHOP000010','ITEM000056'),
+('SHOPIT0002', 73, 'SHOP000022','ITEM000001'),
+('SHOPIT0003', 74, 'SHOP000002','ITEM000045'),
+('SHOPIT0004', 43, 'SHOP000020','ITEM000049'),
+('SHOPIT0005', 69, 'SHOP000019','ITEM000036'),
+('SHOPIT0006', 74, 'SHOP000002','ITEM000031'),
+('SHOPIT0007', 39, 'SHOP000007','ITEM000013'),
+('SHOPIT0008', 37, 'SHOP000011','ITEM000037'),
+('SHOPIT0009', 58, 'SHOP000015','ITEM000037'),
+('SHOPIT0010', 48, 'SHOP000001','ITEM000069'),
+('SHOPIT0011', 41, 'SHOP000001','ITEM000033'),
+('SHOPIT0012', 59, 'SHOP000006','ITEM000017'),
+('SHOPIT0013', 50, 'SHOP000014','ITEM000020'),
+('SHOPIT0014', 65, 'SHOP000011','ITEM000010'),
+('SHOPIT0015', 68, 'SHOP000020','ITEM000051'),
+('SHOPIT0016', 33, 'SHOP000005','ITEM000034'),
+('SHOPIT0017', 72, 'SHOP000024','ITEM000048'),
+('SHOPIT0018', 52, 'SHOP000023','ITEM000024'),
+('SHOPIT0019', 48, 'SHOP000007','ITEM000071'),
+('SHOPIT0020', 46, 'SHOP000020','ITEM000055'),
+('SHOPIT0021', 42, 'SHOP000001','ITEM000045'),
+('SHOPIT0022', 38, 'SHOP000019','ITEM000059'),
+('SHOPIT0023', 48, 'SHOP000014','ITEM000075'),
+('SHOPIT0024', 42, 'SHOP000020','ITEM000058'),
+('SHOPIT0025', 50, 'SHOP000002','ITEM000052'),
+('SHOPIT0026', 75, 'SHOP000005','ITEM000035'),
+('SHOPIT0027', 66, 'SHOP000017','ITEM000034'),
+('SHOPIT0028', 36, 'SHOP000014','ITEM000019'),
+('SHOPIT0029', 75, 'SHOP000010','ITEM000045'),
+('SHOPIT0030', 30, 'SHOP000002','ITEM000040'),
+('SHOPIT0031', 66, 'SHOP000005','ITEM000051'),
+('SHOPIT0032', 51, 'SHOP000007','ITEM000064'),
+('SHOPIT0033', 30, 'SHOP000021','ITEM000032'),
+('SHOPIT0034', 67, 'SHOP000021','ITEM000061'),
+('SHOPIT0035', 73, 'SHOP000004','ITEM000005'),
+('SHOPIT0036', 50, 'SHOP000020','ITEM000068'),
+('SHOPIT0037', 27, 'SHOP000012','ITEM000066'),
+('SHOPIT0038', 56, 'SHOP000006','ITEM000041'),
+('SHOPIT0039', 74, 'SHOP000008','ITEM000023'),
+('SHOPIT0040', 39, 'SHOP000010','ITEM000039'),
+('SHOPIT0041', 47, 'SHOP000024','ITEM000053'),
+('SHOPIT0042', 36, 'SHOP000010','ITEM000060'),
+('SHOPIT0043', 37, 'SHOP000008','ITEM000039'),
+('SHOPIT0044', 28, 'SHOP000007','ITEM000015'),
+('SHOPIT0045', 65, 'SHOP000012','ITEM000005'),
+('SHOPIT0046', 54, 'SHOP000014','ITEM000050'),
+('SHOPIT0047', 58, 'SHOP000025','ITEM000038'),
+('SHOPIT0048', 57, 'SHOP000003','ITEM000055'),
+('SHOPIT0049', 72, 'SHOP000014','ITEM000042'),
+('SHOPIT0050', 30, 'SHOP000001','ITEM000049'),
+('SHOPIT0051', 66, 'SHOP000020','ITEM000038'),
+('SHOPIT0052', 41, 'SHOP000016','ITEM000001'),
+('SHOPIT0053', 37, 'SHOP000010','ITEM000013'),
+('SHOPIT0054', 66, 'SHOP000021','ITEM000023'),
+('SHOPIT0055', 46, 'SHOP000025','ITEM000022'),
+('SHOPIT0056', 41, 'SHOP000017','ITEM000049'),
+('SHOPIT0057', 46, 'SHOP000009','ITEM000021'),
+('SHOPIT0058', 41, 'SHOP000014','ITEM000033'),
+('SHOPIT0059', 35, 'SHOP000022','ITEM000034'),
+('SHOPIT0060', 65, 'SHOP000008','ITEM000030'),
+('SHOPIT0061', 69, 'SHOP000014','ITEM000055'),
+('SHOPIT0062', 38, 'SHOP000015','ITEM000002'),
+('SHOPIT0063', 67, 'SHOP000012','ITEM000074'),
+('SHOPIT0064', 52, 'SHOP000005','ITEM000007'),
+('SHOPIT0065', 66, 'SHOP000011','ITEM000069'),
+('SHOPIT0066', 45, 'SHOP000023','ITEM000023'),
+('SHOPIT0067', 75, 'SHOP000001','ITEM000027'),
+('SHOPIT0068', 65, 'SHOP000020','ITEM000046'),
+('SHOPIT0069', 26, 'SHOP000018','ITEM000075'),
+('SHOPIT0070', 69, 'SHOP000020','ITEM000061'),
+('SHOPIT0071', 55, 'SHOP000019','ITEM000044'),
+('SHOPIT0072', 49, 'SHOP000008','ITEM000061'),
+('SHOPIT0073', 48, 'SHOP000003','ITEM000037'),
+('SHOPIT0074', 32, 'SHOP000014','ITEM000064'),
+('SHOPIT0075', 42, 'SHOP000025','ITEM000003'),
+('SHOPIT0076', 47, 'SHOP000014','ITEM000026'),
+('SHOPIT0077', 65, 'SHOP000006','ITEM000043'),
+('SHOPIT0078', 44, 'SHOP000023','ITEM000057'),
+('SHOPIT0079', 32, 'SHOP000014','ITEM000073'),
+('SHOPIT0080', 41, 'SHOP000015','ITEM000007'),
+('SHOPIT0081', 49, 'SHOP000007','ITEM000041'),
+('SHOPIT0082', 37, 'SHOP000005','ITEM000030'),
+('SHOPIT0083', 27, 'SHOP000025','ITEM000002'),
+('SHOPIT0084', 46, 'SHOP000021','ITEM000008'),
+('SHOPIT0085', 57, 'SHOP000018','ITEM000056'),
+('SHOPIT0086', 69, 'SHOP000004','ITEM000074'),
+('SHOPIT0087', 32, 'SHOP000025','ITEM000066'),
+('SHOPIT0088', 65, 'SHOP000008','ITEM000055'),
+('SHOPIT0089', 28, 'SHOP000013','ITEM000048'),
+('SHOPIT0090', 42, 'SHOP000004','ITEM000022'),
+('SHOPIT0091', 70, 'SHOP000021','ITEM000010'),
+('SHOPIT0092', 32, 'SHOP000020','ITEM000050'),
+('SHOPIT0093', 70, 'SHOP000005','ITEM000006'),
+('SHOPIT0094', 27, 'SHOP000020','ITEM000010'),
+('SHOPIT0095', 70, 'SHOP000017','ITEM000008'),
+('SHOPIT0096', 39, 'SHOP000013','ITEM000022'),
+('SHOPIT0097', 26, 'SHOP000019','ITEM000005'),
+('SHOPIT0098', 33, 'SHOP000008','ITEM000075'),
+('SHOPIT0099', 75, 'SHOP000015','ITEM000006'),
+('SHOPIT0100', 45, 'SHOP000022','ITEM000015'),
+('SHOPIT0101', 28, 'SHOP000022','ITEM000063'),
+('SHOPIT0102', 52, 'SHOP000003','ITEM000075'),
+('SHOPIT0103', 37, 'SHOP000001','ITEM000034'),
+('SHOPIT0104', 40, 'SHOP000004','ITEM000055'),
+('SHOPIT0105', 29, 'SHOP000023','ITEM000010'),
+('SHOPIT0106', 65, 'SHOP000005','ITEM000020'),
+('SHOPIT0107', 72, 'SHOP000020','ITEM000031'),
+('SHOPIT0108', 75, 'SHOP000017','ITEM000058'),
+('SHOPIT0109', 43, 'SHOP000006','ITEM000050'),
+('SHOPIT0110', 35, 'SHOP000018','ITEM000033'),
+('SHOPIT0111', 42, 'SHOP000021','ITEM000057'),
+('SHOPIT0112', 74, 'SHOP000018','ITEM000022'),
+('SHOPIT0113', 36, 'SHOP000002','ITEM000037'),
+('SHOPIT0114', 42, 'SHOP000005','ITEM000044'),
+('SHOPIT0115', 25, 'SHOP000003','ITEM000051'),
+('SHOPIT0116', 29, 'SHOP000006','ITEM000066'),
+('SHOPIT0117', 55, 'SHOP000003','ITEM000050'),
+('SHOPIT0118', 75, 'SHOP000021','ITEM000006'),
+('SHOPIT0119', 26, 'SHOP000016','ITEM000040'),
+('SHOPIT0120', 30, 'SHOP000022','ITEM000014'),
+('SHOPIT0121', 60, 'SHOP000001','ITEM000005'),
+('SHOPIT0122', 63, 'SHOP000016','ITEM000056'),
+('SHOPIT0123', 52, 'SHOP000025','ITEM000072'),
+('SHOPIT0124', 53, 'SHOP000007','ITEM000040'),
+('SHOPIT0125', 48, 'SHOP000012','ITEM000017'),
+('SHOPIT0126', 67, 'SHOP000015','ITEM000066'),
+('SHOPIT0127', 63, 'SHOP000015','ITEM000075'),
+('SHOPIT0128', 49, 'SHOP000015','ITEM000015'),
+('SHOPIT0129', 64, 'SHOP000006','ITEM000046'),
+('SHOPIT0130', 32, 'SHOP000008','ITEM000072'),
+('SHOPIT0131', 57, 'SHOP000021','ITEM000019'),
+('SHOPIT0132', 30, 'SHOP000002','ITEM000019'),
+('SHOPIT0133', 43, 'SHOP000013','ITEM000072'),
+('SHOPIT0134', 68, 'SHOP000020','ITEM000066'),
+('SHOPIT0135', 43, 'SHOP000020','ITEM000007'),
+('SHOPIT0136', 70, 'SHOP000024','ITEM000055'),
+('SHOPIT0137', 56, 'SHOP000008','ITEM000034'),
+('SHOPIT0138', 37, 'SHOP000003','ITEM000062'),
+('SHOPIT0139', 38, 'SHOP000016','ITEM000072'),
+('SHOPIT0140', 27, 'SHOP000005','ITEM000070'),
+('SHOPIT0141', 26, 'SHOP000003','ITEM000020'),
+('SHOPIT0142', 56, 'SHOP000014','ITEM000053'),
+('SHOPIT0143', 25, 'SHOP000019','ITEM000012'),
+('SHOPIT0144', 64, 'SHOP000021','ITEM000074'),
+('SHOPIT0145', 47, 'SHOP000004','ITEM000009'),
+('SHOPIT0146', 39, 'SHOP000001','ITEM000014'),
+('SHOPIT0147', 57, 'SHOP000012','ITEM000030'),
+('SHOPIT0148', 38, 'SHOP000020','ITEM000005'),
+('SHOPIT0149', 56, 'SHOP000020','ITEM000047'),
+('SHOPIT0150', 42, 'SHOP000003','ITEM000031'),
+('SHOPIT0151', 51, 'SHOP000008','ITEM000035'),
+('SHOPIT0152', 46, 'SHOP000024','ITEM000074'),
+('SHOPIT0153', 53, 'SHOP000020','ITEM000057'),
+('SHOPIT0154', 60, 'SHOP000020','ITEM000015'),
+('SHOPIT0155', 26, 'SHOP000007','ITEM000035'),
+('SHOPIT0156', 28, 'SHOP000024','ITEM000011'),
+('SHOPIT0157', 55, 'SHOP000018','ITEM000067'),
+('SHOPIT0158', 41, 'SHOP000020','ITEM000040'),
+('SHOPIT0159', 74, 'SHOP000009','ITEM000046'),
+('SHOPIT0160', 35, 'SHOP000018','ITEM000030'),
+('SHOPIT0161', 61, 'SHOP000025','ITEM000061'),
+('SHOPIT0162', 28, 'SHOP000004','ITEM000054'),
+('SHOPIT0163', 74, 'SHOP000015','ITEM000074'),
+('SHOPIT0164', 47, 'SHOP000004','ITEM000023'),
+('SHOPIT0165', 41, 'SHOP000013','ITEM000034'),
+('SHOPIT0166', 62, 'SHOP000011','ITEM000075'),
+('SHOPIT0167', 37, 'SHOP000006','ITEM000072'),
+('SHOPIT0168', 61, 'SHOP000002','ITEM000022'),
+('SHOPIT0169', 59, 'SHOP000019','ITEM000069'),
+('SHOPIT0170', 56, 'SHOP000014','ITEM000032'),
+('SHOPIT0171', 63, 'SHOP000020','ITEM000033'),
+('SHOPIT0172', 39, 'SHOP000017','ITEM000025'),
+('SHOPIT0173', 47, 'SHOP000005','ITEM000029'),
+('SHOPIT0174', 29, 'SHOP000001','ITEM000041'),
+('SHOPIT0175', 29, 'SHOP000003','ITEM000064'),
+('SHOPIT0176', 39, 'SHOP000006','ITEM000069'),
+('SHOPIT0177', 58, 'SHOP000025','ITEM000039'),
+('SHOPIT0178', 28, 'SHOP000012','ITEM000001'),
+('SHOPIT0179', 57, 'SHOP000012','ITEM000041'),
+('SHOPIT0180', 67, 'SHOP000011','ITEM000058'),
+('SHOPIT0181', 38, 'SHOP000022','ITEM000013'),
+('SHOPIT0182', 67, 'SHOP000025','ITEM000017'),
+('SHOPIT0183', 31, 'SHOP000005','ITEM000061'),
+('SHOPIT0184', 67, 'SHOP000021','ITEM000030'),
+('SHOPIT0185', 74, 'SHOP000008','ITEM000073'),
+('SHOPIT0186', 46, 'SHOP000002','ITEM000035'),
+('SHOPIT0187', 49, 'SHOP000016','ITEM000065'),
+('SHOPIT0188', 69, 'SHOP000003','ITEM000071'),
+('SHOPIT0189', 48, 'SHOP000010','ITEM000074'),
+('SHOPIT0190', 36, 'SHOP000012','ITEM000048'),
+('SHOPIT0191', 70, 'SHOP000010','ITEM000004'),
+('SHOPIT0192', 27, 'SHOP000004','ITEM000021'),
+('SHOPIT0193', 35, 'SHOP000004','ITEM000048'),
+('SHOPIT0194', 65, 'SHOP000023','ITEM000045'),
+('SHOPIT0195', 63, 'SHOP000023','ITEM000016'),
+('SHOPIT0196', 72, 'SHOP000014','ITEM000010'),
+('SHOPIT0197', 50, 'SHOP000020','ITEM000067'),
+('SHOPIT0198', 48, 'SHOP000025','ITEM000055'),
+('SHOPIT0199', 48, 'SHOP000015','ITEM000051'),
+('SHOPIT0200', 66, 'SHOP000016','ITEM000064'),
+('SHOPIT0201', 58, 'SHOP000020','ITEM000012'),
+('SHOPIT0202', 40, 'SHOP000023','ITEM000050'),
+('SHOPIT0203', 42, 'SHOP000019','ITEM000066'),
+('SHOPIT0204', 60, 'SHOP000018','ITEM000007'),
+('SHOPIT0205', 68, 'SHOP000017','ITEM000039'),
+('SHOPIT0206', 53, 'SHOP000003','ITEM000018'),
+('SHOPIT0207', 65, 'SHOP000002','ITEM000061'),
+('SHOPIT0208', 27, 'SHOP000003','ITEM000045'),
+('SHOPIT0209', 40, 'SHOP000003','ITEM000011'),
+('SHOPIT0210', 39, 'SHOP000025','ITEM000034'),
+('SHOPIT0211', 47, 'SHOP000014','ITEM000044'),
+('SHOPIT0212', 39, 'SHOP000011','ITEM000013'),
+('SHOPIT0213', 56, 'SHOP000004','ITEM000050'),
+('SHOPIT0214', 44, 'SHOP000022','ITEM000055'),
+('SHOPIT0215', 61, 'SHOP000007','ITEM000036'),
+('SHOPIT0216', 38, 'SHOP000024','ITEM000014'),
+('SHOPIT0217', 32, 'SHOP000016','ITEM000053'),
+('SHOPIT0218', 44, 'SHOP000001','ITEM000072'),
+('SHOPIT0219', 38, 'SHOP000004','ITEM000002'),
+('SHOPIT0220', 27, 'SHOP000020','ITEM000035'),
+('SHOPIT0221', 40, 'SHOP000017','ITEM000059'),
+('SHOPIT0222', 42, 'SHOP000016','ITEM000006'),
+('SHOPIT0223', 74, 'SHOP000001','ITEM000031'),
+('SHOPIT0224', 33, 'SHOP000019','ITEM000041'),
+('SHOPIT0225', 63, 'SHOP000023','ITEM000065'),
+('SHOPIT0226', 71, 'SHOP000009','ITEM000066'),
+('SHOPIT0227', 75, 'SHOP000013','ITEM000014'),
+('SHOPIT0228', 66, 'SHOP000010','ITEM000068'),
+('SHOPIT0229', 64, 'SHOP000012','ITEM000020'),
+('SHOPIT0230', 53, 'SHOP000022','ITEM000016'),
+('SHOPIT0231', 39, 'SHOP000010','ITEM000010'),
+('SHOPIT0232', 63, 'SHOP000012','ITEM000018'),
+('SHOPIT0233', 53, 'SHOP000001','ITEM000026'),
+('SHOPIT0234', 55, 'SHOP000005','ITEM000055'),
+('SHOPIT0235', 67, 'SHOP000024','ITEM000024'),
+('SHOPIT0236', 43, 'SHOP000009','ITEM000072'),
+('SHOPIT0237', 55, 'SHOP000015','ITEM000071'),
+('SHOPIT0238', 73, 'SHOP000024','ITEM000021'),
+('SHOPIT0239', 28, 'SHOP000025','ITEM000019'),
+('SHOPIT0240', 74, 'SHOP000012','ITEM000042'),
+('SHOPIT0241', 29, 'SHOP000025','ITEM000050'),
+('SHOPIT0242', 26, 'SHOP000001','ITEM000044'),
+('SHOPIT0243', 66, 'SHOP000016','ITEM000034'),
+('SHOPIT0244', 56, 'SHOP000010','ITEM000054'),
+('SHOPIT0245', 41, 'SHOP000013','ITEM000059'),
+('SHOPIT0246', 75, 'SHOP000023','ITEM000056'),
+('SHOPIT0247', 47, 'SHOP000015','ITEM000048'),
+('SHOPIT0248', 75, 'SHOP000015','ITEM000010'),
+('SHOPIT0249', 27, 'SHOP000006','ITEM000008'),
+('SHOPIT0250', 75, 'SHOP000008','ITEM000032'),
+('SHOPIT0251', 72, 'SHOP000023','ITEM000063'),
+('SHOPIT0252', 58, 'SHOP000003','ITEM000053'),
+('SHOPIT0253', 33, 'SHOP000021','ITEM000063'),
+('SHOPIT0254', 36, 'SHOP000011','ITEM000002'),
+('SHOPIT0255', 69, 'SHOP000017','ITEM000070'),
+('SHOPIT0256', 46, 'SHOP000017','ITEM000011'),
+('SHOPIT0257', 61, 'SHOP000003','ITEM000036'),
+('SHOPIT0258', 57, 'SHOP000013','ITEM000058'),
+('SHOPIT0259', 72, 'SHOP000007','ITEM000019'),
+('SHOPIT0260', 30, 'SHOP000003','ITEM000012'),
+('SHOPIT0261', 30, 'SHOP000020','ITEM000037'),
+('SHOPIT0262', 43, 'SHOP000007','ITEM000027'),
+('SHOPIT0263', 58, 'SHOP000005','ITEM000027'),
+('SHOPIT0264', 52, 'SHOP000024','ITEM000025'),
+('SHOPIT0265', 73, 'SHOP000023','ITEM000013'),
+('SHOPIT0266', 51, 'SHOP000009','ITEM000057'),
+('SHOPIT0267', 45, 'SHOP000004','ITEM000040'),
+('SHOPIT0268', 55, 'SHOP000018','ITEM000062'),
+('SHOPIT0269', 53, 'SHOP000022','ITEM000043'),
+('SHOPIT0270', 34, 'SHOP000008','ITEM000017'),
+('SHOPIT0271', 38, 'SHOP000012','ITEM000069'),
+('SHOPIT0272', 44, 'SHOP000024','ITEM000060'),
+('SHOPIT0273', 48, 'SHOP000009','ITEM000012'),
+('SHOPIT0274', 59, 'SHOP000008','ITEM000025'),
+('SHOPIT0275', 67, 'SHOP000001','ITEM000032'),
+('SHOPIT0276', 75, 'SHOP000022','ITEM000008'),
+('SHOPIT0277', 40, 'SHOP000011','ITEM000023'),
+('SHOPIT0278', 34, 'SHOP000007','ITEM000050'),
+('SHOPIT0279', 73, 'SHOP000014','ITEM000049'),
+('SHOPIT0280', 64, 'SHOP000010','ITEM000041'),
+('SHOPIT0281', 54, 'SHOP000012','ITEM000024'),
+('SHOPIT0282', 38, 'SHOP000015','ITEM000072'),
+('SHOPIT0283', 57, 'SHOP000024','ITEM000005'),
+('SHOPIT0284', 66, 'SHOP000005','ITEM000057'),
+('SHOPIT0285', 54, 'SHOP000022','ITEM000064'),
+('SHOPIT0286', 34, 'SHOP000004','ITEM000065'),
+('SHOPIT0287', 72, 'SHOP000020','ITEM000023'),
+('SHOPIT0288', 50, 'SHOP000015','ITEM000029'),
+('SHOPIT0289', 50, 'SHOP000010','ITEM000040'),
+('SHOPIT0290', 56, 'SHOP000007','ITEM000066'),
+('SHOPIT0291', 61, 'SHOP000014','ITEM000061'),
+('SHOPIT0292', 58, 'SHOP000014','ITEM000007'),
+('SHOPIT0293', 69, 'SHOP000021','ITEM000028'),
+('SHOPIT0294', 67, 'SHOP000006','ITEM000061'),
+('SHOPIT0295', 57, 'SHOP000004','ITEM000075'),
+('SHOPIT0296', 52, 'SHOP000009','ITEM000054'),
+('SHOPIT0297', 66, 'SHOP000011','ITEM000073'),
+('SHOPIT0298', 57, 'SHOP000016','ITEM000027'),
+('SHOPIT0299', 25, 'SHOP000025','ITEM000027'),
+('SHOPIT0300', 40, 'SHOP000011','ITEM000003'),
+('SHOPIT0301', 69, 'SHOP000016','ITEM000052'),
+('SHOPIT0302', 61, 'SHOP000022','ITEM000061'),
+('SHOPIT0303', 42, 'SHOP000023','ITEM000055'),
+('SHOPIT0304', 49, 'SHOP000022','ITEM000052'),
+('SHOPIT0305', 43, 'SHOP000022','ITEM000020'),
+('SHOPIT0306', 37, 'SHOP000008','ITEM000015'),
+('SHOPIT0307', 62, 'SHOP000012','ITEM000036'),
+('SHOPIT0308', 43, 'SHOP000025','ITEM000059'),
+('SHOPIT0309', 69, 'SHOP000001','ITEM000042'),
+('SHOPIT0310', 56, 'SHOP000022','ITEM000056'),
+('SHOPIT0311', 29, 'SHOP000014','ITEM000068'),
+('SHOPIT0312', 27, 'SHOP000024','ITEM000041'),
+('SHOPIT0313', 56, 'SHOP000023','ITEM000014'),
+('SHOPIT0314', 38, 'SHOP000019','ITEM000074'),
+('SHOPIT0315', 31, 'SHOP000005','ITEM000031'),
+('SHOPIT0316', 45, 'SHOP000025','ITEM000065'),
+('SHOPIT0317', 61, 'SHOP000003','ITEM000030'),
+('SHOPIT0318', 43, 'SHOP000017','ITEM000014'),
+('SHOPIT0319', 47, 'SHOP000006','ITEM000019'),
+('SHOPIT0320', 32, 'SHOP000014','ITEM000074'),
+('SHOPIT0321', 37, 'SHOP000022','ITEM000059'),
+('SHOPIT0322', 61, 'SHOP000011','ITEM000054'),
+('SHOPIT0323', 53, 'SHOP000021','ITEM000029'),
+('SHOPIT0324', 32, 'SHOP000001','ITEM000028'),
+('SHOPIT0325', 47, 'SHOP000003','ITEM000063'),
+('SHOPIT0326', 28, 'SHOP000023','ITEM000002'),
+('SHOPIT0327', 60, 'SHOP000003','ITEM000016'),
+('SHOPIT0328', 56, 'SHOP000013','ITEM000063'),
+('SHOPIT0329', 43, 'SHOP000009','ITEM000026'),
+('SHOPIT0330', 57, 'SHOP000001','ITEM000017'),
+('SHOPIT0331', 52, 'SHOP000023','ITEM000038'),
+('SHOPIT0332', 59, 'SHOP000024','ITEM000065'),
+('SHOPIT0333', 40, 'SHOP000020','ITEM000026'),
+('SHOPIT0334', 26, 'SHOP000017','ITEM000004'),
+('SHOPIT0335', 53, 'SHOP000002','ITEM000068'),
+('SHOPIT0336', 35, 'SHOP000016','ITEM000071'),
+('SHOPIT0337', 36, 'SHOP000007','ITEM000055'),
+('SHOPIT0338', 32, 'SHOP000006','ITEM000056'),
+('SHOPIT0339', 62, 'SHOP000003','ITEM000035'),
+('SHOPIT0340', 73, 'SHOP000010','ITEM000046'),
+('SHOPIT0341', 68, 'SHOP000006','ITEM000005'),
+('SHOPIT0342', 49, 'SHOP000015','ITEM000064'),
+('SHOPIT0343', 66, 'SHOP000024','ITEM000059'),
+('SHOPIT0344', 29, 'SHOP000001','ITEM000043'),
+('SHOPIT0345', 59, 'SHOP000016','ITEM000068'),
+('SHOPIT0346', 69, 'SHOP000015','ITEM000004'),
+('SHOPIT0347', 30, 'SHOP000005','ITEM000005'),
+('SHOPIT0348', 39, 'SHOP000001','ITEM000019'),
+('SHOPIT0349', 57, 'SHOP000009','ITEM000025'),
+('SHOPIT0350', 70, 'SHOP000009','ITEM000020'),
+('SHOPIT0351', 67, 'SHOP000001','ITEM000068'),
+('SHOPIT0352', 41, 'SHOP000016','ITEM000045'),
+('SHOPIT0353', 56, 'SHOP000021','ITEM000014'),
+('SHOPIT0354', 69, 'SHOP000014','ITEM000025'),
+('SHOPIT0355', 59, 'SHOP000019','ITEM000023'),
+('SHOPIT0356', 63, 'SHOP000013','ITEM000028'),
+('SHOPIT0357', 61, 'SHOP000013','ITEM000040'),
+('SHOPIT0358', 66, 'SHOP000012','ITEM000053'),
+('SHOPIT0359', 75, 'SHOP000009','ITEM000008'),
+('SHOPIT0360', 38, 'SHOP000013','ITEM000017'),
+('SHOPIT0361', 65, 'SHOP000009','ITEM000067'),
+('SHOPIT0362', 32, 'SHOP000004','ITEM000063'),
+('SHOPIT0363', 59, 'SHOP000007','ITEM000034'),
+('SHOPIT0364', 57, 'SHOP000007','ITEM000069'),
+('SHOPIT0365', 52, 'SHOP000012','ITEM000056'),
+('SHOPIT0366', 27, 'SHOP000004','ITEM000049'),
+('SHOPIT0367', 70, 'SHOP000001','ITEM000056'),
+('SHOPIT0368', 49, 'SHOP000006','ITEM000031'),
+('SHOPIT0369', 52, 'SHOP000007','ITEM000046'),
+('SHOPIT0370', 57, 'SHOP000021','ITEM000015'),
+('SHOPIT0371', 66, 'SHOP000004','ITEM000068'),
+('SHOPIT0372', 71, 'SHOP000017','ITEM000031'),
+('SHOPIT0373', 56, 'SHOP000004','ITEM000037'),
+('SHOPIT0374', 39, 'SHOP000014','ITEM000028'),
+('SHOPIT0375', 66, 'SHOP000008','ITEM000013'),
+('SHOPIT0376', 43, 'SHOP000006','ITEM000059'),
+('SHOPIT0377', 67, 'SHOP000005','ITEM000066'),
+('SHOPIT0378', 47, 'SHOP000002','ITEM000053'),
+('SHOPIT0379', 55, 'SHOP000018','ITEM000029'),
+('SHOPIT0380', 65, 'SHOP000008','ITEM000071'),
+('SHOPIT0381', 69, 'SHOP000010','ITEM000049'),
+('SHOPIT0382', 48, 'SHOP000008','ITEM000014'),
+('SHOPIT0383', 55, 'SHOP000007','ITEM000049'),
+('SHOPIT0384', 46, 'SHOP000022','ITEM000022'),
+('SHOPIT0385', 37, 'SHOP000007','ITEM000011'),
+('SHOPIT0386', 59, 'SHOP000004','ITEM000010'),
+('SHOPIT0387', 75, 'SHOP000017','ITEM000072'),
+('SHOPIT0388', 61, 'SHOP000004','ITEM000059'),
+('SHOPIT0389', 59, 'SHOP000010','ITEM000026'),
+('SHOPIT0390', 57, 'SHOP000004','ITEM000036'),
+('SHOPIT0391', 70, 'SHOP000021','ITEM000058'),
+('SHOPIT0392', 73, 'SHOP000020','ITEM000072'),
+('SHOPIT0393', 29, 'SHOP000010','ITEM000047'),
+('SHOPIT0394', 47, 'SHOP000011','ITEM000026'),
+('SHOPIT0395', 43, 'SHOP000009','ITEM000003'),
+('SHOPIT0396', 54, 'SHOP000010','ITEM000033'),
+('SHOPIT0397', 75, 'SHOP000024','ITEM000044'),
+('SHOPIT0398', 44, 'SHOP000016','ITEM000070'),
+('SHOPIT0399', 36, 'SHOP000005','ITEM000049'),
+('SHOPIT0400', 61, 'SHOP000010','ITEM000015'),
+('SHOPIT0401', 44, 'SHOP000017','ITEM000048'),
+('SHOPIT0402', 69, 'SHOP000018','ITEM000043'),
+('SHOPIT0403', 54, 'SHOP000022','ITEM000024'),
+('SHOPIT0404', 59, 'SHOP000016','ITEM000029'),
+('SHOPIT0405', 72, 'SHOP000017','ITEM000007'),
+('SHOPIT0406', 65, 'SHOP000013','ITEM000027'),
+('SHOPIT0407', 63, 'SHOP000025','ITEM000044'),
+('SHOPIT0408', 75, 'SHOP000004','ITEM000039'),
+('SHOPIT0409', 30, 'SHOP000013','ITEM000016'),
+('SHOPIT0410', 27, 'SHOP000015','ITEM000016'),
+('SHOPIT0411', 30, 'SHOP000015','ITEM000018'),
+('SHOPIT0412', 49, 'SHOP000003','ITEM000065'),
+('SHOPIT0413', 73, 'SHOP000004','ITEM000042'),
+('SHOPIT0414', 58, 'SHOP000023','ITEM000009'),
+('SHOPIT0415', 30, 'SHOP000017','ITEM000068'),
+('SHOPIT0416', 25, 'SHOP000005','ITEM000065'),
+('SHOPIT0417', 49, 'SHOP000001','ITEM000064'),
+('SHOPIT0418', 73, 'SHOP000019','ITEM000070'),
+('SHOPIT0419', 55, 'SHOP000009','ITEM000050'),
+('SHOPIT0420', 32, 'SHOP000016','ITEM000016'),
+('SHOPIT0421', 43, 'SHOP000009','ITEM000029'),
+('SHOPIT0422', 66, 'SHOP000003','ITEM000019'),
+('SHOPIT0423', 27, 'SHOP000007','ITEM000033'),
+('SHOPIT0424', 47, 'SHOP000024','ITEM000042'),
+('SHOPIT0425', 50, 'SHOP000022','ITEM000039'),
+('SHOPIT0426', 54, 'SHOP000007','ITEM000029'),
+('SHOPIT0427', 40, 'SHOP000005','ITEM000046'),
+('SHOPIT0428', 51, 'SHOP000002','ITEM000051'),
+('SHOPIT0429', 58, 'SHOP000020','ITEM000018'),
+('SHOPIT0430', 38, 'SHOP000019','ITEM000063'),
+('SHOPIT0431', 45, 'SHOP000020','ITEM000020'),
+('SHOPIT0432', 26, 'SHOP000005','ITEM000038'),
+('SHOPIT0433', 61, 'SHOP000011','ITEM000050'),
+('SHOPIT0434', 65, 'SHOP000016','ITEM000046'),
+('SHOPIT0435', 42, 'SHOP000012','ITEM000073'),
+('SHOPIT0436', 52, 'SHOP000007','ITEM000056'),
+('SHOPIT0437', 39, 'SHOP000011','ITEM000039'),
+('SHOPIT0438', 29, 'SHOP000008','ITEM000047'),
+('SHOPIT0439', 66, 'SHOP000007','ITEM000063'),
+('SHOPIT0440', 57, 'SHOP000021','ITEM000022'),
+('SHOPIT0441', 52, 'SHOP000022','ITEM000070'),
+('SHOPIT0442', 25, 'SHOP000002','ITEM000032'),
+('SHOPIT0443', 26, 'SHOP000002','ITEM000004'),
+('SHOPIT0444', 25, 'SHOP000003','ITEM000026'),
+('SHOPIT0445', 47, 'SHOP000006','ITEM000048'),
+('SHOPIT0446', 53, 'SHOP000024','ITEM000036'),
+('SHOPIT0447', 39, 'SHOP000023','ITEM000054'),
+('SHOPIT0448', 59, 'SHOP000007','ITEM000037'),
+('SHOPIT0449', 61, 'SHOP000016','ITEM000041'),
+('SHOPIT0450', 44, 'SHOP000009','ITEM000031'),
+('SHOPIT0451', 56, 'SHOP000023','ITEM000003'),
+('SHOPIT0452', 70, 'SHOP000004','ITEM000001'),
+('SHOPIT0453', 53, 'SHOP000016','ITEM000003'),
+('SHOPIT0454', 40, 'SHOP000017','ITEM000062'),
+('SHOPIT0455', 67, 'SHOP000013','ITEM000044'),
+('SHOPIT0456', 33, 'SHOP000008','ITEM000010'),
+('SHOPIT0457', 47, 'SHOP000024','ITEM000030'),
+('SHOPIT0458', 59, 'SHOP000020','ITEM000069'),
+('SHOPIT0459', 66, 'SHOP000001','ITEM000062'),
+('SHOPIT0460', 42, 'SHOP000016','ITEM000042'),
+('SHOPIT0461', 62, 'SHOP000005','ITEM000075'),
+('SHOPIT0462', 57, 'SHOP000019','ITEM000011'),
+('SHOPIT0463', 38, 'SHOP000001','ITEM000021'),
+('SHOPIT0464', 40, 'SHOP000017','ITEM000038'),
+('SHOPIT0465', 29, 'SHOP000011','ITEM000009'),
+('SHOPIT0466', 70, 'SHOP000013','ITEM000033'),
+('SHOPIT0467', 30, 'SHOP000007','ITEM000047'),
+('SHOPIT0468', 49, 'SHOP000005','ITEM000043'),
+('SHOPIT0469', 40, 'SHOP000013','ITEM000047'),
+('SHOPIT0470', 32, 'SHOP000014','ITEM000071'),
+('SHOPIT0471', 75, 'SHOP000007','ITEM000030'),
+('SHOPIT0472', 54, 'SHOP000016','ITEM000059'),
+('SHOPIT0473', 32, 'SHOP000010','ITEM000048'),
+('SHOPIT0474', 72, 'SHOP000008','ITEM000018'),
+('SHOPIT0475', 63, 'SHOP000002','ITEM000070'),
+('SHOPIT0476', 63, 'SHOP000011','ITEM000072'),
+('SHOPIT0477', 71, 'SHOP000019','ITEM000057'),
+('SHOPIT0478', 53, 'SHOP000003','ITEM000029'),
+('SHOPIT0479', 42, 'SHOP000019','ITEM000073'),
+('SHOPIT0480', 30, 'SHOP000007','ITEM000017'),
+('SHOPIT0481', 70, 'SHOP000021','ITEM000027'),
+('SHOPIT0482', 52, 'SHOP000003','ITEM000005'),
+('SHOPIT0483', 33, 'SHOP000009','ITEM000004'),
+('SHOPIT0484', 73, 'SHOP000025','ITEM000037'),
+('SHOPIT0485', 61, 'SHOP000002','ITEM000054'),
+('SHOPIT0486', 70, 'SHOP000023','ITEM000028'),
+('SHOPIT0487', 43, 'SHOP000002','ITEM000003'),
+('SHOPIT0488', 32, 'SHOP000013','ITEM000053'),
+('SHOPIT0489', 52, 'SHOP000001','ITEM000047'),
+('SHOPIT0490', 29, 'SHOP000006','ITEM000030'),
+('SHOPIT0491', 45, 'SHOP000013','ITEM000038'),
+('SHOPIT0492', 41, 'SHOP000006','ITEM000049'),
+('SHOPIT0493', 28, 'SHOP000009','ITEM000048'),
+('SHOPIT0494', 53, 'SHOP000002','ITEM000066'),
+('SHOPIT0495', 43, 'SHOP000005','ITEM000059'),
+('SHOPIT0496', 63, 'SHOP000003','ITEM000008'),
+('SHOPIT0497', 71, 'SHOP000011','ITEM000070'),
+('SHOPIT0498', 33, 'SHOP000007','ITEM000045'),
+('SHOPIT0499', 48, 'SHOP000023','ITEM000044'),
+('SHOPIT0500', 27, 'SHOP000001','ITEM000071'),
+('SHOPIT0501', 69, 'SHOP000015','ITEM000023'),
+('SHOPIT0502', 31, 'SHOP000023','ITEM000004'),
+('SHOPIT0503', 39, 'SHOP000005','ITEM000016'),
+('SHOPIT0504', 27, 'SHOP000011','ITEM000042'),
+('SHOPIT0505', 56, 'SHOP000024','ITEM000040'),
+('SHOPIT0506', 48, 'SHOP000017','ITEM000051'),
+('SHOPIT0507', 66, 'SHOP000012','ITEM000009'),
+('SHOPIT0508', 52, 'SHOP000015','ITEM000001'),
+('SHOPIT0509', 48, 'SHOP000018','ITEM000061'),
+('SHOPIT0510', 73, 'SHOP000012','ITEM000023'),
+('SHOPIT0511', 55, 'SHOP000004','ITEM000058'),
+('SHOPIT0512', 64, 'SHOP000008','ITEM000052'),
+('SHOPIT0513', 35, 'SHOP000020','ITEM000008'),
+('SHOPIT0514', 39, 'SHOP000001','ITEM000008'),
+('SHOPIT0515', 67, 'SHOP000021','ITEM000065'),
+('SHOPIT0516', 65, 'SHOP000010','ITEM000075'),
+('SHOPIT0517', 33, 'SHOP000008','ITEM000033'),
+('SHOPIT0518', 64, 'SHOP000023','ITEM000039'),
+('SHOPIT0519', 68, 'SHOP000020','ITEM000052'),
+('SHOPIT0520', 38, 'SHOP000018','ITEM000008'),
+('SHOPIT0521', 26, 'SHOP000025','ITEM000006'),
+('SHOPIT0522', 27, 'SHOP000005','ITEM000062'),
+('SHOPIT0523', 73, 'SHOP000021','ITEM000046'),
+('SHOPIT0524', 37, 'SHOP000008','ITEM000029'),
+('SHOPIT0525', 60, 'SHOP000022','ITEM000057'),
+('SHOPIT0526', 75, 'SHOP000018','ITEM000055'),
+('SHOPIT0527', 66, 'SHOP000019','ITEM000053'),
+('SHOPIT0528', 26, 'SHOP000005','ITEM000024'),
+('SHOPIT0529', 60, 'SHOP000012','ITEM000010'),
+('SHOPIT0530', 35, 'SHOP000020','ITEM000039'),
+('SHOPIT0531', 60, 'SHOP000017','ITEM000006'),
+('SHOPIT0532', 30, 'SHOP000006','ITEM000035'),
+('SHOPIT0533', 67, 'SHOP000002','ITEM000021'),
+('SHOPIT0534', 61, 'SHOP000015','ITEM000024'),
+('SHOPIT0535', 38, 'SHOP000013','ITEM000062'),
+('SHOPIT0536', 74, 'SHOP000013','ITEM000005'),
+('SHOPIT0537', 73, 'SHOP000016','ITEM000010'),
+('SHOPIT0538', 56, 'SHOP000011','ITEM000064'),
+('SHOPIT0539', 47, 'SHOP000024','ITEM000073'),
+('SHOPIT0540', 66, 'SHOP000022','ITEM000038'),
+('SHOPIT0541', 58, 'SHOP000025','ITEM000012'),
+('SHOPIT0542', 52, 'SHOP000010','ITEM000066'),
+('SHOPIT0543', 36, 'SHOP000015','ITEM000003'),
+('SHOPIT0544', 59, 'SHOP000018','ITEM000038'),
+('SHOPIT0545', 26, 'SHOP000007','ITEM000039'),
+('SHOPIT0546', 36, 'SHOP000010','ITEM000018'),
+('SHOPIT0547', 28, 'SHOP000004','ITEM000006'),
+('SHOPIT0548', 26, 'SHOP000009','ITEM000027'),
+('SHOPIT0549', 27, 'SHOP000014','ITEM000035'),
+('SHOPIT0550', 44, 'SHOP000015','ITEM000021'),
+('SHOPIT0551', 59, 'SHOP000015','ITEM000031'),
+('SHOPIT0552', 26, 'SHOP000023','ITEM000051'),
+('SHOPIT0553', 54, 'SHOP000025','ITEM000047'),
+('SHOPIT0554', 64, 'SHOP000013','ITEM000011'),
+('SHOPIT0555', 46, 'SHOP000012','ITEM000004'),
+('SHOPIT0556', 28, 'SHOP000014','ITEM000052'),
+('SHOPIT0557', 26, 'SHOP000006','ITEM000016'),
+('SHOPIT0558', 29, 'SHOP000014','ITEM000038'),
+('SHOPIT0559', 52, 'SHOP000011','ITEM000066'),
+('SHOPIT0560', 71, 'SHOP000013','ITEM000004'),
+('SHOPIT0561', 66, 'SHOP000023','ITEM000017'),
+('SHOPIT0562', 26, 'SHOP000019','ITEM000006'),
+('SHOPIT0563', 37, 'SHOP000016','ITEM000050'),
+('SHOPIT0564', 36, 'SHOP000017','ITEM000074'),
+('SHOPIT0565', 28, 'SHOP000003','ITEM000017'),
+('SHOPIT0566', 61, 'SHOP000007','ITEM000022'),
+('SHOPIT0567', 43, 'SHOP000016','ITEM000039'),
+('SHOPIT0568', 28, 'SHOP000016','ITEM000033'),
+('SHOPIT0569', 58, 'SHOP000004','ITEM000015'),
+('SHOPIT0570', 59, 'SHOP000016','ITEM000066'),
+('SHOPIT0571', 38, 'SHOP000024','ITEM000075'),
+('SHOPIT0572', 43, 'SHOP000004','ITEM000035'),
+('SHOPIT0573', 64, 'SHOP000002','ITEM000039'),
+('SHOPIT0574', 52, 'SHOP000005','ITEM000048'),
+('SHOPIT0575', 45, 'SHOP000020','ITEM000041'),
+('SHOPIT0576', 62, 'SHOP000022','ITEM000009'),
+('SHOPIT0577', 41, 'SHOP000019','ITEM000027'),
+('SHOPIT0578', 29, 'SHOP000025','ITEM000031'),
+('SHOPIT0579', 25, 'SHOP000025','ITEM000070'),
+('SHOPIT0580', 65, 'SHOP000016','ITEM000005'),
+('SHOPIT0581', 57, 'SHOP000023','ITEM000027'),
+('SHOPIT0582', 66, 'SHOP000013','ITEM000043'),
+('SHOPIT0583', 75, 'SHOP000006','ITEM000053'),
+('SHOPIT0584', 30, 'SHOP000007','ITEM000053'),
+('SHOPIT0585', 29, 'SHOP000014','ITEM000012'),
+('SHOPIT0586', 50, 'SHOP000022','ITEM000047'),
+('SHOPIT0587', 34, 'SHOP000016','ITEM000061'),
+('SHOPIT0588', 27, 'SHOP000017','ITEM000075'),
+('SHOPIT0589', 45, 'SHOP000001','ITEM000050'),
+('SHOPIT0590', 48, 'SHOP000003','ITEM000010'),
+('SHOPIT0591', 73, 'SHOP000005','ITEM000019'),
+('SHOPIT0592', 67, 'SHOP000001','ITEM000063'),
+('SHOPIT0593', 38, 'SHOP000019','ITEM000026'),
+('SHOPIT0594', 36, 'SHOP000025','ITEM000032'),
+('SHOPIT0595', 62, 'SHOP000004','ITEM000045'),
+('SHOPIT0596', 28, 'SHOP000006','ITEM000055'),
+('SHOPIT0597', 54, 'SHOP000001','ITEM000037'),
+('SHOPIT0598', 50, 'SHOP000010','ITEM000016'),
+('SHOPIT0599', 56, 'SHOP000017','ITEM000069'),
+('SHOPIT0600', 58, 'SHOP000014','ITEM000004'),
+('SHOPIT0601', 75, 'SHOP000021','ITEM000045'),
+('SHOPIT0602', 72, 'SHOP000023','ITEM000029'),
+('SHOPIT0603', 46, 'SHOP000024','ITEM000057'),
+('SHOPIT0604', 74, 'SHOP000008','ITEM000043'),
+('SHOPIT0605', 61, 'SHOP000020','ITEM000001'),
+('SHOPIT0606', 66, 'SHOP000009','ITEM000051'),
+('SHOPIT0607', 53, 'SHOP000004','ITEM000031'),
+('SHOPIT0608', 41, 'SHOP000011','ITEM000022'),
+('SHOPIT0609', 40, 'SHOP000025','ITEM000023'),
+('SHOPIT0610', 50, 'SHOP000017','ITEM000003'),
+('SHOPIT0611', 58, 'SHOP000011','ITEM000017'),
+('SHOPIT0612', 37, 'SHOP000020','ITEM000011'),
+('SHOPIT0613', 47, 'SHOP000012','ITEM000045'),
+('SHOPIT0614', 36, 'SHOP000005','ITEM000054'),
+('SHOPIT0615', 56, 'SHOP000007','ITEM000003'),
+('SHOPIT0616', 70, 'SHOP000004','ITEM000064'),
+('SHOPIT0617', 50, 'SHOP000011','ITEM000030'),
+('SHOPIT0618', 26, 'SHOP000024','ITEM000051'),
+('SHOPIT0619', 39, 'SHOP000012','ITEM000052'),
+('SHOPIT0620', 34, 'SHOP000024','ITEM000016'),
+('SHOPIT0621', 56, 'SHOP000022','ITEM000044'),
+('SHOPIT0622', 54, 'SHOP000010','ITEM000036'),
+('SHOPIT0623', 32, 'SHOP000025','ITEM000018'),
+('SHOPIT0624', 37, 'SHOP000013','ITEM000035'),
+('SHOPIT0625', 55, 'SHOP000016','ITEM000047'),
+('SHOPIT0626', 35, 'SHOP000011','ITEM000036'),
+('SHOPIT0627', 29, 'SHOP000013','ITEM000049'),
+('SHOPIT0628', 52, 'SHOP000023','ITEM000059'),
+('SHOPIT0629', 64, 'SHOP000018','ITEM000034'),
+('SHOPIT0630', 40, 'SHOP000006','ITEM000027'),
+('SHOPIT0631', 29, 'SHOP000011','ITEM000016'),
+('SHOPIT0632', 58, 'SHOP000008','ITEM000002'),
+('SHOPIT0633', 36, 'SHOP000009','ITEM000060'),
+('SHOPIT0634', 66, 'SHOP000025','ITEM000035'),
+('SHOPIT0635', 46, 'SHOP000018','ITEM000069'),
+('SHOPIT0636', 57, 'SHOP000012','ITEM000008'),
+('SHOPIT0637', 41, 'SHOP000014','ITEM000058'),
+('SHOPIT0638', 35, 'SHOP000006','ITEM000060'),
+('SHOPIT0639', 59, 'SHOP000022','ITEM000004'),
+('SHOPIT0640', 34, 'SHOP000004','ITEM000026'),
+('SHOPIT0641', 53, 'SHOP000017','ITEM000045'),
+('SHOPIT0642', 60, 'SHOP000003','ITEM000060'),
+('SHOPIT0643', 68, 'SHOP000018','ITEM000005'),
+('SHOPIT0644', 39, 'SHOP000019','ITEM000034'),
+('SHOPIT0645', 35, 'SHOP000004','ITEM000070'),
+('SHOPIT0646', 69, 'SHOP000004','ITEM000056'),
+('SHOPIT0647', 70, 'SHOP000014','ITEM000048'),
+('SHOPIT0648', 61, 'SHOP000020','ITEM000019'),
+('SHOPIT0649', 44, 'SHOP000009','ITEM000002'),
+('SHOPIT0650', 46, 'SHOP000020','ITEM000032'),
+('SHOPIT0651', 45, 'SHOP000010','ITEM000038'),
+('SHOPIT0652', 29, 'SHOP000013','ITEM000039'),
+('SHOPIT0653', 75, 'SHOP000006','ITEM000001'),
+('SHOPIT0654', 34, 'SHOP000019','ITEM000048'),
+('SHOPIT0655', 53, 'SHOP000004','ITEM000011'),
+('SHOPIT0656', 49, 'SHOP000005','ITEM000017'),
+('SHOPIT0657', 69, 'SHOP000001','ITEM000066'),
+('SHOPIT0658', 46, 'SHOP000025','ITEM000028'),
+('SHOPIT0659', 32, 'SHOP000022','ITEM000018'),
+('SHOPIT0660', 59, 'SHOP000014','ITEM000029'),
+('SHOPIT0661', 67, 'SHOP000022','ITEM000067'),
+('SHOPIT0662', 52, 'SHOP000022','ITEM000006'),
+('SHOPIT0663', 66, 'SHOP000005','ITEM000073'),
+('SHOPIT0664', 72, 'SHOP000004','ITEM000029'),
+('SHOPIT0665', 26, 'SHOP000021','ITEM000071'),
+('SHOPIT0666', 65, 'SHOP000020','ITEM000006'),
+('SHOPIT0667', 27, 'SHOP000008','ITEM000008'),
+('SHOPIT0668', 72, 'SHOP000007','ITEM000018'),
+('SHOPIT0669', 50, 'SHOP000013','ITEM000009'),
+('SHOPIT0670', 44, 'SHOP000001','ITEM000010'),
+('SHOPIT0671', 55, 'SHOP000009','ITEM000052'),
+('SHOPIT0672', 54, 'SHOP000021','ITEM000075'),
+('SHOPIT0673', 39, 'SHOP000012','ITEM000070'),
+('SHOPIT0674', 36, 'SHOP000013','ITEM000054'),
+('SHOPIT0675', 60, 'SHOP000021','ITEM000054'),
+('SHOPIT0676', 63, 'SHOP000022','ITEM000029'),
+('SHOPIT0677', 32, 'SHOP000023','ITEM000068'),
+('SHOPIT0678', 37, 'SHOP000016','ITEM000035'),
+('SHOPIT0679', 53, 'SHOP000011','ITEM000007'),
+('SHOPIT0680', 32, 'SHOP000002','ITEM000041'),
+('SHOPIT0681', 54, 'SHOP000012','ITEM000040'),
+('SHOPIT0682', 31, 'SHOP000003','ITEM000061'),
+('SHOPIT0683', 68, 'SHOP000025','ITEM000067'),
+('SHOPIT0684', 25, 'SHOP000005','ITEM000067'),
+('SHOPIT0685', 65, 'SHOP000006','ITEM000007'),
+('SHOPIT0686', 39, 'SHOP000008','ITEM000004'),
+('SHOPIT0687', 49, 'SHOP000020','ITEM000059'),
+('SHOPIT0688', 51, 'SHOP000013','ITEM000066'),
+('SHOPIT0689', 65, 'SHOP000025','ITEM000011'),
+('SHOPIT0690', 65, 'SHOP000010','ITEM000057'),
+('SHOPIT0691', 49, 'SHOP000016','ITEM000036'),
+('SHOPIT0692', 36, 'SHOP000014','ITEM000043'),
+('SHOPIT0693', 64, 'SHOP000024','ITEM000023'),
+('SHOPIT0694', 25, 'SHOP000002','ITEM000010'),
+('SHOPIT0695', 29, 'SHOP000021','ITEM000041'),
+('SHOPIT0696', 33, 'SHOP000006','ITEM000057'),
+('SHOPIT0697', 36, 'SHOP000007','ITEM000006'),
+('SHOPIT0698', 43, 'SHOP000005','ITEM000026'),
+('SHOPIT0699', 63, 'SHOP000005','ITEM000009'),
+('SHOPIT0700', 44, 'SHOP000015','ITEM000032'),
+('SHOPIT0701', 61, 'SHOP000012','ITEM000027'),
+('SHOPIT0702', 41, 'SHOP000009','ITEM000022'),
+('SHOPIT0703', 60, 'SHOP000025','ITEM000071'),
+('SHOPIT0704', 72, 'SHOP000005','ITEM000002'),
+('SHOPIT0705', 42, 'SHOP000015','ITEM000026'),
+('SHOPIT0706', 52, 'SHOP000017','ITEM000009'),
+('SHOPIT0707', 33, 'SHOP000022','ITEM000036'),
+('SHOPIT0708', 37, 'SHOP000020','ITEM000009'),
+('SHOPIT0709', 49, 'SHOP000025','ITEM000042'),
+('SHOPIT0710', 37, 'SHOP000023','ITEM000053'),
+('SHOPIT0711', 63, 'SHOP000005','ITEM000033'),
+('SHOPIT0712', 68, 'SHOP000009','ITEM000013'),
+('SHOPIT0713', 58, 'SHOP000012','ITEM000061'),
+('SHOPIT0714', 51, 'SHOP000002','ITEM000008'),
+('SHOPIT0715', 58, 'SHOP000010','ITEM000059'),
+('SHOPIT0716', 51, 'SHOP000024','ITEM000043'),
+('SHOPIT0717', 59, 'SHOP000024','ITEM000008'),
+('SHOPIT0718', 67, 'SHOP000002','ITEM000046'),
+('SHOPIT0719', 34, 'SHOP000011','ITEM000019'),
+('SHOPIT0720', 71, 'SHOP000020','ITEM000053'),
+('SHOPIT0721', 29, 'SHOP000005','ITEM000037'),
+('SHOPIT0722', 60, 'SHOP000021','ITEM000049'),
+('SHOPIT0723', 35, 'SHOP000015','ITEM000043'),
+('SHOPIT0724', 28, 'SHOP000021','ITEM000053'),
+('SHOPIT0725', 36, 'SHOP000018','ITEM000057'),
+('SHOPIT0726', 34, 'SHOP000009','ITEM000042'),
+('SHOPIT0727', 51, 'SHOP000019','ITEM000072'),
+('SHOPIT0728', 37, 'SHOP000018','ITEM000050'),
+('SHOPIT0729', 66, 'SHOP000009','ITEM000037'),
+('SHOPIT0730', 74, 'SHOP000012','ITEM000075'),
+('SHOPIT0731', 51, 'SHOP000001','ITEM000016'),
+('SHOPIT0732', 51, 'SHOP000009','ITEM000009'),
+('SHOPIT0733', 33, 'SHOP000021','ITEM000021'),
+('SHOPIT0734', 33, 'SHOP000018','ITEM000047'),
+('SHOPIT0735', 28, 'SHOP000022','ITEM000054'),
+('SHOPIT0736', 55, 'SHOP000003','ITEM000013'),
+('SHOPIT0737', 56, 'SHOP000021','ITEM000062'),
+('SHOPIT0738', 31, 'SHOP000018','ITEM000045'),
+('SHOPIT0739', 51, 'SHOP000022','ITEM000002'),
+('SHOPIT0740', 26, 'SHOP000015','ITEM000045'),
+('SHOPIT0741', 44, 'SHOP000011','ITEM000052'),
+('SHOPIT0742', 53, 'SHOP000003','ITEM000074'),
+('SHOPIT0743', 49, 'SHOP000004','ITEM000018'),
+('SHOPIT0744', 39, 'SHOP000012','ITEM000059'),
+('SHOPIT0745', 57, 'SHOP000017','ITEM000035'),
+('SHOPIT0746', 64, 'SHOP000016','ITEM000017'),
+('SHOPIT0747', 35, 'SHOP000005','ITEM000028'),
+('SHOPIT0748', 56, 'SHOP000017','ITEM000042'),
+('SHOPIT0749', 42, 'SHOP000009','ITEM000074'),
+('SHOPIT0750', 67, 'SHOP000015','ITEM000067'),
+('SHOPIT0751', 32, 'SHOP000019','ITEM000022'),
+('SHOPIT0752', 62, 'SHOP000001','ITEM000030'),
+('SHOPIT0753', 29, 'SHOP000010','ITEM000011'),
+('SHOPIT0754', 39, 'SHOP000008','ITEM000026'),
+('SHOPIT0755', 57, 'SHOP000010','ITEM000055'),
+('SHOPIT0756', 27, 'SHOP000013','ITEM000015'),
+('SHOPIT0757', 37, 'SHOP000001','ITEM000022'),
+('SHOPIT0758', 71, 'SHOP000018','ITEM000049'),
+('SHOPIT0759', 27, 'SHOP000019','ITEM000040'),
+('SHOPIT0760', 44, 'SHOP000024','ITEM000029'),
+('SHOPIT0761', 65, 'SHOP000005','ITEM000032'),
+('SHOPIT0762', 66, 'SHOP000022','ITEM000060'),
+('SHOPIT0763', 48, 'SHOP000020','ITEM000043'),
+('SHOPIT0764', 73, 'SHOP000009','ITEM000068'),
+('SHOPIT0765', 60, 'SHOP000024','ITEM000049'),
+('SHOPIT0766', 70, 'SHOP000003','ITEM000041'),
+('SHOPIT0767', 63, 'SHOP000016','ITEM000011'),
+('SHOPIT0768', 65, 'SHOP000014','ITEM000056'),
+('SHOPIT0769', 66, 'SHOP000018','ITEM000058'),
+('SHOPIT0770', 60, 'SHOP000011','ITEM000001'),
+('SHOPIT0771', 75, 'SHOP000009','ITEM000028'),
+('SHOPIT0772', 68, 'SHOP000011','ITEM000040'),
+('SHOPIT0773', 72, 'SHOP000019','ITEM000029'),
+('SHOPIT0774', 43, 'SHOP000005','ITEM000063'),
+('SHOPIT0775', 53, 'SHOP000006','ITEM000012'),
+('SHOPIT0776', 33, 'SHOP000016','ITEM000008'),
+('SHOPIT0777', 72, 'SHOP000006','ITEM000032'),
+('SHOPIT0778', 33, 'SHOP000025','ITEM000009'),
+('SHOPIT0779', 41, 'SHOP000006','ITEM000009'),
+('SHOPIT0780', 47, 'SHOP000012','ITEM000054'),
+('SHOPIT0781', 29, 'SHOP000014','ITEM000059'),
+('SHOPIT0782', 71, 'SHOP000016','ITEM000062'),
+('SHOPIT0783', 54, 'SHOP000005','ITEM000071'),
+('SHOPIT0784', 67, 'SHOP000016','ITEM000007'),
+('SHOPIT0785', 52, 'SHOP000009','ITEM000038'),
+('SHOPIT0786', 73, 'SHOP000012','ITEM000071'),
+('SHOPIT0787', 75, 'SHOP000004','ITEM000028'),
+('SHOPIT0788', 45, 'SHOP000022','ITEM000045'),
+('SHOPIT0789', 46, 'SHOP000023','ITEM000067'),
+('SHOPIT0790', 61, 'SHOP000010','ITEM000034'),
+('SHOPIT0791', 56, 'SHOP000006','ITEM000018'),
+('SHOPIT0792', 39, 'SHOP000002','ITEM000024'),
+('SHOPIT0793', 49, 'SHOP000003','ITEM000004'),
+('SHOPIT0794', 70, 'SHOP000012','ITEM000025'),
+('SHOPIT0795', 62, 'SHOP000001','ITEM000053'),
+('SHOPIT0796', 43, 'SHOP000016','ITEM000019'),
+('SHOPIT0797', 47, 'SHOP000003','ITEM000067'),
+('SHOPIT0798', 70, 'SHOP000004','ITEM000019'),
+('SHOPIT0799', 30, 'SHOP000012','ITEM000028'),
+('SHOPIT0800', 56, 'SHOP000012','ITEM000051'),
+('SHOPIT0801', 69, 'SHOP000018','ITEM000004'),
+('SHOPIT0802', 35, 'SHOP000018','ITEM000014'),
+('SHOPIT0803', 47, 'SHOP000018','ITEM000041'),
+('SHOPIT0804', 50, 'SHOP000020','ITEM000016'),
+('SHOPIT0805', 62, 'SHOP000011','ITEM000035'),
+('SHOPIT0806', 39, 'SHOP000011','ITEM000071'),
+('SHOPIT0807', 40, 'SHOP000012','ITEM000033'),
+('SHOPIT0808', 67, 'SHOP000009','ITEM000005'),
+('SHOPIT0809', 32, 'SHOP000019','ITEM000043'),
+('SHOPIT0810', 43, 'SHOP000025','ITEM000005'),
+('SHOPIT0811', 54, 'SHOP000024','ITEM000006'),
+('SHOPIT0812', 62, 'SHOP000023','ITEM000071'),
+('SHOPIT0813', 35, 'SHOP000017','ITEM000037'),
+('SHOPIT0814', 49, 'SHOP000001','ITEM000036'),
+('SHOPIT0815', 62, 'SHOP000013','ITEM000041'),
+('SHOPIT0816', 36, 'SHOP000024','ITEM000056'),
+('SHOPIT0817', 34, 'SHOP000004','ITEM000013'),
+('SHOPIT0818', 31, 'SHOP000001','ITEM000073'),
+('SHOPIT0819', 26, 'SHOP000025','ITEM000051'),
+('SHOPIT0820', 75, 'SHOP000009','ITEM000036'),
+('SHOPIT0821', 61, 'SHOP000011','ITEM000074'),
+('SHOPIT0822', 49, 'SHOP000024','ITEM000066'),
+('SHOPIT0823', 57, 'SHOP000008','ITEM000056'),
+('SHOPIT0824', 66, 'SHOP000004','ITEM000057'),
+('SHOPIT0825', 65, 'SHOP000019','ITEM000064'),
+('SHOPIT0826', 40, 'SHOP000015','ITEM000063'),
+('SHOPIT0827', 74, 'SHOP000009','ITEM000011'),
+('SHOPIT0828', 56, 'SHOP000022','ITEM000010'),
+('SHOPIT0829', 66, 'SHOP000018','ITEM000010'),
+('SHOPIT0830', 62, 'SHOP000004','ITEM000051'),
+('SHOPIT0831', 41, 'SHOP000010','ITEM000001'),
+('SHOPIT0832', 27, 'SHOP000012','ITEM000044'),
+('SHOPIT0833', 43, 'SHOP000017','ITEM000016'),
+('SHOPIT0834', 34, 'SHOP000003','ITEM000056'),
+('SHOPIT0835', 55, 'SHOP000009','ITEM000056'),
+('SHOPIT0836', 66, 'SHOP000011','ITEM000046'),
+('SHOPIT0837', 56, 'SHOP000014','ITEM000016'),
+('SHOPIT0838', 26, 'SHOP000013','ITEM000070'),
+('SHOPIT0839', 75, 'SHOP000023','ITEM000069'),
+('SHOPIT0840', 62, 'SHOP000002','ITEM000014'),
+('SHOPIT0841', 61, 'SHOP000006','ITEM000071'),
+('SHOPIT0842', 72, 'SHOP000005','ITEM000003'),
+('SHOPIT0843', 57, 'SHOP000006','ITEM000026'),
+('SHOPIT0844', 64, 'SHOP000014','ITEM000037'),
+('SHOPIT0845', 34, 'SHOP000010','ITEM000028'),
+('SHOPIT0846', 54, 'SHOP000022','ITEM000049'),
+('SHOPIT0847', 69, 'SHOP000019','ITEM000020'),
+('SHOPIT0848', 40, 'SHOP000004','ITEM000027'),
+('SHOPIT0849', 41, 'SHOP000002','ITEM000049'),
+('SHOPIT0850', 54, 'SHOP000004','ITEM000007'),
+('SHOPIT0851', 26, 'SHOP000019','ITEM000010'),
+('SHOPIT0852', 66, 'SHOP000003','ITEM000021'),
+('SHOPIT0853', 56, 'SHOP000017','ITEM000024'),
+('SHOPIT0854', 55, 'SHOP000012','ITEM000032'),
+('SHOPIT0855', 51, 'SHOP000009','ITEM000001'),
+('SHOPIT0856', 43, 'SHOP000022','ITEM000069'),
+('SHOPIT0857', 71, 'SHOP000010','ITEM000019'),
+('SHOPIT0858', 64, 'SHOP000011','ITEM000012'),
+('SHOPIT0859', 72, 'SHOP000015','ITEM000068'),
+('SHOPIT0860', 49, 'SHOP000011','ITEM000049'),
+('SHOPIT0861', 66, 'SHOP000019','ITEM000056'),
+('SHOPIT0862', 27, 'SHOP000024','ITEM000012'),
+('SHOPIT0863', 36, 'SHOP000006','ITEM000003'),
+('SHOPIT0864', 44, 'SHOP000009','ITEM000045'),
+('SHOPIT0865', 65, 'SHOP000008','ITEM000044'),
+('SHOPIT0866', 53, 'SHOP000020','ITEM000045'),
+('SHOPIT0867', 43, 'SHOP000012','ITEM000064'),
+('SHOPIT0868', 43, 'SHOP000025','ITEM000029'),
+('SHOPIT0869', 29, 'SHOP000011','ITEM000041'),
+('SHOPIT0870', 29, 'SHOP000022','ITEM000030'),
+('SHOPIT0871', 31, 'SHOP000017','ITEM000002'),
+('SHOPIT0872', 52, 'SHOP000009','ITEM000070'),
+('SHOPIT0873', 70, 'SHOP000015','ITEM000008'),
+('SHOPIT0874', 69, 'SHOP000016','ITEM000030'),
+('SHOPIT0875', 53, 'SHOP000002','ITEM000023'),
+('SHOPIT0876', 51, 'SHOP000016','ITEM000026'),
+('SHOPIT0877', 64, 'SHOP000019','ITEM000058'),
+('SHOPIT0878', 65, 'SHOP000005','ITEM000058'),
+('SHOPIT0879', 41, 'SHOP000022','ITEM000065'),
+('SHOPIT0880', 54, 'SHOP000008','ITEM000063'),
+('SHOPIT0881', 59, 'SHOP000016','ITEM000015'),
+('SHOPIT0882', 49, 'SHOP000007','ITEM000008'),
+('SHOPIT0883', 70, 'SHOP000015','ITEM000012'),
+('SHOPIT0884', 74, 'SHOP000021','ITEM000037'),
+('SHOPIT0885', 35, 'SHOP000014','ITEM000030'),
+('SHOPIT0886', 56, 'SHOP000005','ITEM000042'),
+('SHOPIT0887', 52, 'SHOP000001','ITEM000001'),
+('SHOPIT0888', 37, 'SHOP000024','ITEM000068'),
+('SHOPIT0889', 40, 'SHOP000001','ITEM000006'),
+('SHOPIT0890', 55, 'SHOP000014','ITEM000036'),
+('SHOPIT0891', 58, 'SHOP000006','ITEM000039'),
+('SHOPIT0892', 60, 'SHOP000003','ITEM000039'),
+('SHOPIT0893', 33, 'SHOP000020','ITEM000065'),
+('SHOPIT0894', 68, 'SHOP000013','ITEM000057'),
+('SHOPIT0895', 51, 'SHOP000005','ITEM000022'),
+('SHOPIT0896', 56, 'SHOP000025','ITEM000013'),
+('SHOPIT0897', 53, 'SHOP000019','ITEM000068'),
+('SHOPIT0898', 53, 'SHOP000016','ITEM000023'),
+('SHOPIT0899', 42, 'SHOP000021','ITEM000052'),
+('SHOPIT0900', 33, 'SHOP000021','ITEM000040'),
+('SHOPIT0901', 60, 'SHOP000022','ITEM000051'),
+('SHOPIT0902', 45, 'SHOP000002','ITEM000027'),
+('SHOPIT0903', 71, 'SHOP000018','ITEM000059'),
+('SHOPIT0904', 67, 'SHOP000019','ITEM000030'),
+('SHOPIT0905', 62, 'SHOP000017','ITEM000005'),
+('SHOPIT0906', 41, 'SHOP000004','ITEM000044'),
+('SHOPIT0907', 26, 'SHOP000013','ITEM000068'),
+('SHOPIT0908', 55, 'SHOP000012','ITEM000067'),
+('SHOPIT0909', 56, 'SHOP000013','ITEM000074'),
+('SHOPIT0910', 58, 'SHOP000004','ITEM000014'),
+('SHOPIT0911', 40, 'SHOP000024','ITEM000002'),
+('SHOPIT0912', 35, 'SHOP000015','ITEM000047'),
+('SHOPIT0913', 59, 'SHOP000020','ITEM000060'),
+('SHOPIT0914', 36, 'SHOP000025','ITEM000075'),
+('SHOPIT0915', 68, 'SHOP000013','ITEM000030'),
+('SHOPIT0916', 45, 'SHOP000021','ITEM000055'),
+('SHOPIT0917', 26, 'SHOP000025','ITEM000004'),
+('SHOPIT0918', 70, 'SHOP000008','ITEM000070'),
+('SHOPIT0919', 72, 'SHOP000014','ITEM000011'),
+('SHOPIT0920', 38, 'SHOP000022','ITEM000048'),
+('SHOPIT0921', 57, 'SHOP000025','ITEM000064'),
+('SHOPIT0922', 75, 'SHOP000015','ITEM000069'),
+('SHOPIT0923', 45, 'SHOP000007','ITEM000043'),
+('SHOPIT0924', 67, 'SHOP000020','ITEM000074'),
+('SHOPIT0925', 26, 'SHOP000015','ITEM000036'),
+('SHOPIT0926', 50, 'SHOP000002','ITEM000048'),
+('SHOPIT0927', 75, 'SHOP000015','ITEM000011'),
+('SHOPIT0928', 45, 'SHOP000002','ITEM000018'),
+('SHOPIT0929', 31, 'SHOP000023','ITEM000019'),
+('SHOPIT0930', 72, 'SHOP000012','ITEM000016'),
+('SHOPIT0931', 72, 'SHOP000014','ITEM000014'),
+('SHOPIT0932', 42, 'SHOP000023','ITEM000026'),
+('SHOPIT0933', 61, 'SHOP000014','ITEM000057'),
+('SHOPIT0934', 67, 'SHOP000011','ITEM000068'),
+('SHOPIT0935', 25, 'SHOP000023','ITEM000012'),
+('SHOPIT0936', 56, 'SHOP000018','ITEM000021'),
+('SHOPIT0937', 63, 'SHOP000014','ITEM000013'),
+('SHOPIT0938', 69, 'SHOP000004','ITEM000062'),
+('SHOPIT0939', 62, 'SHOP000013','ITEM000051'),
+('SHOPIT0940', 57, 'SHOP000009','ITEM000069'),
+('SHOPIT0941', 54, 'SHOP000017','ITEM000046'),
+('SHOPIT0942', 35, 'SHOP000018','ITEM000031'),
+('SHOPIT0943', 48, 'SHOP000004','ITEM000072'),
+('SHOPIT0944', 44, 'SHOP000012','ITEM000006'),
+('SHOPIT0945', 70, 'SHOP000003','ITEM000003'),
+('SHOPIT0946', 70, 'SHOP000019','ITEM000008'),
+('SHOPIT0947', 40, 'SHOP000014','ITEM000041'),
+('SHOPIT0948', 61, 'SHOP000006','ITEM000029'),
+('SHOPIT0949', 49, 'SHOP000012','ITEM000058'),
+('SHOPIT0950', 67, 'SHOP000016','ITEM000067'),
+('SHOPIT0951', 56, 'SHOP000002','ITEM000057'),
+('SHOPIT0952', 74, 'SHOP000003','ITEM000054'),
+('SHOPIT0953', 27, 'SHOP000005','ITEM000069'),
+('SHOPIT0954', 51, 'SHOP000021','ITEM000039'),
+('SHOPIT0955', 55, 'SHOP000013','ITEM000050'),
+('SHOPIT0956', 50, 'SHOP000011','ITEM000031'),
+('SHOPIT0957', 74, 'SHOP000003','ITEM000034'),
+('SHOPIT0958', 37, 'SHOP000007','ITEM000067'),
+('SHOPIT0959', 50, 'SHOP000019','ITEM000060'),
+('SHOPIT0960', 40, 'SHOP000003','ITEM000014'),
+('SHOPIT0961', 45, 'SHOP000018','ITEM000009'),
+('SHOPIT0962', 62, 'SHOP000007','ITEM000024'),
+('SHOPIT0963', 71, 'SHOP000019','ITEM000002'),
+('SHOPIT0964', 46, 'SHOP000021','ITEM000012'),
+('SHOPIT0965', 29, 'SHOP000019','ITEM000004'),
+('SHOPIT0966', 75, 'SHOP000009','ITEM000007'),
+('SHOPIT0967', 47, 'SHOP000017','ITEM000021'),
+('SHOPIT0968', 39, 'SHOP000023','ITEM000036'),
+('SHOPIT0969', 66, 'SHOP000021','ITEM000002'),
+('SHOPIT0970', 43, 'SHOP000023','ITEM000066'),
+('SHOPIT0971', 70, 'SHOP000007','ITEM000038'),
+('SHOPIT0972', 35, 'SHOP000024','ITEM000054'),
+('SHOPIT0973', 70, 'SHOP000018','ITEM000072'),
+('SHOPIT0974', 68, 'SHOP000006','ITEM000013'),
+('SHOPIT0975', 71, 'SHOP000011','ITEM000033'),
+('SHOPIT0976', 45, 'SHOP000017','ITEM000013'),
+('SHOPIT0977', 34, 'SHOP000016','ITEM000037'),
+('SHOPIT0978', 69, 'SHOP000022','ITEM000062'),
+('SHOPIT0979', 71, 'SHOP000002','ITEM000055'),
+('SHOPIT0980', 75, 'SHOP000001','ITEM000065'),
+('SHOPIT0981', 46, 'SHOP000006','ITEM000044'),
+('SHOPIT0982', 60, 'SHOP000013','ITEM000071'),
+('SHOPIT0983', 43, 'SHOP000021','ITEM000007'),
+('SHOPIT0984', 40, 'SHOP000015','ITEM000065'),
+('SHOPIT0985', 33, 'SHOP000001','ITEM000055'),
+('SHOPIT0986', 49, 'SHOP000018','ITEM000037'),
+('SHOPIT0987', 31, 'SHOP000014','ITEM000022'),
+('SHOPIT0988', 63, 'SHOP000009','ITEM000019'),
+('SHOPIT0989', 56, 'SHOP000002','ITEM000059'),
+('SHOPIT0990', 52, 'SHOP000001','ITEM000059'),
+('SHOPIT0991', 26, 'SHOP000015','ITEM000062'),
+('SHOPIT0992', 44, 'SHOP000008','ITEM000037'),
+('SHOPIT0993', 67, 'SHOP000018','ITEM000040'),
+('SHOPIT0994', 64, 'SHOP000023','ITEM000040'),
+('SHOPIT0995', 74, 'SHOP000021','ITEM000004'),
+('SHOPIT0996', 46, 'SHOP000001','ITEM000048'),
+('SHOPIT0997', 49, 'SHOP000008','ITEM000009'),
+('SHOPIT0998', 26, 'SHOP000017','ITEM000010'),
+('SHOPIT0999', 61, 'SHOP000012','ITEM000043'),
+('SHOPIT1000', 57, 'SHOP000015','ITEM000042'),
+('SHOPIT1001', 35, 'SHOP000006','ITEM000062'),
+('SHOPIT1002', 26, 'SHOP000018','ITEM000023'),
+('SHOPIT1003', 51, 'SHOP000020','ITEM000063'),
+('SHOPIT1004', 63, 'SHOP000002','ITEM000034'),
+('SHOPIT1005', 38, 'SHOP000006','ITEM000020'),
+('SHOPIT1006', 47, 'SHOP000022','ITEM000019'),
+('SHOPIT1007', 25, 'SHOP000012','ITEM000046'),
+('SHOPIT1008', 50, 'SHOP000025','ITEM000014'),
+('SHOPIT1009', 44, 'SHOP000001','ITEM000002'),
+('SHOPIT1010', 30, 'SHOP000001','ITEM000007'),
+('SHOPIT1011', 69, 'SHOP000017','ITEM000052'),
+('SHOPIT1012', 36, 'SHOP000013','ITEM000031'),
+('SHOPIT1013', 48, 'SHOP000003','ITEM000009'),
+('SHOPIT1014', 46, 'SHOP000017','ITEM000061'),
+('SHOPIT1015', 45, 'SHOP000013','ITEM000021'),
+('SHOPIT1016', 50, 'SHOP000010','ITEM000031'),
+('SHOPIT1017', 25, 'SHOP000022','ITEM000023'),
+('SHOPIT1018', 72, 'SHOP000014','ITEM000063'),
+('SHOPIT1019', 33, 'SHOP000015','ITEM000052'),
+('SHOPIT1020', 32, 'SHOP000006','ITEM000038'),
+('SHOPIT1021', 59, 'SHOP000006','ITEM000051'),
+('SHOPIT1022', 32, 'SHOP000002','ITEM000011'),
+('SHOPIT1023', 37, 'SHOP000024','ITEM000052'),
+('SHOPIT1024', 56, 'SHOP000011','ITEM000024'),
+('SHOPIT1025', 62, 'SHOP000018','ITEM000053'),
+('SHOPIT1026', 39, 'SHOP000015','ITEM000009'),
+('SHOPIT1027', 39, 'SHOP000022','ITEM000050'),
+('SHOPIT1028', 69, 'SHOP000015','ITEM000035'),
+('SHOPIT1029', 75, 'SHOP000009','ITEM000034'),
+('SHOPIT1030', 63, 'SHOP000003','ITEM000001'),
+('SHOPIT1031', 44, 'SHOP000025','ITEM000049'),
+('SHOPIT1032', 51, 'SHOP000010','ITEM000008'),
+('SHOPIT1033', 40, 'SHOP000001','ITEM000052'),
+('SHOPIT1034', 66, 'SHOP000013','ITEM000008'),
+('SHOPIT1035', 52, 'SHOP000021','ITEM000018'),
+('SHOPIT1036', 28, 'SHOP000024','ITEM000009'),
+('SHOPIT1037', 29, 'SHOP000001','ITEM000046'),
+('SHOPIT1038', 39, 'SHOP000015','ITEM000049'),
+('SHOPIT1039', 75, 'SHOP000021','ITEM000011'),
+('SHOPIT1040', 49, 'SHOP000016','ITEM000048'),
+('SHOPIT1041', 44, 'SHOP000023','ITEM000074'),
+('SHOPIT1042', 59, 'SHOP000018','ITEM000048'),
+('SHOPIT1043', 45, 'SHOP000015','ITEM000028'),
+('SHOPIT1044', 54, 'SHOP000008','ITEM000038'),
+('SHOPIT1045', 60, 'SHOP000020','ITEM000013'),
+('SHOPIT1046', 42, 'SHOP000017','ITEM000041'),
+('SHOPIT1047', 54, 'SHOP000010','ITEM000035'),
+('SHOPIT1048', 40, 'SHOP000011','ITEM000006'),
+('SHOPIT1049', 71, 'SHOP000019','ITEM000019'),
+('SHOPIT1050', 43, 'SHOP000004','ITEM000043'),
+('SHOPIT1051', 55, 'SHOP000012','ITEM000050'),
+('SHOPIT1052', 38, 'SHOP000016','ITEM000024'),
+('SHOPIT1053', 74, 'SHOP000022','ITEM000025'),
+('SHOPIT1054', 60, 'SHOP000007','ITEM000005'),
+('SHOPIT1055', 45, 'SHOP000018','ITEM000064'),
+('SHOPIT1056', 58, 'SHOP000011','ITEM000008'),
+('SHOPIT1057', 34, 'SHOP000006','ITEM000067'),
+('SHOPIT1058', 31, 'SHOP000015','ITEM000040'),
+('SHOPIT1059', 46, 'SHOP000019','ITEM000024'),
+('SHOPIT1060', 66, 'SHOP000004','ITEM000032'),
+('SHOPIT1061', 70, 'SHOP000004','ITEM000052'),
+('SHOPIT1062', 39, 'SHOP000009','ITEM000039'),
+('SHOPIT1063', 54, 'SHOP000005','ITEM000064'),
+('SHOPIT1064', 39, 'SHOP000021','ITEM000024'),
+('SHOPIT1065', 47, 'SHOP000009','ITEM000016'),
+('SHOPIT1066', 31, 'SHOP000017','ITEM000018'),
+('SHOPIT1067', 54, 'SHOP000010','ITEM000063'),
+('SHOPIT1068', 37, 'SHOP000009','ITEM000075'),
+('SHOPIT1069', 66, 'SHOP000016','ITEM000055'),
+('SHOPIT1070', 44, 'SHOP000016','ITEM000060'),
+('SHOPIT1071', 46, 'SHOP000022','ITEM000031'),
+('SHOPIT1072', 38, 'SHOP000020','ITEM000054'),
+('SHOPIT1073', 42, 'SHOP000009','ITEM000010'),
+('SHOPIT1074', 62, 'SHOP000018','ITEM000028'),
+('SHOPIT1075', 51, 'SHOP000014','ITEM000046'),
+('SHOPIT1076', 60, 'SHOP000014','ITEM000031'),
+('SHOPIT1077', 43, 'SHOP000025','ITEM000053'),
+('SHOPIT1078', 41, 'SHOP000003','ITEM000015'),
+('SHOPIT1079', 56, 'SHOP000018','ITEM000017'),
+('SHOPIT1080', 29, 'SHOP000025','ITEM000033'),
+('SHOPIT1081', 71, 'SHOP000011','ITEM000065'),
+('SHOPIT1082', 66, 'SHOP000014','ITEM000062'),
+('SHOPIT1083', 29, 'SHOP000020','ITEM000014'),
+('SHOPIT1084', 69, 'SHOP000023','ITEM000046'),
+('SHOPIT1085', 75, 'SHOP000012','ITEM000039'),
+('SHOPIT1086', 47, 'SHOP000021','ITEM000031'),
+('SHOPIT1087', 49, 'SHOP000016','ITEM000012'),
+('SHOPIT1088', 51, 'SHOP000015','ITEM000005'),
+('SHOPIT1089', 40, 'SHOP000002','ITEM000017'),
+('SHOPIT1090', 52, 'SHOP000015','ITEM000034'),
+('SHOPIT1091', 50, 'SHOP000018','ITEM000035'),
+('SHOPIT1092', 60, 'SHOP000018','ITEM000012'),
+('SHOPIT1093', 45, 'SHOP000018','ITEM000042'),
+('SHOPIT1094', 51, 'SHOP000019','ITEM000032'),
+('SHOPIT1095', 61, 'SHOP000023','ITEM000049'),
+('SHOPIT1096', 58, 'SHOP000008','ITEM000048'),
+('SHOPIT1097', 46, 'SHOP000014','ITEM000034'),
+('SHOPIT1098', 45, 'SHOP000017','ITEM000028'),
+('SHOPIT1099', 70, 'SHOP000010','ITEM000025'),
+('SHOPIT1100', 48, 'SHOP000011','ITEM000060'),
+('SHOPIT1101', 50, 'SHOP000017','ITEM000030'),
+('SHOPIT1102', 40, 'SHOP000002','ITEM000028'),
+('SHOPIT1103', 57, 'SHOP000021','ITEM000013'),
+('SHOPIT1104', 66, 'SHOP000009','ITEM000040'),
+('SHOPIT1105', 54, 'SHOP000021','ITEM000005'),
+('SHOPIT1106', 61, 'SHOP000007','ITEM000051'),
+('SHOPIT1107', 26, 'SHOP000008','ITEM000066'),
+('SHOPIT1108', 40, 'SHOP000010','ITEM000044'),
+('SHOPIT1109', 45, 'SHOP000019','ITEM000003'),
+('SHOPIT1110', 60, 'SHOP000022','ITEM000026'),
+('SHOPIT1111', 68, 'SHOP000001','ITEM000054'),
+('SHOPIT1112', 44, 'SHOP000014','ITEM000070'),
+('SHOPIT1113', 60, 'SHOP000021','ITEM000017'),
+('SHOPIT1114', 31, 'SHOP000009','ITEM000033'),
+('SHOPIT1115', 51, 'SHOP000023','ITEM000025'),
+('SHOPIT1116', 59, 'SHOP000025','ITEM000043'),
+('SHOPIT1117', 59, 'SHOP000016','ITEM000075'),
+('SHOPIT1118', 75, 'SHOP000019','ITEM000045'),
+('SHOPIT1119', 31, 'SHOP000023','ITEM000020'),
+('SHOPIT1120', 37, 'SHOP000002','ITEM000065'),
+('SHOPIT1121', 63, 'SHOP000023','ITEM000007'),
+('SHOPIT1122', 37, 'SHOP000014','ITEM000067'),
+('SHOPIT1123', 55, 'SHOP000010','ITEM000032'),
+('SHOPIT1124', 41, 'SHOP000008','ITEM000022'),
+('SHOPIT1125', 57, 'SHOP000010','ITEM000005'),
+('SHOPIT1126', 40, 'SHOP000009','ITEM000059'),
+('SHOPIT1127', 33, 'SHOP000024','ITEM000019'),
+('SHOPIT1128', 35, 'SHOP000002','ITEM000063'),
+('SHOPIT1129', 69, 'SHOP000023','ITEM000001'),
+('SHOPIT1130', 28, 'SHOP000016','ITEM000009'),
+('SHOPIT1131', 40, 'SHOP000025','ITEM000021'),
+('SHOPIT1132', 37, 'SHOP000002','ITEM000007'),
+('SHOPIT1133', 30, 'SHOP000012','ITEM000049'),
+('SHOPIT1134', 63, 'SHOP000022','ITEM000073'),
+('SHOPIT1135', 43, 'SHOP000008','ITEM000051'),
+('SHOPIT1136', 61, 'SHOP000004','ITEM000041'),
+('SHOPIT1137', 70, 'SHOP000016','ITEM000020'),
+('SHOPIT1138', 48, 'SHOP000024','ITEM000018'),
+('SHOPIT1139', 61, 'SHOP000012','ITEM000037'),
+('SHOPIT1140', 25, 'SHOP000007','ITEM000068'),
+('SHOPIT1141', 32, 'SHOP000015','ITEM000033'),
+('SHOPIT1142', 54, 'SHOP000011','ITEM000005'),
+('SHOPIT1143', 60, 'SHOP000009','ITEM000018'),
+('SHOPIT1144', 75, 'SHOP000018','ITEM000052'),
+('SHOPIT1145', 27, 'SHOP000018','ITEM000003'),
+('SHOPIT1146', 30, 'SHOP000019','ITEM000038'),
+('SHOPIT1147', 71, 'SHOP000003','ITEM000025'),
+('SHOPIT1148', 66, 'SHOP000009','ITEM000041'),
+('SHOPIT1149', 67, 'SHOP000009','ITEM000030'),
+('SHOPIT1150', 32, 'SHOP000007','ITEM000009'),
+('SHOPIT1151', 38, 'SHOP000025','ITEM000024'),
+('SHOPIT1152', 61, 'SHOP000011','ITEM000032'),
+('SHOPIT1153', 32, 'SHOP000002','ITEM000072'),
+('SHOPIT1154', 36, 'SHOP000019','ITEM000028'),
+('SHOPIT1155', 42, 'SHOP000010','ITEM000012'),
+('SHOPIT1156', 63, 'SHOP000012','ITEM000035'),
+('SHOPIT1157', 63, 'SHOP000004','ITEM000016'),
+('SHOPIT1158', 69, 'SHOP000011','ITEM000025'),
+('SHOPIT1159', 68, 'SHOP000004','ITEM000038'),
+('SHOPIT1160', 42, 'SHOP000007','ITEM000072'),
+('SHOPIT1161', 35, 'SHOP000003','ITEM000046'),
+('SHOPIT1162', 36, 'SHOP000021','ITEM000025'),
+('SHOPIT1163', 28, 'SHOP000023','ITEM000072'),
+('SHOPIT1164', 39, 'SHOP000020','ITEM000022'),
+('SHOPIT1165', 72, 'SHOP000024','ITEM000061'),
+('SHOPIT1166', 68, 'SHOP000018','ITEM000018'),
+('SHOPIT1167', 40, 'SHOP000001','ITEM000035'),
+('SHOPIT1168', 60, 'SHOP000007','ITEM000062'),
+('SHOPIT1169', 42, 'SHOP000007','ITEM000057'),
+('SHOPIT1170', 48, 'SHOP000025','ITEM000001'),
+('SHOPIT1171', 36, 'SHOP000014','ITEM000003'),
+('SHOPIT1172', 49, 'SHOP000017','ITEM000040'),
+('SHOPIT1173', 33, 'SHOP000021','ITEM000068'),
+('SHOPIT1174', 40, 'SHOP000004','ITEM000030'),
+('SHOPIT1175', 51, 'SHOP000016','ITEM000018'),
+('SHOPIT1176', 63, 'SHOP000020','ITEM000004'),
+('SHOPIT1177', 70, 'SHOP000005','ITEM000074'),
+('SHOPIT1178', 67, 'SHOP000017','ITEM000053'),
+('SHOPIT1179', 46, 'SHOP000004','ITEM000071'),
+('SHOPIT1180', 50, 'SHOP000024','ITEM000058'),
+('SHOPIT1181', 49, 'SHOP000015','ITEM000060'),
+('SHOPIT1182', 67, 'SHOP000016','ITEM000021'),
+('SHOPIT1183', 60, 'SHOP000010','ITEM000022'),
+('SHOPIT1184', 74, 'SHOP000024','ITEM000020'),
+('SHOPIT1185', 51, 'SHOP000023','ITEM000062'),
+('SHOPIT1186', 31, 'SHOP000003','ITEM000027'),
+('SHOPIT1187', 62, 'SHOP000008','ITEM000021'),
+('SHOPIT1188', 29, 'SHOP000001','ITEM000058'),
+('SHOPIT1189', 63, 'SHOP000021','ITEM000048'),
+('SHOPIT1190', 38, 'SHOP000010','ITEM000065'),
+('SHOPIT1191', 58, 'SHOP000010','ITEM000062'),
+('SHOPIT1192', 31, 'SHOP000006','ITEM000010'),
+('SHOPIT1193', 65, 'SHOP000021','ITEM000069'),
+('SHOPIT1194', 49, 'SHOP000003','ITEM000069'),
+('SHOPIT1195', 66, 'SHOP000006','ITEM000022'),
+('SHOPIT1196', 37, 'SHOP000007','ITEM000026'),
+('SHOPIT1197', 57, 'SHOP000013','ITEM000024'),
+('SHOPIT1198', 43, 'SHOP000007','ITEM000032'),
+('SHOPIT1199', 71, 'SHOP000001','ITEM000023'),
+('SHOPIT1200', 54, 'SHOP000015','ITEM000020'),
+('SHOPIT1201', 44, 'SHOP000021','ITEM000070'),
+('SHOPIT1202', 29, 'SHOP000001','ITEM000025'),
+('SHOPIT1203', 35, 'SHOP000009','ITEM000043'),
+('SHOPIT1204', 54, 'SHOP000020','ITEM000071'),
+('SHOPIT1205', 68, 'SHOP000002','ITEM000043'),
+('SHOPIT1206', 32, 'SHOP000007','ITEM000004'),
+('SHOPIT1207', 34, 'SHOP000021','ITEM000066'),
+('SHOPIT1208', 27, 'SHOP000002','ITEM000001'),
+('SHOPIT1209', 74, 'SHOP000011','ITEM000055'),
+('SHOPIT1210', 74, 'SHOP000021','ITEM000072'),
+('SHOPIT1211', 37, 'SHOP000025','ITEM000062'),
+('SHOPIT1212', 62, 'SHOP000012','ITEM000019'),
+('SHOPIT1213', 64, 'SHOP000012','ITEM000034'),
+('SHOPIT1214', 55, 'SHOP000010','ITEM000071'),
+('SHOPIT1215', 33, 'SHOP000013','ITEM000025'),
+('SHOPIT1216', 56, 'SHOP000025','ITEM000057'),
+('SHOPIT1217', 71, 'SHOP000005','ITEM000040'),
+('SHOPIT1218', 65, 'SHOP000018','ITEM000060'),
+('SHOPIT1219', 45, 'SHOP000021','ITEM000059'),
+('SHOPIT1220', 42, 'SHOP000018','ITEM000071'),
+('SHOPIT1221', 26, 'SHOP000022','ITEM000007'),
+('SHOPIT1222', 75, 'SHOP000003','ITEM000007'),
+('SHOPIT1223', 40, 'SHOP000007','ITEM000073'),
+('SHOPIT1224', 34, 'SHOP000002','ITEM000044'),
+('SHOPIT1225', 38, 'SHOP000022','ITEM000042'),
+('SHOPIT1226', 42, 'SHOP000020','ITEM000024'),
+('SHOPIT1227', 27, 'SHOP000011','ITEM000028'),
+('SHOPIT1228', 35, 'SHOP000007','ITEM000075'),
+('SHOPIT1229', 71, 'SHOP000008','ITEM000028'),
+('SHOPIT1230', 29, 'SHOP000006','ITEM000042'),
+('SHOPIT1231', 28, 'SHOP000006','ITEM000052'),
+('SHOPIT1232', 29, 'SHOP000023','ITEM000048'),
+('SHOPIT1233', 58, 'SHOP000012','ITEM000068'),
+('SHOPIT1234', 70, 'SHOP000013','ITEM000012'),
+('SHOPIT1235', 25, 'SHOP000015','ITEM000073'),
+('SHOPIT1236', 63, 'SHOP000024','ITEM000047'),
+('SHOPIT1237', 67, 'SHOP000020','ITEM000073'),
+('SHOPIT1238', 47, 'SHOP000010','ITEM000007'),
+('SHOPIT1239', 72, 'SHOP000021','ITEM000009'),
+('SHOPIT1240', 43, 'SHOP000002','ITEM000009'),
+('SHOPIT1241', 68, 'SHOP000025','ITEM000030'),
+('SHOPIT1242', 64, 'SHOP000016','ITEM000069'),
+('SHOPIT1243', 64, 'SHOP000014','ITEM000047'),
+('SHOPIT1244', 36, 'SHOP000002','ITEM000069'),
+('SHOPIT1245', 73, 'SHOP000015','ITEM000061'),
+('SHOPIT1246', 75, 'SHOP000001','ITEM000009'),
+('SHOPIT1247', 55, 'SHOP000025','ITEM000016'),
+('SHOPIT1248', 29, 'SHOP000002','ITEM000074'),
+('SHOPIT1249', 52, 'SHOP000009','ITEM000063'),
+('SHOPIT1250', 55, 'SHOP000004','ITEM000061'),
+('SHOPIT1251', 57, 'SHOP000011','ITEM000057'),
+('SHOPIT1252', 45, 'SHOP000021','ITEM000033'),
+('SHOPIT1253', 68, 'SHOP000020','ITEM000017'),
+('SHOPIT1254', 60, 'SHOP000016','ITEM000013'),
+('SHOPIT1255', 48, 'SHOP000007','ITEM000044'),
+('SHOPIT1256', 51, 'SHOP000008','ITEM000045'),
+('SHOPIT1257', 75, 'SHOP000013','ITEM000069'),
+('SHOPIT1258', 52, 'SHOP000025','ITEM000052'),
+('SHOPIT1259', 27, 'SHOP000005','ITEM000015'),
+('SHOPIT1260', 50, 'SHOP000010','ITEM000067'),
+('SHOPIT1261', 54, 'SHOP000002','ITEM000062'),
+('SHOPIT1262', 40, 'SHOP000009','ITEM000047'),
+('SHOPIT1263', 35, 'SHOP000018','ITEM000039'),
+('SHOPIT1264', 69, 'SHOP000018','ITEM000046'),
+('SHOPIT1265', 71, 'SHOP000001','ITEM000011'),
+('SHOPIT1266', 64, 'SHOP000006','ITEM000011'),
+('SHOPIT1267', 53, 'SHOP000022','ITEM000072'),
+('SHOPIT1268', 51, 'SHOP000018','ITEM000024'),
+('SHOPIT1269', 40, 'SHOP000007','ITEM000023'),
+('SHOPIT1270', 75, 'SHOP000009','ITEM000049'),
+('SHOPIT1271', 74, 'SHOP000007','ITEM000012'),
+('SHOPIT1272', 48, 'SHOP000023','ITEM000070'),
+('SHOPIT1273', 36, 'SHOP000010','ITEM000042'),
+('SHOPIT1274', 52, 'SHOP000010','ITEM000002'),
+('SHOPIT1275', 45, 'SHOP000006','ITEM000015'),
+('SHOPIT1276', 66, 'SHOP000021','ITEM000047'),
+('SHOPIT1277', 44, 'SHOP000003','ITEM000033'),
+('SHOPIT1278', 41, 'SHOP000024','ITEM000001'),
+('SHOPIT1279', 62, 'SHOP000018','ITEM000051'),
+('SHOPIT1280', 60, 'SHOP000001','ITEM000060'),
+('SHOPIT1281', 48, 'SHOP000006','ITEM000058'),
+('SHOPIT1282', 74, 'SHOP000004','ITEM000024'),
+('SHOPIT1283', 65, 'SHOP000003','ITEM000049'),
+('SHOPIT1284', 52, 'SHOP000017','ITEM000060'),
+('SHOPIT1285', 33, 'SHOP000023','ITEM000022'),
+('SHOPIT1286', 66, 'SHOP000023','ITEM000052'),
+('SHOPIT1287', 52, 'SHOP000006','ITEM000070'),
+('SHOPIT1288', 63, 'SHOP000021','ITEM000036'),
+('SHOPIT1289', 59, 'SHOP000023','ITEM000011'),
+('SHOPIT1290', 71, 'SHOP000015','ITEM000070'),
+('SHOPIT1291', 71, 'SHOP000019','ITEM000025'),
+('SHOPIT1292', 47, 'SHOP000020','ITEM000003'),
+('SHOPIT1293', 68, 'SHOP000017','ITEM000019'),
+('SHOPIT1294', 51, 'SHOP000005','ITEM000039'),
+('SHOPIT1295', 28, 'SHOP000008','ITEM000001'),
+('SHOPIT1296', 34, 'SHOP000008','ITEM000053'),
+('SHOPIT1297', 51, 'SHOP000020','ITEM000034'),
+('SHOPIT1298', 39, 'SHOP000016','ITEM000032'),
+('SHOPIT1299', 46, 'SHOP000001','ITEM000039'),
+('SHOPIT1300', 65, 'SHOP000025','ITEM000025'),
+('SHOPIT1301', 34, 'SHOP000022','ITEM000021'),
+('SHOPIT1302', 54, 'SHOP000012','ITEM000022'),
+('SHOPIT1303', 65, 'SHOP000008','ITEM000058'),
+('SHOPIT1304', 57, 'SHOP000008','ITEM000059'),
+('SHOPIT1305', 34, 'SHOP000011','ITEM000053'),
+('SHOPIT1306', 71, 'SHOP000022','ITEM000068'),
+('SHOPIT1307', 75, 'SHOP000017','ITEM000015'),
+('SHOPIT1308', 30, 'SHOP000003','ITEM000047'),
+('SHOPIT1309', 62, 'SHOP000005','ITEM000072'),
+('SHOPIT1310', 53, 'SHOP000019','ITEM000065'),
+('SHOPIT1311', 51, 'SHOP000024','ITEM000038'),
+('SHOPIT1312', 70, 'SHOP000014','ITEM000027'),
+('SHOPIT1313', 30, 'SHOP000011','ITEM000038'),
+('SHOPIT1314', 27, 'SHOP000023','ITEM000047'),
+('SHOPIT1315', 66, 'SHOP000021','ITEM000038'),
+('SHOPIT1316', 60, 'SHOP000023','ITEM000032'),
+('SHOPIT1317', 37, 'SHOP000001','ITEM000067'),
+('SHOPIT1318', 58, 'SHOP000017','ITEM000066'),
+('SHOPIT1319', 48, 'SHOP000013','ITEM000067'),
+('SHOPIT1320', 70, 'SHOP000006','ITEM000036'),
+('SHOPIT1321', 31, 'SHOP000007','ITEM000058'),
+('SHOPIT1322', 61, 'SHOP000024','ITEM000067'),
+('SHOPIT1323', 48, 'SHOP000003','ITEM000073'),
+('SHOPIT1324', 55, 'SHOP000003','ITEM000059'),
+('SHOPIT1325', 75, 'SHOP000010','ITEM000006'),
+('SHOPIT1326', 46, 'SHOP000008','ITEM000042'),
+('SHOPIT1327', 44, 'SHOP000012','ITEM000029'),
+('SHOPIT1328', 66, 'SHOP000025','ITEM000036'),
+('SHOPIT1329', 66, 'SHOP000004','ITEM000034'),
+('SHOPIT1330', 57, 'SHOP000018','ITEM000074'),
+('SHOPIT1331', 65, 'SHOP000018','ITEM000068'),
+('SHOPIT1332', 65, 'SHOP000024','ITEM000013'),
+('SHOPIT1333', 29, 'SHOP000012','ITEM000047'),
+('SHOPIT1334', 74, 'SHOP000001','ITEM000015'),
+('SHOPIT1335', 71, 'SHOP000013','ITEM000075'),
+('SHOPIT1336', 49, 'SHOP000014','ITEM000066'),
+('SHOPIT1337', 46, 'SHOP000010','ITEM000021'),
+('SHOPIT1338', 51, 'SHOP000019','ITEM000042'),
+('SHOPIT1339', 71, 'SHOP000011','ITEM000061'),
+('SHOPIT1340', 47, 'SHOP000025','ITEM000015'),
+('SHOPIT1341', 36, 'SHOP000008','ITEM000065'),
+('SHOPIT1342', 42, 'SHOP000002','ITEM000075'),
+('SHOPIT1343', 60, 'SHOP000015','ITEM000044'),
+('SHOPIT1344', 43, 'SHOP000020','ITEM000036'),
+('SHOPIT1345', 44, 'SHOP000022','ITEM000005'),
+('SHOPIT1346', 71, 'SHOP000002','ITEM000042'),
+('SHOPIT1347', 31, 'SHOP000019','ITEM000021'),
+('SHOPIT1348', 58, 'SHOP000011','ITEM000043'),
+('SHOPIT1349', 29, 'SHOP000011','ITEM000044'),
+('SHOPIT1350', 47, 'SHOP000004','ITEM000053'),
+('SHOPIT1351', 41, 'SHOP000022','ITEM000066'),
+('SHOPIT1352', 40, 'SHOP000002','ITEM000026'),
+('SHOPIT1353', 30, 'SHOP000024','ITEM000039'),
+('SHOPIT1354', 44, 'SHOP000012','ITEM000062'),
+('SHOPIT1355', 70, 'SHOP000025','ITEM000048'),
+('SHOPIT1356', 36, 'SHOP000011','ITEM000047'),
+('SHOPIT1357', 63, 'SHOP000013','ITEM000023'),
+('SHOPIT1358', 41, 'SHOP000008','ITEM000062'),
+('SHOPIT1359', 58, 'SHOP000003','ITEM000040'),
+('SHOPIT1360', 34, 'SHOP000014','ITEM000009'),
+('SHOPIT1361', 36, 'SHOP000002','ITEM000071'),
+('SHOPIT1362', 55, 'SHOP000004','ITEM000067'),
+('SHOPIT1363', 42, 'SHOP000020','ITEM000025'),
+('SHOPIT1364', 43, 'SHOP000017','ITEM000050'),
+('SHOPIT1365', 25, 'SHOP000020','ITEM000048'),
+('SHOPIT1366', 43, 'SHOP000025','ITEM000056'),
+('SHOPIT1367', 70, 'SHOP000009','ITEM000017'),
+('SHOPIT1368', 51, 'SHOP000005','ITEM000023'),
+('SHOPIT1369', 70, 'SHOP000017','ITEM000026'),
+('SHOPIT1370', 64, 'SHOP000016','ITEM000025'),
+('SHOPIT1371', 71, 'SHOP000004','ITEM000020'),
+('SHOPIT1372', 35, 'SHOP000022','ITEM000032'),
+('SHOPIT1373', 56, 'SHOP000011','ITEM000062'),
+('SHOPIT1374', 36, 'SHOP000020','ITEM000029'),
+('SHOPIT1375', 35, 'SHOP000004','ITEM000060'),
+('SHOPIT1376', 62, 'SHOP000018','ITEM000027'),
+('SHOPIT1377', 36, 'SHOP000012','ITEM000015'),
+('SHOPIT1378', 45, 'SHOP000025','ITEM000026'),
+('SHOPIT1379', 28, 'SHOP000015','ITEM000014'),
+('SHOPIT1380', 74, 'SHOP000025','ITEM000073'),
+('SHOPIT1381', 30, 'SHOP000002','ITEM000038'),
+('SHOPIT1382', 52, 'SHOP000008','ITEM000005'),
+('SHOPIT1383', 71, 'SHOP000013','ITEM000010'),
+('SHOPIT1384', 67, 'SHOP000013','ITEM000056'),
+('SHOPIT1385', 61, 'SHOP000010','ITEM000073'),
+('SHOPIT1386', 38, 'SHOP000007','ITEM000048'),
+('SHOPIT1387', 57, 'SHOP000019','ITEM000062'),
+('SHOPIT1388', 67, 'SHOP000025','ITEM000058'),
+('SHOPIT1389', 48, 'SHOP000005','ITEM000050'),
+('SHOPIT1390', 35, 'SHOP000018','ITEM000044'),
+('SHOPIT1391', 35, 'SHOP000019','ITEM000001'),
+('SHOPIT1392', 71, 'SHOP000025','ITEM000054'),
+('SHOPIT1393', 33, 'SHOP000018','ITEM000015'),
+('SHOPIT1394', 55, 'SHOP000010','ITEM000017'),
+('SHOPIT1395', 55, 'SHOP000015','ITEM000057'),
+('SHOPIT1396', 55, 'SHOP000003','ITEM000058'),
+('SHOPIT1397', 58, 'SHOP000017','ITEM000055'),
+('SHOPIT1398', 54, 'SHOP000016','ITEM000063'),
+('SHOPIT1399', 60, 'SHOP000006','ITEM000024'),
+('SHOPIT1400', 30, 'SHOP000007','ITEM000028'),
+('SHOPIT1401', 52, 'SHOP000017','ITEM000022'),
+('SHOPIT1402', 32, 'SHOP000021','ITEM000056'),
+('SHOPIT1403', 62, 'SHOP000024','ITEM000026'),
+('SHOPIT1404', 62, 'SHOP000002','ITEM000029'),
+('SHOPIT1405', 31, 'SHOP000021','ITEM000001'),
+('SHOPIT1406', 32, 'SHOP000024','ITEM000037'),
+('SHOPIT1407', 27, 'SHOP000009','ITEM000044'),
+('SHOPIT1408', 28, 'SHOP000019','ITEM000039'),
+('SHOPIT1409', 27, 'SHOP000002','ITEM000012'),
+('SHOPIT1410', 27, 'SHOP000011','ITEM000045'),
+('SHOPIT1411', 41, 'SHOP000019','ITEM000051'),
+('SHOPIT1412', 49, 'SHOP000005','ITEM000036'),
+('SHOPIT1413', 58, 'SHOP000013','ITEM000042'),
+('SHOPIT1414', 70, 'SHOP000023','ITEM000006'),
+('SHOPIT1415', 52, 'SHOP000015','ITEM000027'),
+('SHOPIT1416', 28, 'SHOP000005','ITEM000012'),
+('SHOPIT1417', 66, 'SHOP000005','ITEM000056'),
+('SHOPIT1418', 59, 'SHOP000010','ITEM000003'),
+('SHOPIT1419', 25, 'SHOP000008','ITEM000046'),
+('SHOPIT1420', 32, 'SHOP000018','ITEM000016'),
+('SHOPIT1421', 58, 'SHOP000013','ITEM000006'),
+('SHOPIT1422', 69, 'SHOP000008','ITEM000054'),
+('SHOPIT1423', 53, 'SHOP000008','ITEM000049'),
+('SHOPIT1424', 72, 'SHOP000022','ITEM000071'),
+('SHOPIT1425', 64, 'SHOP000021','ITEM000034'),
+('SHOPIT1426', 46, 'SHOP000012','ITEM000014'),
+('SHOPIT1427', 29, 'SHOP000025','ITEM000007'),
+('SHOPIT1428', 37, 'SHOP000017','ITEM000036'),
+('SHOPIT1429', 62, 'SHOP000003','ITEM000072'),
+('SHOPIT1430', 44, 'SHOP000015','ITEM000058'),
+('SHOPIT1431', 36, 'SHOP000005','ITEM000068'),
+('SHOPIT1432', 51, 'SHOP000016','ITEM000043'),
+('SHOPIT1433', 52, 'SHOP000025','ITEM000008'),
+('SHOPIT1434', 74, 'SHOP000005','ITEM000052'),
+('SHOPIT1435', 29, 'SHOP000002','ITEM000036'),
+('SHOPIT1436', 65, 'SHOP000005','ITEM000001'),
+('SHOPIT1437', 71, 'SHOP000001','ITEM000004'),
+('SHOPIT1438', 33, 'SHOP000017','ITEM000064'),
+('SHOPIT1439', 40, 'SHOP000024','ITEM000004'),
+('SHOPIT1440', 42, 'SHOP000015','ITEM000025'),
+('SHOPIT1441', 45, 'SHOP000024','ITEM000062'),
+('SHOPIT1442', 47, 'SHOP000017','ITEM000027'),
+('SHOPIT1443', 59, 'SHOP000017','ITEM000012'),
+('SHOPIT1444', 47, 'SHOP000014','ITEM000006'),
+('SHOPIT1445', 56, 'SHOP000006','ITEM000006'),
+('SHOPIT1446', 38, 'SHOP000024','ITEM000045'),
+('SHOPIT1447', 56, 'SHOP000017','ITEM000054'),
+('SHOPIT1448', 67, 'SHOP000012','ITEM000063'),
+('SHOPIT1449', 63, 'SHOP000019','ITEM000009'),
+('SHOPIT1450', 46, 'SHOP000019','ITEM000067'),
+('SHOPIT1451', 33, 'SHOP000002','ITEM000058'),
+('SHOPIT1452', 29, 'SHOP000006','ITEM000047'),
+('SHOPIT1453', 71, 'SHOP000021','ITEM000044'),
+('SHOPIT1454', 65, 'SHOP000012','ITEM000072'),
+('SHOPIT1455', 37, 'SHOP000014','ITEM000060'),
+('SHOPIT1456', 62, 'SHOP000012','ITEM000031'),
+('SHOPIT1457', 65, 'SHOP000015','ITEM000038'),
+('SHOPIT1458', 37, 'SHOP000004','ITEM000033'),
+('SHOPIT1459', 33, 'SHOP000013','ITEM000037'),
+('SHOPIT1460', 39, 'SHOP000008','ITEM000006'),
+('SHOPIT1461', 70, 'SHOP000006','ITEM000064'),
+('SHOPIT1462', 28, 'SHOP000010','ITEM000070'),
+('SHOPIT1463', 30, 'SHOP000020','ITEM000021'),
+('SHOPIT1464', 69, 'SHOP000019','ITEM000037'),
+('SHOPIT1465', 43, 'SHOP000003','ITEM000038'),
+('SHOPIT1466', 68, 'SHOP000015','ITEM000053'),
+('SHOPIT1467', 45, 'SHOP000016','ITEM000044'),
+('SHOPIT1468', 70, 'SHOP000011','ITEM000034'),
+('SHOPIT1469', 31, 'SHOP000023','ITEM000034'),
+('SHOPIT1470', 39, 'SHOP000010','ITEM000072'),
+('SHOPIT1471', 65, 'SHOP000003','ITEM000028'),
+('SHOPIT1472', 29, 'SHOP000018','ITEM000002'),
+('SHOPIT1473', 66, 'SHOP000013','ITEM000052'),
+('SHOPIT1474', 26, 'SHOP000008','ITEM000050'),
+('SHOPIT1475', 66, 'SHOP000006','ITEM000033'),
+('SHOPIT1476', 46, 'SHOP000009','ITEM000062'),
+('SHOPIT1477', 33, 'SHOP000007','ITEM000002'),
+('SHOPIT1478', 65, 'SHOP000020','ITEM000030'),
+('SHOPIT1479', 70, 'SHOP000018','ITEM000066'),
+('SHOPIT1480', 48, 'SHOP000014','ITEM000024'),
+('SHOPIT1481', 70, 'SHOP000003','ITEM000070'),
+('SHOPIT1482', 45, 'SHOP000021','ITEM000064'),
+('SHOPIT1483', 62, 'SHOP000025','ITEM000040'),
+('SHOPIT1484', 27, 'SHOP000019','ITEM000049'),
+('SHOPIT1485', 34, 'SHOP000005','ITEM000060'),
+('SHOPIT1486', 61, 'SHOP000019','ITEM000007'),
+('SHOPIT1487', 53, 'SHOP000007','ITEM000016'),
+('SHOPIT1488', 61, 'SHOP000017','ITEM000020'),
+('SHOPIT1489', 74, 'SHOP000011','ITEM000029'),
+('SHOPIT1490', 62, 'SHOP000002','ITEM000060'),
+('SHOPIT1491', 46, 'SHOP000013','ITEM000060'),
+('SHOPIT1492', 33, 'SHOP000023','ITEM000073'),
+('SHOPIT1493', 54, 'SHOP000023','ITEM000042'),
+('SHOPIT1494', 44, 'SHOP000014','ITEM000054'),
+('SHOPIT1495', 41, 'SHOP000001','ITEM000003'),
+('SHOPIT1496', 29, 'SHOP000007','ITEM000014'),
+('SHOPIT1497', 41, 'SHOP000021','ITEM000003'),
+('SHOPIT1498', 43, 'SHOP000017','ITEM000071'),
+('SHOPIT1499', 28, 'SHOP000001','ITEM000057'),
+('SHOPIT1500', 31, 'SHOP000010','ITEM000043'),
+('SHOPIT1501', 71, 'SHOP000011','ITEM000015'),
+('SHOPIT1502', 67, 'SHOP000003','ITEM000002'),
+('SHOPIT1503', 61, 'SHOP000003','ITEM000024'),
+('SHOPIT1504', 59, 'SHOP000013','ITEM000026'),
+('SHOPIT1505', 29, 'SHOP000007','ITEM000054'),
+('SHOPIT1506', 73, 'SHOP000018','ITEM000006'),
+('SHOPIT1507', 44, 'SHOP000024','ITEM000022'),
+('SHOPIT1508', 60, 'SHOP000017','ITEM000057'),
+('SHOPIT1509', 74, 'SHOP000014','ITEM000051'),
+('SHOPIT1510', 68, 'SHOP000005','ITEM000053'),
+('SHOPIT1511', 54, 'SHOP000011','ITEM000014'),
+('SHOPIT1512', 36, 'SHOP000005','ITEM000013'),
+('SHOPIT1513', 53, 'SHOP000015','ITEM000019'),
+('SHOPIT1514', 56, 'SHOP000013','ITEM000061'),
+('SHOPIT1515', 38, 'SHOP000005','ITEM000018'),
+('SHOPIT1516', 62, 'SHOP000012','ITEM000065'),
+('SHOPIT1517', 57, 'SHOP000016','ITEM000073'),
+('SHOPIT1518', 44, 'SHOP000002','ITEM000030'),
+('SHOPIT1519', 68, 'SHOP000023','ITEM000064'),
+('SHOPIT1520', 47, 'SHOP000016','ITEM000022'),
+('SHOPIT1521', 46, 'SHOP000007','ITEM000052'),
+('SHOPIT1522', 61, 'SHOP000024','ITEM000050'),
+('SHOPIT1523', 59, 'SHOP000022','ITEM000074'),
+('SHOPIT1524', 27, 'SHOP000008','ITEM000069'),
+('SHOPIT1525', 37, 'SHOP000003','ITEM000032'),
+('SHOPIT1526', 74, 'SHOP000019','ITEM000055'),
+('SHOPIT1527', 72, 'SHOP000018','ITEM000020'),
+('SHOPIT1528', 38, 'SHOP000012','ITEM000060'),
+('SHOPIT1529', 58, 'SHOP000016','ITEM000051'),
+('SHOPIT1530', 39, 'SHOP000008','ITEM000064'),
+('SHOPIT1531', 65, 'SHOP000002','ITEM000015'),
+('SHOPIT1532', 32, 'SHOP000012','ITEM000002'),
+('SHOPIT1533', 43, 'SHOP000001','ITEM000074'),
+('SHOPIT1534', 70, 'SHOP000023','ITEM000037'),
+('SHOPIT1535', 27, 'SHOP000008','ITEM000060'),
+('SHOPIT1536', 52, 'SHOP000018','ITEM000036'),
+('SHOPIT1537', 60, 'SHOP000016','ITEM000002'),
+('SHOPIT1538', 68, 'SHOP000006','ITEM000040'),
+('SHOPIT1539', 28, 'SHOP000002','ITEM000005'),
+('SHOPIT1540', 49, 'SHOP000013','ITEM000018'),
+('SHOPIT1541', 48, 'SHOP000021','ITEM000067'),
+('SHOPIT1542', 29, 'SHOP000002','ITEM000006'),
+('SHOPIT1543', 64, 'SHOP000008','ITEM000024'),
+('SHOPIT1544', 54, 'SHOP000001','ITEM000012'),
+('SHOPIT1545', 53, 'SHOP000002','ITEM000020'),
+('SHOPIT1546', 28, 'SHOP000009','ITEM000061'),
+('SHOPIT1547', 58, 'SHOP000006','ITEM000021'),
+('SHOPIT1548', 52, 'SHOP000015','ITEM000041'),
+('SHOPIT1549', 34, 'SHOP000003','ITEM000006'),
+('SHOPIT1550', 25, 'SHOP000002','ITEM000002'),
+('SHOPIT1551', 31, 'SHOP000008','ITEM000067'),
+('SHOPIT1552', 50, 'SHOP000010','ITEM000027'),
+('SHOPIT1553', 25, 'SHOP000008','ITEM000020'),
+('SHOPIT1554', 30, 'SHOP000014','ITEM000040'),
+('SHOPIT1555', 52, 'SHOP000010','ITEM000020'),
+('SHOPIT1556', 44, 'SHOP000019','ITEM000014'),
+('SHOPIT1557', 44, 'SHOP000024','ITEM000033'),
+('SHOPIT1558', 50, 'SHOP000019','ITEM000047'),
+('SHOPIT1559', 70, 'SHOP000024','ITEM000046'),
+('SHOPIT1560', 32, 'SHOP000023','ITEM000008'),
+('SHOPIT1561', 56, 'SHOP000009','ITEM000023'),
+('SHOPIT1562', 29, 'SHOP000023','ITEM000021'),
+('SHOPIT1563', 38, 'SHOP000009','ITEM000073'),
+('SHOPIT1564', 47, 'SHOP000022','ITEM000011'),
+('SHOPIT1565', 74, 'SHOP000023','ITEM000035'),
+('SHOPIT1566', 39, 'SHOP000018','ITEM000026'),
+('SHOPIT1567', 45, 'SHOP000008','ITEM000016'),
+('SHOPIT1568', 71, 'SHOP000014','ITEM000002'),
+('SHOPIT1569', 58, 'SHOP000010','ITEM000024'),
+('SHOPIT1570', 30, 'SHOP000015','ITEM000022'),
+('SHOPIT1571', 68, 'SHOP000023','ITEM000031'),
+('SHOPIT1572', 44, 'SHOP000024','ITEM000070'),
+('SHOPIT1573', 58, 'SHOP000014','ITEM000021'),
+('SHOPIT1574', 45, 'SHOP000013','ITEM000065'),
+('SHOPIT1575', 32, 'SHOP000007','ITEM000021'),
+('SHOPIT1576', 69, 'SHOP000019','ITEM000050'),
+('SHOPIT1577', 61, 'SHOP000013','ITEM000036'),
+('SHOPIT1578', 50, 'SHOP000019','ITEM000015'),
+('SHOPIT1579', 50, 'SHOP000004','ITEM000025'),
+('SHOPIT1580', 64, 'SHOP000023','ITEM000033'),
+('SHOPIT1581', 55, 'SHOP000024','ITEM000015'),
+('SHOPIT1582', 42, 'SHOP000011','ITEM000027'),
+('SHOPIT1583', 47, 'SHOP000001','ITEM000013'),
+('SHOPIT1584', 32, 'SHOP000013','ITEM000029'),
+('SHOPIT1585', 70, 'SHOP000013','ITEM000064'),
+('SHOPIT1586', 75, 'SHOP000018','ITEM000054'),
+('SHOPIT1587', 27, 'SHOP000024','ITEM000010'),
+('SHOPIT1588', 30, 'SHOP000013','ITEM000002'),
+('SHOPIT1589', 26, 'SHOP000008','ITEM000012'),
+('SHOPIT1590', 32, 'SHOP000009','ITEM000014'),
+('SHOPIT1591', 26, 'SHOP000019','ITEM000013'),
+('SHOPIT1592', 67, 'SHOP000014','ITEM000015'),
+('SHOPIT1593', 61, 'SHOP000011','ITEM000067'),
+('SHOPIT1594', 72, 'SHOP000019','ITEM000052'),
+('SHOPIT1595', 50, 'SHOP000010','ITEM000064'),
+('SHOPIT1596', 31, 'SHOP000008','ITEM000019'),
+('SHOPIT1597', 47, 'SHOP000019','ITEM000046'),
+('SHOPIT1598', 62, 'SHOP000014','ITEM000018'),
+('SHOPIT1599', 39, 'SHOP000022','ITEM000003'),
+('SHOPIT1600', 55, 'SHOP000006','ITEM000004'),
+('SHOPIT1601', 55, 'SHOP000007','ITEM000074'),
+('SHOPIT1602', 43, 'SHOP000024','ITEM000007'),
+('SHOPIT1603', 29, 'SHOP000006','ITEM000065'),
+('SHOPIT1604', 75, 'SHOP000007','ITEM000060'),
+('SHOPIT1605', 43, 'SHOP000024','ITEM000035'),
+('SHOPIT1606', 69, 'SHOP000017','ITEM000065'),
+('SHOPIT1607', 73, 'SHOP000009','ITEM000006'),
+('SHOPIT1608', 43, 'SHOP000007','ITEM000010'),
+('SHOPIT1609', 45, 'SHOP000006','ITEM000028'),
+('SHOPIT1610', 26, 'SHOP000010','ITEM000058'),
+('SHOPIT1611', 62, 'SHOP000022','ITEM000058'),
+('SHOPIT1612', 32, 'SHOP000010','ITEM000061'),
+('SHOPIT1613', 62, 'SHOP000010','ITEM000009'),
+('SHOPIT1614', 53, 'SHOP000024','ITEM000071'),
+('SHOPIT1615', 63, 'SHOP000008','ITEM000031'),
+('SHOPIT1616', 72, 'SHOP000017','ITEM000067'),
+('SHOPIT1617', 27, 'SHOP000006','ITEM000073'),
+('SHOPIT1618', 57, 'SHOP000017','ITEM000032'),
+('SHOPIT1619', 74, 'SHOP000006','ITEM000068'),
+('SHOPIT1620', 61, 'SHOP000013','ITEM000032'),
+('SHOPIT1621', 55, 'SHOP000006','ITEM000034'),
+('SHOPIT1622', 37, 'SHOP000024','ITEM000017'),
+('SHOPIT1623', 30, 'SHOP000022','ITEM000012'),
+('SHOPIT1624', 64, 'SHOP000022','ITEM000017'),
+('SHOPIT1625', 44, 'SHOP000017','ITEM000043');
