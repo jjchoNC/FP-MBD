@@ -1,6 +1,6 @@
 CREATE TABLE cart (
     cart_id char(10)  NOT NULL,
-    cart_totalBill int  NOT NULL,
+    cart_totalBill money  NOT NULL,
     customer_cst_id char(10)  NOT NULL,
     CONSTRAINT cart_pk PRIMARY KEY (cart_id)
 );
