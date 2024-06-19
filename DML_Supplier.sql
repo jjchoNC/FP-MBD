@@ -1,200 +1,200 @@
-INSERT INTO supplier VALUES ('SUP0000001', 'PD Wibisono Setiawan (Persero) Tbk', 6333967518, 'Gg. HOS. Cokroaminoto No. 28
-Mojokerto, KS 00196'),
-('SUP0000002', 'UD Firmansyah Tbk', NULL, 'Gang Jend. A. Yani No. 4
-Parepare, NB 15226'),
-('SUP0000003', 'CV Mayasari Tbk', NULL, 'Gg. Abdul Muis No. 6
-Gorontalo, Sulawesi Barat 06843'),
-('SUP0000004', 'PT Marpaung', 8802231405, 'Gg. Tebet Barat Dalam No. 4
-Banjar, Kalimantan Utara 45826'),
-('SUP0000005', 'Perum Zulkarnain Waskita (Persero) Tbk', NULL, 'Jl. Cihampelas No. 90
-Blitar, SR 89787'),
-('SUP0000006', 'Perum Natsir Saefullah', 9213805214, 'Jl. Veteran No. 6
-Bandar Lampung, MA 18280'),
-('SUP0000007', 'UD Namaga Habibi Tbk', NULL, 'Gang Surapati No. 5
-Sibolga, Nusa Tenggara Barat 93631'),
-('SUP0000008', 'PT Pranowo', 0827308421, 'Gang Suniaraja No. 1
-Kupang, BT 52621'),
-('SUP0000009', 'PT Tarihoran', NULL, 'Jl. Pasteur No. 49
-Kota Administrasi Jakarta Timur, JA 93194'),
-('SUP0000010', 'Perum Novitasari Hastuti (Persero) Tbk', 2243141172, 'Gg. Ronggowarsito No. 045
-Cilegon, SG 76419'),
-('SUP0000011', 'CV Prayoga Yuliarti Tbk', NULL, 'Gg. Medokan Ayu No. 1
-Madiun, KS 86464'),
-('SUP0000012', 'Perum Maryadi (Persero) Tbk', NULL, 'Gg. Rajawali Barat No. 9
-Binjai, Papua Barat 73190'),
-('SUP0000013', 'UD Wibisono Wasita', NULL, 'Gg. Sukabumi No. 03
-Tomohon, Jambi 43122'),
-('SUP0000014', 'Perum Hutasoit (Persero) Tbk', 0256482471, 'Jalan Tubagus Ismail No. 892
-Samarinda, Sumatera Selatan 49963'),
-('SUP0000015', 'PD Purwanti', 6466031987, 'Gg. Cihampelas No. 9
-Solok, YO 81836'),
-('SUP0000016', 'UD Salahudin Maryadi (Persero) Tbk', 2028173304, 'Jl. Peta No. 85
-Purwokerto, DKI Jakarta 76059'),
-('SUP0000017', 'CV Pradana', 2994677979, 'Jl. Jamika No. 73
-Tomohon, RI 48949'),
-('SUP0000018', 'CV Kurniawan Tbk', 6411468971, 'Gang Lembong No. 851
-Banjarmasin, BA 21831'),
-('SUP0000019', 'Perum Hassanah Saragih', 6383147568, 'Gg. Setiabudhi No. 92
-Kupang, BT 19817'),
-('SUP0000020', 'PT Namaga', 6097062008, 'Jalan Rungkut Industri No. 120
-Padang, KS 58187'),
-('SUP0000021', 'PT Yuliarti Safitri', 7375581020, 'Gg. Medokan Ayu No. 8
-Magelang, Jawa Tengah 43296'),
-('SUP0000022', 'PD Wacana Tbk', NULL, 'Jalan Merdeka No. 0
-Padangpanjang, JI 97630'),
-('SUP0000023', 'UD Kuswoyo (Persero) Tbk', NULL, 'Gang Raya Setiabudhi No. 1
-Banda Aceh, DI Yogyakarta 90425'),
-('SUP0000024', 'Perum Wijayanti Santoso', NULL, 'Gg. Jakarta No. 333
-Banda Aceh, JI 81843'),
-('SUP0000025', 'PT Yulianti Tbk', NULL, 'Gang Cihampelas No. 281
-Jayapura, Sulawesi Tengah 63607'),
-('SUP0000026', 'UD Wibowo', 8987535527, 'Jalan Laswi No. 2
-Sungai Penuh, SN 54906'),
-('SUP0000027', 'CV Novitasari Saputra', NULL, 'Gg. Otto Iskandardinata No. 476
-Kendari, SU 51948'),
-('SUP0000028', 'UD Anggraini', 0554768496, 'Jalan Kiaracondong No. 18
-Palembang, Kepulauan Bangka Belitung 21513'),
-('SUP0000029', 'UD Prasetyo Tbk', 3272170586, 'Jl. Sadang Serang No. 0
-Langsa, Jawa Tengah 55302'),
-('SUP0000030', 'CV Waskita Mandala', NULL, 'Gang Gardujati No. 2
-Bau-Bau, BE 77131'),
-('SUP0000031', 'UD Widodo Tbk', 2121193997, 'Jalan Sadang Serang No. 95
-Tegal, Riau 72595'),
-('SUP0000032', 'PT Prakasa', 9176959515, 'Jl. Siliwangi No. 90
-Binjai, LA 18809'),
-('SUP0000033', 'Perum Nababan', NULL, 'Jl. Rumah Sakit No. 26
-Banjarbaru, Sumatera Utara 64394'),
-('SUP0000034', 'UD Prakasa Usamah', NULL, 'Gg. Veteran No. 559
-Sukabumi, Riau 44558'),
-('SUP0000035', 'UD Situmorang (Persero) Tbk', 4214710580, 'Gg. Laswi No. 515
-Bau-Bau, SU 83844'),
-('SUP0000036', 'UD Budiman Ardianto', 4172128747, 'Gang Antapani Lama No. 223
-Bitung, Jambi 93601'),
-('SUP0000037', 'Perum Natsir', 5585647742, 'Jl. Jakarta No. 043
-Parepare, AC 19324'),
-('SUP0000038', 'CV Hariyah Sitompul (Persero) Tbk', 1103981983, 'Gg. Sentot Alibasa No. 3
-Dumai, BA 65335'),
-('SUP0000039', 'PT Kurniawan Halimah (Persero) Tbk', 8716334762, 'Gang BKR No. 14
-Bitung, MU 78342'),
-('SUP0000040', 'UD Budiman', 4605883306, 'Gg. Cikutra Barat No. 842
-Sungai Penuh, RI 91015'),
-('SUP0000041', 'Perum Waluyo Natsir', NULL, 'Jl. Rungkut Industri No. 47
-Kediri, Kalimantan Selatan 62327'),
-('SUP0000042', 'PD Prabowo Tbk', 1721938058, 'Jalan Abdul Muis No. 0
-Manado, Sumatera Barat 44692'),
-('SUP0000043', 'CV Dongoran Wibowo Tbk', 9178339512, 'Gg. Kutai No. 49
-Batu, Kalimantan Utara 74617'),
-('SUP0000044', 'Perum Marpaung Pradana', NULL, 'Gg. Jamika No. 4
-Banda Aceh, SB 74889'),
-('SUP0000045', 'PT Sirait', NULL, 'Gg. R.E Martadinata No. 326
-Banjarbaru, BE 50756'),
-('SUP0000046', 'PT Halimah Tbk', NULL, 'Jalan KH Amin Jasuta No. 0
-Singkawang, Sumatera Barat 51061'),
-('SUP0000047', 'CV Rahmawati Agustina', NULL, 'Jalan R.E Martadinata No. 581
-Sungai Penuh, Jawa Tengah 49018'),
-('SUP0000048', 'UD Puspita Tbk', 3006431463, 'Gang Stasiun Wonokromo No. 0
-Ternate, KT 06522'),
-('SUP0000049', 'PD Natsir Tbk', 6778757609, 'Gg. Dipenogoro No. 14
-Medan, Jawa Timur 65339'),
-('SUP0000050', 'Perum Susanti Puspasari Tbk', NULL, 'Gg. Merdeka No. 5
-Tangerang Selatan, RI 37059'),
-('SUP0000051', 'Perum Wijaya (Persero) Tbk', 1847011266, 'Jalan Ciumbuleuit No. 79
-Cimahi, Sulawesi Tengah 60237'),
-('SUP0000052', 'UD Ardianto', NULL, 'Gg. Kiaracondong No. 93
-Bontang, Jawa Timur 75048'),
-('SUP0000053', 'UD Saefullah Mayasari', NULL, 'Jl. Tebet Barat Dalam No. 6
-Palu, KU 18067'),
-('SUP0000054', 'CV Marbun', 0875295581, 'Jalan Sukabumi No. 4
-Pangkalpinang, AC 98952'),
-('SUP0000055', 'PD Nasyidah Hartati', NULL, 'Gg. Rajiman No. 485
-Mojokerto, MU 44483'),
-('SUP0000056', 'PT Prasasta Tbk', NULL, 'Gg. R.E Martadinata No. 14
-Surakarta, NB 69116'),
-('SUP0000057', 'Perum Pradana', NULL, 'Gg. Pasir Koja No. 392
-Tegal, Papua Barat 32394'),
-('SUP0000058', 'PD Hariyah Mansur Tbk', NULL, 'Gg. Kiaracondong No. 5
-Purwokerto, JT 78992'),
-('SUP0000059', 'CV Widodo Tbk', 5605851030, 'Gg. Cihampelas No. 29
-Gorontalo, Banten 74453'),
-('SUP0000060', 'PT Purnawati Tbk', NULL, 'Gg. KH Amin Jasuta No. 7
-Balikpapan, DKI Jakarta 98922'),
-('SUP0000061', 'UD Kusumo Santoso (Persero) Tbk', 1313392057, 'Jalan Moch. Toha No. 2
-Padangpanjang, Kepulauan Riau 91135'),
-('SUP0000062', 'PT Ramadan', 9818604947, 'Jl. Kiaracondong No. 45
-Gorontalo, Jambi 06662'),
-('SUP0000063', 'UD Prasasta Jailani', 1228100660, 'Gang Ciumbuleuit No. 751
-Purwokerto, JI 89464'),
-('SUP0000064', 'UD Winarsih Tbk', 1755731567, 'Gang Antapani Lama No. 7
-Prabumulih, ST 27784'),
-('SUP0000065', 'CV Purwanti Tbk', NULL, 'Gg. Kutisari Selatan No. 302
-Surabaya, Sumatera Selatan 93654'),
-('SUP0000066', 'CV Wahyudin', 1552034150, 'Gg. M.H Thamrin No. 64
-Bontang, JT 24193'),
-('SUP0000067', 'UD Farida Melani', NULL, 'Gg. Soekarno Hatta No. 26
-Bogor, SU 70878'),
-('SUP0000068', 'CV Hidayat (Persero) Tbk', NULL, 'Jl. S. Parman No. 320
-Tanjungpinang, Kepulauan Bangka Belitung 15743'),
-('SUP0000069', 'Perum Saputra', NULL, 'Jalan R.E Martadinata No. 830
-Makassar, PA 94786'),
-('SUP0000070', 'CV Nurdiyanti Hidayanto', 4966890091, 'Gg. Kutai No. 4
-Salatiga, JA 74124'),
-('SUP0000071', 'CV Setiawan Prasetya', 4966890091, 'Jl. Surapati No. 576
-Langsa, Sumatera Selatan 24997'),
-('SUP0000072', 'UD Ardianto Wahyuni', 9041065981, 'Gg. Stasiun Wonokromo No. 19
-Palangkaraya, MA 45794'),
-('SUP0000073', 'Perum Salahudin Widiastuti', 9041065981, 'Gg. Gegerkalong Hilir No. 51
-Blitar, BA 74414'),
-('SUP0000074', 'PD Haryanti', 1641787011, 'Gang Tebet Barat Dalam No. 60
-Banjarmasin, Bali 03157'),
-('SUP0000075', 'PT Purnawati Nashiruddin', 1641787011, 'Gang PHH. Mustofa No. 704
-Balikpapan, SN 84998'),
-('SUP0000076', 'PT Pranowo', 8799955002, 'Gang Jend. Sudirman No. 17
-Depok, Kalimantan Tengah 62385'),
-('SUP0000077', 'CV Tarihoran Mandasari', 8799955002, 'Jl. Rajawali Timur No. 76
-Tasikmalaya, DI Yogyakarta 64124'),
-('SUP0000078', 'PT Wacana', 8799955002, 'Gang Raya Setiabudhi No. 89
-Lhokseumawe, Sumatera Barat 92673'),
-('SUP0000079', 'PT Wasita', 2551784454, 'Gg. Surapati No. 3
-Malang, SS 71550'),
-('SUP0000080', 'Perum Oktaviani (Persero) Tbk', 2551784454, 'Jalan Moch. Ramdan No. 227
-Tarakan, Maluku 79296'),
-('SUP0000081', 'PD Yuniar Tbk', 3794506600, 'Jl. Kapten Muslihat No. 353
-Ternate, Maluku Utara 29522'),
-('SUP0000082', 'Perum Nasyiah Thamrin (Persero) Tbk', 7212833427, 'Gg. Jend. A. Yani No. 39
-Langsa, JA 22935'),
-('SUP0000083', 'UD Prasetyo Yolanda', 7212833427, 'Gang Ronggowarsito No. 2
-Mojokerto, Maluku 20064'),
-('SUP0000084', 'PT Wijaya Kuswandari Tbk', 7212833427, 'Gg. Bangka Raya No. 6
-Sawahlunto, BT 27939'),
-('SUP0000085', 'PT Permadi Kusumo', 7212833427, 'Jalan Sukabumi No. 0
-Kota Administrasi Jakarta Selatan, MU 89538'),
-('SUP0000086', 'PT Wasita Sitorus', 6417690366, 'Jl. Jakarta No. 8
-Kota Administrasi Jakarta Barat, Sumatera Barat 50733'),
-('SUP0000087', 'UD Lestari', 6417690366, 'Jalan Pelajar Pejuang No. 9
-Probolinggo, JT 40182'),
-('SUP0000088', 'PT Pertiwi Wahyudin Tbk', 6417690366, 'Gg. Bangka Raya No. 5
-Mojokerto, Kalimantan Barat 24828'),
-('SUP0000089', 'Perum Setiawan', 6417690366, 'Gg. Abdul Muis No. 9
-Pasuruan, Papua Barat 73507'),
-('SUP0000090', 'PT Nurdiyanti (Persero) Tbk', 5616250659, 'Jalan Jend. Sudirman No. 53
-Sungai Penuh, Maluku 52537'),
-('SUP0000091', 'CV Simanjuntak', 5616250659, 'Jl. Jend. Sudirman No. 07
-Bandung, Sulawesi Tenggara 18518'),
-('SUP0000092', 'PT Prastuti Tbk', 9486095916, 'Jalan Waringin No. 7
-Pangkalpinang, KR 19296'),
-('SUP0000093', 'CV Hastuti', 7209002879, 'Jl. Dr. Djunjunan No. 966
-Pekalongan, MA 16022'),
-('SUP0000094', 'Perum Lestari Tbk', 7931687867, 'Jalan KH Amin Jasuta No. 45
-Kupang, BT 18158'),
-('SUP0000095', 'CV Uwais Saefullah', 7931687867, 'Gang Rawamangun No. 734
-Sawahlunto, BA 51705'),
-('SUP0000096', 'Perum Waskita Saputra', 9806647194, 'Gg. Pacuan Kuda No. 20
-Sungai Penuh, BE 85365'),
-('SUP0000097', 'Perum Hutagalung Tbk', 9806647194, 'Jalan W.R. Supratman No. 779
-Kota Administrasi Jakarta Utara, Sumatera Utara 46478'),
-('SUP0000098', 'PT Irawan Nababan Tbk', 2978154294, 'Jl. Rawamangun No. 28
-Lhokseumawe, JB 17435'),
-('SUP0000099', 'UD Firgantoro Purnawati', 2978154294, 'Jalan Moch. Toha No. 17
-Yogyakarta, Kepulauan Riau 46121'),
-('SUP0000100', 'Perum Wacana Tbk', 2978154294, 'Gang Astana Anyar No. 555
-Probolinggo, JK 08444');
+INSERT INTO supplier VALUES ('SUP0000001', 'PD Wibisono Setiawan (Persero) Tbk', 'Gg. HOS. Cokroaminoto No. 28
+Mojokerto, KS 00196', '6333967518'),
+('SUP0000002', 'UD Firmansyah Tbk', 'Gang Jend. A. Yani No. 4
+Parepare, NB 15226', 'NULL'),
+('SUP0000003', 'CV Mayasari Tbk', 'Gg. Abdul Muis No. 6
+Gorontalo, Sulawesi Barat 06843', 'NULL'),
+('SUP0000004', 'PT Marpaung', 'Gg. Tebet Barat Dalam No. 4
+Banjar, Kalimantan Utara 45826', '8802231405'),
+('SUP0000005', 'Perum Zulkarnain Waskita (Persero) Tbk', 'Jl. Cihampelas No. 90
+Blitar, SR 89787', 'NULL'),
+('SUP0000006', 'Perum Natsir Saefullah', 'Jl. H.J Maemunah No. 21
+Pontianak, Kepulauan Bangka Belitung 33686', 'NULL'),
+('SUP0000007', 'PT Samosir', 'Jl. Veteran No. 80
+Sorong, GO 66650', 'NULL'),
+('SUP0000008', 'UD Purnawati (Persero) Tbk', 'Jalan Cikutra Timur No. 6
+Palu, Sulawesi Selatan 81997', '6310130827'),
+('SUP0000009', 'PT Wacana Tbk', 'Gang Ahmad Yani No. 417
+Binjai, Kepulauan Bangka Belitung 88732', '2621005441'),
+('SUP0000010', 'UD Prasetyo Hutagalung', 'Gg. Ir. H. Djuanda No. 41
+Pariaman, KI 45327', 'NULL'),
+('SUP0000011', 'PD Winarno Santoso (Persero) Tbk', 'Jalan Ir. H. Djuanda No. 6
+Palangkaraya, Lampung 82120', '9623751824'),
+('SUP0000012', 'Perum Lestari Salahudin', 'Gang Rajiman No. 3
+Singkawang, Bali 56628', 'NULL'),
+('SUP0000013', 'PT Sitompul', 'Jl. Kebonjati No. 443
+Denpasar, JI 91202', 'NULL'),
+('SUP0000014', 'PD Suryono (Persero) Tbk', 'Gang Joyoboyo No. 6
+Bau-Bau, Sumatera Barat 46603', '4713462618'),
+('SUP0000015', 'Perum Nuraini', 'Jl. Suniaraja No. 44
+Tebingtinggi, Banten 02817', '7964296792'),
+('SUP0000016', 'CV Hakim Santoso', 'Jl. Peta No. 85
+Purwokerto, DKI Jakarta 76059', 'NULL'),
+('SUP0000017', 'CV Pradana', 'Gang Erlangga No. 7
+Depok, DKI Jakarta 26731', 'NULL'),
+('SUP0000018', 'PD Yulianti Saptono Tbk', 'Gg. Cikutra Timur No. 63
+Probolinggo, PA 20002', '9431464114'),
+('SUP0000019', 'Perum Yuliarti', 'Gang Setiabudhi No. 6
+Padangpanjang, DI Yogyakarta 55927', '3192974638'),
+('SUP0000020', 'PT Prasetya (Persero) Tbk', 'Jalan Antapani Lama No. 851
+Bukittinggi, YO 20663', '9817800860'),
+('SUP0000021', 'UD Nasyidah Hidayanto', 'Jl. Astana Anyar No. 158
+Magelang, Jawa Tengah 43296', '8731973755'),
+('SUP0000022', 'PD Wacana Tbk', 'Jalan Merdeka No. 0
+Padangpanjang, JI 97630', 'NULL'),
+('SUP0000023', 'UD Kuswoyo (Persero) Tbk', 'Gg. Jend. A. Yani No. 38
+Langsa, Maluku Utara 62033', '0068558140'),
+('SUP0000024', 'CV Damanik Marbun', 'Jalan Pasirkoja No. 614
+Kupang, BT 28113', 'NULL'),
+('SUP0000025', 'UD Astuti Napitupulu Tbk', 'Gg. Sukabumi No. 9
+Magelang, Kalimantan Tengah 52768', 'NULL'),
+('SUP0000026', 'Perum Wacana (Persero) Tbk', 'Gang Ciwastra No. 49
+Tomohon, Sulawesi Selatan 38496', 'NULL'),
+('SUP0000027', 'CV Salahudin (Persero) Tbk', 'Gang Abdul Muis No. 54
+Padang, SU 96068', '4762381519'),
+('SUP0000028', 'Perum Hidayat Pangestu Tbk', 'Gg. Setiabudhi No. 3
+Gorontalo, KB 21705', '1890794721'),
+('SUP0000029', 'Perum Pudjiastuti Prasasta (Persero) Tbk', 'Jalan PHH. Mustofa No. 20
+Lubuklinggau, Kalimantan Utara 22362', 'NULL'),
+('SUP0000030', 'CV Sinaga Tbk', 'Jl. Cikapayang No. 77
+Dumai, DI Yogyakarta 46621', 'NULL'),
+('SUP0000031', 'PT Latupono Safitri', 'Gang Rumah Sakit No. 25
+Pematangsiantar, BA 39176', '3997034905'),
+('SUP0000032', 'Perum Simanjuntak (Persero) Tbk', 'Gang KH Amin Jasuta No. 880
+Tomohon, Kalimantan Selatan 53057', '5611905690'),
+('SUP0000033', 'PD Pranowo Habibi', 'Jalan Pasirkoja No. 6
+Lubuklinggau, Nusa Tenggara Barat 96744', '8836439425'),
+('SUP0000034', 'UD Pudjiastuti Tbk', 'Gg. Jamika No. 471
+Madiun, SS 59588', 'NULL'),
+('SUP0000035', 'Perum Astuti', 'Jalan Siliwangi No. 041
+Tanjungpinang, Jawa Tengah 28747', '3151595170'),
+('SUP0000036', 'CV Rajasa', 'Jl. Gegerkalong Hilir No. 311
+Sibolga, KU 01192', 'NULL'),
+('SUP0000037', 'UD Melani Tbk', 'Gang Pasir Koja No. 669
+Kota Administrasi Jakarta Barat, JT 04387', 'NULL'),
+('SUP0000038', 'PT Agustina Hidayanto (Persero) Tbk', 'Jl. Tubagus Ismail No. 6
+Lubuklinggau, Nusa Tenggara Timur 33080', '2496275011'),
+('SUP0000039', 'UD Prabowo Prayoga Tbk', 'Gang K.H. Wahid Hasyim No. 5
+Lhokseumawe, Sumatera Barat 61431', '6117287163'),
+('SUP0000040', 'CV Farida (Persero) Tbk', 'Gg. Antapani Lama No. 60
+Pekanbaru, KI 06730', 'NULL'),
+('SUP0000041', 'PT Prasetyo Tbk', 'Jl. Pelajar Pejuang No. 095
+Pasuruan, Sulawesi Barat 34623', '2268591015'),
+('SUP0000042', 'PD Widiastuti Situmorang', 'Jalan Waringin No. 193
+Madiun, AC 68309', 'NULL'),
+('SUP0000043', 'PT Thamrin', 'Gang Suniaraja No. 2
+Bogor, BA 97917', 'NULL'),
+('SUP0000044', 'CV Safitri Utama', 'Gg. Tebet Barat Dalam No. 46
+Parepare, KS 35305', '1293305944'),
+('SUP0000045', 'Perum Uyainah Rajasa', 'Gang Rawamangun No. 88
+Sungai Penuh, Bali 53148', 'NULL'),
+('SUP0000046', 'CV Narpati Anggraini', 'Jl. Suryakencana No. 07
+Mojokerto, Nusa Tenggara Barat 76180', 'NULL'),
+('SUP0000047', 'CV Uyainah (Persero) Tbk', 'Jalan Stasiun Wonokromo No. 738
+Medan, DI Yogyakarta 22490', '0987151061'),
+('SUP0000048', 'Perum Rahayu', 'Jalan Otto Iskandardinata No. 68
+Semarang, Sulawesi Selatan 13206', '5587300643'),
+('SUP0000049', 'CV Mandala Tbk', 'Jl. K.H. Wahid Hasyim No. 17
+Lhokseumawe, MU 92665', '7256778757'),
+('SUP0000050', 'CV Riyanti Nasyiah', 'Jalan Suniaraja No. 370
+Singkawang, NT 11847', '6898678419'),
+('SUP0000051', 'PT Hidayanto', 'Gg. Indragiri No. 9
+Padang Sidempuan, BE 37150', '2668274214'),
+('SUP0000052', 'PD Hutapea Wijayanti', 'Jalan Tubagus Ismail No. 227
+Surakarta, BA 89344', 'NULL'),
+('SUP0000053', 'PT Widiastuti (Persero) Tbk', 'Gang Wonoayu No. 318
+Palangkaraya, Sulawesi Utara 32087', 'NULL'),
+('SUP0000054', 'CV Yuliarti Tbk', 'Gang Sukabumi No. 684
+Pangkalpinang, AC 98952', 'NULL'),
+('SUP0000055', 'PD Nasyidah Hartati', 'Gg. Pasteur No. 83
+Bengkulu, KU 96928', '4334704852'),
+('SUP0000056', 'PD Namaga Wacana', 'Gang Medokan Ayu No. 691
+Padang, Aceh 80334', 'NULL'),
+('SUP0000057', 'PT Prasetyo (Persero) Tbk', 'Gg. M.H Thamrin No. 4
+Denpasar, PA 85282', '1633239496'),
+('SUP0000058', 'PD Nasyiah Rahimah (Persero) Tbk', 'Jl. Cikutra Barat No. 9
+Medan, BA 05293', '4268656058'),
+('SUP0000059', 'PT Astuti Hasanah', 'Jalan Pelajar Pejuang No. 968
+Batu, JK 73018', 'NULL'),
+('SUP0000060', 'Perum Mulyani Permata', 'Gang Gardujati No. 83
+Tangerang, Kalimantan Selatan 33920', 'NULL'),
+('SUP0000061', 'PD Pranowo (Persero) Tbk', 'Jl. Indragiri No. 648
+Sibolga, GO 35104', 'NULL'),
+('SUP0000062', 'Perum Waluyo', 'Gang Soekarno Hatta No. 5
+Bitung, Sulawesi Barat 66623', '0494708852'),
+('SUP0000063', 'CV Jailani (Persero) Tbk', 'Jalan Jakarta No. 51
+Purwokerto, JI 89464', '2281006604'),
+('SUP0000064', 'UD Winarsih Tbk', 'Gang Antapani Lama No. 7
+Prabumulih, ST 27784', '1755731567'),
+('SUP0000065', 'CV Purwanti Tbk', 'Gg. Kapten Muslihat No. 40
+Medan, GO 52034', '3283490302'),
+('SUP0000066', 'UD Anggriawan', 'Gg. M.H Thamrin No. 64
+Bontang, JT 24193', 'NULL'),
+('SUP0000067', 'UD Farida Melani', 'Gg. Soekarno Hatta No. 26
+Bogor, SU 70878', 'NULL'),
+('SUP0000068', 'CV Hidayat (Persero) Tbk', 'Jl. Sadang Serang No. 43
+Sabang, KR 35180', '2511823208'),
+('SUP0000069', 'PT Prasetyo Siregar', 'Gang Medokan Ayu No. 9
+Bandar Lampung, DKI Jakarta 63594', '5294786833'),
+('SUP0000070', 'Perum Maheswara Pradana', 'Gg. BKR No. 76
+Langsa, SS 24997', '7412423431'),
+('SUP0000071', 'UD Ardianto Wahyuni', 'Jl. Sukajadi No. 98
+Padang, Jawa Timur 68719', '7412423431'),
+('SUP0000072', 'PD Samosir Irawan Tbk', 'Gang Kapten Muslihat No. 520
+Pariaman, LA 14817', '5794284432'),
+('SUP0000073', 'PT Widodo Suryono (Persero) Tbk', 'Jl. Dipatiukur No. 875
+Tangerang, SG 01009', '5794284432'),
+('SUP0000074', 'PT Napitupulu Uyainah (Persero) Tbk', 'Jl. Ahmad Yani No. 638
+Parepare, LA 70460', '5794284432'),
+('SUP0000075', 'PD Nurdiyanti Suwarno (Persero) Tbk', 'Gang Raya Ujungberung No. 021
+Mojokerto, Riau 61743', '5794284432'),
+('SUP0000076', 'PD Wibowo Nugroho', 'Gang W.R. Supratman No. 1
+Langsa, Riau 12491', '3852357041'),
+('SUP0000077', 'PD Pradana', 'Gang Pasir Koja No. 9
+Lhokseumawe, SB 92673', '3852357041'),
+('SUP0000078', 'PT Wasita', 'Jalan Waringin No. 4
+Malang, Kepulauan Riau 78836', '3852357041'),
+('SUP0000079', 'Perum Nainggolan Prakasa Tbk', 'Gg. Dipatiukur No. 122
+Banda Aceh, Maluku 79296', '8271550589'),
+('SUP0000080', 'PD Yuniar Tbk', 'Gang Cihampelas No. 60
+Bengkulu, Banten 90035', '8271550589'),
+('SUP0000081', 'CV Sihotang Novitasari', 'Jl. Jamika No. 3
+Lhokseumawe, Jawa Tengah 60162', '7295227985'),
+('SUP0000082', 'CV Sudiati Lestari Tbk', 'Jl. Kutai No. 535
+Sungai Penuh, DI Yogyakarta 76727', '7295227985'),
+('SUP0000083', 'UD Sihotang Manullang (Persero) Tbk', 'Gang Gedebage Selatan No. 79
+Palembang, Kalimantan Tengah 56964', '7295227985'),
+('SUP0000084', 'CV Mandala', 'Jl. Moch. Toha No. 646
+Metro, AC 49568', '7295227985'),
+('SUP0000085', 'CV Mulyani (Persero) Tbk', 'Jalan Kiaracondong No. 328
+Kota Administrasi Jakarta Barat, Sumatera Barat 50733', '0656417690'),
+('SUP0000086', 'UD Lestari', 'Jalan Pelajar Pejuang No. 9
+Probolinggo, JT 40182', '0656417690'),
+('SUP0000087', 'PT Pertiwi Wahyudin Tbk', 'Gg. Jayawijaya No. 808
+Probolinggo, Bali 07089', '0282668546'),
+('SUP0000088', 'PD Wibisono', 'Jalan Veteran No. 506
+Serang, DKI Jakarta 42275', '9373507418'),
+('SUP0000089', 'PD Yolanda Salahudin', 'Jl. W.R. Supratman No. 760
+Dumai, JA 18409', '3525371353'),
+('SUP0000090', 'Perum Setiawan Tbk', 'Gg. Erlangga No. 940
+Tangerang, Sulawesi Tenggara 79451', '3525371353'),
+('SUP0000091', 'Perum Wasita Damanik', 'Jalan Cikutra Barat No. 0
+Cilegon, Sumatera Utara 99847', '3525371353'),
+('SUP0000092', 'Perum Nainggolan', 'Gang Bangka Raya No. 4
+Bima, Riau 22487', '3525371353'),
+('SUP0000093', 'PD Riyanti Putra (Persero) Tbk', 'Gang Cempaka No. 87
+Subulussalam, ST 58944', '3525371353'),
+('SUP0000094', 'CV Hutagalung', 'Jl. Soekarno Hatta No. 47
+Sawahlunto, Papua 17347', '3525371353'),
+('SUP0000095', 'Perum Marbun', 'Jalan Sentot Alibasa No. 864
+Padang, SR 71944', '3525371353'),
+('SUP0000096', 'CV Waskita (Persero) Tbk', 'Gg. Suryakencana No. 975
+Pagaralam, YO 79748', '5207078536'),
+('SUP0000097', 'UD Wibisono Utami Tbk', 'Jalan Wonoayu No. 4
+Cimahi, Kalimantan Selatan 75289', '7861136297'),
+('SUP0000098', 'UD Mustofa (Persero) Tbk', 'Jl. Cempaka No. 734
+Kotamobagu, Sulawesi Selatan 21486', '1743534090'),
+('SUP0000099', 'UD Putra Tarihoran Tbk', 'Gang Pasteur No. 0
+Manado, Sulawesi Selatan 32120', '0055508914'),
+('SUP0000100', 'Perum Agustina (Persero) Tbk', 'Gg. Cempaka No. 36
+Kediri, JB 27826', '0055508914');
