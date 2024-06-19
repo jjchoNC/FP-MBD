@@ -1,19 +1,3 @@
-CREATE OR REPLACE FUNCTION validasi_jumlah_kue()
-RETURNS TRIGGER AS $$
-BEGIN
-    IF NEW.item_amount < 0 THEN
-        RAISE EXCEPTION 'Jumlah kue tidak boleh negatif';
-    END IF;
-    RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
-
-CREATE TRIGGER trigger_validasi_jumlah_kue
-BEFORE INSERT OR UPDATE ON transaction_item
-FOR EACH ROW
-EXECUTE FUNCTION validasi_jumlah_kue();
-
 
 -- Pemasok barang tidak boleh mengirimkan item yang berjumlah negatif.
 CREATE OR REPLACE FUNCTION validateSupplierStock()
@@ -125,3 +109,18 @@ CREATE TRIGGER check_stock
 BEFORE INSERT OR UPDATE ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION validateStock();
+
+-- Function to validate customer can't order negative amount of item
+CREATE OR REPLACE FUNCTION validateAmount()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (NEW.item_amount < 0) THEN
+        RAISE EXCEPTION 'Jumlah item tidak boleh negatif';
+    END IF;
+    RETURN NEW;
+END;
+
+CREATE TRIGGER check_amount
+BEFORE INSERT OR UPDATE ON cart_shop_item
+FOR EACH ROW
+EXECUTE FUNCTION validateAmount();
