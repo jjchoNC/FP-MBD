@@ -1,200 +1,200 @@
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000001', 'Young-Perkins', '96845 Estrada Park
-South Alyssaborough, TX 85726', '3199010890');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000002', 'Lee, Bradley and Payne', '8057 Robert Locks
-East Marciaside, WI 58057', '4304677379');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000003', 'Smith-Johnson', '33470 Michael Lodge
-Fostermouth, AL 55048', '2031251916');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000004', 'Freeman-Jones', '473 Anderson Circle Apt. 170
-Vanceside, MH 17110', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000005', 'Watkins Group', '793 Brenda Walk
-West Randymouth, PR 05240', '2916906644');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000006', 'Costa-Moore', '7917 Price Mount Suite 008
-Lake Justin, NY 12371', '4575674809');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000007', 'Martinez Inc', '546 Bradley Pines Apt. 655
-West Davidland, CA 80365', '8227502884');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000008', 'Roberts-Smith', '023 Nathan Camp
-Andersonmouth, GU 28402', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000009', 'Mcneil-Gibson', '00129 Marshall Port Apt. 803
-Poolefurt, TX 34769', '4989235795');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000010', 'Powell, Gray and Bradley', '298 Timothy Trail
-West Brianfort, FL 66684', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000011', 'White-Anderson', '6887 Shah Lights Suite 498
-Garciaburgh, FL 93066', '8076107374');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000012', 'Jefferson Ltd', '0225 Hannah Haven
-East Gregoryton, NJ 55243', '7122698437');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000013', 'Walters, Williamson and Clark', '9218 Kristen Street Suite 667
-Katrinashire, MS 70650', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000014', 'Hutchinson PLC', 'Unit 7429 Box 3320
-DPO AE 74774', '9896237935');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000015', 'Baker, Wong and Monroe', '527 Jordan Trail Suite 488
-Port Arthurview, UT 76811', '2667815204');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000016', 'Robinson, Mendoza and Alexander', 'USNV Dixon
-FPO AP 75648', '3871636555');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000017', 'Harrison-Berry', '872 Joshua Unions
-Brittneyfort, VA 58846', '6180826807');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000018', 'Williams Inc', '51997 Charles Forge Suite 769
-New Tracy, CO 09262', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000019', 'Smith, Nash and Sims', '443 Angela Field
-North Caseyview, LA 83314', '1088753363');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000020', 'Thomas, Brown and Perez', '4343 Mary Mountain Apt. 058
-Hardystad, PW 13569', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000021', 'Morrison, Sanchez and Frazier', '505 Parker Junction
-East Donaldport, NY 47386', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000022', 'Neal-Davis', '536 Miranda Corner Suite 240
-South Timothy, ME 88283', '6366445669');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000023', 'Miller Group', '206 Steven Stravenue Suite 840
-Phillipschester, NM 45049', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000024', 'Patterson LLC', '513 Jackson Green Apt. 991
-Port Karenbury, NC 82317', '0875525305');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000025', 'Mitchell and Sons', '619 John Inlet
-East Jason, TX 02407', '1936008703');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000026', 'Monroe PLC', '265 Jesus Point Suite 374
-New Stacy, CT 84238', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000027', 'Jones, Figueroa and Lindsey', 'PSC 0818, Box 9544
-APO AP 47041', '1469884118');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000028', 'Riddle Inc', '268 Amanda Divide
-East Brandonmouth, VI 61793', '3374653216');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000029', 'Khan PLC', '017 Christopher Village
-South Kyle, UT 70215', '0308248983');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000030', 'Davis PLC', '1679 Lang Cove
-Cooperbury, AS 55103', '1884065410');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000031', 'Maxwell, Johnson and Cooper', '33114 Melanie Manors Apt. 667
-Port Lisaborough, WY 71673', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000032', 'Thomas Ltd', '44018 Brittany Lane
-Jenkinsfurt, DE 39880', '9717335485');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000033', 'Hawkins, Singh and Guerrero', '4634 Jessica Greens Apt. 786
-Alanbury, OH 90756', '5098873016');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000034', 'Brown Inc', '8871 Daniel Expressway Apt. 632
-Port Jennifershire, WI 05089', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000035', 'Miranda Inc', '475 Angela Courts
-Amandastad, AZ 43696', '7715186289');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000036', 'Lee, Guzman and Spencer', '1159 Sanchez Terrace Apt. 766
-East Tylerberg, IA 50720', '3767196874');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000037', 'Ritter PLC', '769 Miller Terrace Suite 730
-Port Coryton, MH 14187', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000038', 'Howell-Clayton', '00209 Baird Orchard Apt. 697
-East Kentport, CO 93913', '2370388611');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000039', 'Brown, Curtis and Campbell', 'Unit 1211 Box 6451
-DPO AA 92836', '9015495955');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000040', 'Hernandez LLC', '4254 Chase Lodge
-North Carolyn, AL 59261', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000041', 'Tapia, Hendrix and Cherry', 'Unit 0510 Box 1790
-DPO AA 67057', '6760257821');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000042', 'Garcia-Taylor', '421 Young Street
-Benjaminfurt, AK 16493', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000043', 'Willis LLC', 'Unit 7716 Box 7996
-DPO AP 38337', '2641091448');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000044', 'Rollins Inc', '7254 Myers Junction Suite 660
-Vernonton, MO 71214', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000045', 'Kennedy, Lewis and Torres', '7618 Samantha Mill Apt. 110
-Lake Stephentown, GA 34737', '6062326245');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000046', 'Rodgers-Baker', '627 Parks Turnpike Apt. 169
-Hernandezburgh, RI 19283', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000047', 'Gardner, Bruce and Cannon', '4905 Jennifer Isle
-South Joannaland, RI 92896', '7337545780');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000048', 'Miller, Knight and Sullivan', '866 Young Circles Suite 324
-Mooneyfurt, VI 65622', '7824255285');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000049', 'Newman, Evans and Sanders', '18080 Livingston Inlet Apt. 791
-Hamptonhaven, IA 09767', '9215239291');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000050', 'Schwartz Group', '37194 Turner Center Apt. 584
-North Jamesshire, AZ 80518', '2372878454');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000051', 'Simmons-Anderson', 'Unit 2870 Box 4256
-DPO AE 52581', '2534139704');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000052', 'Hudson, Wilson and Banks', '55544 Gregory Glens
-South Clifford, KY 63018', '8617291796');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000053', 'Walker, Miller and Mercado', '59508 Powers Island Suite 618
-Lake Jessicastad, FL 04919', '8190758449');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000054', 'Thomas Ltd', '559 Richard Extensions
-Lake Michael, AZ 98726', '1571903269');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000055', 'Guzman, Gregory and Williams', '6599 Morris Squares Suite 950
-Campbellburgh, RI 42536', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000056', 'Bailey-Clark', '84206 Eric Mountains Suite 885
-North Joseph, NY 54399', '2468833213');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000057', 'Moore-Peck', 'PSC 7661, Box 8083
-APO AA 40459', '2076722207');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000058', 'Williams, Thompson and Scott', '1139 Michael Lakes
-Leebury, ME 44194', '4662122903');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000059', 'Dickerson-Thomas', '77028 Reynolds Manors
-Gibsonville, UT 72725', '9627280363');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000060', 'Fischer-Murphy', '000 Michael Union Suite 068
-Valeriechester, WV 68355', '3587604611');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000061', 'Alvarado-Espinoza', '485 Jennifer Hill
-Carlsonhaven, WY 95520', '6000626754');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000062', 'Brown-Bartlett', 'PSC 8376, Box 7606
-APO AE 18106', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000063', 'Jacobs PLC', '1712 Colleen Locks Apt. 474
-South Jeffrey, LA 90010', '9487630921');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000064', 'Brown LLC', '243 Chung Ramp
-East Brenttown, ME 55510', '0934384828');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000065', 'Schneider, Marsh and Nelson', 'USNV Roberson
-FPO AA 09559', '5890428013');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000066', 'Graham, Henry and Brown', '529 Sandoval Mission
-New Johnshire, AR 00678', '5113724955');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000067', 'Wilkins-Todd', '35654 Phillips Ford Suite 709
-Annaside, WV 36390', '0582385923');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000068', 'Wilson, Moore and Baker', '58096 Tammy Hollow
-East Kimberly, NE 26291', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000069', 'Rush-Ramsey', '7553 William Stream
-North Paulatown, MO 52057', '5136363349');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000070', 'Miller-Sanchez', '614 Kristen Mills
-Tylerland, ND 17076', '7214057041');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000071', 'Williams-Wilson', '1347 Christina Lights Apt. 542
-Floreshaven, OK 93510', '1949275022');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000072', 'Daniels PLC', '547 Wu Plaza
-Gregoryberg, NM 80660', '8746640045');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000073', 'Horne-Alexander', '7412 Martinez Shore Apt. 018
-West Stephanie, PW 96448', '4841567919');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000074', 'Fletcher LLC', '211 Sandra Lock
-East Maxtown, AL 41641', '6615489925');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000075', 'Rojas-Rubio', '5567 Kelley Locks
-Tylerfort, IN 30964', '2851314154');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000076', 'Hill and Sons', '5100 Amy Mall Suite 104
-New Johnny, MA 06797', '0192754595');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000077', 'Mcdonald, Cross and Stone', '0942 Cox Plains
-West Amanda, AL 49332', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000078', 'Ramirez Inc', '186 Yvonne Oval
-New Jamesport, AS 34821', '3169066783');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000079', 'King, Carlson and Adams', '995 Scott Knolls Suite 767
-Smithfurt, ND 41255', '6648336427');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000080', 'Guzman LLC', '59184 Rachel Ridge Apt. 121
-New Kyleview, GU 89509', '0550621433');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000081', 'Arias-Rhodes', '8317 Quinn Wall
-South Elizabethland, MI 58902', '1985107527');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000082', 'Todd and Sons', '9028 William Burg
-Savannahport, PW 17497', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000083', 'Burns, Hahn and Walton', '3666 Gonzalez Pine
-South Audrey, NC 87757', '3125006127');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000084', 'Thomas-Villanueva', '43231 Harding Via Suite 914
-North Roger, GA 32847', '0847555120');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000085', 'Hall and Sons', '5555 Nunez Camp Suite 553
-Weeksbury, GA 18854', '5060674426');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000086', 'Morris and Sons', '726 Erica River
-Port Bradley, NC 51440', '0866610407');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000087', 'Jones-Curry', '0026 King Shore
-Port Jessicaburgh, NH 93502', '7194873873');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000088', 'Taylor Inc', '778 Thompson Circles Apt. 921
-New Daniel, DC 38383', '7127186066');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000089', 'Perez-Burnett', '26089 Dale Greens Apt. 871
-Port Patty, WI 55402', '8160051508');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000090', 'Hendricks-Gilbert', '7513 Richard Trail
-Port Bruceport, MP 30622', '7729738897');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000091', 'Peterson-Duke', 'Unit 8456 Box 6019
-DPO AA 13227', '3299106282');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000092', 'Beck-Hinton', '3859 Miller Spur
-Port Melanie, CT 07122', '1657861656');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000093', 'Lynch-Reid', 'USNV Valencia
-FPO AP 28381', '0303776196');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000094', 'Werner, Wade and Smith', '420 Coleman Viaduct Apt. 959
-Lake Josephmouth, VT 18105', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000095', 'Thomas, Carter and Johnson', '4329 Hodges Mill Suite 063
-New Tiffany, CO 53414', '6115307557');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000096', 'Reid LLC', 'Unit 0177 Box 3113
-DPO AP 95953', '5515541881');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000097', 'Le-Sawyer', '1497 Ashley Pine
-West Danielborough, IL 18060', '7148392387');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000098', 'Garcia, Thompson and Smith', '7824 Tammy Rapids
-East Joshuaville, RI 43566', '6872903622');
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000099', 'Moore-Long', '55835 John Ridges
-West Nicholasmouth, CT 00717', NULL);
-INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone) VALUES ('SUP0000100', 'Holland, Hines and Lawson', '394 Maddox Hill Suite 842
-North Bradleyton, ID 52305', '3952596413');
+INSERT INTO supplier VALUES ('SUP0000001', 'PD Wibisono Setiawan (Persero) Tbk', 'Gg. HOS. Cokroaminoto No. 28
+Mojokerto, KS 00196', '6333967518'),
+('SUP0000002', 'UD Firmansyah Tbk', 'Gang Jend. A. Yani No. 4
+Parepare, NB 15226', 'NULL'),
+('SUP0000003', 'CV Mayasari Tbk', 'Gg. Abdul Muis No. 6
+Gorontalo, Sulawesi Barat 06843', 'NULL'),
+('SUP0000004', 'PT Marpaung', 'Gg. Tebet Barat Dalam No. 4
+Banjar, Kalimantan Utara 45826', '8802231405'),
+('SUP0000005', 'Perum Zulkarnain Waskita (Persero) Tbk', 'Jl. Cihampelas No. 90
+Blitar, SR 89787', 'NULL'),
+('SUP0000006', 'Perum Natsir Saefullah', 'Jl. H.J Maemunah No. 21
+Pontianak, Kepulauan Bangka Belitung 33686', 'NULL'),
+('SUP0000007', 'PT Samosir', 'Jl. Veteran No. 80
+Sorong, GO 66650', 'NULL'),
+('SUP0000008', 'UD Purnawati (Persero) Tbk', 'Jalan Cikutra Timur No. 6
+Palu, Sulawesi Selatan 81997', '6310130827'),
+('SUP0000009', 'PT Wacana Tbk', 'Gang Ahmad Yani No. 417
+Binjai, Kepulauan Bangka Belitung 88732', '2621005441'),
+('SUP0000010', 'UD Prasetyo Hutagalung', 'Gg. Ir. H. Djuanda No. 41
+Pariaman, KI 45327', 'NULL'),
+('SUP0000011', 'PD Winarno Santoso (Persero) Tbk', 'Jalan Ir. H. Djuanda No. 6
+Palangkaraya, Lampung 82120', '9623751824'),
+('SUP0000012', 'Perum Lestari Salahudin', 'Gang Rajiman No. 3
+Singkawang, Bali 56628', 'NULL'),
+('SUP0000013', 'PT Sitompul', 'Jl. Kebonjati No. 443
+Denpasar, JI 91202', 'NULL'),
+('SUP0000014', 'PD Suryono (Persero) Tbk', 'Gang Joyoboyo No. 6
+Bau-Bau, Sumatera Barat 46603', '4713462618'),
+('SUP0000015', 'Perum Nuraini', 'Jl. Suniaraja No. 44
+Tebingtinggi, Banten 02817', '7964296792'),
+('SUP0000016', 'CV Hakim Santoso', 'Jl. Peta No. 85
+Purwokerto, DKI Jakarta 76059', 'NULL'),
+('SUP0000017', 'CV Pradana', 'Gang Erlangga No. 7
+Depok, DKI Jakarta 26731', 'NULL'),
+('SUP0000018', 'PD Yulianti Saptono Tbk', 'Gg. Cikutra Timur No. 63
+Probolinggo, PA 20002', '9431464114'),
+('SUP0000019', 'Perum Yuliarti', 'Gang Setiabudhi No. 6
+Padangpanjang, DI Yogyakarta 55927', '3192974638'),
+('SUP0000020', 'PT Prasetya (Persero) Tbk', 'Jalan Antapani Lama No. 851
+Bukittinggi, YO 20663', '9817800860'),
+('SUP0000021', 'UD Nasyidah Hidayanto', 'Jl. Astana Anyar No. 158
+Magelang, Jawa Tengah 43296', '8731973755'),
+('SUP0000022', 'PD Wacana Tbk', 'Jalan Merdeka No. 0
+Padangpanjang, JI 97630', 'NULL'),
+('SUP0000023', 'UD Kuswoyo (Persero) Tbk', 'Gg. Jend. A. Yani No. 38
+Langsa, Maluku Utara 62033', '0068558140'),
+('SUP0000024', 'CV Damanik Marbun', 'Jalan Pasirkoja No. 614
+Kupang, BT 28113', 'NULL'),
+('SUP0000025', 'UD Astuti Napitupulu Tbk', 'Gg. Sukabumi No. 9
+Magelang, Kalimantan Tengah 52768', 'NULL'),
+('SUP0000026', 'Perum Wacana (Persero) Tbk', 'Gang Ciwastra No. 49
+Tomohon, Sulawesi Selatan 38496', 'NULL'),
+('SUP0000027', 'CV Salahudin (Persero) Tbk', 'Gang Abdul Muis No. 54
+Padang, SU 96068', '4762381519'),
+('SUP0000028', 'Perum Hidayat Pangestu Tbk', 'Gg. Setiabudhi No. 3
+Gorontalo, KB 21705', '1890794721'),
+('SUP0000029', 'Perum Pudjiastuti Prasasta (Persero) Tbk', 'Jalan PHH. Mustofa No. 20
+Lubuklinggau, Kalimantan Utara 22362', 'NULL'),
+('SUP0000030', 'CV Sinaga Tbk', 'Jl. Cikapayang No. 77
+Dumai, DI Yogyakarta 46621', 'NULL'),
+('SUP0000031', 'PT Latupono Safitri', 'Gang Rumah Sakit No. 25
+Pematangsiantar, BA 39176', '3997034905'),
+('SUP0000032', 'Perum Simanjuntak (Persero) Tbk', 'Gang KH Amin Jasuta No. 880
+Tomohon, Kalimantan Selatan 53057', '5611905690'),
+('SUP0000033', 'PD Pranowo Habibi', 'Jalan Pasirkoja No. 6
+Lubuklinggau, Nusa Tenggara Barat 96744', '8836439425'),
+('SUP0000034', 'UD Pudjiastuti Tbk', 'Gg. Jamika No. 471
+Madiun, SS 59588', 'NULL'),
+('SUP0000035', 'Perum Astuti', 'Jalan Siliwangi No. 041
+Tanjungpinang, Jawa Tengah 28747', '3151595170'),
+('SUP0000036', 'CV Rajasa', 'Jl. Gegerkalong Hilir No. 311
+Sibolga, KU 01192', 'NULL'),
+('SUP0000037', 'UD Melani Tbk', 'Gang Pasir Koja No. 669
+Kota Administrasi Jakarta Barat, JT 04387', 'NULL'),
+('SUP0000038', 'PT Agustina Hidayanto (Persero) Tbk', 'Jl. Tubagus Ismail No. 6
+Lubuklinggau, Nusa Tenggara Timur 33080', '2496275011'),
+('SUP0000039', 'UD Prabowo Prayoga Tbk', 'Gang K.H. Wahid Hasyim No. 5
+Lhokseumawe, Sumatera Barat 61431', '6117287163'),
+('SUP0000040', 'CV Farida (Persero) Tbk', 'Gg. Antapani Lama No. 60
+Pekanbaru, KI 06730', 'NULL'),
+('SUP0000041', 'PT Prasetyo Tbk', 'Jl. Pelajar Pejuang No. 095
+Pasuruan, Sulawesi Barat 34623', '2268591015'),
+('SUP0000042', 'PD Widiastuti Situmorang', 'Jalan Waringin No. 193
+Madiun, AC 68309', 'NULL'),
+('SUP0000043', 'PT Thamrin', 'Gang Suniaraja No. 2
+Bogor, BA 97917', 'NULL'),
+('SUP0000044', 'CV Safitri Utama', 'Gg. Tebet Barat Dalam No. 46
+Parepare, KS 35305', '1293305944'),
+('SUP0000045', 'Perum Uyainah Rajasa', 'Gang Rawamangun No. 88
+Sungai Penuh, Bali 53148', 'NULL'),
+('SUP0000046', 'CV Narpati Anggraini', 'Jl. Suryakencana No. 07
+Mojokerto, Nusa Tenggara Barat 76180', 'NULL'),
+('SUP0000047', 'CV Uyainah (Persero) Tbk', 'Jalan Stasiun Wonokromo No. 738
+Medan, DI Yogyakarta 22490', '0987151061'),
+('SUP0000048', 'Perum Rahayu', 'Jalan Otto Iskandardinata No. 68
+Semarang, Sulawesi Selatan 13206', '5587300643'),
+('SUP0000049', 'CV Mandala Tbk', 'Jl. K.H. Wahid Hasyim No. 17
+Lhokseumawe, MU 92665', '7256778757'),
+('SUP0000050', 'CV Riyanti Nasyiah', 'Jalan Suniaraja No. 370
+Singkawang, NT 11847', '6898678419'),
+('SUP0000051', 'PT Hidayanto', 'Gg. Indragiri No. 9
+Padang Sidempuan, BE 37150', '2668274214'),
+('SUP0000052', 'PD Hutapea Wijayanti', 'Jalan Tubagus Ismail No. 227
+Surakarta, BA 89344', 'NULL'),
+('SUP0000053', 'PT Widiastuti (Persero) Tbk', 'Gang Wonoayu No. 318
+Palangkaraya, Sulawesi Utara 32087', 'NULL'),
+('SUP0000054', 'CV Yuliarti Tbk', 'Gang Sukabumi No. 684
+Pangkalpinang, AC 98952', 'NULL'),
+('SUP0000055', 'PD Nasyidah Hartati', 'Gg. Pasteur No. 83
+Bengkulu, KU 96928', '4334704852'),
+('SUP0000056', 'PD Namaga Wacana', 'Gang Medokan Ayu No. 691
+Padang, Aceh 80334', 'NULL'),
+('SUP0000057', 'PT Prasetyo (Persero) Tbk', 'Gg. M.H Thamrin No. 4
+Denpasar, PA 85282', '1633239496'),
+('SUP0000058', 'PD Nasyiah Rahimah (Persero) Tbk', 'Jl. Cikutra Barat No. 9
+Medan, BA 05293', '4268656058'),
+('SUP0000059', 'PT Astuti Hasanah', 'Jalan Pelajar Pejuang No. 968
+Batu, JK 73018', 'NULL'),
+('SUP0000060', 'Perum Mulyani Permata', 'Gang Gardujati No. 83
+Tangerang, Kalimantan Selatan 33920', 'NULL'),
+('SUP0000061', 'PD Pranowo (Persero) Tbk', 'Jl. Indragiri No. 648
+Sibolga, GO 35104', 'NULL'),
+('SUP0000062', 'Perum Waluyo', 'Gang Soekarno Hatta No. 5
+Bitung, Sulawesi Barat 66623', '0494708852'),
+('SUP0000063', 'CV Jailani (Persero) Tbk', 'Jalan Jakarta No. 51
+Purwokerto, JI 89464', '2281006604'),
+('SUP0000064', 'UD Winarsih Tbk', 'Gang Antapani Lama No. 7
+Prabumulih, ST 27784', '1755731567'),
+('SUP0000065', 'CV Purwanti Tbk', 'Gg. Kapten Muslihat No. 40
+Medan, GO 52034', '3283490302'),
+('SUP0000066', 'UD Anggriawan', 'Gg. M.H Thamrin No. 64
+Bontang, JT 24193', 'NULL'),
+('SUP0000067', 'UD Farida Melani', 'Gg. Soekarno Hatta No. 26
+Bogor, SU 70878', 'NULL'),
+('SUP0000068', 'CV Hidayat (Persero) Tbk', 'Jl. Sadang Serang No. 43
+Sabang, KR 35180', '2511823208'),
+('SUP0000069', 'PT Prasetyo Siregar', 'Gang Medokan Ayu No. 9
+Bandar Lampung, DKI Jakarta 63594', '5294786833'),
+('SUP0000070', 'Perum Maheswara Pradana', 'Gg. BKR No. 76
+Langsa, SS 24997', '7412423431'),
+('SUP0000071', 'UD Ardianto Wahyuni', 'Jl. Sukajadi No. 98
+Padang, Jawa Timur 68719', '7412423431'),
+('SUP0000072', 'PD Samosir Irawan Tbk', 'Gang Kapten Muslihat No. 520
+Pariaman, LA 14817', '5794284432'),
+('SUP0000073', 'PT Widodo Suryono (Persero) Tbk', 'Jl. Dipatiukur No. 875
+Tangerang, SG 01009', '5794284432'),
+('SUP0000074', 'PT Napitupulu Uyainah (Persero) Tbk', 'Jl. Ahmad Yani No. 638
+Parepare, LA 70460', '5794284432'),
+('SUP0000075', 'PD Nurdiyanti Suwarno (Persero) Tbk', 'Gang Raya Ujungberung No. 021
+Mojokerto, Riau 61743', '5794284432'),
+('SUP0000076', 'PD Wibowo Nugroho', 'Gang W.R. Supratman No. 1
+Langsa, Riau 12491', '3852357041'),
+('SUP0000077', 'PD Pradana', 'Gang Pasir Koja No. 9
+Lhokseumawe, SB 92673', '3852357041'),
+('SUP0000078', 'PT Wasita', 'Jalan Waringin No. 4
+Malang, Kepulauan Riau 78836', '3852357041'),
+('SUP0000079', 'Perum Nainggolan Prakasa Tbk', 'Gg. Dipatiukur No. 122
+Banda Aceh, Maluku 79296', '8271550589'),
+('SUP0000080', 'PD Yuniar Tbk', 'Gang Cihampelas No. 60
+Bengkulu, Banten 90035', '8271550589'),
+('SUP0000081', 'CV Sihotang Novitasari', 'Jl. Jamika No. 3
+Lhokseumawe, Jawa Tengah 60162', '7295227985'),
+('SUP0000082', 'CV Sudiati Lestari Tbk', 'Jl. Kutai No. 535
+Sungai Penuh, DI Yogyakarta 76727', '7295227985'),
+('SUP0000083', 'UD Sihotang Manullang (Persero) Tbk', 'Gang Gedebage Selatan No. 79
+Palembang, Kalimantan Tengah 56964', '7295227985'),
+('SUP0000084', 'CV Mandala', 'Jl. Moch. Toha No. 646
+Metro, AC 49568', '7295227985'),
+('SUP0000085', 'CV Mulyani (Persero) Tbk', 'Jalan Kiaracondong No. 328
+Kota Administrasi Jakarta Barat, Sumatera Barat 50733', '0656417690'),
+('SUP0000086', 'UD Lestari', 'Jalan Pelajar Pejuang No. 9
+Probolinggo, JT 40182', '0656417690'),
+('SUP0000087', 'PT Pertiwi Wahyudin Tbk', 'Gg. Jayawijaya No. 808
+Probolinggo, Bali 07089', '0282668546'),
+('SUP0000088', 'PD Wibisono', 'Jalan Veteran No. 506
+Serang, DKI Jakarta 42275', '9373507418'),
+('SUP0000089', 'PD Yolanda Salahudin', 'Jl. W.R. Supratman No. 760
+Dumai, JA 18409', '3525371353'),
+('SUP0000090', 'Perum Setiawan Tbk', 'Gg. Erlangga No. 940
+Tangerang, Sulawesi Tenggara 79451', '3525371353'),
+('SUP0000091', 'Perum Wasita Damanik', 'Jalan Cikutra Barat No. 0
+Cilegon, Sumatera Utara 99847', '3525371353'),
+('SUP0000092', 'Perum Nainggolan', 'Gang Bangka Raya No. 4
+Bima, Riau 22487', '3525371353'),
+('SUP0000093', 'PD Riyanti Putra (Persero) Tbk', 'Gang Cempaka No. 87
+Subulussalam, ST 58944', '3525371353'),
+('SUP0000094', 'CV Hutagalung', 'Jl. Soekarno Hatta No. 47
+Sawahlunto, Papua 17347', '3525371353'),
+('SUP0000095', 'Perum Marbun', 'Jalan Sentot Alibasa No. 864
+Padang, SR 71944', '3525371353'),
+('SUP0000096', 'CV Waskita (Persero) Tbk', 'Gg. Suryakencana No. 975
+Pagaralam, YO 79748', '5207078536'),
+('SUP0000097', 'UD Wibisono Utami Tbk', 'Jalan Wonoayu No. 4
+Cimahi, Kalimantan Selatan 75289', '7861136297'),
+('SUP0000098', 'UD Mustofa (Persero) Tbk', 'Jl. Cempaka No. 734
+Kotamobagu, Sulawesi Selatan 21486', '1743534090'),
+('SUP0000099', 'UD Putra Tarihoran Tbk', 'Gang Pasteur No. 0
+Manado, Sulawesi Selatan 32120', '0055508914'),
+('SUP0000100', 'Perum Agustina (Persero) Tbk', 'Gg. Cempaka No. 36
+Kediri, JB 27826', '0055508914');

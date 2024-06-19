@@ -1,200 +1,200 @@
-INSERT INTO employee VALUES ('EMP0000001', 'Jeffrey Stewart', 'NULL', '497 Joel Wells
-Lake Meghanmouth, PW 51956');
-INSERT INTO employee VALUES ('EMP0000002', 'Jessica Jones', 'NULL', 'Unit 6160 Box 1806
-DPO AA 78812');
-INSERT INTO employee VALUES ('EMP0000003', 'Jon Gallagher', '3640979609', '4500 Mason Villages Apt. 957
-Cuevasshire, DC 38865');
-INSERT INTO employee VALUES ('EMP0000004', 'Alexis Campos', '8338184907', '585 Elliott Prairie Apt. 305
-Lake Adamstad, CT 54767');
-INSERT INTO employee VALUES ('EMP0000005', 'Travis Kent', '2735212786', '56261 Susan Green Suite 859
-North Lindastad, VA 30226');
-INSERT INTO employee VALUES ('EMP0000006', 'Alyssa Davis', 'NULL', '4646 Alison Summit Apt. 673
-Walshland, MS 21242');
-INSERT INTO employee VALUES ('EMP0000007', 'April Gonzalez', 'NULL', 'Unit 0931 Box 8120
-DPO AA 87436');
-INSERT INTO employee VALUES ('EMP0000008', 'Jessica Carpenter', 'NULL', '74506 Austin Neck
-Garrettville, IA 83624');
-INSERT INTO employee VALUES ('EMP0000009', 'Carol Alexander', '2480176246', '9151 Matthew Dam Suite 734
-South Lisa, CO 29554');
-INSERT INTO employee VALUES ('EMP0000010', 'Kevin Thompson', 'NULL', '1877 Mercer Isle
-New Margaretland, MN 37163');
-INSERT INTO employee VALUES ('EMP0000011', 'Mark Johnston', 'NULL', 'PSC 4060, Box 4591
-APO AE 71334');
-INSERT INTO employee VALUES ('EMP0000012', 'Dana Hernandez', '3151675946', 'PSC 5728, Box 0719
-APO AP 36739');
-INSERT INTO employee VALUES ('EMP0000013', 'Peter Baxter', 'NULL', 'Unit 0903 Box 5813
-DPO AP 49393');
-INSERT INTO employee VALUES ('EMP0000014', 'Jeff Anderson', '5294893991', '82743 Renee Lodge
-Carlborough, OK 59457');
-INSERT INTO employee VALUES ('EMP0000015', 'Brittany Gallagher', 'NULL', '67648 Nelson Land Suite 490
-Jasonstad, HI 80772');
-INSERT INTO employee VALUES ('EMP0000016', 'Dr. John Chase DDS', '5423047994', '88053 Morrow Turnpike Apt. 839
-North Tristan, GU 32165');
-INSERT INTO employee VALUES ('EMP0000017', 'Tammy Myers', '1092234623', '251 Morrison Hills
-New Brandi, ME 13209');
-INSERT INTO employee VALUES ('EMP0000018', 'Lisa Warren', '0090667637', '61299 Gonzales Via Apt. 768
-Port Elizabethborough, MO 39689');
-INSERT INTO employee VALUES ('EMP0000019', 'Cheyenne Porter', 'NULL', '46631 Tim Station Suite 695
-Mcmillanport, RI 12734');
-INSERT INTO employee VALUES ('EMP0000020', 'Brittney Ward', 'NULL', '68112 William Streets Suite 585
-Port Stevenland, SD 03664');
-INSERT INTO employee VALUES ('EMP0000021', 'Jacob Bailey', '3552474232', '03951 Buckley Curve
-Lake Brandyport, AZ 61512');
-INSERT INTO employee VALUES ('EMP0000022', 'David Nunez', '3153356443', '21002 Kelley Drives
-East Ryan, GA 89945');
-INSERT INTO employee VALUES ('EMP0000023', 'Matthew Bennett', 'NULL', '539 Santana Place Suite 444
-Anthonyside, VI 33550');
-INSERT INTO employee VALUES ('EMP0000024', 'Melissa Camacho', '8234532316', '5311 Salinas Manor Apt. 576
-New Debra, RI 90581');
-INSERT INTO employee VALUES ('EMP0000025', 'Lisa Barnes', '9231754973', '68434 Emily Lodge Apt. 337
-Leahside, AL 51903');
-INSERT INTO employee VALUES ('EMP0000026', 'Ralph Villegas', '6830704730', '167 Soto Bridge Suite 186
-Christineburgh, MO 45613');
-INSERT INTO employee VALUES ('EMP0000027', 'Teresa Murphy', '0635951666', '4701 Graham Dam
-Shawmouth, GA 50363');
-INSERT INTO employee VALUES ('EMP0000028', 'Jason Torres', '3455230632', 'Unit 4792 Box 2249
-DPO AP 89870');
-INSERT INTO employee VALUES ('EMP0000029', 'Penny Snyder', '4498834583', '48941 Jeremy Curve Suite 545
-East Marieton, ND 35482');
-INSERT INTO employee VALUES ('EMP0000030', 'Andrea Miller', '3024210262', '4889 Donald Key
-Meganchester, LA 74664');
-INSERT INTO employee VALUES ('EMP0000031', 'Joseph Johnston', '9046864011', '6013 Crystal Harbor Apt. 100
-East Kimberly, NC 42518');
-INSERT INTO employee VALUES ('EMP0000032', 'Pam Wood', '9556239117', 'Unit 3015 Box 1725
-DPO AA 51971');
-INSERT INTO employee VALUES ('EMP0000033', 'Tiffany Moran', 'NULL', '635 Jacobs Plaza Apt. 540
-New Cody, SD 63938');
-INSERT INTO employee VALUES ('EMP0000034', 'Chad Thompson', 'NULL', 'USNV Meyer
-FPO AA 96729');
-INSERT INTO employee VALUES ('EMP0000035', 'Justin Hunt MD', 'NULL', '18673 Richard Via Suite 565
-Leeborough, CA 49937');
-INSERT INTO employee VALUES ('EMP0000036', 'Brandon Ingram', '6250470724', '040 Robinson Causeway Apt. 889
-Port Jackie, NE 04766');
-INSERT INTO employee VALUES ('EMP0000037', 'Scott Martin', 'NULL', '6189 James Valleys Apt. 827
-North Lindashire, FM 00651');
-INSERT INTO employee VALUES ('EMP0000038', 'Sara Key', '8868677665', '616 Brooks Port
-Nicolefurt, NM 96966');
-INSERT INTO employee VALUES ('EMP0000039', 'Chad Martinez', 'NULL', '8945 Williams Shoals
-North Robert, MN 99753');
-INSERT INTO employee VALUES ('EMP0000040', 'Ruth Lutz', 'NULL', '2156 Michael Circles
-Port Karen, NV 06588');
-INSERT INTO employee VALUES ('EMP0000041', 'Jose Edwards PhD', '9913448322', '2731 Woodard Trail Suite 621
-East Shellyton, FM 29959');
-INSERT INTO employee VALUES ('EMP0000042', 'Amanda Figueroa', '1129198276', '9297 Colin Flat Apt. 275
-East Meganbury, MA 55550');
-INSERT INTO employee VALUES ('EMP0000043', 'Jonathan Ross', 'NULL', '34897 Christina Gateway Apt. 652
-North Richard, IL 25727');
-INSERT INTO employee VALUES ('EMP0000044', 'Kevin Barnes', 'NULL', '68789 Aaron Ranch Apt. 561
-New Jamesfort, MA 81232');
-INSERT INTO employee VALUES ('EMP0000045', 'Nancy Porter', 'NULL', '14662 Gwendolyn Common Apt. 658
-Port Stephanie, WA 29322');
-INSERT INTO employee VALUES ('EMP0000046', 'Julie Wilkins', '6151470114', '6651 James Trail
-East Jamesview, LA 81077');
-INSERT INTO employee VALUES ('EMP0000047', 'Diana Roberts', '0783388796', '7648 Cisneros Lakes Apt. 012
-Port Denisetown, MS 33635');
-INSERT INTO employee VALUES ('EMP0000048', 'Charles Lee', '4870107073', '84359 Victoria Ports Suite 937
-New Jamieberg, MD 29333');
-INSERT INTO employee VALUES ('EMP0000049', 'Emily Clayton', '4753473854', '1963 Arroyo Glens
-East Roy, IA 31228');
-INSERT INTO employee VALUES ('EMP0000050', 'Brad Jackson', '3585208776', '4188 Marie Inlet Suite 340
-North Timothyhaven, FL 96310');
-INSERT INTO employee VALUES ('EMP0000051', 'Jeffery Goodwin', 'NULL', '206 Fuentes Hills
-Codyville, KY 17804');
-INSERT INTO employee VALUES ('EMP0000052', 'Denise Davis', '4966262637', '68536 Richard Extensions Suite 531
-Georgemouth, PR 80454');
-INSERT INTO employee VALUES ('EMP0000053', 'John Hobbs', '8337141697', '0071 Heather Mountains
-Jaredshire, IL 83378');
-INSERT INTO employee VALUES ('EMP0000054', 'Kathryn Johnson', 'NULL', '170 Jackson Rapid
-Hoffmanport, NM 04025');
-INSERT INTO employee VALUES ('EMP0000055', 'Tiffany Mccarthy', 'NULL', '287 Matthew Drives Suite 330
-Theresaside, VA 20512');
-INSERT INTO employee VALUES ('EMP0000056', 'Allen Morgan', '5103088489', '173 George Mountain
-North Rhondaport, NC 65165');
-INSERT INTO employee VALUES ('EMP0000057', 'Jose Guerra', '1081915778', '7788 Knox Alley
-Allentown, FL 99608');
-INSERT INTO employee VALUES ('EMP0000058', 'Julie Gonzalez', 'NULL', '045 Wade Motorway Suite 206
-Lake Jessehaven, NJ 77054');
-INSERT INTO employee VALUES ('EMP0000059', 'Lynn Pacheco', 'NULL', '33635 Serrano Prairie Apt. 073
-Lake Rhonda, MT 80563');
-INSERT INTO employee VALUES ('EMP0000060', 'Michelle Reed', 'NULL', '120 Miller Flats Apt. 335
-Nguyenmouth, NH 27778');
-INSERT INTO employee VALUES ('EMP0000061', 'Jonathan Howard', 'NULL', '9406 Jeffrey Well Suite 827
-South Taylorchester, KS 29965');
-INSERT INTO employee VALUES ('EMP0000062', 'Timothy Knight', 'NULL', '6029 Emma Cliff Apt. 429
-Zacharyberg, ME 33349');
-INSERT INTO employee VALUES ('EMP0000063', 'Alec Thompson', 'NULL', '47066 Boone Via
-Lake Susanburgh, DE 39993');
-INSERT INTO employee VALUES ('EMP0000064', 'Nicole Richards', '0339265123', '530 Martin Parkways Suite 683
-South Jennifer, ID 24619');
-INSERT INTO employee VALUES ('EMP0000065', 'Chase Perkins', '0339265123', '548 Brandon Keys Suite 340
-Jacksonville, IA 78725');
-INSERT INTO employee VALUES ('EMP0000066', 'Brandon Holden', '2504291241', '1345 Bradley Track Apt. 009
-Stacyhaven, FM 58173');
-INSERT INTO employee VALUES ('EMP0000067', 'Amanda Francis', '1547046594', '81240 Johnson Fork
-Cobbchester, MI 56632');
-INSERT INTO employee VALUES ('EMP0000068', 'David Johnson', '1547046594', '64535 Kyle Plains
-Lake Norman, UT 50053');
-INSERT INTO employee VALUES ('EMP0000069', 'Bryan Russell', '5641070725', '11112 Harrison Squares Apt. 605
-Higginsland, IA 00833');
-INSERT INTO employee VALUES ('EMP0000070', 'Melissa Vasquez', '4963867203', '21586 Hines Hills
-North Cheryl, NE 69783');
-INSERT INTO employee VALUES ('EMP0000071', 'Anna Anderson', '8281092140', '94813 Todd Cliffs
-Johnbury, WA 31310');
-INSERT INTO employee VALUES ('EMP0000072', 'Emily Curtis', '3550382809', '473 Martinez Crest
-Merrittborough, ID 86936');
-INSERT INTO employee VALUES ('EMP0000073', 'Jessica West', '0503593302', '76837 Moore View
-Port Michael, OK 59625');
-INSERT INTO employee VALUES ('EMP0000074', 'Mark Hughes', '0503593302', '5374 Turner Village
-Jenniferview, DC 41004');
-INSERT INTO employee VALUES ('EMP0000075', 'Richard Smith', '5462179213', '0086 Scott Mount Apt. 468
-South Craigmouth, MT 27770');
-INSERT INTO employee VALUES ('EMP0000076', 'Jacqueline Castaneda', '4581783560', '69167 Perez Isle Apt. 447
-Katherinestad, DC 50831');
-INSERT INTO employee VALUES ('EMP0000077', 'Lee Gonzales', '4581783560', '61146 Kimberly Ranch
-Kathrynbury, GU 28424');
-INSERT INTO employee VALUES ('EMP0000078', 'Alyssa Riddle', '4581783560', '698 Lawrence Track Suite 526
-Russellport, ME 67831');
-INSERT INTO employee VALUES ('EMP0000079', 'Marie Hanna', '0762930680', '27647 Bishop Streets
-Port Angela, VI 71528');
-INSERT INTO employee VALUES ('EMP0000080', 'Jessica Fuentes', '0762930680', '71268 Rodriguez Isle
-West Isaiahstad, WI 37738');
-INSERT INTO employee VALUES ('EMP0000081', 'Steven Ball', '7397100703', '399 Crosby Island Apt. 487
-Allenstad, FL 17774');
-INSERT INTO employee VALUES ('EMP0000082', 'Sandra Morales', '9806927670', '844 Fisher Springs
-Gaychester, PA 93660');
-INSERT INTO employee VALUES ('EMP0000083', 'Daniel Green', '9886538138', '049 Flores Parks Apt. 103
-Randyville, MI 43490');
-INSERT INTO employee VALUES ('EMP0000084', 'Oscar Murphy', '9886538138', '13103 Harris Islands Apt. 230
-Lake Lindsaymouth, PA 45812');
-INSERT INTO employee VALUES ('EMP0000085', 'Jason Fisher', '4870543198', '686 Foster Cliffs
-Hamptonville, WY 57557');
-INSERT INTO employee VALUES ('EMP0000086', 'John White', '4870543198', '6058 Jonathan Radial
-South Lisatown, ME 07963');
-INSERT INTO employee VALUES ('EMP0000087', 'Robert Sutton', '0005153968', '10709 Andrea Corner
-Jessicaborough, DE 50236');
-INSERT INTO employee VALUES ('EMP0000088', 'Robert Barrett', '0005153968', '8911 Huerta Spur
-Smithbury, DC 67210');
-INSERT INTO employee VALUES ('EMP0000089', 'John Drake', '0005153968', '377 Jennifer Wells
-North Latoyaberg, PR 74375');
-INSERT INTO employee VALUES ('EMP0000090', 'Brittany Short', '4375056397', '92386 Tiffany Squares Apt. 076
-New Michellechester, DC 78449');
-INSERT INTO employee VALUES ('EMP0000091', 'Tracey Cruz', '5027517029', '49689 Parker Walks
-Williamschester, NH 72176');
-INSERT INTO employee VALUES ('EMP0000092', 'Jeremy Galloway', '2601973909', '2357 Bryant Court Suite 644
-Weaverborough, NE 81799');
-INSERT INTO employee VALUES ('EMP0000093', 'Meghan Underwood', '2601973909', '3188 Beth Field Apt. 688
-Scottbury, WI 59061');
-INSERT INTO employee VALUES ('EMP0000094', 'Christopher Chambers', '2601973909', '2258 Austin Skyway Suite 846
-Jordantown, MI 72670');
-INSERT INTO employee VALUES ('EMP0000095', 'Jacob Murray', '2601973909', '89997 Harrington Dam
-South Lindsay, WV 05937');
-INSERT INTO employee VALUES ('EMP0000096', 'Melissa Montgomery', '4850991555', '981 Day Shoal
-East Whitneyfurt, IN 42680');
-INSERT INTO employee VALUES ('EMP0000097', 'George Miller', '9097291636', 'PSC 3160, Box 2649
-APO AE 39501');
-INSERT INTO employee VALUES ('EMP0000098', 'Lori Vang', '9097291636', '25769 Dunn Mountain Suite 635
-Nelsonburgh, AL 36890');
-INSERT INTO employee VALUES ('EMP0000099', 'Mrs. Victoria James MD', '3466811547', '6209 Brown Lane Suite 769
-Lake Maria, NJ 43108');
-INSERT INTO employee VALUES ('EMP0000100', 'Peggy Forbes', '8265557374', '3321 Cooper Club
-Carlosburgh, NV 85418');
+INSERT INTO employee VALUES ('EMP0000001', 'Akarsana Latupono', 3249246453, 'Gg. Veteran No. 14
+Meulaboh, KR 64561'),
+('EMP0000002', 'Omar Budiyanto, S.Gz', 9467444596, 'Gg. Raya Ujungberung No. 5
+Batam, Sumatera Utara 06917'),
+('EMP0000003', 'Natalia Sinaga', 3816700093, 'Gg. Dipatiukur No. 470
+Pasuruan, Kepulauan Bangka Belitung 11185'),
+('EMP0000004', 'Tira Suryatmi', NULL, 'Gg. Asia Afrika No. 517
+Tangerang Selatan, YO 72261'),
+('EMP0000005', 'R.M. Saka Nasyidah', NULL, 'Gang Kutisari Selatan No. 3
+Surabaya, SU 14740'),
+('EMP0000006', 'Tgk. Farhunnisa Wibisono', NULL, 'Jalan K.H. Wahid Hasyim No. 8
+Bengkulu, SS 23541'),
+('EMP0000007', 'Karimah Habibi', 5557510428, 'Gang Peta No. 84
+Tual, Banten 46532'),
+('EMP0000008', 'T. Kemal Maheswara', 3549044842, 'Jalan Raya Ujungberung No. 960
+Bontang, Jambi 92466'),
+('EMP0000009', 'Kartika Simbolon', 0846112738, 'Gang Indragiri No. 79
+Tegal, KB 34816'),
+('EMP0000010', 'Novi Sudiati', NULL, 'Jalan Medokan Ayu No. 1
+Ternate, Kalimantan Selatan 03336'),
+('EMP0000011', 'Eja Novitasari, S.Farm', NULL, 'Gang Cikutra Timur No. 80
+Pariaman, BT 83979'),
+('EMP0000012', 'Galih Sihombing', 5070860031, 'Gg. Jend. Sudirman No. 0
+Bengkulu, Nusa Tenggara Timur 38968'),
+('EMP0000013', 'Narji Padmasari', NULL, 'Gg. Suryakencana No. 871
+Kota Administrasi Jakarta Pusat, Jawa Barat 99342'),
+('EMP0000014', 'Ibrani Winarsih', NULL, 'Gg. Sukabumi No. 6
+Sabang, KS 95895'),
+('EMP0000015', 'Dr. Lidya Hutasoit, S.E.', 0337153574, 'Gang Veteran No. 468
+Solok, Jawa Barat 53895'),
+('EMP0000016', 'Ihsan Mangunsong', 1931665740, 'Jalan Monginsidi No. 56
+Prabumulih, Papua Barat 39543'),
+('EMP0000017', 'R. Embuh Wulandari', NULL, 'Jl. Gedebage Selatan No. 35
+Kota Administrasi Jakarta Pusat, Banten 57118'),
+('EMP0000018', 'Bagas Sihombing', 6962489807, 'Jalan Moch. Ramdan No. 44
+Sabang, SU 73426'),
+('EMP0000019', 'Drs. Jasmin Novitasari', 8731818673, 'Gg. Kutisari Selatan No. 2
+Meulaboh, JA 33997'),
+('EMP0000020', 'Irfan Mansur', 0679166589, 'Gg. Cikapayang No. 971
+Probolinggo, Nusa Tenggara Timur 53777'),
+('EMP0000021', 'H. Kanda Hardiansyah', 7033461436, 'Gg. Raya Setiabudhi No. 61
+Cirebon, MU 97433'),
+('EMP0000022', 'Cemplunk Permadi', NULL, 'Jl. Rajawali Barat No. 00
+Banjar, Nusa Tenggara Timur 73188'),
+('EMP0000023', 'Sutan Karta Widiastuti, S.E.I', NULL, 'Jl. Cikutra Barat No. 073
+Solok, PB 67376'),
+('EMP0000024', 'dr. Hasim Situmorang, S.Farm', 1147744940, 'Jl. M.T Haryono No. 14
+Kota Administrasi Jakarta Timur, Jambi 15562'),
+('EMP0000025', 'Dt. Sakti Nasyidah, S.Farm', NULL, 'Jalan Monginsidi No. 56
+Pematangsiantar, Maluku Utara 56497'),
+('EMP0000026', 'Rahayu Megantara, S.Kom', 2654346588, 'Jalan Rajawali Barat No. 058
+Bima, Jawa Barat 63274'),
+('EMP0000027', 'Tomi Puspita', 5049040213, 'Gg. Raya Setiabudhi No. 110
+Pasuruan, BT 67548'),
+('EMP0000028', 'Hasna Widodo', 1838187120, 'Jl. Sadang Serang No. 1
+Jambi, KU 55523'),
+('EMP0000029', 'Pangestu Siregar', NULL, 'Gang Tubagus Ismail No. 057
+Binjai, NT 59560'),
+('EMP0000030', 'Caraka Thamrin, S.E.', NULL, 'Jl. Jakarta No. 4
+Lubuklinggau, Sulawesi Tengah 24814'),
+('EMP0000031', 'Pangestu Ardianto, S.Farm', NULL, 'Gang Kutisari Selatan No. 57
+Sukabumi, Sumatera Barat 48279'),
+('EMP0000032', 'Sutan Balijan Uyainah, S.T.', 0829988183, 'Jalan Ciumbuleuit No. 9
+Sabang, Gorontalo 92316'),
+('EMP0000033', 'Raditya Nainggolan', 4540948990, 'Gang Cikutra Timur No. 947
+Bau-Bau, LA 50887'),
+('EMP0000034', 'Ghaliyati Safitri', 2781139219, 'Jl. Dr. Djunjunan No. 2
+Banjarbaru, Sumatera Barat 70727'),
+('EMP0000035', 'Aswani Lazuardi', 3954085843, 'Gg. BKR No. 327
+Lubuklinggau, Papua 86520'),
+('EMP0000036', 'Kusuma Sinaga', 6504958293, 'Gang Cikutra Barat No. 00
+Solok, KU 06107'),
+('EMP0000037', 'Amelia Waskita', 9412587674, 'Jalan Tebet Barat Dalam No. 5
+Metro, KT 01426'),
+('EMP0000038', 'Prayogo Uyainah', NULL, 'Gg. Merdeka No. 623
+Bitung, Riau 67052'),
+('EMP0000039', 'Dr. Luluh Salahudin', 8771925050, 'Jl. Moch. Ramdan No. 982
+Palu, Sulawesi Selatan 42501'),
+('EMP0000040', 'Yulia Yulianti', 2609273357, 'Gg. Jend. Sudirman No. 788
+Cilegon, Jawa Timur 41407'),
+('EMP0000041', 'dr. Rahayu Adriansyah, S.T.', NULL, 'Jl. Tubagus Ismail No. 509
+Bandung, YO 53428'),
+('EMP0000042', 'Jail Melani', 5915711174, 'Gg. Raya Ujungberung No. 4
+Kota Administrasi Jakarta Timur, BB 52604'),
+('EMP0000043', 'Halima Saputra, M.M.', NULL, 'Jalan Kiaracondong No. 9
+Denpasar, JA 95366'),
+('EMP0000044', 'Pia Najmudin', NULL, 'Gang Rungkut Industri No. 518
+Pematangsiantar, Maluku Utara 92631'),
+('EMP0000045', 'Rama Marbun', 0283864575, 'Jl. Cempaka No. 01
+Tual, DI Yogyakarta 36529'),
+('EMP0000046', 'Tami Sirait', 9854717071, 'Jl. Dipatiukur No. 947
+Purwokerto, JT 50247'),
+('EMP0000047', 'Bakti Widiastuti', 4636461261, 'Gang Suryakencana No. 94
+Sabang, SN 21358'),
+('EMP0000048', 'R.A. Kasiyah Najmudin, S.Ked', 1418521120, 'Jalan Cempaka No. 1
+Tual, Kalimantan Timur 04497'),
+('EMP0000049', 'Jasmin Natsir', NULL, 'Gg. Moch. Ramdan No. 3
+Padang Sidempuan, LA 38818'),
+('EMP0000050', 'Vanesa Simanjuntak', 3765711238, 'Gg. Rajiman No. 5
+Bandung, Kalimantan Selatan 70157'),
+('EMP0000051', 'Ophelia Hutapea', NULL, 'Gang Gedebage Selatan No. 6
+Sukabumi, Kalimantan Barat 34692'),
+('EMP0000052', 'Kiandra Santoso', 1416663128, 'Jalan Lembong No. 3
+Pagaralam, BB 23675'),
+('EMP0000053', 'Pia Prastuti, M.Pd', 1132964859, 'Jl. Ciwastra No. 6
+Kota Administrasi Jakarta Barat, Gorontalo 94349'),
+('EMP0000054', 'Ida Nashiruddin', NULL, 'Gang Waringin No. 2
+Tarakan, Bengkulu 08858'),
+('EMP0000055', 'Ani Saputra', NULL, 'Gg. Erlangga No. 649
+Payakumbuh, PB 47066'),
+('EMP0000056', 'Shakila Padmasari', NULL, 'Gang Rawamangun No. 3
+Tanjungbalai, KT 78742'),
+('EMP0000057', 'Raihan Saragih', NULL, 'Gang Jend. A. Yani No. 219
+Pariaman, MA 56270'),
+('EMP0000058', 'Gasti Zulkarnain', 4873160656, 'Gg. Cikutra Barat No. 929
+Bitung, Papua Barat 74802'),
+('EMP0000059', 'Banara Setiawan', NULL, 'Jalan Erlangga No. 9
+Meulaboh, Lampung 62377'),
+('EMP0000060', 'drg. Maria Hutasoit, S.Pd', 5320392885, 'Gang M.T Haryono No. 913
+Tual, DI Yogyakarta 74661'),
+('EMP0000061', 'Anastasia Fujiati', 5779694628, 'Gg. M.H Thamrin No. 176
+Bima, JT 65459'),
+('EMP0000062', 'Danang Astuti', 5735318257, 'Jalan Jayawijaya No. 2
+Pematangsiantar, Gorontalo 49274'),
+('EMP0000063', 'Bahuwirya Suartini', 2048747192, 'Jl. Rajawali Barat No. 191
+Batu, JB 63353'),
+('EMP0000064', 'Zamira Najmudin', NULL, 'Jalan Dipenogoro No. 344
+Manado, Riau 76807'),
+('EMP0000065', 'T. Paiman Prakasa', NULL, 'Gg. Surapati No. 059
+Batu, Kalimantan Utara 74234'),
+('EMP0000066', 'Indah Prakasa', NULL, 'Gang Otto Iskandardinata No. 5
+Sukabumi, JT 63304'),
+('EMP0000067', 'Johan Kusmawati', 3531000088, 'Jalan Antapani Lama No. 8
+Subulussalam, Jawa Barat 66063'),
+('EMP0000068', 'Lukman Rahmawati', 3531000088, 'Gang Jayawijaya No. 149
+Pekalongan, Kalimantan Tengah 60282'),
+('EMP0000069', 'Hj. Queen Wahyuni, S.I.Kom', 3531000088, 'Jalan Kebonjati No. 2
+Jayapura, GO 40366'),
+('EMP0000070', 'Radika Hutasoit', 3612217350, 'Gang Cikapayang No. 29
+Jambi, Nusa Tenggara Timur 82975'),
+('EMP0000071', 'Tiara Jailani', 3612217350, 'Gang Gegerkalong Hilir No. 95
+Kota Administrasi Jakarta Timur, Lampung 30570'),
+('EMP0000072', 'Hj. Raisa Hastuti', 3612217350, 'Gg. Rajawali Barat No. 7
+Kota Administrasi Jakarta Timur, JK 06774'),
+('EMP0000073', 'KH. Eko Megantara', 3612217350, 'Jl. Jend. Sudirman No. 690
+Sibolga, Kalimantan Tengah 90523'),
+('EMP0000074', 'Maryadi Sihombing, S.H.', 4374654744, 'Gg. Rajawali Timur No. 149
+Tanjungpinang, SN 57782'),
+('EMP0000075', 'Warji Sitorus', 4374654744, 'Jl. Lembong No. 536
+Kotamobagu, JA 54168'),
+('EMP0000076', 'Umi Mangunsong', 4374654744, 'Jl. Kutisari Selatan No. 6
+Sukabumi, KS 83364'),
+('EMP0000077', 'drg. Irfan Nasyiah, S.H.', 4374654744, 'Gang Indragiri No. 75
+Palangkaraya, Kalimantan Barat 08373'),
+('EMP0000078', 'Sutan Yoga Sinaga', 3388592277, 'Gg. M.H Thamrin No. 46
+Tasikmalaya, MU 60501'),
+('EMP0000079', 'dr. Mutia Wulandari', 3388592277, 'Jl. Rajawali Barat No. 1
+Mataram, GO 05774'),
+('EMP0000080', 'Zamira Sirait', 2891973156, 'Gang Bangka Raya No. 2
+Solok, SU 95309'),
+('EMP0000081', 'Sakti Nasyidah, M.Kom.', 9368117763, 'Gang Rajiman No. 489
+Magelang, NB 23957'),
+('EMP0000082', 'Rama Agustina, S.T.', 5964848954, 'Jl. Rajawali Timur No. 4
+Tidore Kepulauan, Sumatera Selatan 88474'),
+('EMP0000083', 'Eva Setiawan, S.Farm', 0027190330, 'Gang Erlangga No. 22
+Mataram, Jawa Timur 21217'),
+('EMP0000084', 'Rama Zulaika, S.Sos', 1871711093, 'Jl. Raya Ujungberung No. 16
+Bandar Lampung, Kalimantan Utara 31708'),
+('EMP0000085', 'Cut Citra Winarsih', 1871711093, 'Jalan Raya Ujungberung No. 4
+Batam, PA 38586'),
+('EMP0000086', 'R.A. Mutia Haryanti, S.Farm', 1871711093, 'Gg. Cikapayang No. 99
+Banjarbaru, Papua 79080'),
+('EMP0000087', 'Cut Queen Lazuardi, S.Ked', 1871711093, 'Gang Stasiun Wonokromo No. 238
+Magelang, SU 49470'),
+('EMP0000088', 'drg. Elvin Damanik, S.Kom', 1871711093, 'Jl. Dr. Djunjunan No. 18
+Bontang, JA 48311'),
+('EMP0000089', 'Sutan Wardaya Utami, S.Pd', 4917934074, 'Jl. Indragiri No. 51
+Tangerang Selatan, Kalimantan Barat 01099'),
+('EMP0000090', 'Asman Saragih', 6103854281, 'Gg. Bangka Raya No. 0
+Probolinggo, GO 85436'),
+('EMP0000091', 'Indah Permadi, S.Psi', 3753064241, 'Gg. Rumah Sakit No. 402
+Probolinggo, JT 18282'),
+('EMP0000092', 'Siti Sitorus', 8460659794, 'Gg. Soekarno Hatta No. 422
+Surabaya, JA 80108'),
+('EMP0000093', 'Umi Mandala', 8460659794, 'Gang Rumah Sakit No. 24
+Manado, Jambi 54904'),
+('EMP0000094', 'Cut Yunita Wijayanti, S.E.', 8460659794, 'Jalan Pasirkoja No. 299
+Ambon, KS 29790'),
+('EMP0000095', 'Yunita Natsir', 7735435822, 'Jl. Ahmad Yani No. 508
+Pekanbaru, DI Yogyakarta 26908'),
+('EMP0000096', 'Dr. Yahya Haryanti', 7735435822, 'Jalan Pasirkoja No. 41
+Prabumulih, Sumatera Barat 07716'),
+('EMP0000097', 'Eli Adriansyah', 7735435822, 'Gang Ahmad Yani No. 94
+Banjarbaru, LA 72846'),
+('EMP0000098', 'Cut Najwa Aryani', 7735435822, 'Gg. Monginsidi No. 41
+Bau-Bau, Kepulauan Bangka Belitung 15950'),
+('EMP0000099', 'Drs. Jagaraga Lailasari', 8141356033, 'Jl. Dr. Djunjunan No. 844
+Palangkaraya, JT 62384'),
+('EMP0000100', 'Malik Nababan', 8736125777, 'Jl. Abdul Muis No. 78
+Metro, BB 66922');
