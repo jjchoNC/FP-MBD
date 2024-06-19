@@ -94,33 +94,32 @@ AFTER INSERT ON cart_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
 
--- Function to validate stock for cart_item
-CREATE OR REPLACE FUNCTION validateStock()
-RETURNS TRIGGER AS $$
+-- Validation function to ensure sufficient stock
+CREATE OR REPLACE FUNCTION validateStock(p_shop_item_id CHAR(10), p_item_amount INT) 
+RETURNS VOID AS $$
+DECLARE
+    v_shop_item_stock INT;
 BEGIN
-    IF (NEW.item_amount > (SELECT shop_item_stock FROM shop_item WHERE shop_item_id = NEW.shop_item_shop_item_id)) THEN
-        RAISE EXCEPTION 'Stock tidak mencukupi untuk item %', NEW.shop_item_shop_item_id;
+    SELECT shop_item_stock INTO v_shop_item_stock
+    FROM shop_item
+    WHERE shop_item_id = p_shop_item_id;
+
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'Shop item not found';
     END IF;
-    RETURN NEW;
+
+    IF v_shop_item_stock < p_item_amount THEN
+        RAISE EXCEPTION 'Not enough stock';
+    END IF;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER check_stock
-BEFORE INSERT OR UPDATE ON cart_shop_item
-FOR EACH ROW
-EXECUTE FUNCTION validateStock();
-
--- Function to validate customer can't order negative amount of item
-CREATE OR REPLACE FUNCTION validateAmount()
-RETURNS TRIGGER AS $$
+-- Validation function to ensure non-negative item amount
+CREATE OR REPLACE FUNCTION validateAmount(p_item_amount INT)
+RETURNS VOID AS $$
 BEGIN
-    IF (NEW.item_amount < 0) THEN
+    IF p_item_amount < 0 THEN
         RAISE EXCEPTION 'Jumlah item tidak boleh negatif';
     END IF;
-    RETURN NEW;
 END;
-
-CREATE TRIGGER check_amount
-BEFORE INSERT OR UPDATE ON cart_shop_item
-FOR EACH ROW
-EXECUTE FUNCTION validateAmount();
+$$ LANGUAGE plpgsql;
