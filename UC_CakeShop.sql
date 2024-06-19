@@ -1,51 +1,58 @@
 # UC1
+
+CREATE SEQUENCE cst_id_seq
+    START WITH  300000
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 200000;
 CREATE OR REPLACE FUNCTION userRegister(
-    p_cst_id CHAR(10),
     p_cst_name VARCHAR(100),
     p_cst_phoneNumber VARCHAR(20),
     p_cst_address VARCHAR(100),
     p_cst_email VARCHAR(100),
     p_cst_password VARCHAR(100),
-    p_cst_isLoggedIn BOOLEAN,
     p_cst_latitude DECIMAL(5,2),
     p_cst_longitude DECIMAL(5,2)
 )
 RETURNS VOID AS $$
 DECLARE
-    email_count INT;
+    isLoggedin BOOLEAN;
+    p_cst_id CHAR(10);
 BEGIN
-    SELECT COUNT(*)
-    INTO email_count
-    FROM customer
-    WHERE cst_email = p_cst_email;
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
 
-    IF email_count > 0 THEN
-        RAISE EXCEPTION 'Email % already exists. Please use a different email.', p_cst_email;
+    IF NOT validateEmail(p_cst_email) THEN
+        RAISE EXCEPTION 'Email already exists. Please use a different email.';
     END IF;
 
-    INSERT INTO customer (
-        cst_id, cst_name, cst_phoneNumber, cst_address, 
-        cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude
-    )
+    IF NOT validatePassword(p_cst_password) THEN
+        RAISE EXCEPTION 'Password lenght must be greater than 8';
+    END IF;
+
+    INSERT INTO customer
     VALUES (
         p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
-        p_cst_email, MD5(p_cst_password), p_cst_isLoggedIn, p_cst_latitude, p_cst_longitude
+        p_cst_email, MD5(p_cst_password), isLoggedin, p_cst_latitude, p_cst_longitude
     );
 END;
 $$ LANGUAGE plpgsql;
 
+-- SELECT userregister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
+
 ## Example Usage
-/* SELECT userRegister(
-    'CST0000001', 
-    'John Doe', 
-    '1234567890', 
-    '123 Main St', 
-    'john.doe@example.com', 
-    'securepassword', 
-    FALSE, 
-    37.77, 
-    -122.42
-); */
+-- SELECT userRegister(
+--     'CST0030001', 
+--     'John Doe', 
+--     '1234567890', 
+--     '123 Main St', 
+--     'john.doe@example.com', 
+--     'securepassword', 
+--     FALSE, 
+--     37.77, 
+--     -122.42
+-- );
 
 # UC2
 CREATE OR REPLACE FUNCTION userLogin(
