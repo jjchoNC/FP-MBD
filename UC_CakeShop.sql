@@ -179,6 +179,36 @@ END;
 $$ LANGUAGE plpgsql;
 
 # UC5
+#Sebagai pengguna, Tina mampu melihat seluruh menu kue yang disediakan restoran tersebut
+
+CREATE OR REPLACE FUNCTION getCakesByShop(shop_id CHAR(10))
+RETURNS TABLE (
+    item_id CHAR(10),
+    item_name VARCHAR(100),
+    item_price MONEY,
+    item_category VARCHAR(50),
+    shop_item_stock INT
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        i.item_id,
+        i.item_name,
+        i.item_price,
+        i.item_category,
+        si.shop_item_stock
+    FROM 
+        shop_item si
+    INNER JOIN 
+        items i ON si.items_item_id = i.item_id
+    WHERE 
+        si.shop_shop_id = shop_id
+    ORDER BY
+        i.item_id;
+END;
+$$ LANGUAGE plpgsql;
+## usage
+SELECT * FROM getCakesByShop('SHOP000001');
 
 # UC6
 # Sebagai pengguna, Tina mampu memilih dan memasukkan makanan ke dalam keranjang
