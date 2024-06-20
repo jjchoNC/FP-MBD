@@ -1,7 +1,7 @@
 # UC1
-
+DELETE FROM customer WHERE cst_name = "Tunas";
 CREATE SEQUENCE cst_id_seq
-    START WITH  300000
+    START WITH  300001
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
@@ -39,7 +39,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- SELECT userregister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
+SELECT userRegister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
 
 ## Example Usage
 -- SELECT userRegister(
@@ -81,7 +81,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 ## Example Usage
-/* SELECT userLogin('john.doe@example.com', 'securepassword'); */
+SELECT userLogin('a', 'aremasingo');
 
 
 ## Fungsi untuk log out pengguna
@@ -112,7 +112,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 ## Example Usage 
-/* SELECT userLogout('john.doe@example.com'); */
+SELECT userLogout('a');
 
 
 # UC3
@@ -182,6 +182,13 @@ $$ LANGUAGE plpgsql;
 
 # UC6
 # Sebagai pengguna, Tina mampu memilih dan memasukkan makanan ke dalam keranjang
+CREATE SEQUENCE cart_seq
+    START WITH  105001
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 200000;
+
 CREATE OR REPLACE FUNCTION add_to_cart(
     p_customer_cst_id CHAR(10),
     p_shop_item_id CHAR(10),
@@ -282,7 +289,7 @@ $$ LANGUAGE plpgsql;
 # UC8
 
 CREATE SEQUENCE transaction_seq
-    START WITH  200000
+    START WITH  200001
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
