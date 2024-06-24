@@ -140,6 +140,22 @@ JOIN
 ORDER BY 
     ctc.transaction_count DESC;
 
+-- DB Transaction
+-- Insert new supplier data
+INSERT INTO supplier (sup_id, sup_name, sup_address, sup_phone)
+VALUES ('SUP0000101', 'New Supplier', '123 Supplier St.', '123-456-7890');
+
+-- Get supplier name
+SELECT supplier.sup_name FROM supplier WHERE supplier.sup_id = 'SUP0000101';
+
+-- Update supplier name
+BEGIN;
+UPDATE supplier
+SET sup_name = 'Bima'
+WHERE sup_id = 'SUP0000101';
+
+-- Rollback because make mistake in updating supplier name
+ROLLBACK;
 
 # Aditya Situmorang
 -- membuat index yang akan digunakan untuk mempercepat query
