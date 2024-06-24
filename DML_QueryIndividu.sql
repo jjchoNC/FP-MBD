@@ -95,7 +95,19 @@ WHERE
 # Tunas Abdi Pranata 
 
 # Aditya Situmorang
+-- membuat index yang akan digunakan untuk mempercepat query
+CREATE INDEX idx_transaction_cart_id ON transaction(cart_cart_id);
+CREATE INDEX idx_cart_cart_id ON cart(cart_id);
+CREATE INDEX idx_cart_shop_item_cart_id ON cart_shop_item(cart_cart_id);
+CREATE INDEX idx_cart_shop_item_shop_item_id ON cart_shop_item(shop_item_shop_item_id);
+CREATE INDEX idx_shop_item_shop_id ON shop_item(shop_shop_id);
+CREATE INDEX idx_shop_item_item_id ON shop_item(items_item_id);
+CREATE INDEX idx_supply_shop_item_shop_item_id ON supply_shop_item(shop_item_shop_item_id);
+CREATE INDEX idx_supply_shop_item_supply_id ON supply_shop_item(supply_supply_id);
+
+
 # menampilkan pesanan yang paling sering dipesan untuk tiap toko
+-- EXPLAIN ANALYZE
 WITH ItemOrderQuantity AS (
     SELECT 
         si.shop_shop_id AS shop_id, 
@@ -112,23 +124,57 @@ WITH ItemOrderQuantity AS (
     GROUP BY 
         si.shop_shop_id, si.items_item_id
 ),
-RankedItems AS (
-    SELECT 
-        shop_id, 
-        item_id, 
-        total_quantity,
-        ROW_NUMBER() OVER (PARTITION BY shop_id ORDER BY total_quantity DESC) AS rank
-    FROM 
+MaxItemOrder AS (
+    SELECT
+        shop_id,
+        MAX(total_quantity) AS max_quantity
+    FROM
         ItemOrderQuantity
+    GROUP BY
+        shop_id
 )
 SELECT 
-    shop_id, 
-    item_id, 
-    total_quantity
+    ioq.shop_id, 
+    ioq.item_id, 
+    ioq.total_quantity
 FROM 
-    RankedItems
-WHERE 
-    rank = 1;
+    ItemOrderQuantity ioq
+JOIN 
+    MaxItemOrder moi ON ioq.shop_id = moi.shop_id AND ioq.total_quantity = moi.max_quantity;
+
+
+-- Menampilkan supply item yang paling sering di-supply oleh setiap toko
+-- EXPLAIN ANALYZE
+WITH SupplyItemQuantity AS (
+    SELECT 
+        si.shop_shop_id AS shop_id, 
+        si.items_item_id AS item_id, 
+        SUM(ssi.item_amount) AS total_quantity
+    FROM 
+        supply_shop_item ssi
+    JOIN 
+        shop_item si ON ssi.shop_item_shop_item_id = si.shop_item_id
+    GROUP BY 
+        si.shop_shop_id, si.items_item_id
+),
+MaxSupplyItem AS (
+    SELECT
+        shop_id,
+        MAX(total_quantity) AS max_quantity
+    FROM
+        SupplyItemQuantity
+    GROUP BY
+        shop_id
+)
+SELECT 
+    siq.shop_id, 
+    siq.item_id, 
+    siq.total_quantity
+FROM 
+    SupplyItemQuantity siq
+JOIN 
+    MaxSupplyItem msi ON siq.shop_id = msi.shop_id AND siq.total_quantity = msi.max_quantity;
+
 
 # Muhammad Bimatara Indianto / 5025221260
 # Mengidentifikasi item yang paling sering dimasukkan ke dalam keranjang belanja pada setiap toko.
