@@ -1,5 +1,96 @@
--- Active: 1715666446348@@localhost@5432@cakeshop@public
+-- Active: 1715739802341@@127.0.0.1@5432@tokokue@public
 # Jericho Nathanael Chrisnanta
+# Menacari customer dengan rata-rata jumlah jenis item dalam cart paling banyak
+
+# Unoptimized [2327.465 ms]
+EXPLAIN ANALYZE
+SELECT * FROM (
+    SELECT 
+        c.customer_cst_id,
+        AVG(item_counts.items) AS avg_item_category
+    FROM
+        cart c
+    JOIN
+        (
+        SELECT 
+            c.customer_cst_id, 
+            c.cart_id, 
+            COUNT(csi.shop_item_shop_item_id) AS items
+        FROM
+            cart c
+        JOIN
+            cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+        GROUP BY 
+            c.cart_id, c.customer_cst_id
+        ) AS item_counts ON c.cart_id = item_counts.cart_id
+    GROUP BY
+        c.customer_cst_id
+    ORDER BY 
+        avg_item_category DESC
+)
+WHERE avg_item_category = (
+    SELECT 
+        MAX(avg_item_category)
+    FROM
+        (
+        SELECT 
+            c.customer_cst_id,
+            AVG(item_counts.items) AS avg_item_category
+        FROM
+            cart c
+        JOIN
+            (
+            SELECT 
+                c.customer_cst_id, 
+                c.cart_id, 
+                COUNT(csi.shop_item_shop_item_id) AS items
+            FROM
+                cart c
+            JOIN
+                cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+            GROUP BY 
+                c.cart_id, c.customer_cst_id
+            ) AS item_counts ON c.cart_id = item_counts.cart_id
+        GROUP BY
+            c.customer_cst_id
+        ORDER BY 
+            avg_item_category DESC
+        ) AS avg_item_category
+);
+
+# Optimized [1171.097 ms]
+
+EXPLAIN ANALYZE
+WITH item_counts AS (
+    SELECT 
+        c.customer_cst_id, 
+        c.cart_id, 
+        COUNT(csi.shop_item_shop_item_id) AS items
+    FROM
+        cart c
+    JOIN
+        cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+    GROUP BY 
+        c.cart_id, c.customer_cst_id
+),
+customer_avg_items AS (
+    SELECT 
+        c.customer_cst_id,
+        AVG(ic.items) AS avg_item_category
+    FROM
+        cart c
+    JOIN
+        item_counts ic ON c.cart_id = ic.cart_id
+    GROUP BY
+        c.customer_cst_id
+)
+SELECT 
+    *
+FROM
+    customer_avg_items
+WHERE 
+    avg_item_category = (SELECT MAX(avg_item_category) FROM customer_avg_items);
+
 
 # Tunas Abdi Pranata 
 
