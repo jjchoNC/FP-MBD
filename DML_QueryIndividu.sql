@@ -92,7 +92,54 @@ WHERE
     avg_item_category = (SELECT MAX(avg_item_category) FROM customer_avg_items);
 
 
-# Tunas Abdi Pranata 
+# Tunas Abdi Pranata / 5025221043
+-- Menampilkan customer yang paling sering melakukan transaksi diurutkan secara descending
+
+# 184.131 ms
+-- EXPLAIN ANALYZE
+SELECT 
+    customer.cst_id, 
+    customer.cst_name, 
+    COUNT(transaction.tr_id) AS transaction_count
+FROM 
+    transaction
+JOIN 
+    cart ON transaction.cart_cart_id = cart.cart_id
+JOIN 
+    customer ON cart.customer_cst_id = customer.cst_id
+GROUP BY 
+    customer.cst_id, customer.cst_name
+ORDER BY 
+    transaction_count DESC
+
+-- Optimized
+CREATE INDEX idx_transaction_cart_id ON transaction(cart_cart_id);
+CREATE INDEX idx_cart_id ON cart(cart_id);
+CREATE INDEX idx_cart_customer_id ON cart(customer_cst_id);
+
+-- EXPLAIN ANALYSE
+WITH customer_transaction_counts AS (
+    SELECT 
+        ca.customer_cst_id, 
+        COUNT(t.tr_id) AS transaction_count
+    FROM 
+        transaction t
+    JOIN 
+        cart ca ON t.cart_cart_id = ca.cart_id
+    GROUP BY 
+        ca.customer_cst_id
+)
+SELECT 
+    c.cst_id, 
+    c.cst_name, 
+    ctc.transaction_count
+FROM 
+    customer_transaction_counts ctc
+JOIN 
+    customer c ON ctc.customer_cst_id = c.cst_id
+ORDER BY 
+    ctc.transaction_count DESC;
+
 
 # Aditya Situmorang
 -- membuat index yang akan digunakan untuk mempercepat query
