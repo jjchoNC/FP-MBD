@@ -95,23 +95,6 @@ WHERE
 # Tunas Abdi Pranata / 5025221043
 -- Menampilkan customer yang paling sering melakukan transaksi diurutkan secara descending
 
-# 184.131 ms
--- EXPLAIN ANALYZE
-SELECT 
-    customer.cst_id, 
-    customer.cst_name, 
-    COUNT(transaction.tr_id) AS transaction_count
-FROM 
-    transaction
-JOIN 
-    cart ON transaction.cart_cart_id = cart.cart_id
-JOIN 
-    customer ON cart.customer_cst_id = customer.cst_id
-GROUP BY 
-    customer.cst_id, customer.cst_name
-ORDER BY 
-    transaction_count DESC
-
 -- Optimized
 CREATE INDEX idx_transaction_cart_id ON transaction(cart_cart_id);
 CREATE INDEX idx_cart_id ON cart(cart_id);
@@ -139,6 +122,43 @@ JOIN
     customer c ON ctc.customer_cst_id = c.cst_id
 ORDER BY 
     ctc.transaction_count DESC;
+
+
+-- Menampilkan item yang paling sering dibeli dalam transaksi
+
+-- Optimized
+CREATE INDEX idx_transaction_cart_cart_id ON transaction (cart_cart_id);
+CREATE INDEX idx_cart_cart_id ON cart (cart_id);
+CREATE INDEX idx_cart_shop_item_cart_shop_item ON cart_shop_item (cart_cart_id, shop_item_shop_item_id);
+CREATE INDEX idx_shop_item_shop_item_id ON shop_item (shop_item_id);
+CREATE INDEX idx_shop_item_items_item_id ON shop_item (items_item_id);
+CREATE INDEX idx_items_item_id ON items (item_id);
+
+-- EXPLAIN ANALYSE
+SELECT 
+    item_id,
+    item_name,
+    total_amount
+FROM 
+    items i
+JOIN (
+    SELECT 
+        si.items_item_id,
+        SUM(csi.item_amount) AS total_amount
+    FROM 
+        transaction t
+    JOIN 
+        cart c ON t.cart_cart_id = c.cart_id
+    JOIN 
+        cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+    JOIN 
+        shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
+    GROUP BY 
+        si.items_item_id
+) AS subquery
+ON i.item_id = subquery.items_item_id
+ORDER BY 
+    total_amount DESC;
 
 -- DB Transaction
 -- Insert new supplier data
