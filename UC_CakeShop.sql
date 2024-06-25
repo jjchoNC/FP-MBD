@@ -1,3 +1,4 @@
+-- Active: 1715666446348@@localhost@5432@cakeshop@public
 # UC1
 DELETE FROM customer WHERE cst_name = "Tunas";
 CREATE SEQUENCE cst_id_seq
@@ -304,11 +305,11 @@ BEGIN
         c.cart_totalBill AS cart_total_bill
     FROM 
         cart c
-    JOIN 
+    INNER JOIN 
         cart_shop_item csi ON c.cart_id = csi.cart_cart_id
-    JOIN 
+    INNER JOIN 
         shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
-    JOIN 
+    INNER JOIN 
         items i ON si.items_item_id = i.item_id
     WHERE 
         c.customer_cst_id = p_customer_cst_id;
@@ -317,27 +318,45 @@ $$ LANGUAGE plpgsql;
 
 
 # UC8
-
+DROP SEQUENCE transaction_seq;
 CREATE SEQUENCE transaction_seq
-    START WITH  200001
+    START WITH  90001
     INCREMENT BY 1
     NO MINVALUE
-    NO MAXVALUE
-    CACHE 200000;
+    NO MAXVALUE;
 
-CREATE OR REPLACE FUNCTION checkout(
+CREATE OR REPLACE FUNCTION CheckoutTrans(
     p_cart_id CHAR(10),
     p_paymentMethod VARCHAR(50),
-    p_delivery CHAR(10)
+    p_delivery VARCHAR(50)
 )
 RETURNS VOID AS $$
 DECLARE
     v_tr_id CHAR(10);
+    cart_exists BOOLEAN;
 BEGIN
-    v_tr_id := 'TRX' || LPAD(NEXTVAL('transaction_seq')::TEXT, 7, '0');
+    
+    BEGIN
+    
+    SELECT EXISTS (
+        SELECT 1
+        FROM transaction
+        WHERE cart_cart_id = p_cart_id
+    ) INTO cart_exists;
 
-    DELETE FROM cart_shop_item
-    WHERE cart_cart_id = p_cart_id;
+    IF NOT validatePayment(p_paymentMethod) THEN
+        ROLLBACK;
+        RAISE EXCEPTION 'Invalid payment method.';
+    END IF;
+
+    IF cart_exists THEN
+        ROLLBACK; 
+        RAISE EXCEPTION 'Cart % sudah ada dalam transaksi.', p_cart_id;
+    END IF;
+
+    CHECKPOINT; 
+    v_tr_id := 'TRX' || LPAD(NEXTVAL('transaction_seq')::TEXT, 7, '0');
+    
 
     INSERT INTO transaction (
         tr_id, tr_timeStamp, tr_paymentMethod, tr_delivery, cart_cart_id
@@ -349,9 +368,10 @@ BEGIN
         p_delivery,
         p_cart_id
     );
-
-    UPDATE cart
-    SET cart_totalBill = 0
-    WHERE cart_id = p_cart_id;
+    END;
+        
 END;
 $$ LANGUAGE plpgsql;
+
+SELECT checkouttrans('CRT0090002', 'cash', 'Go Food');
+SELECT * FROM transaction where tr_timestamp  > '2024-06-25';
