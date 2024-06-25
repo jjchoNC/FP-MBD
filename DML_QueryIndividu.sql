@@ -3,7 +3,7 @@
 # Menacari customer dengan rata-rata jumlah jenis item dalam cart paling banyak
 
 # Unoptimized [2327.465 ms]
-EXPLAIN ANALYZE
+EXPLAIN ANALYSE
 SELECT * FROM (
     SELECT 
         c.customer_cst_id,
@@ -60,7 +60,7 @@ WHERE avg_item_category = (
 
 # Optimized [1171.097 ms]
 
-EXPLAIN ANALYZE
+EXPLAIN ANALYSE
 WITH item_counts AS (
     SELECT 
         c.customer_cst_id, 

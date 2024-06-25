@@ -9,6 +9,8 @@ CREATE SEQUENCE cst_id_seq
     NO MINVALUE
     NO MAXVALUE
     CACHE 200000;
+
+DROP SEQUENCE cst_id_seq;
 CREATE OR REPLACE FUNCTION userRegister(
     p_cst_name VARCHAR(100),
     p_cst_phoneNumber VARCHAR(20),
@@ -23,9 +25,6 @@ DECLARE
     isLoggedin BOOLEAN;
     p_cst_id CHAR(10);
 BEGIN
-    isLoggedin := False;
-    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
-
     IF NOT validateEmail(p_cst_email) THEN
         RAISE EXCEPTION 'Email already exists. Please use a different email.';
     END IF;
@@ -33,6 +32,9 @@ BEGIN
     IF NOT validatePassword(p_cst_password) THEN
         RAISE EXCEPTION 'Password lenght must be greater than 8';
     END IF;
+
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
 
     INSERT INTO customer
     VALUES (
@@ -42,7 +44,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT userRegister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
+SELECT userRegister('Tunas', '08123', 'a', 'a', 'aaaaaaaaaaaaaaa', 0, 0);
+
+SELECT * FROM customer WHERE cst_name = 'Tunas';
+
+DELETE FROM customer WHERE cst_name = 'Tunas';
 
 ## Example Usage
 -- SELECT userRegister(
