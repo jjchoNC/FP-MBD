@@ -1,10 +1,10 @@
--- Active: 1715666446348@@localhost@5432@cakeshop@public
+-- Active: 1715773664265@@localhost@5432@tokokue@public
 
 -- Pemasok barang tidak boleh mengirimkan item yang berjumlah negatif.
 CREATE OR REPLACE FUNCTION validateSupplierStock()
 RETURNS TRIGGER AS $$
 BEGIN
-    IF (NEW.item_stock < 0) THEN
+    IF (NEW.shop_item_stock < 0) THEN
         RAISE EXCEPTION 'Jumlah item tidak boleh negatif';
     END IF;
     RETURN NEW;
@@ -12,7 +12,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER check_supply
-BEFORE INSERT OR UPDATE ON transaction
+BEFORE INSERT OR UPDATE ON shop_item
 FOR EACH ROW
 EXECUTE FUNCTION validateSupplierStock();
 
