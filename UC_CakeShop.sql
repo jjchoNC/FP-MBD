@@ -1,4 +1,4 @@
--- Active: 1715739802341@@127.0.0.1@5432@tokokue@public
+-- Active: 1715666446348@@localhost@5432@cakeshop@public
 
 
 # UC1
@@ -91,13 +91,14 @@ $$ LANGUAGE plpgsql;
 
 ## Example Usage
 SELECT userLogin('a', 'aremasingo');
-
+SELECT * FROM customer where cst_email = 'a';
 
 ## Fungsi untuk log out pengguna
-CREATE OR REPLACE FUNCTION userLogout(
-    p_cst_email VARCHAR(100)
+CREATE OR REPLACE PROCEDURE userLogout(
+    IN p_cst_email VARCHAR(100)
 )
-RETURNS BOOLEAN AS $$
+LANGUAGE plpgsql
+AS $$
 DECLARE
     v_cst_id CHAR(10);
 BEGIN
@@ -112,16 +113,12 @@ BEGIN
         UPDATE customer
         SET cst_isLoggedIn = FALSE
         WHERE cst_id = v_cst_id;
-        RETURN TRUE;
-    ELSE
-        -- Jika pengguna tidak ditemukan, kembalikan FALSE
-        RETURN FALSE;
     END IF;
 END;
-$$ LANGUAGE plpgsql;
+$$;
 
 ## Example Usage 
-SELECT userLogout('a');
+CALL userLogout('a');
 
 
 # UC3

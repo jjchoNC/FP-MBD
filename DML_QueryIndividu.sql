@@ -258,6 +258,33 @@ FROM
 JOIN 
     MaxSupplyItem msi ON siq.shop_id = msi.shop_id AND siq.total_quantity = msi.max_quantity;
 
+-- Menampilkan cart_shop_item customer yang tidak memiliki nomor terlepon
+EXPLAIN ANALYZE
+WITH customer_without_phone AS (
+    SELECT cst_id
+    FROM customer
+    WHERE cst_phoneNumber IS NULL
+),
+carts_for_customers_without_phone AS (
+    SELECT cart_id
+    FROM cart
+    WHERE customer_cst_id IN (SELECT cst_id FROM customer_without_phone)
+)
+SELECT csi.*
+FROM cart_shop_item csi
+WHERE csi.cart_cart_id IN (SELECT cart_id FROM carts_for_customers_without_phone);
+
+-- indexing query
+CREATE INDEX idx_customer_cst_id ON customer (cst_id);
+
+CREATE INDEX idx_customer_phoneNumber ON customer (cst_phoneNumber);
+
+CREATE INDEX idx_cart_customer_cst_id ON cart (customer_cst_id);
+
+CREATE INDEX idx_cart_id ON cart (cart_id);
+
+CREATE INDEX idx_cart_shop_item_cart_cart_id ON cart_shop_item (cart_cart_id);
+
 
 # Muhammad Bimatara Indianto / 5025221260
 # Mengidentifikasi item yang paling sering dimasukkan ke dalam keranjang belanja pada setiap toko.
