@@ -1,4 +1,6 @@
--- Active: 1715773664265@@localhost@5432@test@public
+-- Active: 1715739802341@@127.0.0.1@5432@tokokue@public
+
+
 # UC1
 DELETE FROM customer WHERE cst_name = "Tunas";
 CREATE SEQUENCE cst_id_seq
@@ -213,8 +215,6 @@ SELECT * FROM getCakesByShop('SHOP000001');
 
 # UC6
 # Sebagai pengguna, Tina mampu memilih dan memasukkan makanan ke dalam keranjang
-
-DROP SEQUENCE cart_seq;
 CREATE SEQUENCE cart_seq
     START WITH  105001
     INCREMENT BY 1
@@ -230,6 +230,7 @@ CREATE OR REPLACE FUNCTION add_to_cart(
 DECLARE
     v_cart_id CHAR(10);
     v_cart_totalBill MONEY;
+    v_cart_isPaid BOOLEAN;
 BEGIN
     -- Validate the item amount
     PERFORM validateAmount(p_item_amount);
@@ -238,11 +239,24 @@ BEGIN
     PERFORM validateStock(p_shop_item_id, p_item_amount);
 
     -- Get the customer's cart_id, create one if not exists
-    SELECT cart_id INTO v_cart_id
+    SELECT cart_id
+    INTO v_cart_id
     FROM cart
     WHERE customer_cst_id = p_customer_cst_id
     ORDER BY cart_id DESC
     LIMIT 1;
+
+    SELECT EXISTS (
+        SELECT cart_cart_id
+        FROM transaction
+        WHERE cart_cart_id = v_cart_id
+    ) INTO v_cart_isPaid;
+
+    IF v_cart_isPaid THEN
+        v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
+        INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
+        VALUES (v_cart_id, 0, p_customer_cst_id);
+    END IF;
 
     -- Check if item already exists in the cart
     PERFORM 1
@@ -275,6 +289,16 @@ BEGIN
 
 END;
 $$ LANGUAGE plpgsql;
+
+-- SELECT add_to_cart('CST0000010', 'SHOPIT0007', 2);
+
+-- SELECT checkouttrans('CRT0102171', 'cash', 'Go Food');
+
+-- SELECT * FROM cart_shop_item JOIN cart ON cart_shop_item.cart_cart_id = cart.cart_id WHERE cart.customer_cst_id = 'CST0000010';
+
+-- SELECT * FROM cart WHERE customer_cst_id = 'CST0000010';
+
+-- SELECT * FROM transaction WHERE cart_cart_id = 'CRT0102171';
 
 -- Example Usage
 SELECT add_to_cart('CST0000010', 'SHOPIT0001', 2);
