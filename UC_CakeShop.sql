@@ -1,4 +1,4 @@
--- Active: 1715666446348@@localhost@5432@cakeshop@public
+
 
 
 # UC1
@@ -8,7 +8,6 @@ CREATE SEQUENCE cst_id_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
-    CACHE 200000;
 
 DROP SEQUENCE cst_id_seq;
 CREATE OR REPLACE FUNCTION userRegister(
@@ -44,7 +43,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT userRegister('Tunas', '08123', 'a', 'a', 'aaaaaaaaaaaaaaa', 0, 0);
+SELECT userRegister('Tunas', '08123', 'ITS', 'a@gmail.com', 'aaaaaaaaaaaaaaa', 0, 0);
 
 SELECT * FROM customer WHERE cst_name = 'Tunas';
 
@@ -90,8 +89,8 @@ END;
 $$ LANGUAGE plpgsql;
 
 ## Example Usage
-SELECT userLogin('a', 'aremasingo');
-SELECT * FROM customer where cst_email = 'a';
+SELECT userLogin('a@gmail.com', 'aaabaaaaaaaaaaaa');
+SELECT * FROM customer where cst_email = 'a@gmail.com';
 
 ## Fungsi untuk log out pengguna
 CREATE OR REPLACE PROCEDURE userLogout(
@@ -223,7 +222,6 @@ CREATE SEQUENCE cart_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
-    CACHE 200000;
 
 CREATE OR REPLACE FUNCTION add_to_cart(
     p_customer_cst_id CHAR(10),
