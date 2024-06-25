@@ -1,3 +1,4 @@
+-- Active: 1715666446348@@localhost@5432@cakeshop@public
 
 -- Pemasok barang tidak boleh mengirimkan item yang berjumlah negatif.
 CREATE OR REPLACE FUNCTION validateSupplierStock()
@@ -20,13 +21,24 @@ CREATE OR REPLACE FUNCTION validatePaymentMethod()
 RETURNS TRIGGER AS $$
 BEGIN
     IF (NEW.tr_paymentMethod NOT IN ('credit', 'cash', 'QRIS')) THEN
+        ROLLBACK;
         RAISE EXCEPTION 'Metode pembayaran tidak valid';
     END IF;
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER check_payment
+CREATE OR REPLACE FUNCTION validatePayment(tr_paymentMethod VARCHAR(50))
+RETURNS BOOLEAN AS $$
+BEGIN
+    IF (tr_paymentMethod NOT IN ('credit', 'cash', 'QRIS')) THEN
+        RETURN FALSE;
+    END IF;
+    RETURN TRUE;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE TRIGGER check_payment
 BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
