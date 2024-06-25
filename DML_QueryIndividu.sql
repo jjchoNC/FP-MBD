@@ -124,7 +124,7 @@ ORDER BY
     ctc.transaction_count DESC;
 
 
--- Menampilkan item yang paling sering dibeli dalam transaksi
+-- Menampilkan item yang paling sering dibeli dalam transaksi secara descending
 
 -- Optimized
 CREATE INDEX idx_transaction_cart_cart_id ON transaction (cart_cart_id);
