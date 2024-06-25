@@ -11,7 +11,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER check_supply
-BEFORE INSERT OR UPDATE ON transaction_item
+BEFORE INSERT OR UPDATE ON transaction
 FOR EACH ROW
 EXECUTE FUNCTION validateSupplierStock();
 
@@ -32,7 +32,7 @@ FOR EACH ROW
 EXECUTE FUNCTION validatePaymentMethod();
 
 
---  ############################################################################################################
+-- membuat fungsi untuk menghitung total tagihan dari suatu supply
 CREATE OR REPLACE FUNCTION calculateSupplyBill(s_id CHAR(10))
 RETURNS money AS $$
 DECLARE
@@ -64,7 +64,7 @@ AFTER INSERT ON supply_shop_item
 FOR EACH ROW
 EXECUTE FUNCTION updateSupplyTotalBill();
 
--- Function to calculate the total bill for a cart
+-- Fungsi untuk menghitung total tagihan dari suatu cart
 CREATE OR REPLACE FUNCTION calculateCartBill(c_id CHAR(10))
 RETURNS money AS $$
 DECLARE
@@ -97,7 +97,7 @@ FOR EACH ROW
 EXECUTE FUNCTION updateCartTotalBill();
 
 --  ############################################################################################################
--- Validation function to ensure sufficient stock
+-- Fungsi untuk validasi jumlah item yang dipesan tidak melebihi stok
 CREATE OR REPLACE FUNCTION validateStock(p_shop_item_id CHAR(10), p_item_amount INT) 
 RETURNS VOID AS $$
 DECLARE
