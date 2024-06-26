@@ -1,4 +1,4 @@
-
+-- Active: 1715773664265@@localhost@5432@test@public
 
 
 # UC1
@@ -8,8 +8,7 @@ CREATE SEQUENCE cst_id_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
-
-DROP SEQUENCE cst_id_seq;
+    CACHE 200000;
 CREATE OR REPLACE FUNCTION userRegister(
     p_cst_name VARCHAR(100),
     p_cst_phoneNumber VARCHAR(20),
@@ -24,6 +23,9 @@ DECLARE
     isLoggedin BOOLEAN;
     p_cst_id CHAR(10);
 BEGIN
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
+
     IF NOT validateEmail(p_cst_email) THEN
         RAISE EXCEPTION 'Email already exists. Please use a different email.';
     END IF;
@@ -94,6 +96,15 @@ SELECT userRegister('asdasdasdasde', '08asdasd123', 'IasdasdTS', 'abasdasasddzxc
 SELECT * FROM customer WHERE cst_name = 'Tunas';
 
 DELETE FROM customer WHERE cst_name = 'asdasdasdasde';
+    INSERT INTO customer
+    VALUES (
+        p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+        p_cst_email, MD5(p_cst_password), isLoggedin, p_cst_latitude, p_cst_longitude
+    );
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT userRegister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
 
 SELECT * FROM customer WHERE cst_email = 'abasdasasddzxczasdasdaasdab@gmail.com';
 ## Example Usage
@@ -136,8 +147,8 @@ END;
 $$ LANGUAGE plpgsql;
 
 ## Example Usage
-SELECT userLogin('a@gmail.com', 'aaabaaaaaaaaaaaa');
-SELECT * FROM customer where cst_email = 'a@gmail.com';
+SELECT userLogin('a', 'aremasingo');
+SELECT * FROM customer where cst_email = 'a';
 
 ## Fungsi untuk log out pengguna
 CREATE OR REPLACE PROCEDURE userLogout(
@@ -193,19 +204,14 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-WITH nearShops AS (
-    SELECT cst_address, shop_id, shop_name, shop_address, distance
-    FROM customer
-    CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
-    WHERE customer.cst_id = 'CST0000010'
-)
-SELECT *
-FROM nearShops;
-
-SELECT extname FROM pg_extension
-WHERE  extname IN ('cube', 'earthdistance');
-
-SHOW search_path;
+-- WITH nearShops AS (
+--     SELECT cst_address, shop_id, shop_name, shop_address, distance
+--     FROM customer
+--     CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
+--     WHERE customer.cst_id = 'CST0000010'
+-- )
+-- SELECT *
+-- FROM nearShops;
 
 # UC4
 # Sebagai Pengguna, Tina mampu melakukan pencarian terhadap nama restoran yang menjual jenis atau nama kue tertentu.
@@ -274,6 +280,9 @@ CREATE SEQUENCE cart_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
+    CACHE 200000;
+
+DROP SEQUENCE cart_seq;
 
 CREATE OR REPLACE FUNCTION add_to_cart(
     p_customer_cst_id CHAR(10),
@@ -354,8 +363,9 @@ $$ LANGUAGE plpgsql;
 -- SELECT * FROM transaction WHERE cart_cart_id = 'CRT0102171';
 
 -- Example Usage
-SELECT add_to_cart('CST0000010', 'SHOPIT0001', 2);
-
+BEGIN;
+SELECT add_to_cart('CST0000010', 'SHOPIT0002', 2);
+COMMIT;
 # UC7
 # Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
 -- Function to get cart and order details for a user
