@@ -307,6 +307,13 @@ SELECT add_to_cart('CST0000010', 'SHOPIT0001', 2);
 # UC7
 # Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
 -- Function to get cart and order details for a user
+CREATE INDEX idx_cart_cart_id ON cart(cart_id);
+CREATE INDEX idx_cart_customer_cst_id ON cart(customer_cst_id);
+CREATE INDEX idx_cart_shop_item_cart_id ON cart_shop_item(cart_cart_id);
+CREATE INDEX idx_cart_shop_item_shop_item_id ON cart_shop_item(shop_item_shop_item_id);
+CREATE INDEX idx_shop_item_shop_item_id ON shop_item(shop_item_id);
+CREATE INDEX idx_items_item_id ON items(item_id);
+
 CREATE OR REPLACE FUNCTION get_cart_details(
     p_customer_cst_id CHAR(10)
 ) RETURNS TABLE (
@@ -340,6 +347,36 @@ BEGIN
         c.customer_cst_id = p_customer_cst_id;
 END;
 $$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE PROCEDURE call_get_cart_details(
+    p_customer_cst_id CHAR(10)
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    CREATE TEMP TABLE temp_cart_details (
+        cart_id CHAR(10),
+        item_id CHAR(10),
+        item_name VARCHAR(100),
+        item_price MONEY,
+        item_amount INT,
+        item_total MONEY,
+        cart_total_bill MONEY
+    );
+
+    INSERT INTO temp_cart_details
+    SELECT * FROM get_cart_details(p_customer_cst_id);
+END;
+$$; 
+SELECT * FROM temp_cart_details;
+BEGIN;
+CALL call_get_cart_details('CST0000010');
+SELECT * FROM temp_cart_details;
+ROLLBACK; 
+COMMIT;
+END; 
+-- Query the temporary table for the results
+
 
 
 # UC8

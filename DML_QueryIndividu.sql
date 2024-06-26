@@ -1,4 +1,4 @@
--- Active: 1715739802341@@127.0.0.1@5432@tokokue@public
+-- Active: 1715666446348@@localhost@5432@cakeshop@public
 # Jericho Nathanael Chrisnanta
 # Menacari customer dengan rata-rata jumlah jenis item dalam cart paling banyak
 
@@ -315,6 +315,43 @@ CREATE INDEX idx_shop_item_items_id ON shop_item(items_item_id);
 CREATE INDEX idx_cart_shop_item_shop_item_id ON cart_shop_item(shop_item_shop_item_id);
 CREATE INDEX idx_cart_shop_item_cart_id ON cart_shop_item(cart_cart_id);
 CREATE INDEX idx_items_id ON items(item_id);
+
+CREATE OR REPLACE FUNCTION get_shop_item_orders()
+RETURNS TABLE (
+    shop_id CHAR(10),
+    shop_name VARCHAR(100),
+    item_id CHAR(10),
+    item_name VARCHAR(100),
+    item_price MONEY,
+    item_category VARCHAR(50),
+    total_order INT
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT
+        s.shop_id::CHAR(10),
+        s.shop_name::VARCHAR(100),
+        i.item_id::CHAR(10),
+        i.item_name::VARCHAR(100),
+        i.item_price::MONEY,
+        i.item_category::VARCHAR(50),
+        SUM(csi.item_amount)::INT AS total_order
+    FROM
+        shop s
+    INNER JOIN
+        shop_item si ON s.shop_id = si.shop_shop_id
+    INNER JOIN
+        items i ON si.items_item_id = i.item_id
+    INNER JOIN
+        cart_shop_item csi ON si.shop_item_id = csi.shop_item_shop_item_id
+    GROUP BY
+        s.shop_id, s.shop_name, i.item_id, i.item_name, i.item_price, i.item_category
+    ORDER BY
+        total_order DESC;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT * FROM get_shop_item_orders();
 
 # 1m 27s
 EXPLAIN ANALYZE SELECT 
