@@ -34,6 +34,68 @@ BEGIN
         RAISE EXCEPTION 'Password lenght must be greater than 8';
     END IF;
 
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
+
+    BEGIN
+        INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address, 
+                              cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude)
+        VALUES (p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+                p_cst_email, MD5(p_cst_password), FALSE, p_cst_latitude, p_cst_longitude);
+        EXCEPTION
+            WHEN others THEN
+                RAISE NOTICE 'Error occurred: %', SQLERRM;
+                ROLLBACK;
+    END;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE PROCEDURE userReg(
+    IN p_cst_name VARCHAR(100),
+    IN p_cst_phoneNumber VARCHAR(20),
+    IN p_cst_address VARCHAR(100),
+    IN p_cst_email VARCHAR(100),
+    IN p_cst_password VARCHAR(100),
+    IN p_cst_latitude DECIMAL(10,6),
+    IN p_cst_longitude DECIMAL(10,6)
+)
+AS $$
+DECLARE
+    isLoggedin BOOLEAN;
+    p_cst_id CHAR(10);
+BEGIN
+    IF NOT validateEmail(p_cst_email) THEN
+        RAISE EXCEPTION 'Email already exists. Please use a different email.';
+    END IF;
+
+    IF NOT validatePassword(p_cst_password) THEN
+        RAISE EXCEPTION 'Password lenght must be greater than 8';
+    END IF;
+
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
+
+    BEGIN
+        INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address, 
+                              cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude)
+        VALUES (p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+                p_cst_email, MD5(p_cst_password), FALSE, p_cst_latitude, p_cst_longitude);
+        EXCEPTION
+            WHEN others THEN
+                RAISE NOTICE 'Error occurred: %', SQLERRM;
+                ROLLBACK;
+    END;
+END;
+$$ LANGUAGE plpgsql;
+
+CALL userReg('Tunas', '081234567890', 'Jl. Kebon Jeruk No. 1', 'arema@gmail.com', 'aaaaaaaaaa', 0, 0);
+
+ROLLBACK;
+SELECT userRegister('asdasdasdasde', '08asdasd123', 'IasdasdTS', 'abasdasasddzxczasdasdaasdab@gmail.com', 'ahsdcunhoasadsudcs', 0, 0);
+
+SELECT * FROM customer WHERE cst_name = 'Tunas';
+
+DELETE FROM customer WHERE cst_name = 'asdasdasdasde';
     INSERT INTO customer
     VALUES (
         p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
@@ -44,6 +106,7 @@ $$ LANGUAGE plpgsql;
 
 SELECT userRegister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
 
+SELECT * FROM customer WHERE cst_email = 'abasdasasddzxczasdasdaasdab@gmail.com';
 ## Example Usage
 -- SELECT userRegister(
 --     'CST0030001', 
