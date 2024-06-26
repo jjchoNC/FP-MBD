@@ -1,3 +1,4 @@
+-- Active: 1715773664265@@localhost@5432@test
 
 
 
@@ -233,6 +234,8 @@ CREATE SEQUENCE cart_seq
     NO MINVALUE
     NO MAXVALUE
 
+DROP SEQUENCE cart_seq;
+
 CREATE OR REPLACE FUNCTION add_to_cart(
     p_customer_cst_id CHAR(10),
     p_shop_item_id CHAR(10),
@@ -243,63 +246,73 @@ DECLARE
     v_cart_totalBill MONEY;
     v_cart_isPaid BOOLEAN;
 BEGIN
-    -- Validate the item amount
-    PERFORM validateAmount(p_item_amount);
+    -- Start a transaction
+    BEGIN
 
-    -- Validate the stock availability
-    PERFORM validateStock(p_shop_item_id, p_item_amount);
+        -- Validate the item amount
+        PERFORM validateAmount(p_item_amount);
 
-    -- Get the customer's cart_id, create one if not exists
-    SELECT cart_id
-    INTO v_cart_id
-    FROM cart
-    WHERE customer_cst_id = p_customer_cst_id
-    ORDER BY cart_id DESC
-    LIMIT 1;
+        -- Validate the stock availability
+        PERFORM validateStock(p_shop_item_id, p_item_amount);
 
-    SELECT EXISTS (
-        SELECT cart_cart_id
-        FROM transaction
-        WHERE cart_cart_id = v_cart_id
-    ) INTO v_cart_isPaid;
+        -- Get the customer's cart_id, create one if not exists
+        SELECT cart_id
+        INTO v_cart_id
+        FROM cart
+        WHERE customer_cst_id = p_customer_cst_id
+        ORDER BY cart_id DESC
+        LIMIT 1;
 
-    IF v_cart_isPaid THEN
-        v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
-        INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
-        VALUES (v_cart_id, 0, p_customer_cst_id);
-    END IF;
+        SELECT EXISTS (
+            SELECT cart_cart_id
+            FROM transaction
+            WHERE cart_cart_id = v_cart_id
+        ) INTO v_cart_isPaid;
 
-    -- Check if item already exists in the cart
-    PERFORM 1
-    FROM cart_shop_item
-    WHERE cart_cart_id = v_cart_id
-    AND shop_item_shop_item_id = p_shop_item_id;
+        IF v_cart_isPaid THEN
+            v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
+            INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
+            VALUES (v_cart_id, 0, p_customer_cst_id);
+        END IF;
 
-    IF FOUND THEN
-        UPDATE cart_shop_item
-        SET item_amount = item_amount + p_item_amount
+        -- Check if item already exists in the cart
+        PERFORM 1
+        FROM cart_shop_item
         WHERE cart_cart_id = v_cart_id
         AND shop_item_shop_item_id = p_shop_item_id;
-    ELSE
-        -- Add item to the cart
-        INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
-        VALUES (v_cart_id, p_shop_item_id, p_item_amount);
-    END IF;
 
-    -- Decrease the item stock
-    UPDATE shop_item
-    SET shop_item_stock = shop_item_stock - p_item_amount
-    WHERE shop_item_id = p_shop_item_id;
+        IF FOUND THEN
+            UPDATE cart_shop_item
+            SET item_amount = item_amount + p_item_amount
+            WHERE cart_cart_id = v_cart_id
+            AND shop_item_shop_item_id = p_shop_item_id;
+        ELSE
+            -- Add item to the cart
+            INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
+            VALUES (v_cart_id, p_shop_item_id, p_item_amount);
+        END IF;
 
-    -- Calculate and update the cart's total bill
-    v_cart_totalBill := calculateCartBill(v_cart_id);
+        -- Decrease the item stock
+        UPDATE shop_item
+        SET shop_item_stock = shop_item_stock - p_item_amount
+        WHERE shop_item_id = p_shop_item_id;
 
-    UPDATE cart
-    SET cart_totalBill = v_cart_totalBill
-    WHERE cart_id = v_cart_id;
+        -- Calculate and update the cart's total bill
+        v_cart_totalBill := calculateCartBill(v_cart_id);
 
+        UPDATE cart
+        SET cart_totalBill = v_cart_totalBill
+        WHERE cart_id = v_cart_id;
+
+        COMMIT;
+    EXCEPTION
+        WHEN OTHERS THEN
+            ROLLBACK;
+            RAISE;
+    END;
 END;
 $$ LANGUAGE plpgsql;
+
 
 -- SELECT add_to_cart('CST0000010', 'SHOPIT0007', 2);
 
