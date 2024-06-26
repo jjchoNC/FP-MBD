@@ -1,6 +1,10 @@
--- Active: 1715666446348@@localhost@5432@cakeshop@public
+-- Active: 1715739802341@@127.0.0.1@5432@tokokue
+
 # Jericho Nathanael Chrisnanta
 # Menacari customer dengan rata-rata jumlah jenis item dalam cart paling banyak
+
+SET enable_indexscan = OFF;
+SET enable_seqscan = ON;
 
 # Unoptimized [2327.465 ms]
 EXPLAIN ANALYSE
@@ -58,7 +62,10 @@ WHERE avg_item_category = (
         ) AS avg_item_category
 );
 
-# Optimized [1171.097 ms]
+# Optimized [628.097 ms]
+
+SET enable_indexscan = ON;
+SET enable_seqscan = OFF;
 
 CREATE INDEX idx_cart_id ON cart(cart_id);
 
@@ -100,8 +107,8 @@ CREATE INDEX idx_cart_customer_cst_id ON cart(customer_cst_id);
 CREATE INDEX idx_cart_shop_item_cart_cart_id ON cart_shop_item(cart_cart_id);
 CREATE INDEX idx_cart_shop_item_shop_item_id ON cart_shop_item(shop_item_shop_item_id);
 
-SET enable_indexscan = ON;
-SET enable_seqscan = OFF;
+SET enable_indexscan = OFF;
+SET enable_seqscan = ON;
 
 CREATE OR REPLACE FUNCTION getCustomerWithMaxAvgItems()
 RETURNS TABLE(customer_cst_id CHAR(10), item_id CHAR(10), item_name VARCHAR(100), total_item bigint) AS $$
