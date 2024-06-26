@@ -286,8 +286,14 @@ BEGIN
     SET cart_totalBill = v_cart_totalBill
     WHERE cart_id = v_cart_id;
 
+    EXCEPTION
+        WHEN others THEN
+            RAISE NOTICE 'Error occurred: %', SQLERRM;
+            ROLLBACK;
 END;
 $$ LANGUAGE plpgsql;
+
+END;
 
 -- SELECT add_to_cart('CST0000010', 'SHOPIT0007', 2);
 
@@ -303,6 +309,7 @@ $$ LANGUAGE plpgsql;
 BEGIN;
 SELECT add_to_cart('CST0000010', 'SHOPIT0002', 2);
 COMMIT;
+END;
 # UC7
 # Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
 -- Function to get cart and order details for a user
