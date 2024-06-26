@@ -60,6 +60,8 @@ WHERE avg_item_category = (
 
 # Optimized [1171.097 ms]
 
+CREATE INDEX idx_cart_id ON cart(cart_id);
+
 EXPLAIN ANALYSE
 WITH item_counts AS (
     SELECT 
@@ -91,6 +93,41 @@ FROM
 WHERE 
     avg_item_category = (SELECT MAX(avg_item_category) FROM customer_avg_items);
 
+-- Menampilkan jenis item yang paling banyak dibeli tiap customer
+
+CREATE INDEX idx_cart_id ON cart(cart_id);
+CREATE INDEX idx_cart_customer_cst_id ON cart(customer_cst_id);
+CREATE INDEX idx_cart_shop_item_cart_cart_id ON cart_shop_item(cart_cart_id);
+CREATE INDEX idx_cart_shop_item_shop_item_id ON cart_shop_item(shop_item_shop_item_id);
+
+SET enable_indexscan = ON;
+SET enable_seqscan = OFF;
+
+CREATE OR REPLACE FUNCTION getCustomerWithMaxAvgItems()
+RETURNS TABLE(customer_cst_id CHAR(10), item_id CHAR(10), item_name VARCHAR(100), total_item bigint) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        c.customer_cst_id,
+        i.item_id,
+        i.item_name,
+        COUNT(csi.shop_item_shop_item_id) AS total_item
+    FROM
+        cart c
+    JOIN
+        cart_shop_item csi ON c.cart_id = csi.cart_cart_id
+    JOIN
+        shop_item si ON csi.shop_item_shop_item_id = si.shop_item_id
+    JOIN
+        items i ON si.items_item_id = i.item_id
+    GROUP BY
+        c.customer_cst_id, i.item_id, i.item_name
+    ORDER BY
+        total_item DESC;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT * FROM getCustomerWithMaxAvgItems();
 
 # Tunas Abdi Pranata / 5025221043
 -- Menampilkan customer yang paling sering melakukan transaksi diurutkan secara descending

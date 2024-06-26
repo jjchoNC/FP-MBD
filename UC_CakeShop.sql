@@ -35,15 +35,20 @@ BEGIN
     isLoggedin := False;
     p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
 
-    INSERT INTO customer
-    VALUES (
-        p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
-        p_cst_email, MD5(p_cst_password), isLoggedin, p_cst_latitude, p_cst_longitude
-    );
+    BEGIN
+        INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address, 
+                              cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude)
+        VALUES (p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+                p_cst_email, MD5(p_cst_password), FALSE, p_cst_latitude, p_cst_longitude);
+    EXCEPTION
+        WHEN others THEN
+            RAISE NOTICE 'Error occurred: %', SQLERRM;
+            ROLLBACK;
+    END;
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT userRegister('Tunas', '08123', 'ITS', 'a@gmail.com', 'aaaaaaaaaaaaaaa', 0, 0);
+SELECT userRegister('asdasdasdasde', '08asdasd123', 'IasdasdTS', 'abasdasasddasdaasdab@gmail.com', 'ahsdcunhoasadsudcs', 0, 0);
 
 SELECT * FROM customer WHERE cst_name = 'Tunas';
 
@@ -146,14 +151,19 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- WITH nearShops AS (
---     SELECT cst_address, shop_id, shop_name, shop_address, distance
---     FROM customer
---     CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
---     WHERE customer.cst_id = 'CST0000010'
--- )
--- SELECT *
--- FROM nearShops;
+WITH nearShops AS (
+    SELECT cst_address, shop_id, shop_name, shop_address, distance
+    FROM customer
+    CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
+    WHERE customer.cst_id = 'CST0000010'
+)
+SELECT *
+FROM nearShops;
+
+SELECT extname FROM pg_extension
+WHERE  extname IN ('cube', 'earthdistance');
+
+SHOW search_path;
 
 # UC4
 # Sebagai Pengguna, Tina mampu melakukan pencarian terhadap nama restoran yang menjual jenis atau nama kue tertentu.
