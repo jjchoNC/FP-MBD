@@ -1,5 +1,4 @@
--- Active: 1715773664265@@localhost@5432@test
-
+-- Active: 1715773664265@@localhost@5432@test@public
 
 
 # UC1
@@ -9,8 +8,7 @@ CREATE SEQUENCE cst_id_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
-
-DROP SEQUENCE cst_id_seq;
+    CACHE 200000;
 CREATE OR REPLACE FUNCTION userRegister(
     p_cst_name VARCHAR(100),
     p_cst_phoneNumber VARCHAR(20),
@@ -25,6 +23,9 @@ DECLARE
     isLoggedin BOOLEAN;
     p_cst_id CHAR(10);
 BEGIN
+    isLoggedin := False;
+    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
+
     IF NOT validateEmail(p_cst_email) THEN
         RAISE EXCEPTION 'Email already exists. Please use a different email.';
     END IF;
@@ -33,27 +34,15 @@ BEGIN
         RAISE EXCEPTION 'Password lenght must be greater than 8';
     END IF;
 
-    isLoggedin := False;
-    p_cst_id := 'CST' || LPAD(NEXTVAL('cst_id_seq')::TEXT, 7, '0');
-
-    BEGIN
-        INSERT INTO customer (cst_id, cst_name, cst_phoneNumber, cst_address, 
-                              cst_email, cst_password, cst_isLoggedIn, cst_latitude, cst_longitude)
-        VALUES (p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
-                p_cst_email, MD5(p_cst_password), FALSE, p_cst_latitude, p_cst_longitude);
-    EXCEPTION
-        WHEN others THEN
-            RAISE NOTICE 'Error occurred: %', SQLERRM;
-            ROLLBACK;
-    END;
+    INSERT INTO customer
+    VALUES (
+        p_cst_id, p_cst_name, p_cst_phoneNumber, p_cst_address, 
+        p_cst_email, MD5(p_cst_password), isLoggedin, p_cst_latitude, p_cst_longitude
+    );
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT userRegister('asdasdasdasde', '08asdasd123', 'IasdasdTS', 'abasdasasddasdaasdab@gmail.com', 'ahsdcunhoasadsudcs', 0, 0);
-
-SELECT * FROM customer WHERE cst_name = 'Tunas';
-
-DELETE FROM customer WHERE cst_name = 'Tunas';
+SELECT userRegister('Tunas', '08123', 'a', 'a', 'aremasingo', 0, 0);
 
 ## Example Usage
 -- SELECT userRegister(
@@ -95,8 +84,8 @@ END;
 $$ LANGUAGE plpgsql;
 
 ## Example Usage
-SELECT userLogin('a@gmail.com', 'aaabaaaaaaaaaaaa');
-SELECT * FROM customer where cst_email = 'a@gmail.com';
+SELECT userLogin('a', 'aremasingo');
+SELECT * FROM customer where cst_email = 'a';
 
 ## Fungsi untuk log out pengguna
 CREATE OR REPLACE PROCEDURE userLogout(
@@ -152,19 +141,14 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-WITH nearShops AS (
-    SELECT cst_address, shop_id, shop_name, shop_address, distance
-    FROM customer
-    CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
-    WHERE customer.cst_id = 'CST0000010'
-)
-SELECT *
-FROM nearShops;
-
-SELECT extname FROM pg_extension
-WHERE  extname IN ('cube', 'earthdistance');
-
-SHOW search_path;
+-- WITH nearShops AS (
+--     SELECT cst_address, shop_id, shop_name, shop_address, distance
+--     FROM customer
+--     CROSS JOIN getNearbyShops(customer.cst_latitude, customer.cst_longitude, 5)
+--     WHERE customer.cst_id = 'CST0000010'
+-- )
+-- SELECT *
+-- FROM nearShops;
 
 # UC4
 # Sebagai Pengguna, Tina mampu melakukan pencarian terhadap nama restoran yang menjual jenis atau nama kue tertentu.
@@ -233,6 +217,7 @@ CREATE SEQUENCE cart_seq
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
+    CACHE 200000;
 
 DROP SEQUENCE cart_seq;
 
@@ -246,73 +231,63 @@ DECLARE
     v_cart_totalBill MONEY;
     v_cart_isPaid BOOLEAN;
 BEGIN
-    -- Start a transaction
-    BEGIN
+    -- Validate the item amount
+    PERFORM validateAmount(p_item_amount);
 
-        -- Validate the item amount
-        PERFORM validateAmount(p_item_amount);
+    -- Validate the stock availability
+    PERFORM validateStock(p_shop_item_id, p_item_amount);
 
-        -- Validate the stock availability
-        PERFORM validateStock(p_shop_item_id, p_item_amount);
+    -- Get the customer's cart_id, create one if not exists
+    SELECT cart_id
+    INTO v_cart_id
+    FROM cart
+    WHERE customer_cst_id = p_customer_cst_id
+    ORDER BY cart_id DESC
+    LIMIT 1;
 
-        -- Get the customer's cart_id, create one if not exists
-        SELECT cart_id
-        INTO v_cart_id
-        FROM cart
-        WHERE customer_cst_id = p_customer_cst_id
-        ORDER BY cart_id DESC
-        LIMIT 1;
+    SELECT EXISTS (
+        SELECT cart_cart_id
+        FROM transaction
+        WHERE cart_cart_id = v_cart_id
+    ) INTO v_cart_isPaid;
 
-        SELECT EXISTS (
-            SELECT cart_cart_id
-            FROM transaction
-            WHERE cart_cart_id = v_cart_id
-        ) INTO v_cart_isPaid;
+    IF v_cart_isPaid THEN
+        v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
+        INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
+        VALUES (v_cart_id, 0, p_customer_cst_id);
+    END IF;
 
-        IF v_cart_isPaid THEN
-            v_cart_id := 'CRT' || LPAD(nextval('cart_seq')::TEXT, 7, '0');  -- Generating cart_id with the format CRT0000003
-            INSERT INTO cart (cart_id, cart_totalBill, customer_cst_id)
-            VALUES (v_cart_id, 0, p_customer_cst_id);
-        END IF;
+    -- Check if item already exists in the cart
+    PERFORM 1
+    FROM cart_shop_item
+    WHERE cart_cart_id = v_cart_id
+    AND shop_item_shop_item_id = p_shop_item_id;
 
-        -- Check if item already exists in the cart
-        PERFORM 1
-        FROM cart_shop_item
+    IF FOUND THEN
+        UPDATE cart_shop_item
+        SET item_amount = item_amount + p_item_amount
         WHERE cart_cart_id = v_cart_id
         AND shop_item_shop_item_id = p_shop_item_id;
+    ELSE
+        -- Add item to the cart
+        INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
+        VALUES (v_cart_id, p_shop_item_id, p_item_amount);
+    END IF;
 
-        IF FOUND THEN
-            UPDATE cart_shop_item
-            SET item_amount = item_amount + p_item_amount
-            WHERE cart_cart_id = v_cart_id
-            AND shop_item_shop_item_id = p_shop_item_id;
-        ELSE
-            -- Add item to the cart
-            INSERT INTO cart_shop_item (cart_cart_id, shop_item_shop_item_id, item_amount)
-            VALUES (v_cart_id, p_shop_item_id, p_item_amount);
-        END IF;
+    -- Decrease the item stock
+    UPDATE shop_item
+    SET shop_item_stock = shop_item_stock - p_item_amount
+    WHERE shop_item_id = p_shop_item_id;
 
-        -- Decrease the item stock
-        UPDATE shop_item
-        SET shop_item_stock = shop_item_stock - p_item_amount
-        WHERE shop_item_id = p_shop_item_id;
+    -- Calculate and update the cart's total bill
+    v_cart_totalBill := calculateCartBill(v_cart_id);
 
-        -- Calculate and update the cart's total bill
-        v_cart_totalBill := calculateCartBill(v_cart_id);
+    UPDATE cart
+    SET cart_totalBill = v_cart_totalBill
+    WHERE cart_id = v_cart_id;
 
-        UPDATE cart
-        SET cart_totalBill = v_cart_totalBill
-        WHERE cart_id = v_cart_id;
-
-        COMMIT;
-    EXCEPTION
-        WHEN OTHERS THEN
-            ROLLBACK;
-            RAISE;
-    END;
 END;
 $$ LANGUAGE plpgsql;
-
 
 -- SELECT add_to_cart('CST0000010', 'SHOPIT0007', 2);
 
@@ -325,8 +300,9 @@ $$ LANGUAGE plpgsql;
 -- SELECT * FROM transaction WHERE cart_cart_id = 'CRT0102171';
 
 -- Example Usage
-SELECT add_to_cart('CST0000010', 'SHOPIT0001', 2);
-
+BEGIN;
+SELECT add_to_cart('CST0000010', 'SHOPIT0002', 2);
+COMMIT;
 # UC7
 # Sebagai pengguna, Tina mampu melihat keranjang dan rincian pesanannya
 -- Function to get cart and order details for a user
