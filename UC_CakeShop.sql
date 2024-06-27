@@ -222,24 +222,28 @@ RETURNS TABLE (
     shop_id CHAR(10),
     shop_name VARCHAR(100),
     shop_address VARCHAR(100),
-    shop_latitude DECIMAL(5,2),
-    shop_longitude DECIMAL(5,2),
+    shop_latitude DECIMAL(10,6),
+    shop_longitude DECIMAL(10,6),
     item_id CHAR(10),
     item_name VARCHAR(100),
-    item_price DECIMAL(10, 2),
+    item_price MONEY,
     item_stock INT
 ) AS $$
 BEGIN
     RETURN QUERY
     SELECT
         s.shop_id, s.shop_name, s.shop_address, s.shop_latitude, s.shop_longitude,
-        i.item_id, i.item_name, si.item_price, si.item_stock
+        i.item_id, i.item_name, i.item_price, si.shop_item_stock AS item_stock
     FROM shop s
     INNER JOIN shop_item si ON s.shop_id = si.shop_shop_id
-    INNER JOIN item i ON si.items_item_id = i.item_id
+    INNER JOIN items i ON si.items_item_id = i.item_id
     WHERE i.item_name ILIKE '%' || p_item_name || '%';
 END;
 $$ LANGUAGE plpgsql;
+
+# Usage
+SELECT *
+FROM searchShopItem('Tiramisu');
 
 # UC5
 #Sebagai pengguna, Tina mampu melihat seluruh menu kue yang disediakan restoran tersebut
